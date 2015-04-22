@@ -1,0 +1,26 @@
+#nav_button .coral-Icon {
+  line-height: 1 !important; }
+
+[datepicker] .coral-Textfield {
+  height: 2.375rem; }
+
+.coral-Modal-closeButton {
+  min-width: 0; }
+
+input[type=checkbox] + span:before {
+  margin-left: 0;
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 0px;
+  box-shadow: none;
+  width: 14px; }
+
+.coral-Selector input[type=checkbox] + span:before, .coral-Selector input[type=radio] + span:before {
+  content: none; }
+
+.coral-Autocomplete .js-coral-Autocomplete-textfield {
+  margin: 0;
+  height: 2.375rem; }
+
+ol li + li, ul li + li {
+  margin-top: 0; }

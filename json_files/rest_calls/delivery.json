@@ -1,0 +1,36 @@
+{
+  "content" :
+  [
+    {
+      "PKey" : "gE2ZrmhMLZSTbacf0o9Rn_8z3ueKt68V4cz8669vfs__92qLS7vZULw5umMF0Wlk",
+      "contentType" : "delivery",
+      "created" : "2014-11-06 08:42:53.812Z",
+      "createdBy" : null,
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/contentModelBase/gE2ZrmhMLZSTbacf0o9Rn_8z3ueKt68V4cz8669vfs__92qLS7vZULw5umMF0Wlk",
+      "label" : "Simple slogan",
+      "lastModified" : "2015-02-18 15:25:58.399Z",
+      "modifiedBy" : null,
+      "name" : "clicktrough",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "thumbnail" : "/nms/img/contentModels/miniatures/clicktrough.png",
+      "title" : "Simple slogan (clicktrough)"
+    }
+  ],
+  "count" :
+  {
+    "href" : "/rest/head/contentModelBase/byText/byContentType/_count?contentType=delivery&_lineCount=31&_order=title&_lineStart=Wn5nVH4uuvl3xSkqlMdB9w",
+    "value" : 1
+  }
+}

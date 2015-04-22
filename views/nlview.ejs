@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="MSThemeCompatible" content="Yes"/>
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="/nl/touch-icon.png">
+        <link rel="icon" sizes="192x192" href="/nl/touch-icon.png">
+        <meta name="msapplication-TileImage" content="/nl/windows-touch-icon.png"/>
+        <meta name="msapplication-TileColor" content="#d83434"/>
+        <meta http-equiv='Pragma' content='no-cache'/>
+        <title></title>
+
+        <!-- deps in mode min/en -->
+
+        <link href='/stylesheets/WA-9fc99ef3ddd35ca5ab59a43e62d23dc4.css' rel='stylesheet' type='text/css'></link>
+        <link href='/stylesheets/nlsrc-7f885789ed1688b2f9291ab22dc47c8e.css' rel='stylesheet' type='text/css'></link>
+        <link href='/stylesheets/nlsrc-05b7574780b905fe2961a3049712be50.css' rel='stylesheet' type='text/css'></link>
+        <script type='text/javascript'>var Timeline_urlPrefix='/nl/lib/timeline/', Timeline_parameters='defaultLocale=en'
+        </script>
+        <script src='/javascripts/WA-en-e9e53a69978e5c7795fdd431467975b4.js' charset='UTF-8' type='text/javascript'></script>
+        <script src='/javascripts/WA-6e5c1ac8bd5809962c72afffed584198.js' charset='ISO-8859-1' type='text/javascript'></script>
+        <script src='/javascripts/nlsrc-en-5bcfbc9d2fa50c11a8d08bcb43c90efb.js' charset='UTF-8' type='text/javascript'></script>
+        <script src='/javascripts/nlsrc-f8debcdaff53e142cd221506544ec9f0.js' charset='ISO-8859-1' type='text/javascript'></script>
+        <!-- COMPAT RAW DEPS -->
+        <script src='/xtk/registerTimezone.jssp?name=America%2FNew_York' charset='ISO-8859-1' type='text/javascript'></script>
+        <script type='text/javascript'>SO.TimezoneManager.setDefaultTimezone('America/New_York');</script>
+        <!-- END deps in mode min -->
+
+    </head>
+    <body>
+        <script type="text/javascript">NL.Navigation.init(<%- userinfo %>,<%- pageinfo %>);</script>
+        <div id="page">
+            <script type="text/javascript">
+                // The content is defined in the webPage.
+                var shellDOMID = 'page'; // The "page" div has been created by the NL.navigation server-side
+                var $shellContent = $('<div></div>');
+                $(document).ready(function document_ready() {
+                    NL.Navigation.ready(NL.page, shellDOMID, $shellContent, NL.session);
+                });
+            </script>
+        </div>
+    </body>
+    <link rel="stylesheet" href="/stylesheets/adobe-fonts.css" type="text/css">
+</html>

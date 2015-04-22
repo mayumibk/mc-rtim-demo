@@ -1,0 +1,518 @@
+[
+  {
+    "jobId" : "1174",
+    "status" : "3",
+    "statusText" : "Completed",
+    "dateCreated" : "1424358191",
+    "dateCompleted" : "1424358523",
+    "progressText" : "",
+    "reportDefinition" :
+    {
+      "name" : "Login on January 23, 2015",
+      "config" :
+      {
+        "dimensions" :
+        [
+          {
+            "id" : "variables/campaign"
+          },
+          {
+            "id" : "variables/campaign.10"
+          },
+          {
+            "id" : "variables/campaign.11"
+          },
+          {
+            "id" : "variables/campaign.12"
+          },
+          {
+            "id" : "variables/campaign.13"
+          },
+          {
+            "id" : "variables/campaign.3"
+          },
+          {
+            "id" : "variables/campaign.4"
+          },
+          {
+            "id" : "variables/campaign.5"
+          },
+          {
+            "id" : "variables/campaign.6"
+          },
+          {
+            "id" : "variables/customlink"
+          },
+          {
+            "id" : "variables/downloadlink"
+          },
+          {
+            "id" : "variables/entrypage"
+          },
+          {
+            "id" : "variables/evar1"
+          },
+          {
+            "id" : "variables/evar12"
+          },
+          {
+            "id" : "variables/evar13"
+          },
+          {
+            "id" : "variables/evar15"
+          },
+          {
+            "id" : "variables/evar15.1"
+          },
+          {
+            "id" : "variables/evar15.2"
+          },
+          {
+            "id" : "variables/evar16"
+          },
+          {
+            "id" : "variables/evar17"
+          },
+          {
+            "id" : "variables/evar19"
+          },
+          {
+            "id" : "variables/evar2"
+          },
+          {
+            "id" : "variables/evar20"
+          },
+          {
+            "id" : "variables/evar21"
+          },
+          {
+            "id" : "variables/evar24"
+          },
+          {
+            "id" : "variables/evar25"
+          },
+          {
+            "id" : "variables/evar26"
+          },
+          {
+            "id" : "variables/evar27"
+          },
+          {
+            "id" : "variables/evar29.1"
+          },
+          {
+            "id" : "variables/evar29.2"
+          },
+          {
+            "id" : "variables/evar29.3"
+          },
+          {
+            "id" : "variables/evar3"
+          },
+          {
+            "id" : "variables/evar30"
+          },
+          {
+            "id" : "variables/evar30.1"
+          },
+          {
+            "id" : "variables/evar30.2"
+          },
+          {
+            "id" : "variables/evar30.3"
+          },
+          {
+            "id" : "variables/evar31"
+          },
+          {
+            "id" : "variables/evar31.10"
+          },
+          {
+            "id" : "variables/evar31.11"
+          },
+          {
+            "id" : "variables/evar31.16"
+          },
+          {
+            "id" : "variables/evar31.17"
+          },
+          {
+            "id" : "variables/evar31.18"
+          },
+          {
+            "id" : "variables/evar31.8"
+          },
+          {
+            "id" : "variables/evar31.9"
+          },
+          {
+            "id" : "variables/evar32"
+          },
+          {
+            "id" : "variables/evar36"
+          },
+          {
+            "id" : "variables/evar4"
+          },
+          {
+            "id" : "variables/evar45"
+          },
+          {
+            "id" : "variables/evar48"
+          },
+          {
+            "id" : "variables/evar52"
+          },
+          {
+            "id" : "variables/evar53.1"
+          },
+          {
+            "id" : "variables/evar53.2"
+          },
+          {
+            "id" : "variables/evar53.3"
+          },
+          {
+            "id" : "variables/evar53.4"
+          },
+          {
+            "id" : "variables/evar53.5"
+          },
+          {
+            "id" : "variables/evar54.1"
+          },
+          {
+            "id" : "variables/evar54.2"
+          },
+          {
+            "id" : "variables/evar54.4"
+          },
+          {
+            "id" : "variables/evar55"
+          },
+          {
+            "id" : "variables/evar55.1"
+          },
+          {
+            "id" : "variables/evar56"
+          },
+          {
+            "id" : "variables/evar6"
+          },
+          {
+            "id" : "variables/evar61"
+          },
+          {
+            "id" : "variables/evar61.1"
+          },
+          {
+            "id" : "variables/evar61.10"
+          },
+          {
+            "id" : "variables/evar61.5"
+          },
+          {
+            "id" : "variables/evar61.8"
+          },
+          {
+            "id" : "variables/evar61.9"
+          },
+          {
+            "id" : "variables/evar62"
+          },
+          {
+            "id" : "variables/evar62.1"
+          },
+          {
+            "id" : "variables/evar65"
+          },
+          {
+            "id" : "variables/evar67"
+          },
+          {
+            "id" : "variables/evar67.1"
+          },
+          {
+            "id" : "variables/evar67.2"
+          },
+          {
+            "id" : "variables/evar67.4"
+          },
+          {
+            "id" : "variables/evar67.6"
+          },
+          {
+            "id" : "variables/evar68"
+          },
+          {
+            "id" : "variables/evar72"
+          },
+          {
+            "id" : "variables/evar73"
+          },
+          {
+            "id" : "variables/evar74.1"
+          },
+          {
+            "id" : "variables/evar74.10"
+          },
+          {
+            "id" : "variables/evar74.11"
+          },
+          {
+            "id" : "variables/evar74.16"
+          },
+          {
+            "id" : "variables/evar74.27"
+          },
+          {
+            "id" : "variables/evar74.4"
+          },
+          {
+            "id" : "variables/evar74.5"
+          },
+          {
+            "id" : "variables/evar74.6"
+          },
+          {
+            "id" : "variables/evar74.7"
+          },
+          {
+            "id" : "variables/evar75"
+          },
+          {
+            "id" : "variables/evar9"
+          },
+          {
+            "id" : "variables/firsttouchchanneldetail"
+          },
+          {
+            "id" : "variables/lasttouchchanneldetail"
+          },
+          {
+            "id" : "variables/mobileaudiosupport"
+          },
+          {
+            "id" : "variables/mobilebookmarklength"
+          },
+          {
+            "id" : "variables/mobilecarrier"
+          },
+          {
+            "id" : "variables/mobilecolordepth"
+          },
+          {
+            "id" : "variables/mobilecookiesupport"
+          },
+          {
+            "id" : "variables/mobiledevicename"
+          },
+          {
+            "id" : "variables/mobiledevicenumber"
+          },
+          {
+            "id" : "variables/mobiledevicetype"
+          },
+          {
+            "id" : "variables/mobiledrm"
+          },
+          {
+            "id" : "variables/mobilemanufacturer"
+          },
+          {
+            "id" : "variables/mobilescreensize"
+          },
+          {
+            "id" : "variables/operatingsystem"
+          },
+          {
+            "id" : "variables/page"
+          },
+          {
+            "id" : "variables/pagesnotfound"
+          },
+          {
+            "id" : "variables/paidsearch"
+          },
+          {
+            "id" : "variables/product.1"
+          },
+          {
+            "id" : "variables/product.10"
+          },
+          {
+            "id" : "variables/product.11"
+          },
+          {
+            "id" : "variables/product.12"
+          },
+          {
+            "id" : "variables/product.13"
+          },
+          {
+            "id" : "variables/product.14"
+          },
+          {
+            "id" : "variables/product.15"
+          },
+          {
+            "id" : "variables/product.16"
+          },
+          {
+            "id" : "variables/product.17"
+          },
+          {
+            "id" : "variables/product.18"
+          },
+          {
+            "id" : "variables/product.2"
+          },
+          {
+            "id" : "variables/product.3"
+          },
+          {
+            "id" : "variables/product.4"
+          },
+          {
+            "id" : "variables/product.5"
+          },
+          {
+            "id" : "variables/product.6"
+          },
+          {
+            "id" : "variables/product.7"
+          },
+          {
+            "id" : "variables/prop1.10"
+          },
+          {
+            "id" : "variables/prop1.17"
+          },
+          {
+            "id" : "variables/prop1.4"
+          },
+          {
+            "id" : "variables/prop1.5"
+          },
+          {
+            "id" : "variables/prop1.8"
+          },
+          {
+            "id" : "variables/prop24.2"
+          },
+          {
+            "id" : "variables/prop28"
+          },
+          {
+            "id" : "variables/prop28.1"
+          },
+          {
+            "id" : "variables/prop28.2"
+          },
+          {
+            "id" : "variables/prop30"
+          },
+          {
+            "id" : "variables/prop31"
+          },
+          {
+            "id" : "variables/prop34"
+          },
+          {
+            "id" : "variables/prop4"
+          },
+          {
+            "id" : "variables/prop44"
+          },
+          {
+            "id" : "variables/prop47"
+          },
+          {
+            "id" : "variables/prop5"
+          },
+          {
+            "id" : "variables/prop51"
+          },
+          {
+            "id" : "variables/prop51.1"
+          },
+          {
+            "id" : "variables/prop51.2"
+          },
+          {
+            "id" : "variables/prop52"
+          },
+          {
+            "id" : "variables/prop55"
+          },
+          {
+            "id" : "variables/prop55.1"
+          },
+          {
+            "id" : "variables/prop56"
+          },
+          {
+            "id" : "variables/prop58"
+          },
+          {
+            "id" : "variables/prop61"
+          },
+          {
+            "id" : "variables/prop65"
+          },
+          {
+            "id" : "variables/prop67"
+          },
+          {
+            "id" : "variables/prop72"
+          },
+          {
+            "id" : "variables/prop73"
+          },
+          {
+            "id" : "variables/sitesections"
+          }
+        ]
+      },
+      "anomalyContext" :
+      {
+        "selectedAnomalyDate" : "2015-01-23",
+        "trainingDays" : 30,
+        "metricValue" :
+        {
+          "expected" : 69896,
+          "actual" : 96326
+        }
+      },
+      "viewRankedRequest" :
+      {
+        "dimension" : "variables/daterangeday",
+        "globalFilters" :
+        [
+          {
+            "dateRange" : "2015-01-20T09:11:03.500/2015-02-18T09:11:03.500",
+            "type" : "dateRange"
+          }
+        ],
+        "settings" :
+        {
+          "limit" : 0,
+          "page" : 0,
+          "dimensionSort" : "asc"
+        },
+        "metricContainer" :
+        {
+          "metrics" :
+          [
+            {
+              "id" : "metrics/event79",
+              "columnId" : "6F395F5A-2F28-4A0D-7CF9-77B565298282"
+            }
+          ]
+        },
+        "rsid" : "swhstarwoodver2"
+      }
+    },
+    "reportData" : null
+  }
+]

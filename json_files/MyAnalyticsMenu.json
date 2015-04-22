@@ -1,0 +1,65 @@
+{
+  "bookmarkFavorites": [
+
+  ],
+  "frequentlyViewed": [
+    {
+      "name": "Anomaly Detection",
+      "url": "\/sc15\/reports\/index.html?a=AnomalyDetection&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Contribution Analysis",
+      "url": "\/sc15\/reports\/index.html?a=ContributionAnalysis&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Video Name (evar61)",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.GetConversions&rp=division%5B0%5D%7C161%3A1%3Bec_pri%7C161%3Bec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Time Spent per Visit",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.GetConversions&rp=ec_pri%7C210%3Bec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Upsell Offers Anomaly",
+      "url": "\/sc15\/reports\/index.html?a=AnomalyDetection&bookmark=29929051&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Visits",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.Visits&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Key Metrics",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.TimeSeries&rp=ec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    }
+  ],
+  "reportHistory": [
+    {
+      "name": "Contribution Analysis",
+      "url": "\/sc15\/reports\/index.html?a=ContributionAnalysis&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Anomaly Detection",
+      "url": "\/sc15\/reports\/index.html?a=AnomalyDetection&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Time Spent per Visit",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.GetConversions&rp=ec_pri%7C210%3Bec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Visits",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.Visits&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Key Metrics",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.TimeSeries&rp=ec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Video Name (evar61)",
+      "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.GetConversions&rp=division%5B0%5D%7C161%3A1%3Bec_pri%7C161%3Bec_reset%7C1&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    },
+    {
+      "name": "Upsell Offers Anomaly",
+      "url": "\/sc15\/reports\/index.html?a=AnomalyDetection&bookmark=29929051&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312"
+    }
+  ]
+}

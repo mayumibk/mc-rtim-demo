@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html class="coral-App" ng-app="amoApp" ng-controller="AMOCtrl as amoController">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title ng-bind="amoController.title">Adobe Media Optimizer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/amo/resizable.css"/>
+    <link rel="stylesheet" href="/css/amo/coral.css"/>
+    <link rel="stylesheet" href="/css/amo/coral-card.css"/>
+    <link rel="stylesheet" href="/css/amo/coral-shell.css"/>
+    <link rel="stylesheet" href="/css/amo/cloudviz.css"/>
+    <link rel="stylesheet" href="/css/amo/nprogress.css"/>
+    <link rel="stylesheet" href="/css/amo/amo-core.css"/>
+    <link rel="stylesheet" href="/css/amo/amo-to-gwt.css"/>
+
+    <!-- Imported libraries. When updating this section consider updating test/e2e/karma.conf.js -->
+    <script src="/js/amo/jquery.js"></script>
+    <script src="/js/amo/jquery.ui.position.js"></script>
+    <script src="/js/amo/jquery-message.js"></script>
+    <script src="/js/amo/jquery-validator.js"></script>
+    <script src="/js/amo/moment.js"></script>
+    <script src="/js/amo/toe.js"></script>
+
+    <script src="/js/amo/angular.js"></script>
+    <script src="/js/amo/angular-animate.js"></script>
+    <script src="/js/amo/angular-ui-router.js"></script>
+    <script src="/js/amo/angular-resource.js"></script>
+    <script src="/js/amo/ui-utils.js"></script>
+    <script src="/js/amo/angular-dragdrop.js"></script>
+    <script src="/js/amo/angular-file-upload-all.js"></script>
+    <script src="/js/amo/angular-post-message.js"></script>
+    <script src="/js/amo/nprogress.js"></script>
+    <script src="/js/amo/async.js"></script>
+
+    <script src="/js/amo/jquery-ui.js"></script>
+
+    <script src="/js/amo/coral.js"></script>
+    <script src="/js/amo/ngCoral.js"></script>
+
+    <script src="/js/amo/cloudviz-all.js"></script>
+    <script src="/js/amo/environmentConfiguration.js"></script>
+
+    <!-- App modules -->
+    <script src="/js/amo/app1428520056532.min.js"></script>
+
+
+    <!--Legacy App Support-->
+    <script src="/js/amo/logUtilities.js"></script>
+    <script src="/js/amo/utilitiesModule.js"></script>
+    <script src="/js/amo/localizationModule.js"></script>
+
+    <!-- Default to an English localization. -->
+    <script src="/js/amo/l10n_en_US.js"></script>
+
+    <!-- Generic control services, used by all controls. -->
+    <script src="/js/amo/controlManagerModule.js"></script>
+    <script src="/js/amo/controlServiceModule.js"></script>
+    <script src="/js/amo/customControlModule.js"></script>
+
+    <!-- Specific controls, such as checkboxes. -->
+    <script src="/js/amo/checkboxControlModule.js"></script>
+    <script src="/js/amo/standardControlsModule.js"></script>
+
+    <!-- The grid control, implemented in multiple files. -->
+    <script src="/js/amo/cui-grid-utilities.js"></script>
+    <script src="/js/amo/cui-grid.js"></script>
+    <script src="/js/amo/cui-grid-columnMetadata.js"></script>
+    <script src="/js/amo/cui-grid-columnLayoutData.js"></script>
+    <script src="/js/amo/cui-grid-columnsConfiguration.js"></script>
+    <script src="/js/amo/cui-grid-constants.js"></script>
+    <script src="/js/amo/cui-grid-header.js"></script>
+    <script src="/js/amo/cui-grid-body.js"></script>
+    <script src="/js/amo/cui-grid-column-labels.js"></script>
+    <script src="/js/amo/cui-grid-column-labels-cell.js"></script>
+    <script src="/js/amo/cui-grid-summary.js"></script>
+    <script src="/js/amo/cui-grid-summary-cell.js"></script>
+    <script src="/js/amo/cui-grid-row.js"></script>
+    <script src="/js/amo/cui-grid-row-cell.js"></script>
+    <script src="/js/amo/cui-grid-sparkline.js"></script>
+    <script src="/js/amo/cui-grid-footer.js"></script>
+    <script src="/js/amo/cui-grid-scroller.js"></script>
+    <script src="/js/amo/cui-grid-support-classes-factory.js"></script>
+    <script src="/js/amo/jquery.mousewheel.js"></script>
+
+    <!-- Java report service support, used by the grids for now. -->
+    <script src="/js/amo/data-sources-module.js"></script>
+    <script src="/js/amo/data-source-criteria.js"></script>
+    <script src="/js/amo/common-data-source.js"></script>
+    <script src="/js/amo/reportRequest.js"></script>
+    <script src="/js/amo/report-service-factory.js"></script>
+    <script src="/js/amo/array-data-source.js"></script>
+    <!--End Legacy App Support-->
+
+
+    <!-- Overview modules -->
+
+    <!-- Portfolio Modules -->
+
+    <!-- Search Modules -->
+
+    <!-- Display App modules -->
+
+
+    <!-- Social App modules -->
+
+    <!-- Report App modules -->
+
+    <!-- Tool App Modules -->
+
+    <!-- Admin App Modules -->
+
+    <!-- Shared Modules -->
+
+    <!-- Communicating with GWT -->
+
+</head>
+
+<!-- CUI.Shell -->
+<!-- This tag is where the CUI.Shell widget gets attached, as a result of the 'data-init="shell"' attribute being set. The child nodes reference several other shell widgets (as denoted by the comment tags) -->
+
+<body class="coral--light"
+      data-init="shell"
+      data-brand-title="Adobe Media Optimizer"
+      data-brand-icon="coral-Icon coral-Icon--adobeMediaOptimizer coral-Icon--sizeM"
+      data-brand-href="#"
+      style="font-family: 'Adobe Clean', adobe-clean, Helvetica, sans-serif;">
+
+<!-- CUI.BreadcrumbBar -->
+<div data-init="breadcrumb-bar" data-is-closed="true" ng-if="amoController.loadFrame">
+    <!-- CUI.Crumbs -->
+    <nav data-init="crumbs">
+        <a ui-sref="display">Display</a>
+    </nav>
+</div>
+<!-- CUI.Page -->
+<div id="pageContainer" data-init="page">
+    <!-- CUI.OuterRail -->
+    <div data-init="outer-rail" data-is-closed="true"  ng-if="amoController.loadFrame">
+        <a data-init="brand"></a>
+    </div>
+    <div class="endor-Page-content endor-Panel">
+        <!-- CUI.BlackBar -->
+        <nav data-init="black-bar" ng-if="amoController.loadFrame">
+            <div class="endor-BlackBar-right">
+                <a class="endor-BlackBar-item endor-BlackBar-item--text" >Adobe Systems</a>
+            </div>
+            <div role="heading" aria-level="1" class="endor-BlackBar-title">Adobe Media Optimizer</div>
+        </nav>
+        <div class="endor-Panel-content" role="main"
+             ng-class="amoController.loadFrame ? 'endor-Panel-content--blackBarHeight' : ''">
+            <!-- CUI.InnerRail -->
+            <div data-init="inner-rail" ng-if="amoController.loadFrame">
+                <!-- Inner Rail Placeholder. Don't remove. Shell service relies on this or on inner rail resolving in some way. -->
+            </div>
+            <div class="endor-Page-content endor-Panel">
+                <!-- CUI.ActionBar -->
+                <nav data-init="action-bar" ng-if="amoController.loadFrame">
+                    <div class="endor-ActionBar-left">
+                        <!-- Action Bar Placeholder. Don't remove. Shell service relies on this or on action bar resolving in some way. -->
+                    </div>
+                    <div class="endor-ActionBar-right">
+                        <!-- Action Bar Placeholder. Don't remove. Shell service relies on this or on action bar resolving in some way. -->
+                    </div>
+                </nav>
+                <!-- This is where a page's main content is supposed to go: -->
+                <div class="js-endor-content endor-Panel-content">
+                    <div class="endor-Panel-contentMain">
+                        <div ng-class="{ 'u-coral-padding': amoController.loadFrame && amoController.Shell.getShowPagePadding() }">
+                            <div ui-view>
+                                <a ui-sref="display">Display</a><br/>
+
+                                <div id="hide-new-display-button" class="endor-Badge" ng-click="amoController.closeNewDisplay()" ng-if="amoController.loadFrame">
+                                    Done
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CUI.Footer -->
+                        <footer data-init="footer"></footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

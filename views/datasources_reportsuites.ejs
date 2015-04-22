@@ -1,0 +1,40 @@
+<label class="description-label">Report Suites</label>
+<div class="suite-container border-container">
+    <div class="border-content">
+        <label class="label-description">Include the report suites that you want to recieve this data.</label>
+        <div class="report-suites coral-Autocomplete" data-init="autocomplete" data-multiple="true">
+            <div class="coral-InputGroup coral-InputGroup--block js-coral-Autocomplete-field">
+                <label class="coral-DecoratedTextfield coral-InputGroup-input">
+                    <span class="u-coral-screenReaderOnly">Add Report Suite</span>
+                    <span class="coral-DecoratedTextfield-icon coral-Icon coral-Icon--sizeXS coral-Icon--search" aria-hidden="true"></span>
+                    <input class="coral-DecoratedTextfield-input coral-Textfield js-coral-Autocomplete-textfield" type="text" name="name1" placeholder="Add Report Suite">
+                </label>
+                <span class="coral-InputGroup-button">
+                    <button class="coral-Button coral-Button--secondary coral-Button--square js-coral-Autocomplete-toggleButton" type="button">
+                        <i class="coral-Icon coral-Icon--sizeXS coral-Icon--triangleDown"></i>
+                    </button>
+                </span>
+            </div>
+            <ul class="coral-SelectList js-coral-Autocomplete-selectList">
+
+        
+                <li class="coral-SelectList-item coral-SelectList-item--option" data-name="<%= reportSuiteName %>"
+                data-value="swhstarwoodver2"><%= reportSuiteName %></li>
+                
+                <li class="coral-SelectList-item coral-SelectList-item--option" data-name="Chelsea FC Plus"
+                data-value="mattmlfdev5">Chelsea FC Plus</li>
+                
+                <li class="coral-SelectList-item coral-SelectList-item--option" data-name="Hospitality Mobile"
+                data-value="premsgdev2">Hospitality Mobile</li>
+                
+                <li class="coral-SelectList-item coral-SelectList-item--option" data-name="FC Dev"
+                data-value="mattmlfdev">FC Dev</li>
+
+            </ul>
+            <ul class="coral-TagList js-coral-Autocomplete-tagList" role="list">
+
+            
+            </ul>
+        </div>
+    </div>
+</div>

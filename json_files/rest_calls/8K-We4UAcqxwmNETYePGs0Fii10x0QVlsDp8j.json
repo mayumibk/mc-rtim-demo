@@ -1,0 +1,1533 @@
+{
+  "FCP" : false,
+  "PKey" : "MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE",
+  "advanced" : false,
+  "advancedParameters" :
+  {
+    "codepage" : "utf8",
+    "forceCodepage" : false,
+    "showSQL" : false,
+    "verifyMode" : false
+  },
+  "alertMessage" : "",
+  "alertMode" : "",
+  "attachment" :
+  [
+  ],
+  "broadLogs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2mf6bq5IzhxLwRxgomcwUV0/broadLogs/"
+  },
+  "builtIn" : false,
+  "campaign" :
+  {
+    "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+    "title" : "Campaign - The Phoenician (CMP62)"
+  },
+  "commands" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/commands/"
+  },
+  "content" :
+  {
+    "contextResource" : "profile",
+    "customContext" :
+    {
+      "conditionLink" :
+      {
+      },
+      "select" :
+      {
+        "alias" : "",
+        "name" : "",
+        "node" :
+        [
+        ],
+        "ref" : ""
+      },
+      "selectAuto" :
+      {
+        "alias" : "",
+        "name" : "",
+        "node" :
+        [
+        ],
+        "ref" : ""
+      },
+      "selectExtra" :
+      {
+        "alias" : "",
+        "name" : "",
+        "node" :
+        [
+        ],
+        "ref" : ""
+      }
+    },
+    "email" :
+    [
+      {
+        "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PdUbOlHOdzrj5TBni3l2ue2_vBZCk1nAHL6c7uktndxMg",
+        "html" :
+        {
+          "imageConfig" :
+          {
+            "image" :
+            [
+            ],
+            "startPath" : ""
+          },
+          "preview" :
+          {
+            "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/content/email/DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PdUbOlHOdzrj5TBni3l2ue2_vBZCk1nAHL6c7uktndxMg/html/preview/"
+          },
+          "source" : "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta name=\"robots\" content=\"noindex,noarchive\" />\n<title>Starwood Preferred Guest - Our New Global Promotion: SPG Double Play</title>\n\n\n</head>\n\n<body style=\"padding:0; margin:0; -webkit-text-size-adjust:none !important;\" class=\"\">\n<div class=\"width100\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; width: 640px; margin-left: auto; margin-right: auto;\">\n<table class=\"hide\" style=\"table-layout: fixed; width: 640px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"18\"> </td>\n<td style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #7f7f7f; line-height: normal;\" valign=\"top\" width=\"622\" align=\"left\">Earn double Starpoints and more with SPG Double Play. <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxa.2UpI.bW89MiZtcDMwNjE0PTlGQUFDMDdCMzI2RDQ1QUVBOEQyMTAwNkQ3NDFGMjM1DHGaJXQ0\" style=\"color: #7f7f7f; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: 7f7f7f; font-weight: bold;\">Register now &gt;</span></a></td>\n</tr>\n</tbody>\n</table>\n<table style=\"width: 640px; background-color: #ffffff;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td width=\"640\">\n<table style=\"width: 640px;\" bgcolor=\"#3e3061\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" width=\"30\"> </td>\n<td class=\"width100\" width=\"592\">\n<table class=\"center\" style=\"width: 102px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"left\">\n<tbody>\n<tr>\n<td width=\"102\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxe.2UpI.bW89Mg%5f%5fDUAQFVL0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"SPG | Starwood Preferred Guest\" src=\"http://img.delivery.net/cm50content/19274/458742/spgLogo_2x.jpg\" style=\"display: block;\" border=\"0\" width=\"102\" height=\"50\" /></a></td>\n</tr>\n</tbody>\n</table>\n<table class=\"width100\" style=\"width: 350px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"right\">\n<tbody>\n<tr>\n<td class=\"width-padding text-center pad-bot-10\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; color: #ffffff; text-align: right;\" valign=\"middle\" width=\"350\" height=\"50\">Guest First and Last Name<br /> Member Number: <span class=\"appleLinksWhite\"> *******XXXX</span></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td class=\"hide\" width=\"18\"> </td>\n</tr>\n</tbody>\n</table>\n<table class=\"width100\" style=\"width: 640px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" bgcolor=\"#6ec0fb\" valign=\"top\" width=\"40\" align=\"left\"> </td>\n<td bgcolor=\"#6ec0fb\" valign=\"top\" width=\"560\" align=\"left\">\n<table class=\"width100\" style=\"width: 560px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"line-height: 35px;\" valign=\"top\" width=\"560\" align=\"left\" height=\"35\"></td>\n</tr>\n<tr>\n<td class=\"hide\" valign=\"top\" align=\"center\"><img alt=\"Double up with twice the rewards.\" src=\"http://img.delivery.net/cm50content/19274/458742/headlineReg-en.gif\" style=\"display: block; font-family: Arial; font-size: 18px; color: #ffffff;\" width=\"371\" height=\"81\" /></td>\n</tr>\n<tr>\n<td bgcolor=\"#6ec0fb\" valign=\"top\" align=\"center\">\n<div class=\"show\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><img alt=\"\" class=\"headline-show\" src=\"http://img.delivery.net/cm50content/19274/458742/headlineReg-mo-en.gif\" style=\"display: none;\" width=\"1\" height=\"1\" /></div>\n</td>\n</tr>\n<tr>\n<td style=\"line-height: 25px;\" valign=\"top\" align=\"left\" height=\"25\"></td>\n</tr>\n<tr>\n<td class=\"side-padding\" style=\"font-family: Arial; font-size: 13px; color: #ffffff; line-height: normal; padding: 0px 30px; background-color: #6ec0fb; background-position: 0% 0%; background-repeat: repeat;\" valign=\"top\" align=\"center\"><span style=\"color: #ffffff; background-color: #8c82a9;\"><span style=\"background-color: #6ec0fb;\">A Contoured out of the beauty of the spectacular Sonoran Desert in Scottsdale, Arizona, The Phoenician features a 27-hole championship golf course that inspires your spirit of adventure</span></span></td>\n</tr>\n<tr>\n<td valign=\"top\" align=\"center\">\n<table class=\"width100\" style=\"table-layout: fixed; width: 145px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"text-align: center; vertical-align: middle; color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: normal; background-color: #664f8c;\" width=\"145\" height=\"35\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxg.2UpI.bW89MiZtcDMwNjE0PTlGQUFDMDdCMzI2RDQ1QUVBOEQyMTAwNkQ3NDFGMjM1DIOGJXW0\" style=\"border: none; display: block; color: #ffffff; vertical-align: middle; text-decoration: none; line-height: 35px; background-color: #664f8c; text-transform: uppercase;\" title=\"(opens in a new window)\" target=\"_blank\">Register now</a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td class=\"hide\" bgcolor=\"#6ec0fb\" valign=\"top\" width=\"40\" align=\"left\"> </td>\n</tr>\n</tbody>\n</table>\n<table class=\"width100\" style=\"width: 640px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"640\" align=\"left\"><img alt=\"\" class=\"photo\" src=\"/images/Phoenician_Desert8-540x377.jpg\" style=\"display: block;\" width=\"640\" height=\"353\" /></td>\n</tr>\n</tbody>\n</table>\n<table class=\"width100 purple-bg\" style=\"width: 640px;\" bgcolor=\"#FFFFFF\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" width=\"18\"> </td>\n<td class=\"width100\" valign=\"top\" width=\"604\" align=\"left\">\n<table class=\"width100\" style=\"width: 604px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" style=\"line-height: 10px;\" valign=\"top\" width=\"604\" align=\"left\" height=\"10\"></td>\n</tr>\n<tr>\n<td class=\"width100\" valign=\"top\" width=\"604\" align=\"left\">\n<table class=\"width100\" style=\"width: 602px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"width100 featured-mo\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #8c82a9;\" valign=\"bottom\" width=\"380\" align=\"left\">Featured property: The Phoenician, Scottsdale, AZ, USA</td>\n<td class=\"hide\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #8c82a9;\" valign=\"bottom\" width=\"222\" align=\"right\">More Luxury. More Destinations.</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table class=\"hide\" style=\"table-layout: fixed; width: 602px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"line-height: 30px;\" valign=\"top\" align=\"left\" height=\"30\"></td>\n</tr>\n<tr>\n<td valign=\"top\" align=\"left\">\n<table style=\"table-layout: fixed; width: 602px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"86\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxi.2UpI.bW89Mg%5f%5fDUNYFVP0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"SPG | Starwood Preferred Guest\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar01_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"86\" height=\"53\" /></a></td>\n<td valign=\"top\" width=\"191\" align=\"left\"><img alt=\"\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar_line_w.gif\" style=\"display: block;\" border=\"0\" width=\"191\" height=\"53\" /></td>\n<td valign=\"top\" width=\"297\" align=\"left\">\n<table style=\"table-layout: fixed; width: 297px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"297\" align=\"left\">\n<table style=\"table-layout: fixed; width: 297px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"65\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxk.2UpI.bW89Mg%5f%5fDUUMFVR0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Le Méridien\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar02_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"65\" height=\"23\" /></a></td>\n<td valign=\"top\" width=\"58\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxm.2UpI.bW89Mg%5f%5fDUbAFVT0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Aloft\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar03_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"58\" height=\"23\" /></a></td>\n<td valign=\"top\" width=\"54\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxo.2UpI.bW89Mg%5f%5fDVBUFVV0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Four Points\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar04_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"54\" height=\"23\" /></a></td>\n<td valign=\"top\" width=\"57\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxq.2UpI.bW89Mg%5f%5fDVIIFVX0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Westin\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar05_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"57\" height=\"23\" /></a></td>\n<td valign=\"top\" width=\"63\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxs.2UpI.bW89Mg%5f%5fDVOcFVZ0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"The Luxury Collection\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar06_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"63\" height=\"23\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td valign=\"top\" align=\"left\">\n<table style=\"table-layout: fixed; width: 297px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"28\" align=\"left\"> </td>\n<td valign=\"top\" width=\"58\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxu.2UpI.bW89Mg%5f%5fDVVQFVb0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"W Hotels\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar07_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"58\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"61\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxw.2UpI.bW89Mg%5f%5fDVcEFVd0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Sheraton\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar08_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"61\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"69\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxy.2UpI.bW89Mg%5f%5fDWCYFVf0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"St. Regis\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar09_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"69\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"61\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhx%5f.2UpI.bW89Mg%5f%5fDTMUFVF0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Element\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar10_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"61\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"20\" align=\"left\"> </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" width=\"28\" align=\"left\"><img alt=\"\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar_star_w.gif\" style=\"display: block;\" border=\"0\" width=\"28\" height=\"53\" /></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"line-height: 28px;\" valign=\"top\" align=\"left\" height=\"28\"></td>\n</tr>\n<tr>\n<td valign=\"top\" align=\"left\">\n<table style=\"table-layout: fixed; width: 602px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"35\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy0.2UpI.bW89Mg%5f%5fDOUKFTX0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Facebook\" src=\"http://img.delivery.net/cm50content/19274/458742/social01_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"35\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"35\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy2.2UpI.bW89Mg%5f%5fDOaeFTZ0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Twitter\" src=\"http://img.delivery.net/cm50content/19274/458742/social02_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"35\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"36\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy4.2UpI.bW89Mg%5f%5fDPBSFTb0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Instagram\" src=\"http://img.delivery.net/cm50content/19274/458742/social03_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"36\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"35\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy6.2UpI.bW89Mg%5f%5fDPIGFTd0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Foursquare\" src=\"http://img.delivery.net/cm50content/19274/458742/social04_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"35\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"35\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy8.2UpI.bW89Mg%5f%5fDPOaFTf0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Pinterest\" src=\"http://img.delivery.net/cm50content/19274/458742/social05_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"35\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"31\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyA.2UpI.bW89Mg%5f%5fDQMUFUI0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"YouTube\" src=\"http://img.delivery.net/cm50content/19274/458742/social06_w.gif\" style=\"display: block; font-size: 10px; color: #8c82a9; font-family: Arial, Helvetica, sans-serif;\" border=\"0\" width=\"31\" height=\"30\" /></a></td>\n<td valign=\"top\" width=\"20\" align=\"left\"> </td>\n<td style=\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal; text-transform: uppercase;\" valign=\"middle\" width=\"375\" align=\"left\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyC.2UpI.bW89Mg%5f%5fDQTIFUK0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">Download the SPG app &gt;</span></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"line-height: 18px;\" valign=\"top\" align=\"left\" height=\"18\"></td>\n</tr>\n<tr>\n<td style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 20px; text-transform: uppercase;\" valign=\"top\" align=\"left\">\n<table style=\"width: 602px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 20px; text-transform: uppercase;\" width=\"602\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyE.2UpI.bW89Mg%5f%5fDQZcFUM0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">Contact spg</span></a>     <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyG.2UpI.bW89Mg%5f%5fDRAQFUO0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">best rate guarantee</span></a>     <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyI.2UpI.bW89Mg%5f%5fDRHEFUQ0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">Update your stay preferences</span></a><br /> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyK.2UpI.bW89Mg%5f%5fDRNYFUS0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">Terms &amp; Conditions of the SPG Program</span></a>     <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyM.2UpI.bW89Mg%5f%5fDRUMFUU0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">terms of use</span></a>     <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyO.2UpI.bW89Mg%5f%5fDRbAFUW0\" style=\"color: #8c82a9; text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #8c82a9;\">privacy policy</span></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"line-height: 20px;\" valign=\"top\" align=\"left\" height=\"20\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td class=\"hide\" width=\"18\"> </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<div class=\"purple-bg\">\n<ul class=\"show\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\">\n<li class=\"show\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyQ.2UpI.bW89Mg%5f%5fDSBUFUY0\" title=\"(opens in a new window)\" target=\"_blank\">Call SPG<img alt=\"\" class=\"arrow\" src=\"http://img.delivery.net/cm50content/19274/458742/arrow.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a></li>\n<li class=\"show\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyS.2UpI.bW89Mg%5f%5fDSIIFUa0\" title=\"(opens in a new window)\" target=\"_blank\">download the spg app <img alt=\"\" class=\"arrow\" src=\"http://img.delivery.net/cm50content/19274/458742/arrow.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a></li>\n</ul>\n<div class=\"show tagline-mo\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\">More Luxury. More Destinations.</div>\n<div class=\"bbar-wrap\">\n<div class=\"show bbar\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyU.2UpI.bW89Mg%5f%5fDSOcFUc0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"St. Regis\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar01-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyW.2UpI.bW89Mg%5f%5fDSVQFUe0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"The Luxury Collection\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar02-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyY.2UpI.bW89Mg%5f%5fDScEFVA0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"W Hotels\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar03-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhya.2UpI.bW89Mg%5f%5fDTWUFVI0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Le Méridien\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar04-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyc.2UpI.bW89Mg%5f%5fDTdIFVK0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Westin\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar05-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhye.2UpI.bW89Mg%5f%5fDUDcFVM0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Sheraton\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar06-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyg.2UpI.bW89Mg%5f%5fDUKQFVO0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Aloft\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar07-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyi.2UpI.bW89Mg%5f%5fDUREFVQ0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Element\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar08-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyk.2UpI.bW89Mg%5f%5fDUXYFVS0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Four Points\" class=\"mobile-logos\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar09-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhym.2UpI.bW89Mg%5f%5fDUeMFVU0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"SPG | Starwood Preferred Guest\" class=\"mobile-logo-SPG\" src=\"http://img.delivery.net/cm50content/19274/458742/bbar010-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a></div>\n</div>\n<div class=\"show social-mo\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyo.2UpI.bW89Mg%5f%5fDVFAFVW0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Facebook\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social01-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyq.2UpI.bW89Mg%5f%5fDVLUFVY0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Twitter\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social02-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhys.2UpI.bW89Mg%5f%5fDVSIFVa0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Instagram\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social03-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyu.2UpI.bW89Mg%5f%5fDVYcFVc0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Foursquare\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social04-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyw.2UpI.bW89Mg%5f%5fDVfQFVe0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"Pinterest\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social05-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyy.2UpI.bW89Mg%5f%5fDWGEFWA0\" title=\"(opens in a new window)\" target=\"_blank\"><img alt=\"YouTube\" class=\"mobile-social\" src=\"http://img.delivery.net/cm50content/19274/458742/social06-mo.gif\" style=\"display: none;\" border=\"0\" width=\"1\" height=\"1\" /></a></div>\n<div class=\"show width100\" style=\"display: none; visibility: hidden; width: 0; height: 0; overflow: hidden; line-height: 0; font-size: 0; margin: 0; padding: 0; max-height: 0;\"><a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy%5f.2UpI.bW89Mg%5f%5fDTQAFVG0\" class=\"legal-links\" title=\"(opens in a new window)\" target=\"_blank\"><span class=\"legal-link-right\">Terms of use</span></a> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz0.2UpI.bW89Mg%5f%5fDOXWFTY0\" class=\"legal-links\" title=\"(opens in a new window)\" target=\"_blank\"><span class=\"legal-link-left\">Privacy policy</span></a></div>\n</div>\n<table style=\"table-layout: fixed; width: 640px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"18\" align=\"left\"></td>\n<td class=\"width-padding\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5b5b5b; line-height: 15px;\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"604\" align=\"left\"><br /> To ensure you receive your Starwood Hotels &amp; Resorts emails, please add <a href=\"mailto:Starwood@starwood.delivery.net\" style=\"color: #752227; text-decoration: underline;\">Starwood@starwood.delivery.net</a> to your address book. <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz2.2UpI.bW89Mg%5f%5fDOeKFTa0\" style=\"color: #752227; text-decoration: underline;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #752227;\">Find out how</span></a>. <br /> <br /> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz4.2UpI.bW89Mg%5f%5fDPEeFTc0\" style=\"text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061; font-weight: bold;\">Terms and conditions</span></a><br /> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz6.2UpI.bW89Mg%5f%5fDPLSFTe0\" style=\"text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061; font-weight: bold;\">FAQs</span></a><br /> <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz8.2UpI.bW89Mg%5f%5fDPSGFUA0\" style=\"text-decoration: none;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061; font-weight: bold;\">Nonparticipating properties</span></a><br /> <br /> ©2015 Starwood Hotels &amp; Resorts Worldwide, Inc. All Rights Reserved. Starpoints, SPG, Preferred Guest, Sheraton, Four Points, W, Aloft, The Luxury Collection, Le Méridien, Element, Westin, St. Regis and their respective logos are the trademarks of Starwood Hotels &amp; Resorts Worldwide, Inc., or its affiliates.</td>\n<td class=\"hide\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"18\" align=\"left\"></td>\n</tr>\n</tbody>\n</table>\n<table style=\"table-layout: fixed; width: 640px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"hide\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"18\"></td>\n<td class=\"width-padding\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5b5b5b; line-height: 15px;\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"604\" align=\"center\"><br /> One StarPoint, Stamford, CT 06902<br /><br /> Tell us if you would like your email <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzA.2UpI.bW89Mg%5f%5fDQQAFUJ0\" style=\"color: #3e3061; text-decoration: underline;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061;\">sent to a different address</span></a>. <br /> <br /> For our <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzC.2UpI.bW89Mg%5f%5fDQWUFUL0\" style=\"color: #3e3061; text-decoration: underline;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061;\">Privacy Statement</span></a>, call <span class=\"appleLinksGrey\" style=\"color: #5b5b5b; text-decoration: none;\">1-877-782-0071 from the U.S. &amp; Canada or +353-21-4930474</span> in all other countries to learn more about our data collection and usage practices.<br /> <br /> Review the Starwood Preferred Guest® program <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzE.2UpI.bW89Mg%5f%5fDQdIFUN0\" style=\"color: #3e3061; text-decoration: underline;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061;\">terms and conditions</span></a>. <br /> <br /> You have received this email as a Starwood Preferred Guest member. If you would prefer to opt out of future promotional emails, <a href=\"http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzG.2UpI.bW89MiZpPW1hdGhpZXUuaGFubm91ekBnbWFpbC5jb20%5fCBZaIWO0\" style=\"color: #3e3061; text-decoration: underline;\" title=\"(opens in a new window)\" target=\"_blank\"><span style=\"color: #3e3061;\">click here</span></a>. Please do not reply directly to this system-generated email. It may take up to 10 business days to make the requested change. During that time, there is a slight chance that you may receive a promotional email from us.</td>\n<td class=\"hide\" bgcolor=\"#FFFFFF\" valign=\"top\" width=\"18\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n<img id=\"atlas\" src=\"http://view.atdmt.com/action/Starwood_Emails_All/v3/\" style=\"display: block;\" border=\"0\" width=\"1\" height=\"1\" /><br /><img id=\"omniture\" src=\"http://metrics.starwoodhotels.com/b/ss/swhstarwoodver2/1/H.1--NS/0?pageName=EMAIL:EMAIL:EMAIL:EMAIL:EMAIL&amp;c42=43260971116_76475415&amp;v38=43260971116_76475415\" style=\"display: block;\" border=\"0\" width=\"1\" height=\"1\" /> <br /> <br /> <br /> <span color=\"#666666\" face=\"Verdana,Helvetica\" originaltag=\"yes\" size=\"1\" style=\"color: #666666; font-family: Verdana, Helvetica; font-size: xx-small;\"></span><br /> <img src=\"http://open.delivery.net/o?2.2.3KO.2fh.1F6QVo.Fjj5jm..H..2UpI.bW89Mg%5f%5fBYTcFIP0\" alt=\" \" width=\"1\" height=\"1\" />\n</body>\n\n\n\n</html>",
+          "thumbnail" : "/res/thumbnails/acdemo/08ea3f74-5f0a-45a3-82bd-c56f62f2d454.png",
+          "trackingType" : "yes",
+          "urlConfig" :
+          {
+            "url" :
+            [
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtOyH7Irv_Av1w3HkqLDlVnJbVUFF9__x0ltSEkEW_ZS1o3a5zt6DTCh2hWTBmhFEdDf7FjXO4uMXkUWTN7Tg-pSeTwm7Z_c3phuLBHjAVWDHDC7SBNFtlgRF0RFHdcntA",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxa.2UpI.bW89MiZtcDMwNjE0PTlGQUFDMDdCMzI2RDQ1QUVBOEQyMTAwNkQ3NDFGMjM1DHGaJXQ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvBbcCNOr4zxl-8NXT5CDXlfHfpIXIK8QMARMPRK8nQ9-jgS88aiTGwCp16Zc3h-jY",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxe.2UpI.bW89Mg%5f%5fDUAQFVL0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvslwE2pGWmX-cp3M7DEC29xeHdO_Idjxwoq5QknFPgzHYTeu07EdreOg8Hyj8vkuiso5tQh6F6mkdFzU4bhnWz8Ok92-mDU7tQ_iqZTeJ0wyvzGDv0EEOO2n8JFouTL6TM",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxg.2UpI.bW89MiZtcDMwNjE0PTlGQUFDMDdCMzI2RDQ1QUVBOEQyMTAwNkQ3NDFGMjM1DIOGJXW0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtFmfN2336AVefBB2127mRr1stLBIKGDpIv8KLj-yt-CAvFKuHDSNp9cRmVZ1hClm0",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxi.2UpI.bW89Mg%5f%5fDUNYFVP0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsHLUBm4c9VPEjZVMMcfN8XmO7sXeV5IPU2lA9SM-hCCemTtZzA_D45XSf1jmhz9wA",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxk.2UpI.bW89Mg%5f%5fDUUMFVR0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvESGTIkJiy9mCfmtZ8x78aIJJpKYOPk9fB5sbrY3qu5EFmbs9nsAbqR7fLEc7K5ZU",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxm.2UpI.bW89Mg%5f%5fDUbAFVT0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtqRNTbUMaIxCmhpvMvEEhzlcac8aJwRTaIjFfD0TGOgabyVM5qMVA-sxeRuJixVO0",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxo.2UpI.bW89Mg%5f%5fDVBUFVV0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvv3QaYeuZqcBEWqd8BP7vR0qHFz0K25wJeKrmD6F-8-xQyFc-DNkmZYvVJOaSDrYgI",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxq.2UpI.bW89Mg%5f%5fDVIIFVX0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsNCfymWmyatjHhCEsfF0wzN2RbjItKefimIxccvmhB7iv8l37AaH4jWMP7kz-xoN4",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxs.2UpI.bW89Mg%5f%5fDVOcFVZ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvt6SR-1PDH2oKbfhCiHQxaSyod4hQ2WyVejevtsCo3TxNy073xEQ8cBM4l0kuPY1nY",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxu.2UpI.bW89Mg%5f%5fDVVQFVb0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsWL5JmZkrCmP_SCUtpINbq4T1EfluC0vJpAe9Ka2yjgxN3unpGNO0FQBVNHWRwmdo",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxw.2UpI.bW89Mg%5f%5fDVcEFVd0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuJKapb1LuJT-gfRYheg890Fc8ejJKXMO6o5tnF5WM98xiyTQLM9feqL1w6EGsvJlY",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhxy.2UpI.bW89Mg%5f%5fDWCYFVf0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvv_JhaGwiMX2E-V_4fOSUdWTSA-1OrsgSqkTiRtGmVtx5XkHuVWrGV-V54AlLPx7z4",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhx%5f.2UpI.bW89Mg%5f%5fDTMUFVF0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtKcuEPRnN1AIV8_MjHhSIPIYTO7bACNyOoMQEbZlWyaYlj2CN5z-yA9peaB7su8cM",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy0.2UpI.bW89Mg%5f%5fDOUKFTX0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtfWzSxswk7-okr6pqIaXqTAZMSCZ8q62uAm_8nZEdp5AfFoLemBkNiyoC-3fK6Rr4",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy2.2UpI.bW89Mg%5f%5fDOaeFTZ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuzujAJLnSM4FZaxROFFFfSrStqF3vzNMKHXlg1sObpbNN2r-FACQysknOVPge9eN4",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy4.2UpI.bW89Mg%5f%5fDPBSFTb0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvueBZdqLj4F2Yh6HrQOwFV5BEc1rK1XW8Kmy6G_4glQn4pWBVko-sgQrgz1_ibM5g",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy6.2UpI.bW89Mg%5f%5fDPIGFTd0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtVGVIyfdQrBo5e9hksl1h5YDHOHI3Qvxiy8K_p5BMaV8WV3u_ENihsi1i6hv-SdWo",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy8.2UpI.bW89Mg%5f%5fDPOaFTf0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvu4zOWtkhXb5f3qF3zvVOG-2dIahE1YenHi93nc_kWAfQQrBJx1ixmq6WZQOx_vJjM",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyA.2UpI.bW89Mg%5f%5fDQMUFUI0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtLNa6A_ySrpvrUGGhIH9fn0cnhqDKKgTCixOKm-Pk2-S4W1c8-JLCHiiGY05r2CSA",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyC.2UpI.bW89Mg%5f%5fDQTIFUK0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuVloNVr-bZSs-MbLwXcxPlEC23POXcNcnVbTFnrJWl_osdj01W5ZOxbkRfZaxCh2Y",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyE.2UpI.bW89Mg%5f%5fDQZcFUM0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvrXEtxvcziWjl-AbliWG0LMxe7NxbiaV4bVVYr4kQNo39HA7Bxk0pykVjVKK7xpmM",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyG.2UpI.bW89Mg%5f%5fDRAQFUO0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsuDuHKKIjInQdKkjwtupvJwfxGRRyshobuk8nk2iLl0jrdBc3EHO_ywzDgGibVN6E",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyI.2UpI.bW89Mg%5f%5fDRHEFUQ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvcBrxSxW6OuoKVRDV6JDltVuHqXl1oikQADhdSo3lWdhnMANqf3FIX3P8yYF4wXsc",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyK.2UpI.bW89Mg%5f%5fDRNYFUS0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsziJ0Dv527ukw1i8XyowzQT09dgqv1a8phSks9mXxs8K1oeWCOoA_ujYB1wzMS3vs",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyM.2UpI.bW89Mg%5f%5fDRUMFUU0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuyVDv1mdtMfkZbWXgfQsiO6eqPmgyt3RZwovIkSDgKAsubSXtd0Ay8httsgUaPRDA",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyO.2UpI.bW89Mg%5f%5fDRbAFUW0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuyZ6Cj-mkrOOXCUTNpqbiryp-YiU8uBMiWJ1bSM7PlN39P8vuFJO4-wL00L6G06ZQ",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyQ.2UpI.bW89Mg%5f%5fDSBUFUY0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtDoQhgIs2NRKQaEpi7E209F1Aj75s2EmeSZUtnZ-24oopVpZ2qbovhy0aYfBlbgJo",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyS.2UpI.bW89Mg%5f%5fDSIIFUa0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtMty5yIC1S-Mnil-CYAPuV9F4TdjPLm6b9Ca_nizX5VmtITYDZtfxSIgBR0a5usDM",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyU.2UpI.bW89Mg%5f%5fDSOcFUc0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvFdUpy2cCAQ5a4Qe2F06Jz9SkvDtUFt-ELnZQNGxa3tt8xXoj3yVX9Msd13w87VBY",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyW.2UpI.bW89Mg%5f%5fDSVQFUe0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvxTxDOBCS8LmGde908VwvL0QZ7iSLXgJs41h3jKcSQx71FAeVCOyRF2pGu1-SoQZ0",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhyY.2UpI.bW89Mg%5f%5fDScEFVA0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvspEtjXcYysy8nq7mq_lISUZCJ_cksxJf1FbJoF7Z4wlQtA2UXSGG-Gijh3NFnuyQg",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhya.2UpI.bW89Mg%5f%5fDTWUFVI0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvs_9v1xUWhMXnSx62Aw2vi3Wb-8ZK4BrJGh411wgjmmJKcbW6KWE897DMG0bVcpDgs",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyc.2UpI.bW89Mg%5f%5fDTdIFVK0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsEpOJGu07rVLe9c8FrOqSS0zy2tpjPNtdDmXOgRANU2W6HTwMrZVBRYhcMnRveduI",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhye.2UpI.bW89Mg%5f%5fDUDcFVM0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvv22d_2kfKLpTs00FynvgjLJqANvXmsMAc2i_GI6OM3l8MmH6afIt_xUZdI1v9_eME",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyg.2UpI.bW89Mg%5f%5fDUKQFVO0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsxASxEvLb1HruTL92eytGUa9qs_8tVPMX6gpuKhaNjCCfYoMFcwwiYlcHHif19zQU",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyi.2UpI.bW89Mg%5f%5fDUREFVQ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvyD2DrSr_buiTsxvCD_YzHSdVcUDfXONNez0mOxr-c6luTMl8I4WCynqO6KOuKSUE",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyk.2UpI.bW89Mg%5f%5fDUXYFVS0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvu2mErYKJyJeaaiHugavwWuGoMFw0erwR6b07HQ2tsz5Yzx4IMmYEd3uNGakEJ_aeU",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhym.2UpI.bW89Mg%5f%5fDUeMFVU0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvGzenS8v4EVM13pWCGCOYtDGihRO1R0YlcidDz-oIxeUF6KfePzd0I7eFxUsHPuUE",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyo.2UpI.bW89Mg%5f%5fDVFAFVW0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvteLa2FzqPIwDwqViGObvoYncg6-mvZcdhwGQfgPFGid-TKawsAzvgxWQ3hAdIMiSw",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyq.2UpI.bW89Mg%5f%5fDVLUFVY0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvv5_Rttw8MOZowcloEZBdZOc3dlGYe_l9kVUgQywgHz20fhYKoJ2ejEW0caB4dABA",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhys.2UpI.bW89Mg%5f%5fDVSIFVa0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvuX8irWQbSUOkRaBZzUhOGISfggWg96T4Gnl-YOdM-1WzVxX22omFJZwWHGrzbvPtU",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyu.2UpI.bW89Mg%5f%5fDVYcFVc0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvBEsUXBVX34SEfP-hR4o3JZmiE_GubEfwh6fxP37c44eAAykkHPTkqgdx53z6fa-Y",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyw.2UpI.bW89Mg%5f%5fDVfQFVe0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvajHdFR0SEEyfPIshx89kw3-kX-XHVptfRNugq8RBhcQaolM-vGLWdJpL_VQP8U4E",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhyy.2UpI.bW89Mg%5f%5fDWGEFWA0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtRfX3fq36vlxjgjtITsN1gH8AvSgPllqamQUmq12vXtyCYaX7QsfbzHYqaL_41sjw",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhy%5f.2UpI.bW89Mg%5f%5fDTQAFVG0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvubiksuer1r6DMB4nDOHy1ST5pnoA8v3_eLrmCN-C8dbYATBKPxNKA2L4le56S4sNE",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz0.2UpI.bW89Mg%5f%5fDOXWFTY0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvvW2DYITyXZH7tuQ4KDRgo29pgLFDCnw6y89zYn9yOszZ5XQ-0WGUtufSX8SANHrsc",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz2.2UpI.bW89Mg%5f%5fDOeKFTa0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvseVF84agzIMxsaCLH_NUFackz3lUC2Ixbf6GPOjNePhw2ThvciGHJnK61AMIn-jTw",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz4.2UpI.bW89Mg%5f%5fDPEeFTc0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtwY5a6BauY7S8TkAyMqINOPgDxijWWiAP1IJDgRoaeM5WzyVCtubLfz69TZLdP2Og",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz6.2UpI.bW89Mg%5f%5fDPLSFTe0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsK04gJl2jQ1jEAMZ5yKdtKVZ9jFqXtYvxcei8rm8zUd0C6WPfhmWsrbXR57K9qk-I",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.Xhz8.2UpI.bW89Mg%5f%5fDPSGFUA0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtf35mPLHr3s5WTzkLt-fL2F2ARYrDt9yEbUUoykP8Giowy2782aJmrz8gLTWZ96uk",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzA.2UpI.bW89Mg%5f%5fDQQAFUJ0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvsfUuIaW0zA-AaTtT72Lv_iMYPQL0siRp6o2dJHCmvjN8aAhkD-psz2S_LheU6V7jg",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzC.2UpI.bW89Mg%5f%5fDQWUFUL0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvs8NCu1y-Viq5qsf8XSD3IyOgjhzbTWrM4bCst2veVUWnvZSODtieAFP6XhQVfdisU",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzE.2UpI.bW89Mg%5f%5fDQdIFUN0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              },
+              {
+                "PKey" : "DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PcKUVwFY5-Fel0phIu0hgfy41cI6SJoARmEMiHXJUkujeMHo9ZHpzbLZBt0Uo3-wVuTS4yrOJt8bUWhqMPmc8iMb6MARHpwIsDmlPYj8zi_hVyobatTPU9oCOoMqhlbvvtGcxRx_Ivfl0eM5TklSBRBPMkj6F3HZxrP_30qF-9IZgGeA0cca-RqLQr5s1sDS5BZTW7R0Nk3tvDNSbV4vd0_vSX2ZCly-juNplCVPYWhBQ",
+                "category" : "",
+                "flags" : "empty",
+                "guessedLabel" : "(opens in a new window)",
+                "label" : "(opens in a new window)",
+                "modified" : false,
+                "newUrl" : true,
+                "occurrence" : 1,
+                "offerId" : 0,
+                "order" : 0,
+                "purlId" : 0,
+                "source" : "http://starwood.r.delivery.net/r/c/r?2.1.3KO.2fh.1F6QVo.Fjj5jm..H.XhzG.2UpI.bW89MiZpPW1hdGhpZXUuaGFubm91ekBnbWFpbC5jb20%5fCBZaIWO0",
+                "tagId" : "",
+                "trackingType" : "yes",
+                "urlId" : 0,
+                "urlInfoId" : 0,
+                "withParams" : false
+              }
+            ]
+          },
+          "urlType" : "email"
+        },
+        "order" : 0,
+        "senderName" :
+        {
+          "imageConfig" :
+          {
+            "image" :
+            [
+            ],
+            "startPath" : ""
+          },
+          "preview" :
+          {
+            "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/content/email/DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PdUbOlHOdzrj5TBni3l2ue2_vBZCk1nAHL6c7uktndxMg/senderName/preview/"
+          },
+          "source" : "Starwood Preferred Guest",
+          "thumbnail" : "",
+          "trackingType" : "yes",
+          "urlConfig" :
+          {
+            "url" :
+            [
+            ]
+          },
+          "urlType" : "undefined"
+        },
+        "subject" :
+        {
+          "imageConfig" :
+          {
+            "image" :
+            [
+            ],
+            "startPath" : ""
+          },
+          "preview" :
+          {
+            "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/content/email/DUgk7IE3I2_Z-8367kpPuTIobedcolKZ2ib_ElkW1PdUbOlHOdzrj5TBni3l2ue2_vBZCk1nAHL6c7uktndxMg/subject/preview/"
+          },
+          "source" : "Promotion: SPG Double Play",
+          "thumbnail" : "",
+          "trackingType" : "yes",
+          "urlConfig" :
+          {
+            "url" :
+            [
+            ]
+          },
+          "urlType" : "undefined"
+        },
+        "text" :
+        {
+          "imageConfig" :
+          {
+            "image" :
+            [
+            ],
+            "startPath" : ""
+          },
+          "source" : "",
+          "thumbnail" : "",
+          "trackingType" : "yes",
+          "urlConfig" :
+          {
+            "url" :
+            [
+            ]
+          },
+          "urlType" : "undefined"
+        },
+        "variant" : "default"
+      }
+    ],
+    "formatSelection" : "preferences",
+    "htmlCompression" : false,
+    "ignoreScripts" : false,
+    "material" :
+    {
+      "materialItem" :
+      {
+      }
+    },
+    "multipartRelated" : false,
+    "publicURL" : "",
+    "scriptContext" :
+    {
+      "name" : "default",
+      "objects" :
+      {
+        "object" :
+        {
+        }
+      },
+      "property" :
+      {
+      }
+    },
+    "uploadImages" : false,
+    "variantSel" : ""
+  },
+  "contextResourceType" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/contextResourceType/"
+  },
+  "created" : "2015-02-20 16:59:08.684Z",
+  "createdBy" :
+  {
+    "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+    "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+  },
+  "deliveryMode" : "bulk",
+  "deliveryProvider" :
+  {
+    "PKey" : "ZQmTwpS3yvFoaExc8g49ajjnxS0oKiE-W3nyHDhcVe5ohrSiGXh-NCTWLRVookie",
+    "href" : "/rest/head/extAccountBase/ZQmTwpS3yvFoaExc8g49ajjnxS0oKiE-W3nyHDhcVe5ohrSiGXh-NCTWLRVookie",
+    "messageType" : "email",
+    "title" : "Integrated email routing (defaultEmailBulk)"
+  },
+  "desc" : "",
+  "emailPreview" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2vySlG1MUvynFthtCPaYQXE/emailPreview/"
+  },
+  "excludeLogs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2mf6bq5IzhxLwRxgomcwUV0/excludeLogs/"
+  },
+  "exclusions" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gwPUGDOGwqpKh61M-nM2JU/exclusions/"
+  },
+  "execution" :
+  {
+    "broadEndDate" : "",
+    "broadStartDate" : "",
+    "controlGroup" :
+    {
+      "activeOrder" : 0,
+      "audience" : null,
+      "audience-cs" : "",
+      "defaultLimit" : 0,
+      "enableGroupByLimit" : false,
+      "enabled" : false,
+      "fixed" : 0,
+      "groupBy" :
+      {
+        "displayGroup" : "",
+        "node" :
+        [
+        ]
+      },
+      "groupByLimit" :
+      {
+      },
+      "humanCond" : "",
+      "humanConfig" : "",
+      "orderBy" :
+      {
+        "displayOrder" : "",
+        "node" :
+        [
+        ]
+      },
+      "percentage" : 0,
+      "schema" : "",
+      "type" : "none",
+      "where" :
+      {
+        "condition" :
+        [
+        ],
+        "ctx" : "",
+        "displayFilter" : "",
+        "extendedSchema" : "",
+        "filterName" : "",
+        "filteringSchema" : "",
+        "forceHint" : ""
+      }
+    },
+    "firstPassEndDate" : "",
+    "maxRetry" : 5,
+    "nextPassDate" : "",
+    "passStartDate" : "",
+    "retry" : 0,
+    "retryPeriod" : "PT1H"
+  },
+  "executionType" : "oneTime",
+  "forecastLogs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gRbPfklLtHCKv2qooTAWzE/forecastLogs/"
+  },
+  "geoUnit" :
+  {
+    "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "title" : "All (all)"
+  },
+  "hasAttachments" : false,
+  "icon" : "email",
+  "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4895091",
+  "isTemplate" : false,
+  "job" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gwPUGDOGwqpKh61M-nM2JU/job/"
+  },
+  "jobLogs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gwPUGDOGwqpKh61M-nM2JU/jobLogs/"
+  },
+  "kpis" :
+  {
+    "FCPCount" : 0,
+    "delivered" : 0,
+    "deliveredMode" : "error",
+    "deliveredRatio" : 0,
+    "processed" : 0,
+    "processedRatio" : 0,
+    "recipientClick" : 0,
+    "recipientClickRatio" : 0,
+    "recipientOpen" : 0,
+    "recipientOpenRatio" : 0,
+    "renderingCount" : 0,
+    "sent" : 0,
+    "sentRatio" : 0,
+    "toDeliver" : 0,
+    "totalTarget" : 0,
+    "trapCount" : 0
+  },
+  "label" : "Retargeting Email",
+  "lastModified" : "2015-02-25 18:16:23.815Z",
+  "logicalStatus" : "edition",
+  "mailParameters" :
+  {
+    "errorAddress" : "",
+    "headers" : "",
+    "mirrorPagePolicy" : "default",
+    "needMirrorPage" : "unknown",
+    "replyAddress" : "Communication@email.com",
+    "replyName" : "Communication team geometrixx",
+    "senderAddress" : "starwood@starwood.delivery.net",
+    "useDefaultErrorAddress" : true
+  },
+  "mainDate" : "",
+  "mapping" :
+  {
+    "PKey" : "sWhCY5pbsvst77XFiVmJ0VKTN0fuXL4qh-_AYiW49M-G-_UdrU0gU3uOKH4SmiTi",
+    "builtIn" : true,
+    "created" : "2014-06-04 15:19:17.011Z",
+    "createdBy" : null,
+    "desc" : "",
+    "geoUnit" : null,
+    "label" : "Recipients",
+    "lastModified" : "2014-06-04 15:19:16.971Z",
+    "modifiedBy" : null,
+    "name" : "mapRecipient",
+    "orgUnit" : null,
+    "recipientLink" : "",
+    "schema" : "nms:recipient",
+    "targetSchema" : "",
+    "title" : ""
+  },
+  "messageType" : "email",
+  "modifiedBy" :
+  {
+    "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+    "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+  },
+  "name" : "DM406",
+  "orgUnit" :
+  {
+    "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "title" : "All (all)"
+  },
+  "parent" : null,
+  "priority" : "normal",
+  "program" : null,
+  "proofs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gwPUGDOGwqpKh61M-nM2JU/proofs/"
+  },
+  "resourceVersion" : "head",
+  "scenario" :
+  {
+    "aggregationPeriod" : "day",
+    "labelScript" : "",
+    "setDirectDates" : false,
+    "trackingDuration" : "PT0S",
+    "useLabelScript" : false,
+    "validityDuration" : "P5D",
+    "webValidityDuration" : "P2M"
+  },
+  "scheduling" :
+  {
+    "IPAffinity" : "",
+    "contactDate" : "",
+    "contactDateTimeZone" : "America_New_York",
+    "delayExtraction" : "PT0S",
+    "delayed" : false,
+    "extracted" : "",
+    "extraction" : "",
+    "validationMode" : "manual",
+    "validityDate" : "",
+    "webResPurged" : false,
+    "webValidityDate" : ""
+  },
+  "smsParameters" :
+  {
+    "maxSmsPerMessage" : 0,
+    "mbloxServiceId" : "",
+    "mobileMsgType" : "sms",
+    "serviceType" : "",
+    "smsAppType" : "marketing",
+    "smsContent" : "",
+    "smsMode" : "SIMSpecific",
+    "smsPriority" : "Normal",
+    "sourceAddress" : ""
+  },
+  "state" : "edition",
+  "targets" :
+  {
+    "deliveryLimit" : 0,
+    "deliveryTarget" :
+    {
+      "humanCond" : "",
+      "segmentCodeExpr" : "",
+      "where" :
+      {
+        "condition" :
+        [
+        ],
+        "ctx" : "",
+        "displayFilter" : "",
+        "extendedSchema" : "",
+        "filterName" : "",
+        "filteringResource" : "profile",
+        "filteringSchema" : "nms:recipient",
+        "forceHint" : "",
+        "targetResource" : "profile"
+      }
+    },
+    "distribution" :
+    [
+    ],
+    "emptyReprForMissingOffer" : false,
+    "externalId" : "",
+    "filteringSchema" : "nms:recipient",
+    "maxErrorCount" : 3,
+    "orderByExpr" : "",
+    "qualityRequired" : "3",
+    "seedTarget" :
+    {
+      "humanCond" : "",
+      "segmentCodeExpr" : "",
+      "where" :
+      {
+        "condition" :
+        [
+        ],
+        "ctx" : "",
+        "displayFilter" : "",
+        "extendedSchema" : "",
+        "filterName" : "",
+        "filteringResource" : "seedMember",
+        "filteringSchema" : "nms:seedMember",
+        "forceHint" : "",
+        "targetResource" : "profile"
+      }
+    },
+    "useDeliveryLimit" : false
+  },
+  "template" :
+  {
+    "PKey" : "btKIVF_tpb2tEpZf5fPvRhIR-FeVKLNasdf969N0W4r7ImMYH8Yj9sQOWriDaO_7",
+    "title" : "Mountain Bike product launch (DM56)"
+  },
+  "thumbnail" : "/res/thumbnails/acdemo/08ea3f74-5f0a-45a3-82bd-c56f62f2d454.png",
+  "title" : "Retargeting Email (DM406)",
+  "tracking" :
+  {
+    "clickFormula" : "<%@ include option='NmsTracking_ClickFormula' %>",
+    "enabled" : true,
+    "errorUrl" : "",
+    "expiration" : "",
+    "openEnabled" : true,
+    "openFormula" : "<%@ include option='NmsTracking_OpenFormula' %>",
+    "rtClickFormula" : ""
+  },
+  "trackingLogs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2mf6bq5IzhxLwRxgomcwUV0/trackingLogs/"
+  },
+  "trackingUrls" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/MUcPxy37hNF0Pg8qF3oO2gwPUGDOGwqpKh61M-nM2JU/trackingUrls/"
+  },
+  "triggerMessage" :
+  {
+    "eventType" : "",
+    "publicationDate" : "",
+    "publicationStatus" : "notApplicable"
+  },
+  "typology" :
+  {
+    "PKey" : "v4AbEHnMV6QWiP_qeZZ5Xr0D-hNdpYYAHvrYk82IEd4pD8oZ4bXMmb9LKbHaCFA_",
+    "href" : "/rest/head/typologyBase/v4AbEHnMV6QWiP_qeZZ5Xr0D-hNdpYYAHvrYk82IEd4pD8oZ4bXMmb9LKbHaCFA_",
+    "title" : "Default typology (defaultTypology)"
+  },
+  "workflow" :
+  {
+    "PKey" : "TWcf365BYt26Fl1KIomKxDzxAN8snLQNNcek88hpV80",
+    "title" : "Workflow - Retargeting (WKF90)"
+  }
+}

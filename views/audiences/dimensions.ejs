@@ -1,0 +1,46 @@
+<div class="chooseDimension segmentPart">
+    <div class="valueContainer">
+        <div class="coral-Icon coral-Icon--apps coral-Icon--sizeS al-icon-apps"></div>
+        <div class="step">
+            <div class="keylist select
+            "
+
+
+                 data-templatePath = "/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.evarValues.html">
+                <span class="coral-Autocomplete al-autocomplete" data-init="autocomplete">
+                    <div class="coral-InputGroup coral-InputGroup--block js-coral-Autocomplete-field">
+                        <label class="coral-DecoratedTextfield coral-InputGroup-input">
+
+                            <input type="text" class="coral-DecoratedTextfield-input coral-Textfield js-coral-Autocomplete-textfield evarIEalignment"
+                                   placeholder='Select an evar' value="">
+
+
+                        </label>
+                        <span class="coral-InputGroup-button">
+                <button class="coral-Button coral-Button--secondary coral-Button--square js-coral-Autocomplete-toggleButton" type="button">
+                    <i class="coral-Icon coral-Icon--sizeXS coral-Icon--triangleDown"></i>
+                </button>
+                </span>
+                    </div>
+
+				<ul class="coral-SelectList js-coral-Autocomplete-selectList">
+
+                    <li data-value="coral-SelectList-item coral-SelectList-item--option" data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.evarValues.html">""</li>
+                    <% dimensions.forEach(function(dimension) { %>
+                        <li class="coral-SelectList-item coral-SelectList-item--option" data-value="<%= dimension.name %>" data-id="<%= dimension.id %>" data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.evarValues.html"><%= dimension.name %></li>
+                    <% }); %>
+                </ul>
+                </span>
+            </div>
+
+        </div>
+        <div class="nextStepsContainer">
+
+        </div>
+
+        <span class="u-coral-pullRight deleteRule-icon-container"><a class="coral-Icon coral-Icon--close coral-Icon--sizeXS al-close-icon"></a></span>
+
+        <div class="addrule-icon-container"><a class="coral-Icon coral-Icon--add coral-Icon--sizeS al-add-icon"></a></div>
+    </div>
+
+</div>

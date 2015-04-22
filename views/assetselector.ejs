@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        AEM Asset Picker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+
+    <link href="/images/favicon.ico" type="image/vnd.microsoft.icon" rel="shortcut icon">
+    <link href="/images/favicon.ico" type="image/vnd.microsoft.icon" rel="icon">
+
+
+
+    <script type="text/javascript" src="/javascripts/assetpicker/jquery.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/utils.lc-1427433347600-lc.min.js"></script>
+
+    <script>
+        Granite.I18n.init({
+            locale:"en",
+            urlPrefix:"/javascripts/assetpicker/dict."
+        });
+    </script>
+    <link rel="stylesheet" href="/stylesheets/assetpicker/userpicker.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/coralui.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/quickactions.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/foundation.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/userproperties.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/admin.lc-1427433347600-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/assetpicker/assetpicker.lc-1427433347600-lc.min.css" type="text/css">
+    <script type="text/javascript" src="/javascripts/assetpicker/shared.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/userpicker.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/datepicker.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/history.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/handlebars.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/moment.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/coralui.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/animation.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/quickactions.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/foundation.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/userproperties.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/admin.lc-1427433347600-lc.min.js"></script>
+    <script type="text/javascript" src="/javascripts/assetpicker/assetpicker.lc-1427433347600-lc.min.js"></script>
+
+</head>
+
+<body>
+
+<header class="top">
+    <div class="left">
+        <button  class='asset-picker-clear icon-close' title='Clear' type='button' autocomplete='off' data-closeDirection='right'></button>
+    </div>
+
+    <div class="center">
+
+
+
+        <div  class='assetpicker-levelinfo' data-align='center'><span class="static-title">Search within <span class="level">Assets</span> </span></div>
+    </div>
+
+    <div class="right">
+        <button  class='button&#x20;disabled&#x20;primary&#x20;asset-picker-done icon-check withLabel' type='button' autocomplete='off' data-formId='assetpropertiesform' data-align='right' data-foundation-mode-value='default' data-foundation-mode-group='cq-damadmin-admin-bulkproperties'></button>
+    </div>
+</header><div  class='page' role='main'><div  class='rail left' id='rail' role='complementary'>
+        <div class="wrap">
+            <div class="rail-switch">
+                <nav class="toolbar icongroup"><a href='#' data-view='search' class='active'><i  class='icon-filter'>S</i></a><a href='#' data-view='browse'><i  class='icon-foldersearch'>browse</i></a></nav>
+            </div>
+            <div  class='rail-view&#x20;group active' data-view='search'>
+
+                <div class="search">
+                    <input type="text" placeholder="Add Filter" name="fulltext" value= "">
+                    <button></button>
+                </div>
+                <section class="foldable open">
+                    <span class="heading">Type</span>
+
+                    <ul  class='notype&#x20;checklist&#x20;fold assetpicker-mimetype-predicate' data-rel='assetpicker-mimetype-predicate' data-propertyName='jcr&#x3a;content&#x2f;metadata&#x2f;dc&#x3a;format'>
+
+
+                        <li><label class="">
+                                <input type="checkbox"  class='assetpicker-filter-mimetype-images' value='image' data-ignoreData='true' data-tag='Image'>
+                                <span>Image</span></label></li>
+
+                        <li><label class="">
+                                <input type="checkbox"  class='assetpicker-filter-mimetype-manuscripts' value='text' data-ignoreData='true' data-tag='Manuscript'>
+                                <span>Manuscript</span></label></li>
+
+                        <li><label class="">
+                                <input type="checkbox"  class='assetpicker-filter-mimetype-videos' value='video' data-ignoreData='true' data-tag='Video'>
+                                <span>Video</span></label></li>
+
+                        <li><label class="">
+                                <input type="checkbox"  class='assetpicker-filter-mimetype-documents' value='application&#x2f;vnd.openxmlformats,application&#x2f;msword,application&#x2f;vnd.ms-powerpoint,application&#x2f;mspowerpoint,application&#x2f;powerpoint,application&#x2f;x-mspowerpoint,application&#x2f;x-msexcel,application&#x2f;x-excel,application&#x2f;excel,application&#x2f;vnd.ms-excel,application&#x2f;pdf,application&#x2f;vnd.openxmlformats-officedocument.wordprocessingml.document' data-ignoreData='true' data-tag='Document'>
+                                <span>Document</span></label></li>
+
+
+                    </ul>
+                </section>
+                <section class="foldable close">
+                    <span class="heading">Tag</span><script type="text/javascript" src="/javascripts/assetpicker/tagspredicate.lc-1427433347600-lc.min.js"></script>
+
+
+                    <section class="fold">
+                        <span class="heading">Orientation</span>
+                        <ul  class='notype&#x20;checklist&#x20;fold assetpicker-tags-predicate' data-rel='assetpicker-tags-predicate' data-tagsPath='&#x5b;Ljava.lang.String&#x3b;&#x40;1798b886' data-propertyName='jcr&#x3a;content&#x2f;metadata&#x2f;cq&#x3a;tags'>
+                            <li>
+                                <label><input type="checkbox" name="tagpredicate" data-filter="Portrait"
+                                              data-tagid="properties:orientation/portrait"><span>Portrait</span></label>
+                            </li>
+
+                            <li>
+                                <label><input type="checkbox" name="tagpredicate" data-filter="Landscape"
+                                              data-tagid="properties:orientation/landscape"><span>Landscape</span></label>
+                            </li>
+
+                            <li>
+                                <label><input type="checkbox" name="tagpredicate" data-filter="Square"
+                                              data-tagid="properties:orientation/square"><span>Square</span></label>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <section class="fold">
+                        <span class="heading">Style</span>
+                        <ul  class='notype&#x20;checklist&#x20;fold assetpicker-tags-predicate' data-rel='assetpicker-tags-predicate' data-tagsPath='&#x5b;Ljava.lang.String&#x3b;&#x40;1798b886' data-propertyName='jcr&#x3a;content&#x2f;metadata&#x2f;cq&#x3a;tags'>
+                            <li>
+                                <label><input type="checkbox" name="tagpredicate" data-filter="Color"
+                                              data-tagid="properties:style/color"><span>Color</span></label>
+                            </li>
+
+                            <li>
+                                <label><input type="checkbox" name="tagpredicate" data-filter="Monochrome"
+                                              data-tagid="properties:style/monochrome"><span>Monochrome</span></label>
+                            </li>
+
+                        </ul>
+                    </section>
+                </section>
+                <section class="foldable close">
+                    <span class="heading">Width</span>
+                    <div  class='noslider&#x20;fold assetpicker-range-predicate' data-tag='width-range' data-mapped-property='tiff&#x3a;ImageWidth' data-global-min='0' data-tag-text='Width' data-multiplier='1' >
+                        <div class="lower-bound-val">
+                            <input type="text" class="assetpicker-range-filter-min"  data-validation="cui.number" placeholder="Min">
+                        </div>
+                        <i class="icon-switch"></i>
+                        <div class="upper-bound-val">
+                            <input type="text" class="assetpicker-range-filter-max"  data-validation="cui.number" placeholder="Max">
+                        </div>
+                    </div>
+                </section>
+                <section class="foldable close">
+                    <span class="heading">Height</span>
+                    <div  class='noslider&#x20;fold assetpicker-range-predicate' data-tag='height-range' data-mapped-property='tiff&#x3a;ImageLength' data-global-min='0' data-tag-text='Height' data-multiplier='1' >
+                        <div class="lower-bound-val">
+                            <input type="text" class="assetpicker-range-filter-min"  data-validation="cui.number" placeholder="Min">
+                        </div>
+                        <i class="icon-switch"></i>
+                        <div class="upper-bound-val">
+                            <input type="text" class="assetpicker-range-filter-max"  data-validation="cui.number" placeholder="Max">
+                        </div>
+                    </div>
+                </section>
+                <section class="foldable close">
+                    <span class="heading">Size</span>
+                    <div  class='noslider&#x20;fold assetpicker-range-predicate' data-tag='filesize-range' data-mapped-property='dam&#x3a;size' data-global-min='0' data-tag-text='Size' data-multiplier='1024' >
+                        <div class="lower-bound-val">
+                            <input type="text" class="assetpicker-range-filter-min"  data-validation="cui.number" placeholder="Min (KB)">
+                        </div>
+                        <i class="icon-switch"></i>
+                        <div class="upper-bound-val">
+                            <input type="text" class="assetpicker-range-filter-max"  data-validation="cui.number" placeholder="Max (KB)">
+                        </div>
+                    </div>
+                </section>
+
+            </div><div  class='rail-view&#x20;group' data-view='browse'>
+
+
+                <section class="foldable close" data-path="/content/dam" data-parent-Path="/content/dam"
+                         data-title="Assets" data-parent-Title="Assets">
+                    <a class="dam-assetpicker-browse-up-activator" data-href="/libs/dam/gui/content/assetpicker/jcr:content/rail/items/modes/items/browse/items/navigate.html?root=/content/dam">
+    <span class="heading root">
+        Assets  </span>
+                    </a>
+                </section>
+
+
+                <section class="foldable close" data-path="/content/dam/mac"
+                         data-title="Root">
+                    <a class="dam-assetpicker-browse-in-activator" data-href="/libs/dam/gui/content/assetpicker/jcr:content/rail/items/modes/items/browse/items/navigate.html?root=/content/dam/mac">
+                        <i class="icon-chevronright"></i>
+                        <span class="heading child">Root</span>
+                    </a>
+                </section>
+
+
+
+                <section class="foldable close" data-path="/content/dam/hierarchy"
+                         data-title="hierarchy">
+                    <a class="dam-assetpicker-browse-in-activator" data-href="/libs/dam/gui/content/assetpicker/jcr:content/rail/items/modes/items/browse/items/navigate.html?root=/content/dam/hierarchy">
+                        <i class="icon-chevronright"></i>
+                        <span class="heading child">hierarchy</span>
+                    </a>
+                </section>
+
+
+
+
+            </div>
+
+        </div>
+    </div><div id="content" class="content foundation-content">
+        <div class="foundation-content-current">
+
+            <div  class='content-header foundation-layout-mode' data-foundation-layout='&#x7b;&quot;name&quot;&#x3a;&quot;foundation-layout-mode&quot;,&quot;group&quot;&#x3a;&quot;cq-damadmin-admin-childpages&quot;&#x7d;'>
+                <nav  class='toolbar mode-default' data-init='toolbar'><div class="left icongroup"><button  class='foundation-admin-rail-toggle hide&#x20;assetpicker-rail-toggle icon-chevronleft' title='Toggle&#x20;Rail' type='button' data-target='&#x23;rail' autocomplete='off'>Toggle Rail</button><button  class='foundation-admin-rail-toggle assetpicker-header-search&#x20;assetpicker-rail-options icon-filter' title='Filter' type='button' data-target='&#x23;rail' autocomplete='off' data-view='search'>Filter</button><button  class='foundation-admin-rail-toggle assetpicker-header-board&#x20;assetpicker-rail-options&#x20;hide icon-star' title='Board&#x20;&amp;&#x20;Collections' type='button' data-target='&#x23;rail' autocomplete='off' data-view='board'>Board &amp; Collections</button><button  class='foundation-admin-rail-toggle assetpicker-header-browse&#x20;assetpicker-rail-options icon-foldersearch' title='Browse' type='button' data-target='&#x23;rail' autocomplete='off' data-view='browse'>Browse</button></div><div class="right icongroup">
+
+                        <div  class='assetpicker-sortinfo'>
+                            <span> Sort by </span>
+    <span class="cyclebuttons" data-init="cyclebuttons">
+    	<span class="order option_one cyclebuttons-active" data-value="default">Default Ordering</span>
+    	<span class="order option_two " data-value="asc" >Newest to Oldest</span>
+        <span class="order option_three " data-value="desc" >Oldest to Newest</span>
+    </span>
+                        </div>
+
+
+                        <div  class='assetpicker-togglelayout'> <i class="card icon-viewcard" data-value="card"></i> <i class="list icon-viewlist"
+                                                                                                                        style="display:none"
+                                                                                                                        data-value="list"></i></div></div></nav>
+
+            </div><div  class='content-sub-header'>
+                <nav  class='toolbar mode-default' data-init='toolbar'><div class="left icongroup">
+
+                        <div  class='filters assetpicker-filters-bar'>
+                            <ul class="tags">
+                            </ul>
+                        </div></div><div class="right icongroup">
+
+                        <div  class='badge assetpicker-selection-count'>0</div></div></nav>
+
+            </div>
+
+
+            <div  class='foundation-collection&#x20;assetfinder-content-container&#x20;grid&#x20;assetpicker-content' mode='single' type='image' typeFilters='disable' root='' data-searchRoot='&#x2f;content&#x2f;dam' data-mimeType='image' data-targetOrigin='&#x2a;' data-itemResourceType='dam&#x2f;gui&#x2f;components&#x2f;admin&#x2f;assetpicker&#x2f;asset'>
+                <div class="grid-0">
+                    <header class="card-asset selectable"><i class="select"></i><i class="sort"></i>
+
+                        <div class="label">
+                            <div class="main" data-sort-selector=".label h4" data-title="TITLE">TITLE</div>
+                            <div class="resolution" data-sort-attribute="data-width" data-sort-selector=".label .resolution"
+                                 data-sort-type="numeric" data-title="DIMENSIONS">DIMENSIONS
+                            </div>
+                            <div class="size" data-sort-attribute="data-bytes" data-sort-selector=".label .size"
+                                 data-sort-type="numeric" data-title="SIZE">SIZE
+                            </div>
+                            <div class="modified" data-sort-attribute="data-timestamp" data-sort-selector=".label .modified .date"
+                                 data-sort-type="numeric" data-title="MODIFIED">MODIFIED
+                            </div>
+                            <div class="published" data-sort-attribute="data-timestamp" data-sort-selector=".label .published .date"
+                                 data-sort-type="numeric" data-title="PUBLISHED">PUBLISHED
+                            </div>
+                            <div class="links" data-iconclass="icon-link" data-sort-attribute="data-links"
+                                 data-sort-selector=".label .info .links" data-sort-type="numeric" data-title="LINKS"><i
+                                        class="icon-link"><span>LINKS</span></i></div>
+                            <div class="type" data-sort-selector=".label .type" data-title="TYPE">TYPE</div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+            <div class="resultspinner">
+                <div class="wait large"></div>
+                <div class="status">Loading results
+                </div>
+            </div>
+
+            <div class="no-children-banner center assetpicker-default-content" style="display:none">
+                <p>There is no content to display.
+                </p>
+            </div>
+
+        </div>
+    </div></div>
+</body>
+
+</html>

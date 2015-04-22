@@ -1,0 +1,266 @@
+[
+  {
+    "notificationId" : "ebfdbe77-854b-4340-ba01-c92e4dc3bea7",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-10T16:40:25Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Upsell Offer on January 22, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1109",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Upsell Offer on January 22, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "73fcf9fd-1a59-4ac3-83eb-58c16f2df5dd",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-10T22:44:44Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Upsell Offer on January 22, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1111",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Upsell Offer on January 22, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "5ea4e445-9c4b-4744-896c-93d7e3a094be",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-13T18:04:25Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1143",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "7300b11d-6e59-41a4-8888-b2c1784a86c5",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-13T18:11:35Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"* Advance Search Performed on February 9, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1144",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "* Advance Search Performed on February 9, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "2205aab2-dd16-4f6b-b299-5100e345422a",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-16T15:37:03Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1151",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "5e0ea9f3-a083-4b8c-8453-b19fc0774552",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-16T16:54:02Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1152",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "56d6c7b7-122c-42b4-8706-59847857e59f",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-18T17:28:56Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1163",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "89beccef-db01-47c5-b12b-ca2b9a5eecac",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-18T22:09:59Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1173",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "8d901afe-7b15-466e-9b27-35e8d88f4d49",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-18T22:14:11Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1174",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "36c18f97-3f7d-4695-846a-8c0ca85c0f6a",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-18T22:26:44Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 11, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1176",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 11, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "692924e7-9f00-4bfc-b670-078e3b88a933",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-19T00:10:44Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1177",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  },
+  {
+    "notificationId" : "1e233b87-95d4-411e-b458-a934a13f8045",
+    "companyId" : 5791,
+    "toId" : 505732,
+    "fromId" : 505732,
+    "createdTime" : "2015-02-19T00:25:32Z",
+    "startTime" : null,
+    "endTime" : null,
+    "text" : "The contribution analysis report \"Login on January 23, 2015\" is ready",
+    "url" : "/sc15/reports/index.html?a=ContributionAnalysis#/1178",
+    "appendSession" : true,
+    "rsid" : "swhstarwoodver2",
+    "productId" : "sc15",
+    "templateId" : "contribution_analysis",
+    "templateValues" :
+    [
+      "Login on January 23, 2015"
+    ],
+    "notificationStatus" : "READ",
+    "notificationType" : "USER_SPECIFIC_MESSAGE",
+    "locale" : "en_US"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "condition" :
+  [
+    {
+      "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0Oi04jtqzxPIzrM2JrZfxC7NFqMVrXNOxiA-__XrJSvIJ2IpKQYPZbZ_T1ir1dTEAU",
+      "aliasSqlTable" : "",
+      "boolOperator" : "AND",
+      "compositeKey" : "",
+      "condition" :
+      [
+      ],
+      "dateTypeAndPrecision" :
+      {
+        "precision" : "",
+        "type" : ""
+      },
+      "dependkey" : "",
+      "desc" : "Copy of the 'Golf Cart Guests ' audience",
+      "enabledIf" : "",
+      "entityLabel" : "Copy of the 'Golf Cart Guests ' audience",
+      "entityName" : "AUD52",
+      "entityType" : "audience",
+      "expr" : "@gender=0",
+      "filterLabel" : "",
+      "filterName" : "",
+      "ignore" : false,
+      "internalId" : 1219887222,
+      "noSqlBind" : false,
+      "order" : 0,
+      "setOperator" : "",
+      "subQuery" : "",
+      "xpath" : ""
+    }
+  ],
+  "count" :
+  {
+    "href" : "/rest/head/workflow/1f4lffJRlh5-9Smk1VRYRYjxikXyjt1Z9mTOSuEIAlc1jWDCnz6n47oKZuiodtrBv9U8GqlqHozFbAilFtO-8EKtFBzOmzLZlje7ux1neCMKu0n8ZpOU_4YLon3mfyjzQl696gF6gHb3BHeUaT_9HA/activities/activity/wnykhNsawKK1gpu9Af2Qei4l6zzmEJCSvOgslK_8bDxaJzeX-VhVkObI_P1ZEdAVEnppCCia4yn-ewyvWOUzaQ/where/count/"
+  },
+  "ctx" : "",
+  "displayFilter" : "",
+  "extendedSchema" : "",
+  "filterName" : "",
+  "filteringResource" : "",
+  "filteringSchema" : "",
+  "forceHint" : "",
+  "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qerd-OSkyKPMAgdY5ss1hVbE/activities/query|query1/where/wnykhNsawKK1gpu9Af2Qei4l6zzmEJCSvOgslK_8bDxaJzeX-VhVkObI_P1ZEdAVEnppCCia4yn-ewyvWOUzaQ",
+  "preview" :
+  {
+    "href" : "/rest/head/workflow/1f4lffJRlh5-9Smk1VRYRYjxikXyjt1Z9mTOSuEIAlc1jWDCnz6n47oKZuiodtrBv9U8GqlqHozFbAilFtO-8EKtFBzOmzLZlje7ux1neCMKu0n8ZpOU_4YLon3mfyjzQl696gF6gHb3BHeUaT_9HA/activities/activity/wnykhNsawKK1gpu9Af2Qei4l6zzmEJCSvOgslK_8bDxaJzeX-VhVkObI_P1ZEdAVEnppCCia4yn-ewyvWOUzaQ/where/preview/"
+  }
+}

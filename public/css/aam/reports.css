@@ -1,0 +1,518 @@
+label {
+  display: block; }
+
+h4 {
+  border-bottom: 1px solid #666; }
+
+[aam-datepicker] {
+  display: block;
+  float: left;
+  width: 130px; }
+  [aam-datepicker] .coral-Textfield {
+    margin: 5px 0 0;
+    min-width: 5.2rem;
+    width: 5.2rem;
+    height: 2.4rem; }
+  [aam-datepicker] .coral-Button {
+    margin-top: 5px; }
+  [aam-datepicker] label {
+    color: #878787;
+    font-family: adobe-clean;
+    font-weight: 300; }
+
+.coral-Select-button {
+  color: #4b4b4b;
+  text-shadow: none;
+  font-weight: 300; }
+
+#mainContent {
+  margin: 1rem; }
+
+.coral-Well {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-right: 1rem;
+  margin-bottom: 1rem; }
+  .coral-Well button {
+    display: inline-block;
+    vertical-align: top; }
+    .coral-Well button:last-child {
+      margin-right: 0; }
+
+.coral-Popover-arrow--up {
+  top: -20px !important;
+  left: 115px !important; }
+
+.coral-TabPanel .coral-TabPanel-tab {
+  margin-top: 0; }
+.coral-TabPanel .coral-TabPanel-navigation {
+  height: auto; }
+
+.coral-TabPanel-content {
+  padding: 0; }
+
+.field {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 1.5rem; }
+  .field.report-type button {
+    margin-top: 0; }
+  .field.report-type .coral-Select {
+    width: 9rem; }
+  .field.report-type label {
+    margin-bottom: 5px; }
+  .field.thru-date {
+    margin-right: 1rem; }
+  .field.date-range {
+    margin-right: 1rem; }
+    .field.date-range .coral-InputGroup-button + label {
+      margin: .2rem 0 0 .2rem; }
+  .field.display-options {
+    margin-top: 1.2rem; }
+    .field.display-options > label:first-child {
+      margin-bottom: .3rem; }
+    .field.display-options .coral-Checkbox {
+      margin-bottom: .5rem; }
+
+.coral-Selector {
+  margin-top: .3rem; }
+
+.coral-Selector-option {
+  min-width: 2.125rem; }
+
+item-selector {
+  display: block;
+  white-space: nowrap;
+  min-height: 415px;
+  min-width: 1000px; }
+
+item-selections {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  vertical-align: top;
+  width: 341px;
+  height: 100%;
+  position: relative;
+  margin-top: 4rem;
+  background-color: #fff;
+  min-height: 300px; }
+  item-selections .coral-Heading--2 {
+    position: absolute;
+    top: -2rem;
+    left: .3rem;
+    width: 333px; }
+    item-selections .coral-Heading--2 span {
+      position: absolute;
+      right: 0;
+      font-size: 1rem; }
+  item-selections ul {
+    margin: 0.3rem 0 0.3rem 0.3rem; }
+  item-selections li {
+    margin-top: 0 !important;
+    padding: .5rem .3rem;
+    white-space: nowrap; }
+    item-selections li :first-child {
+      margin-right: .5rem;
+      cursor: pointer; }
+    item-selections li > * {
+      display: inline-block; }
+  item-selections i {
+    font-style: normal; }
+    item-selections i.folder-node {
+      position: relative;
+      left: .3rem;
+      margin-right: .8rem; }
+      item-selections i.folder-node:before {
+        content: "\f1b9";
+        font-family: AdobeIcons;
+        margin-right: .5rem; }
+      item-selections i.folder-node + span {
+        position: relative;
+        left: -.2rem; }
+    item-selections i.item-node {
+      left: .5rem;
+      margin-right: .8rem; }
+      item-selections i.item-node:before {
+        content: "\f1a6";
+        font-family: AdobeIcons;
+        margin-right: .5rem; }
+
+search-autocomplete {
+  display: block; }
+  search-autocomplete .coral-Autocomplete {
+    width: auto; }
+  search-autocomplete .js-coral-Autocomplete-textfield {
+    width: 40rem; }
+  search-autocomplete .coral-Autocomplete {
+    width: auto; }
+
+item-browser {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  min-height: 300px; }
+
+.scrollable {
+  overflow: auto;
+  height: 100%; }
+
+.folder-contents {
+  display: block;
+  float: left;
+  border-width: 1px 1px 1px 0;
+  vertical-align: top;
+  width: 341px;
+  height: 100%;
+  position: relative;
+  min-height: 300px;
+  padding-bottom: 2px; }
+  .folder-contents .coral-Heading--2 {
+    position: absolute;
+    top: -2rem;
+    left: .5rem; }
+  .folder-contents .pagination {
+    position: absolute;
+    top: -1.7rem;
+    right: 0; }
+  .folder-contents li {
+    cursor: pointer;
+    padding: 0.3rem 0 .3rem .5rem;
+    margin-top: 0; }
+    .folder-contents li i:before {
+      font-family: AdobeIcons;
+      content: "\f1a6";
+      font-style: normal;
+      margin-right: .5rem; }
+    .folder-contents li:hover {
+      background-color: #d2e6f5; }
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .loading .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0.7;
+    z-index: 1; }
+  .loading .coral-Wait {
+    position: relative;
+    z-index: 2;
+    top: 1rem;
+    left: 1rem; }
+
+.treeview {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 100%;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  min-height: 300px;
+  padding-bottom: 2px; }
+  .treeview .coral-Heading--2 {
+    position: absolute;
+    top: -2rem; }
+
+treecontrol {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: AdobeClean;
+  font-size: 1rem; }
+  treecontrol > ul > li {
+    padding-left: 0 !important; }
+  treecontrol li {
+    padding-left: 1.4rem;
+    line-height: 1.7rem; }
+    treecontrol li i {
+      background: none !important;
+      font-family: AdobeIcons;
+      font-style: normal;
+      color: #646464;
+      z-index: 1;
+      position: relative; }
+    treecontrol li.tree-expanded {
+      position: relative; }
+      treecontrol li.tree-expanded .tree-branch-head.coral-Icon--triangleDown {
+        padding-left: 0.35rem; }
+        treecontrol li.tree-expanded .tree-branch-head.coral-Icon--triangleDown + .tree-label .tree-leaf-head:before {
+          content: "\f224";
+          font-size: 1.1rem;
+          left: -.1rem; }
+      treecontrol li.tree-expanded > .tree-label > .node-template {
+        position: relative;
+        top: -.05rem;
+        left: -.12rem; }
+    treecontrol li .tree-label {
+      display: inline-block;
+      width: 100%; }
+      treecontrol li .tree-label:hover {
+        background-color: #d2e6f5; }
+  treecontrol .tree-selected {
+    background-color: #ddd !important; }
+  treecontrol .folder {
+    display: inline !important;
+    padding-left: 0.4rem !important; }
+    treecontrol .folder:before {
+      content: "\f1b9"; }
+  treecontrol .tree-branch-head {
+    font-size: .6rem;
+    padding-right: 0.2rem !important;
+    top: -.1rem; }
+
+.coral-Modal button {
+  float: right;
+  vertical-align: middle; }
+  .coral-Modal button.coral-Button--primary {
+    margin-left: .5rem; }
+
+.ng-table th {
+  white-space: nowrap; }
+
+#general-reports .coral-Well {
+  float: left;
+  display: block;
+  clear: both; }
+#general-reports .preview .coral-Heading--2 {
+  border-bottom: 1px solid #666; }
+#general-reports item-selections li {
+  padding: .3rem 0 .4rem .5rem; }
+#general-reports .run-report {
+  float: right;
+  margin-right: 0;
+  margin-top: 0; }
+#general-reports .ng-table {
+  min-width: 1000px; }
+#general-reports .table-options {
+  clear: both;
+  margin-bottom: .7rem;
+  width: 1000px;
+  position: relative; }
+  #general-reports .table-options .export-to-csv {
+    margin-top: 1.2rem;
+    margin-right: 2rem; }
+#general-reports .days-before {
+  margin-right: 1rem;
+  display: inline-block; }
+#general-reports .checkboxes {
+  display: inline-block;
+  vertical-align: top; }
+  #general-reports .checkboxes > label {
+    margin-bottom: .3rem; }
+  #general-reports .checkboxes .coral-Well {
+    height: 2.375rem;
+    padding: .45rem .7rem 0 .7rem;
+    min-width: 0;
+    margin-bottom: 0; }
+    #general-reports .checkboxes .coral-Well .realtime, #general-reports .checkboxes .coral-Well .total {
+      margin-right: 1rem; }
+#general-reports .coral-Selector {
+  vertical-align: middle; }
+#general-reports export-general {
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  top: 1px; }
+
+#trend-graph item-selections i {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative; }
+#trend-graph .coral-Well {
+  display: table; }
+#trend-graph .graph-panel {
+  visibility: hidden;
+  min-width: 1032px; }
+  #trend-graph .graph-panel.visible {
+    visibility: visible; }
+#trend-graph .coral-Table-headerCell {
+  font-family: adobe-clean;
+  font-weight: 400; }
+#trend-graph .graph-item {
+  width: 25px;
+  height: 3px;
+  top: -.1rem;
+  margin-right: 0.5rem; }
+  #trend-graph .graph-item:before {
+    content: none; }
+#trend-graph export-trend {
+  float: right;
+  margin-right: .5rem; }
+#trend-graph .btn-graph {
+  float: right;
+  padding: 0 1rem 0 .7rem;
+  vertical-align: middle; }
+  #trend-graph .btn-graph i {
+    border: 2px solid #fff;
+    padding: 2px;
+    vertical-align: middle;
+    margin-right: .5rem;
+    font-size: .9rem; }
+  #trend-graph .btn-graph:disabled i {
+    border-color: #d2d2d2; }
+#trend-graph .export-to-csv {
+  vertical-align: middle; }
+  #trend-graph .export-to-csv i {
+    margin-right: .6rem;
+    vertical-align: middle;
+    position: relative;
+    top: -.1rem; }
+
+.note {
+  font-family: adobe-clean;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.2rem;
+  float: left;
+  width: 660px; }
+
+.search-items-heading {
+  border-bottom: 1px solid #666;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem; }
+
+.run-report, .btn-graph {
+  float: right; }
+
+#cloudVizChart {
+  width: 1000px;
+  height: 400px; }
+
+#trend-bulk-export export-trend {
+  float: right; }
+
+.init-msg, .no-contents-msg, .subfoldercount-msg {
+  padding: .5rem; }
+
+.subfoldercount-msg {
+  font-family: adobe-clean;
+  font-weight: 300; }
+
+.cv-legend-standard-entry {
+  overflow: hidden; }
+
+.sort-arrows {
+  left: .5rem;
+  top: -.6rem; }
+
+.item-id {
+  font-family: adobe-clean;
+  font-weight: 400;
+  font-size: .8rem; }
+
+.trend-table th {
+  max-width: 10rem;
+  min-width: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+#dashboard #date-range {
+  vertical-align: middle;
+  width: 6rem;
+  margin-right: 0.6rem; }
+  #dashboard #date-range button {
+    min-width: 5rem; }
+#dashboard #unique-users {
+  padding: .5rem;
+  margin: 1rem 0 1.5rem 0;
+  position: relative; }
+  #dashboard #unique-users .cv-legend-entry {
+    height: 70.5px; }
+  #dashboard #unique-users .normalize {
+    top: 11px;
+    margin-right: 0; }
+  #dashboard #unique-users .panel-title {
+    margin: 0.2rem 0 0.5rem 0.2rem;
+    display: inline-block;
+    font-size: 1.1rem; }
+  #dashboard #unique-users .panel-title {
+    position: relative;
+    z-index: 2; }
+  #dashboard #unique-users .cv-bg {
+    left: 0 !important; }
+  #dashboard #unique-users .cv-legend.right {
+    overflow-y: hidden;
+    height: 284px !important; }
+#dashboard .coral-TabPanel {
+  margin-bottom: 1.5rem; }
+  #dashboard .coral-TabPanel .cv-bg {
+    left: 0 !important; }
+  #dashboard .coral-TabPanel .cv-legend-entry.inactive {
+    color: #afafaf; }
+  #dashboard .coral-TabPanel .cv-legend-title {
+    font-size: 1rem;
+    font-weight: bold; }
+  #dashboard .coral-TabPanel .delta-uniques {
+    font-size: 0.85rem; }
+  #dashboard .coral-TabPanel .cv-legend-details {
+    margin-top: 0.5rem; }
+#dashboard .coral-TabPanel-tab {
+  font-size: 1.1rem; }
+  #dashboard .coral-TabPanel-tab.is-active {
+    font-weight: normal; }
+#dashboard .coral-TabPanel-content {
+  padding: 0.5rem; }
+#dashboard #fixed-width {
+  width: 1050px; }
+#dashboard .coral-TabPanel-navigation > .coral-TabPanel-tab:focus {
+  text-decoration: none; }
+#dashboard .loading {
+  text-align: center; }
+  #dashboard .loading .overlay {
+    background-color: #e6e6e6; }
+  #dashboard .loading .coral-Wait {
+    margin-top: 130px; }
+#dashboard .coral-SelectList {
+  max-height: none; }
+#dashboard #trait-type-select {
+  float: right;
+  width: 300px; }
+  #dashboard #trait-type-select label {
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    top: 0.4rem;
+    margin-right: .3rem;
+    float: right; }
+  #dashboard #trait-type-select aam-select {
+    float: right; }
+#dashboard aam-select {
+  vertical-align: middle; }
+  #dashboard aam-select button {
+    height: 2rem; }
+  #dashboard aam-select .coral-SelectList-item {
+    padding: 0.4rem 0.625rem; }
+  #dashboard aam-select .coral-Select-button-text {
+    line-height: normal; }
+#dashboard .sorted-by {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0.7rem;
+  font-size: .8rem; }
+#dashboard .normalize {
+  position: absolute;
+  top: -30px;
+  bottom: 13px;
+  right: 310px;
+  z-index: 1; }
+
+.no-permissions {
+  display: inline-block; }
+
+.dashboard-cv-uniques-label {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  left: 3px; }
+
+/*# sourceMappingURL=reports.css.map */

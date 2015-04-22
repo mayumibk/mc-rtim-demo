@@ -1,0 +1,535 @@
+{
+  "PKey" : "wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg",
+  "activities" :
+  {
+    "activity" :
+    {
+      "delivery4" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlAIty1YgZmTIQAuZPV_4pDm7cR86ds8Rn13gAlFts_TY",
+        "actionType" : "prepare",
+        "affinity" : "",
+        "channel" : "email",
+        "collision" : "multiple",
+        "comment" : "",
+        "delivery" : null,
+        "delivery-cs" : "",
+        "deliveryIdScript" : "",
+        "deliverySel" : "explicit",
+        "deliveryTemplate" : null,
+        "deliveryTemplate-cs" : "",
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "delivery",
+        "ignoreTarget" : false,
+        "img" : "nms:activities/email.svg",
+        "initScript" : "",
+        "label" : "Follow-up Email",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "delivery",
+        "name" : "delivery4",
+        "onError" : "suspend",
+        "runOnSimulation" : true,
+        "script" : "",
+        "src" : "delivery4-src",
+        "targetSel" : "event",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlAIty1YgZmTIQAuZPV_4pDm7cR86ds8Rn13gAlFts_TY/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Follow-up Email (delivery4)",
+        "transitions" :
+        {
+          "done" :
+          {
+            "apiName" : "delivery4",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "",
+            "name" : "done",
+            "target" : "",
+            "title" : " (done)",
+            "x" : 830,
+            "y" : 144
+          },
+          "error" :
+          {
+            "apiName" : "delivery4",
+            "comment" : "",
+            "enabled" : false,
+            "label" : "Error",
+            "name" : "error",
+            "target" : "",
+            "title" : "Error (error)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlAIty1YgZmTIQAuZPV_4pDm7cR86ds8Rn13gAlFts_TY/wakeup/"
+        },
+        "x" : 725,
+        "xpathEditTarget" : "",
+        "y" : 120
+      },
+      "delivery5" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlv_nIPprKg1TpIxJpGu18nCvX56Cx7xfi0FF7RE5sC4s",
+        "actionType" : "prepareAndStart",
+        "affinity" : "",
+        "channel" : "email",
+        "collision" : "multiple",
+        "comment" : "",
+        "delivery" :
+        {
+          "PKey" : "8K-We4UAcqxwmNETYePGs0Fii10x0QVlsDp8jjsMVDY",
+          "id" : 4895091,
+          "nmsDocument-container" :
+          {
+            "title" : ""
+          },
+          "title" : "Retargeting Email"
+        },
+        "delivery-cs" : "",
+        "deliveryIdScript" : "",
+        "deliverySel" : "explicit",
+        "deliveryTemplate" : null,
+        "deliveryTemplate-cs" : "",
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "delivery",
+        "ignoreTarget" : false,
+        "img" : "nms:activities/email.svg",
+        "initScript" : "",
+        "label" : "Remarketing Email",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "delivery",
+        "name" : "delivery5",
+        "onError" : "suspend",
+        "runOnSimulation" : true,
+        "script" : "",
+        "src" : "delivery5-src",
+        "targetSel" : "event",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlv_nIPprKg1TpIxJpGu18nCvX56Cx7xfi0FF7RE5sC4s/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Remarketing Email (delivery5)",
+        "transitions" :
+        {
+          "done" :
+          {
+            "apiName" : "delivery5",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "",
+            "name" : "done",
+            "target" : "wait1",
+            "title" : " (done)",
+            "x" : 0,
+            "y" : 0
+          },
+          "error" :
+          {
+            "apiName" : "delivery5",
+            "comment" : "",
+            "enabled" : false,
+            "label" : "Error",
+            "name" : "error",
+            "target" : "",
+            "title" : "Error (error)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0NbkDodqmIXPff4BZqqwPTlv_nIPprKg1TpIxJpGu18nCvX56Cx7xfi0FF7RE5sC4s/wakeup/"
+        },
+        "x" : 325,
+        "xpathEditTarget" : "",
+        "y" : 120
+      },
+      "extract1" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OfD8_MWLV5bp1Ps8F56m1gKitaa9vtiW68-j-e5avc1w",
+        "affinity" : "",
+        "alwaysExtractFromSource" : false,
+        "collision" : "multiple",
+        "comment" : "",
+        "concatenateSegmentCode" : false,
+        "conditionLink" :
+        {
+        },
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "extract",
+        "img" : "nms:activities/extract.svg",
+        "initScript" : "",
+        "label" : "Transactions?",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "extract",
+        "name" : "extract1",
+        "onError" : "suspend",
+        "recipientLink" : "",
+        "resource" : "",
+        "runOnSimulation" : true,
+        "select" :
+        {
+          "alias" : "",
+          "name" : "",
+          "node" :
+          [
+          ],
+          "ref" : ""
+        },
+        "src" : "delivery5",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OfD8_MWLV5bp1Ps8F56m1gKitaa9vtiW68-j-e5avc1w/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Transactions? (extract1)",
+        "transitions" :
+        {
+          "done" :
+          {
+            "apiName" : "delivery5",
+            "code" : "",
+            "comment" : "",
+            "enabled" : false,
+            "label" : "",
+            "name" : "done",
+            "target" : "",
+            "title" : " (done)",
+            "x" : 0,
+            "y" : 0
+          },
+          "extractOutput" :
+          [
+          ],
+          "remainder" :
+          {
+            "apiName" : "delivery5",
+            "code" : "",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "No",
+            "name" : "remainder",
+            "target" : "delivery4",
+            "title" : "No (remainder)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OfD8_MWLV5bp1Ps8F56m1gKitaa9vtiW68-j-e5avc1w/wakeup/"
+        },
+        "x" : 610,
+        "xpathEditTarget" : "",
+        "y" : 120
+      },
+      "query1" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OAdHoXOv_fLSvNzNV_5bxGaD02qlpGB7VADgo-42u9QA",
+        "activeHaving" : false,
+        "affinity" : "",
+        "collision" : "multiple",
+        "comment" : "",
+        "conditionLink" :
+        {
+        },
+        "distinct" : true,
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "query",
+        "groupBy" : false,
+        "having" :
+        {
+          "condition" :
+          [
+          ]
+        },
+        "humanCond" : "",
+        "img" : "nms:activities/query.svg",
+        "initScript" : "",
+        "keepAllExtraData" : false,
+        "label" : "Audience Selection",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "query",
+        "name" : "query1",
+        "noAutoPk" : false,
+        "noAutoPkFilter" : false,
+        "onError" : "suspend",
+        "outputFilter" :
+        {
+          "condition" :
+          [
+          ],
+          "ctx" : "",
+          "displayFilter" : "",
+          "extendedSchema" : "",
+          "filterName" : "",
+          "forceHint" : ""
+        },
+        "recipientLink" : "",
+        "resource" : "profile",
+        "runOnSimulation" : true,
+        "select" :
+        {
+          "alias" : "",
+          "name" : "",
+          "node" :
+          [
+          ],
+          "ref" : ""
+        },
+        "src" : "query1-src",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OAdHoXOv_fLSvNzNV_5bxGaD02qlpGB7VADgo-42u9QA/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Audience Selection (query1)",
+        "transitions" :
+        {
+          "result" :
+          {
+            "apiName" : "query1",
+            "code" : "",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "",
+            "name" : "result",
+            "target" : "delivery5",
+            "title" : " (result)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "useSource" : false,
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0OAdHoXOv_fLSvNzNV_5bxGaD02qlpGB7VADgo-42u9QA/wakeup/"
+        },
+        "where" :
+        {
+          "condition" :
+          [
+          ],
+          "ctx" : "",
+          "displayFilter" : "",
+          "extendedSchema" : "",
+          "filterName" : "",
+          "filteringResource" : "profile",
+          "filteringSchema" : "nms:recipient",
+          "forceHint" : ""
+        },
+        "x" : 199,
+        "xpathEditTarget" : "",
+        "y" : 120
+      },
+      "start1" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0Mb0pjKnABTrq6Ye76B9bQu2CZg4AiH3haswZwnJ3fvyg",
+        "affinity" : "",
+        "collision" : "multiple",
+        "comment" : "",
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "start",
+        "img" : "xtk:activities/start.svg",
+        "initScript" : "",
+        "label" : "Start",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "start",
+        "name" : "start1",
+        "onError" : "suspend",
+        "runOnSimulation" : true,
+        "src" : "",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0Mb0pjKnABTrq6Ye76B9bQu2CZg4AiH3haswZwnJ3fvyg/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Start (start1)",
+        "transitions" :
+        {
+          "initial" :
+          {
+            "apiName" : "",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "",
+            "name" : "initial",
+            "target" : "query1",
+            "title" : " (initial)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0Mb0pjKnABTrq6Ye76B9bQu2CZg4AiH3haswZwnJ3fvyg/wakeup/"
+        },
+        "x" : 53,
+        "xpathEditTarget" : "",
+        "y" : 120
+      },
+      "wait1" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0MzfiTU30ghYrsS9yLfIG1SPHFTe5dpm_WTHehKow0ScQ",
+        "affinity" : "",
+        "collision" : "multiple",
+        "comment" : "",
+        "delay" : "P2D",
+        "errorLimit" : 0,
+        "errors" : "",
+        "extension" : "",
+        "form" : "wait",
+        "img" : "xtk:activities/hourglass.svg",
+        "initScript" : "",
+        "label" : "Wait 2 Days",
+        "mainSet" : "",
+        "mask" : "none",
+        "maxExecutionTime" : "PT0S",
+        "metadata" : "wait",
+        "name" : "wait1",
+        "onError" : "suspend",
+        "runOnSimulation" : true,
+        "src" : "delivery5",
+        "tempMetadata" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0MzfiTU30ghYrsS9yLfIG1SPHFTe5dpm_WTHehKow0ScQ/tempMetadata/"
+        },
+        "timezone" : "_inherit_",
+        "title" : "Wait 2 Days (wait1)",
+        "transitions" :
+        {
+          "transition" :
+          {
+            "apiName" : "delivery5",
+            "comment" : "",
+            "enabled" : true,
+            "label" : "",
+            "name" : "transition",
+            "target" : "extract1",
+            "title" : " (transition)",
+            "x" : 0,
+            "y" : 0
+          }
+        },
+        "wakeup" :
+        {
+          "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/iraLHLaQ1JUdCjnVscciQhkyuURBaNSQBsAtaXlfB0MzfiTU30ghYrsS9yLfIG1SPHFTe5dpm_WTHehKow0ScQ/wakeup/"
+        },
+        "x" : 465,
+        "xpathEditTarget" : "",
+        "y" : 120
+      }
+    }
+  },
+  "advanced" : false,
+  "affinity" : "",
+  "alertMessage" : "",
+  "alertMode" : "",
+  "builtIn" : false,
+  "campaign" :
+  {
+    "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+    "title" : "Campaign - The Phoenician (CMP62)"
+  },
+  "commands" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/commands/"
+  },
+  "configurationError" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/configurationError/"
+  },
+  "created" : "2015-02-18 16:24:51.482Z",
+  "createdBy" :
+  {
+    "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+    "title" : "Business administrator (businessAdmin)"
+  },
+  "deliveries" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6G7CqK-u2AvKfV5Vdfujbdd/deliveries/"
+  },
+  "desc" : "",
+  "errorLimit" : 0,
+  "executionState" :
+  {
+    "activities" :
+    [
+    ]
+  },
+  "geoUnit" :
+  {
+    "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "title" : "All (all)"
+  },
+  "history" : 30,
+  "hostname" : "acdemo",
+  "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg",
+  "icon" : "workflow",
+  "inProcess" : false,
+  "isTemplate" : false,
+  "label" : "Workflow - Retargeting",
+  "lastModified" : "2015-03-05 16:49:39.460Z",
+  "logicalStatus" : "edition",
+  "logs" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6GzoViyqfteOvZwOVz0Su6Y/logs/"
+  },
+  "mainDate" : "",
+  "modifiedBy" : null,
+  "name" : "WKF90",
+  "onError" : "suspend",
+  "orgUnit" :
+  {
+    "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "title" : "All (all)"
+  },
+  "processId" : 0,
+  "production" : "normal",
+  "program" : null,
+  "resource" : "profile",
+  "script" : "",
+  "showSQL" : false,
+  "state" : "edit",
+  "tasks" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2QevuFEhEpX-3x-umpuMc8G6GzoViyqfteOvZwOVz0Su6Y/tasks/"
+  },
+  "template" :
+  {
+    "PKey" : "iraLHLaQ1JUdCjnVscciQtkmeSGxBwn19mmO6ZfXfvR0u_JikjdWUIoAL-PVouCl",
+    "title" : "New workflow (newWorkflow)"
+  },
+  "thumbnail" : "/nl/img/thumbnails/defaultWorkflow.png",
+  "title" : "Workflow - Retargeting (WKF90)",
+  "variables" : ""
+}

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html class="wf-adobeclean-i4-active wf-adobeclean-n3-active wf-adobeclean-n4-active wf-adobeclean-n7-active wf-adobecleancondensed-n4-active wf-adobecleancondensed-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Edit Customer Attribute Source</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/touchicon.png">
+
+    <script>if(!window.console){var f=function(){};console={log:f,trace:f,debug:f,info:f,warn:f,error:f};}</script>
+    <script type="text/javascript" src="/js/jquery.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/utils.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/granite.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/shared.lc-1424416731228-lc.min.js"></script>
+
+    <link rel="stylesheet" href="/css/mac-coralui2.lc-1424416731228-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/mac-cloudviz.lc-1424416731228-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/mac.crs.datasourcepage.lc-1424416731228-lc.min.css" type="text/css">
+
+
+    <script type="text/javascript" src="/js/mac-coralui2.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/underscore.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/mac-cloudviz.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/mac.crs.datasourcepage.lc-1424416731228-lc.min.js"></script>
+
+
+    <script>
+        (function ($) {
+            function ssoKeepAlive() {
+                $.ajax({
+                    url:"https://adobeid-na1.services.adobe.com/ims/check/v1/token?client_id=MarketingCloud11&scope=openid%2cavatar%2caudiencemanager_api%2cread_organizations%2cupdate_profile.first_name%2cupdate_profile.last_name%2cupdate_profile.phoneNumber%2cupdate_profile.job_function%2cadditional_info.job_function%2csession%2cadditional_info.projectedProductContext%2cupdate_profile.preferred_languages&_=1425052891446&callback=?",
+                    dataType:"jsonp",
+                    success:function (data) {
+                        window.console && console.log(new Date(), data);
+                        if (data.error) {
+                            // check failed -> redirect to logout
+                            //top.location.href = "/libs/cq/core/content/login.logout.html"
+                        } else {
+                            refreshSession(data.session, data.access_token);
+                        }
+                    }
+                });
+            }
+            function refreshSession(session, accessToken) {
+                $.ajax({
+                    url:session + "?bearer_token=" + accessToken + "&callback=?",
+                    dataType:"jsonp"
+                });
+            }
+            $(window).on("load", function () {
+                setTimeout(ssoKeepAlive, 0);
+                setInterval(ssoKeepAlive, 10 * 60 * 1000);
+            });
+        })(jQuery);
+    </script>
+
+</head>
+<body class="coral--light"><div class="mboxDefault" id="mbox-target-global-mbox-1425052891648-821675" style="visibility: visible; display: block;"></div>
+<div id="page-info" data-attribute-limit="" data-locale="en_US" folder-name="">
+
+    <div id="infoModal" class="coral-Modal" data-type="info">
+        <div class="coral-Modal-header">
+            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+            <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+            </button>
+        </div>
+        <div class="coral-Modal-body">
+            <p></p>
+        </div>
+    </div>
+    <div class="layer-container">
+        <div class="layer datasource-page" style="display: block;">
+
+
+
+
+
+
+
+
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> Edit Customer Attribute Source </a>
+                    <button id="save-datasource" class="coral-Button coral-Button--primary right disableAndOpaque">Save</button>
+                    <button class="coral-Button exit right">Cancel</button>
+                </nav>
+            </header>
+            <div class="container with-margin">
+                <div class="info-container">
+                    <div class="datasource-info left">
+                        <div class="fields">
+                            <div class="fieldRow">
+                                <label>Name &amp; Description</label>
+                                <div class="border-container">
+                                    <div class="border-content">
+                                        <input type="text" name="title" class="datasource-title coral-Textfield" value="Chelsea FC CRM" placeholder="Name">
+                                        <textarea name="description" class="top-margin datasource-des coral-Textfield coral-Textfield--multiline" placeholder="Description (Optional)">Fan preferences, loyalty detail and purchase history for Chelsea fans.</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fieldRow">
+                                <label>Alias ID</label>
+                                <div class="border-container">
+                                    <div class="border-content">
+                                        <div>To track data, enter a unique ID that will be used in your Customer Attribute Source Code. ID should be unique, all lowercase with no spaces. Click <a class="coral-Link" href="http://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_implement.html" target="_blank">here</a> for instructions.</div>
+                                        <div class="ic-input-region">
+                                            <input type="text" name="integrationCode" class="datasource-ic coral-Textfield" value="ALLChelseaFCLoyal">
+                                            <span class="coral-Icon coral-Icon--infoCircle" data-target="#aliasPopover" data-toggle="popover"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="aliasPopover" class="coral-Popover">
+                        <div class="coral-Popover-content coral-Modal--info">
+                            <div class="coral-Modal-header">
+                                <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS coral-Icon--infoCircle no-margin"></i>
+                                <h2 class="coral-Modal-title coral-Heading coral-Heading--2">Customer Attributes Alias ID</h2>
+                                <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                                    <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                                </button>
+                            </div>
+                            <div class="coral-Modal-body">
+                                <p>In order for your site to track data correctly, you need to enter a unique ID to be used in your Customer Attribute code. For further assitance with this step refer to Implementation <a class="coral-Link" href="http://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_implement.html" target="_blank">Instructions</a>.</p>
+                                <img src="/images/aliasGuide.png" alt="Guide">
+                                <div class="image-explanation">
+                                    <div>Customer Attributes Alias ID</div>
+                                    <div>Implementation Code on Website</div>
+                                    <div>CRM Data in Uploaded CSV File</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-upload-container">
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="schema-mismatch-modal" class="coral-Modal">
+                        <div class="coral-Modal-header">
+                            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                            <h2 class="coral-Modal-title coral-Heading coral-Heading--2">Schema Mismatch</h2>
+                            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                            </button>
+                        </div>
+                        <div class="coral-Modal-body">
+                            <p></p>
+                        </div>
+                        <div class="coral-Modal-footer">
+                            <button type="button" class="coral-Button" data-dismiss="modal">Reject</button>
+                            <button type="button" class="coral-Button coral-Button--primary" data-dismiss="modal">Continue</button>
+                        </div>
+                    </div>
+                    <div class="ftp-container ">
+                        <label class="description-label">File Upload</label>
+                        <div class="border-container">
+                            <div class="upload-folder  hidden">
+
+
+
+
+
+
+
+                                <script id="ftp-account-template" type="text/template">
+                                    <div class="coral-Alert coral-Alert--error">
+                                        <button type="button" class="coral-MinimalButton coral-Alert-closeButton" title="Close" data-dismiss="alert">
+                                            <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon"></i>
+                                        </button>
+                                        <i class="coral-Alert-typeIcon coral-Icon coral-Icon--sizeS coral-Icon--alert"></i>
+                                        <strong class="coral-Alert-title">ERROR</strong>
+                                        <div class="coral-Alert-message"></div>
+                                    </div>
+
+                                    <div class="coral-Wait coral-Wait--center hidden"></div>
+                                </script>
+
+                                <div class="border-content">
+                                    <div>
+                                        Your data file must comply with the file <span href="#fileRequirementsModal" data-toggle="modal" data-type="info" class="coral-Link">Upload Requirements</span> and must not exceed 100MB. If your file is too big or you have data that will need to be uploaded on a reoccuring basis you can <span class="coral-Link setup-ftp-account">FTP</span> your files instead.
+                                    </div>
+                                    <div id="dropzone">
+                                        <i class="coral-Icon coral-Icon--close right"></i>
+                                        <span class="center browse">Drag and drop CSV/ZIP/GZIP file here, or
+                                            <span class="coral-FileUpload" data-upload-url="/crs/freestone-inc/datasources/14260.uploadCSV" data-auto-start="true" data-init="fileupload"><span class="coral-FileUpload-trigger coral-Link"><input class="coral-FileUpload-input" type="file" name="file" data-file-name-parameter="file.fileName" title="Browse" data-usehtml5="true" data-size-limit="100000000" data-mime-types="[&quot;text/csv&quot;,&quot;application/vnd.ms-excel&quot;,&quot;.csv&quot;,&quot;.gz&quot;,&quot;.zip&quot;,&quot;application/x-zip-compressed&quot;,&quot;application/zip&quot;,&quot;application/gzip&quot;]" data-dropzone="#dropzone" id="coral-1"><label for="coral-1">Browse</label></span></span></span>
+        <span id="progress-zone" class="coral-Progress hidden center coral-Progress--large">
+            <div class="coral-Progress-bar">
+                <div class="coral-Progress-status" style="width: 0%;"></div>
+            </div>
+            <label class="coral-Progress-label">0%</label>
+         </span>
+                                        <div class="fileUploadProgressText"><label></label></div>
+                                    </div>
+
+                                    <div id="fileRequirementsModal" class="coral-Modal">
+                                        <div class="coral-Modal-header"><i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                                            <h2 class="coral-Modal-title coral-Heading coral-Heading--2">File Requirements</h2>
+                                            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                                                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                                            </button>
+                                        </div>
+                                        <div class="coral-Modal-body">
+                                            <ul>
+                                                <li>Must be comma separated.</li>
+                                                <li>Data must begin with the header.</li>
+                                                <li>File type must be .csv only.</li>
+                                                <li>For other supported upload format (.gz, .zip), please see the <a href="https://marketing-beta.adobe.com/resources/help/crm/crs_data_file.html" class="coral-Link" target="_blank">help documentation</a>.</li>
+                                                <li>This service allows you to upload customer data to the Marketing Cloud. You are responsible for using customer data in compliance with your privacy policies and applicable laws.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="validate-schema  hidden">
+                                <div class="border-content">
+                                    <label class="label-description">Validate Schema for your uploaded data file. <span class="coral-Link setup-ftp-account">View FTP Info</span>.</label>
+                                    <button class="coral-Button validate-schema-action">Validate Schema</button>
+                                    <div class="wait coral-Wait hidden"></div>
+                                </div>
+                            </div>
+                            <div class="file-list">
+                                <div class="border-content">
+                                    <div class="action-container">
+                                        <div class="right">
+						<span class="right diagram-time-selection hidden">
+							<span data-time-range="12">Last 12 Hours</span>
+                        	<i class="coral-Icon coral-Icon--triangleDown coral-Icon--sizeXS icon" href="#"></i>
+                    	</span>
+                        <span class="right upload-action" data-target="#actionPopover" data-toggle="popover">
+	                        <i class="coral-Icon coral-Icon--gear coral-Icon--sizeS icon" href="#"></i>
+    	                    <span>Actions</span>
+        	            </span>
+                                        </div>
+                                    </div>
+                                    <div id="dataLineChart" class="" style="height: 100px;">
+                                        <div class="wait coral-Wait hidden"></div>
+                                        <div class="diagramContainer"><div class="cv-error">Failed to load diagram data for this attribute source.</div></div>
+                                    </div>
+                                    <div id="actionPopover" class="coral-Popover">
+                                        <div class="coral-Popover-content">
+                                            <ul class="coral-SelectList is-visible is-inline" data-init="selectlist" role="listbox" aria-hidden="false" tabindex="0">
+                                                <!--<li>
+                                                <a class="upload-file-action">Add New Data</a>
+                                                </li>-->
+                                                <li class="add-data-action coral-SelectList-item coral-SelectList-item--option" role="option" id="coral-3">
+                                                    <i class="coral-SelectList-item-icon coral-Icon coral-Icon--addCircle coral-Icon--sizeS"></i>Add Data
+                                                </li>
+                                                <li class="edit-schema-action coral-SelectList-item coral-SelectList-item--option" role="option" id="coral-4">
+                                                    <i class="coral-SelectList-item-icon coral-Icon coral-Icon--table coral-Icon--sizeS"></i>View/Edit Schema
+                                                </li>
+                                                <li class="setup-ftp-account coral-SelectList-item coral-SelectList-item--option" role="option" id="coral-5">
+                                                    <i class="coral-SelectList-item-icon coral-Icon coral-Icon--upload coral-Icon--sizeS"></i>FTP Setup
+                                                </li>
+                                                <li class="id-lookup coral-SelectList-item coral-SelectList-item--option" role="option" id="coral-6">
+                                                    <i class="coral-SelectList-item-icon coral-Icon coral-Icon--user coral-Icon--sizeS"></i>Id Lookup
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul id="diagram-time-select" class="coral-SelectList" data-init="selectlist" data-autohide="true" role="listbox" aria-hidden="true" tabindex="-1">
+                                        <li class="coral-SelectList-item coral-SelectList-item--option" data-value="12" role="option" id="coral-8">Last 12 Hours</li>
+                                        <li class="coral-SelectList-item coral-SelectList-item--option" data-value="24" role="option" id="coral-9">Last 24 Hours</li>
+                                    </ul>
+                                    <div class="content top-margin">
+                                        <ul class="list">
+                                            <li class="header">
+                                                <div class="row fixed listHeader">
+                                                    <div class="cell middle file-name">File Name</div>
+                                                    <div class="cell middle file-date">Date Uploaded</div>
+                                                    <div class="cell middle file-upload-type">Upload Type</div>
+                                                    <div class="cell middle file-total-record">Records</div>
+                                                    <div class="cell middle file-new-record">New Records</div>
+                                                    <div class="cell middle file-updated-record">Updated Records</div>
+                                                    <div class="cell middle file-status">Status</div>
+                                                    <div class="cell middle expand-row"></div>
+                                                </div>
+                                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            <li class="listItem all-files" data-open-target="file-detail">
+                                                <div class="row fixed ItemRow">
+                                                    <div class="cell middle file-name" style="font-weight: bold;">All Data</div>
+                                                    <div class="cell middle file-date">-</div>
+                                                    <div class="cell middle file-upload-type">-</div>
+                                                    <div class="cell middle file-total-record">5000</div>
+                                                    <div class="cell middle file-new-record">2500</div>
+                                                    <div class="cell middle file-updated-record">0</div>
+                                                    <div class="cell middle file-status">-</div>
+                                                    <div class="cell middle expand-row coral-Icon coral-Icon--accordionDown"></div>
+                                                </div>
+                                            </li>
+
+                                            <li class="listItem file-detail">
+                                                <div class="row fixed ItemRow">
+                                                    <div class="cell middle file-name">StarwoodCRM.csv</div>
+                                                    <div class="cell middle file-date">Fri Feb 20 22:59:56 UTC 2015</div>
+                                                    <div class="cell middle file-upload-type">http</div>
+                                                    <div class="cell middle file-total-record">2500</div>
+                                                    <div class="cell middle file-new-record">2500</div>
+                                                    <div class="cell middle file-updated-record">0</div>
+                                                    <div class="cell middle file-status">
+
+                                                        COMPLETE
+
+                                                    </div>
+                                                    <div class="cell middle expand-row"></div>
+                                                </div>
+                                            </li>
+
+                                            <li class="listItem file-detail">
+                                                <div class="row fixed ItemRow">
+                                                    <div class="cell middle file-name">StarwoodCRM.csv</div>
+                                                    <div class="cell middle file-date">Fri Feb 20 22:58:59 UTC 2015</div>
+                                                    <div class="cell middle file-upload-type">http</div>
+                                                    <div class="cell middle file-total-record">2500</div>
+                                                    <div class="cell middle file-new-record">0</div>
+                                                    <div class="cell middle file-updated-record">0</div>
+                                                    <div class="cell middle file-status">
+
+                                                        COMPLETE
+
+                                                    </div>
+                                                    <div class="cell middle expand-row"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="center wait-container hidden">
+                                            <div class="coral-Wait"></div>
+                                        </div>
+                                    </div>
+                                    <div class="coral-Wait hidden"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="step next-step hidden">
+                                div class="step-work ftp-settings">
+                                    <label class="description-label">FTP Settings</label>--%>
+                                    <label class="label-description">Upload files for this attribute source to the following FTP folder only&#x3a; <b>/<span class="folder-name">TestFolder</span></b></label>--%>
+                                    <button class="button retrieve-files">Retrieve Files</button>--%>
+                                </div>
+                    -->
+
+                </div>
+
+                <div class="configure-solution-container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="solution-list-container ">
+                        <div class="add-solution-container ">
+                            <label class="description-label">Configure Subscription</label>
+                            <div class="border-container">
+                                <div class="border-content">
+                                    <label class="label-description">Configure a solution from Marketing Cloud to interface with this attribute source and view in reports.</label>
+                                    <button class="coral-Button add-solution">Add Subscription</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="solution-list hidden">
+                            <label class="description-label">Configure Subscription</label>
+                            <div class="border-container">
+                                <div class="border-content">
+                                    <div>
+                    <span class="right add-subcription">
+                        <i class="coral-Icon coral-Icon--addCircle coral-Icon--sizeS small"></i>
+                        <span>New</span>
+                    </span>
+                                    </div>
+                                    <div class="content top-margin">
+                                        <ul class="list">
+                                            <li class="header">
+                                                <div class="row fixed listHeader">
+                                                    <div class="cell middle delete-row"></div>
+                                                    <div class="cell middle solution-name">Solution</div>
+                                                    <div class="cell middle solution-attribute">Attribute Mapped</div>
+                                                    <div class="cell middle solution-record">Records Sent</div>
+                                                    <div class="cell middle expand-row"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="solution-edit-modal" class="coral-Modal">
+                                        <div class="coral-Modal-header">
+                                            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                                            <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+                                            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                                                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                                            </button>
+                                        </div>
+                                        <div class="coral-Modal-body">
+                                            <p></p>
+                                        </div>
+                                        <div class="coral-Modal-footer">
+                                            <button type="button" class="coral-Button" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="coral-Button coral-Button--primary" data-dismiss="modal">Save</button>
+                                        </div>
+                                    </div>
+                                    <div id="confirm-delete-modal" class="coral-Modal">
+                                        <div class="coral-Modal-header">
+                                            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                                            <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+                                            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                                                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                                            </button>
+                                        </div>
+                                        <div class="coral-Modal-body">
+                                            <p></p>
+                                        </div>
+                                        <div class="coral-Modal-footer">
+                                            <button type="button" class="coral-Button" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="coral-Button coral-Button--primary" data-dismiss="modal">Save</button>
+                                        </div>
+                                    </div>
+                                    <div class="center wait-container hidden">
+                                        <div class="coral-Wait"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="activate-datasource-container">
+                    <label class="description-label">Activate</label>
+                    <div class="border-container">
+                        <div class="activate-content border-content">
+                            <label class="active-datasource coral-Radio">
+                                <input class="coral-Radio-input" type="radio">
+                                <span class="coral-Radio-checkmark"></span>
+                                <span class="coral-Radio-description">Active</span>
+                            </label>
+                            <label class="inactive-datasource coral-Radio">
+                                <input class="coral-Radio-input" type="radio" checked="">
+                                <span class="coral-Radio-checkmark"></span>
+                                <span class="coral-Radio-description">Inactive</span>
+                            </label>
+                            <span class="coral-Icon coral-Icon--infoCircle coral-icon--sizeS" data-init="quicktip" data-quicktip-type="info" data-quicktip-arrow="left" data-quicktip-content="Activating the attribute source will allow customer attribute data to flow down to subscribing solutions as the customer records you have uploaded are matched up with incoming ID signals from your website or application." aria-label="Activating the attribute source will allow customer attribute data to flow down to subscribing solutions as the customer records you have uploaded are matched up with incoming ID signals from your website or application." tabindex="0"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="waitIndicator" class="coral-Wait coral-Wait--large center hidden"></div>
+
+        </div>
+        <div class="layer schema-page" style="display: none;">
+
+
+
+
+
+
+
+
+
+
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> Validate Schema </a>
+                    <button class="save-schema coral-Button coral-Button--primary right disableAndOpaque">Save</button>
+                    <button class="back coral-Button right">Cancel</button>
+                </nav>
+            </header>
+
+            <div class="container">
+            </div>
+            <div class="wait-container hidden">
+                <div class="coral-Wait coral-Wait--large center"></div>
+            </div>
+            <div id="preview-data-modal" class="coral-Modal">
+                <div class="coral-Modal-header">
+                    <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                    <h2 class="coral-Modal-title coral-Heading coral-Heading--2">Preview Data</h2>
+                    <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                        <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                    </button>
+                </div>
+                <div class="coral-Modal-body">
+                    <div class="wait coral-Wait hidden center"></div>
+                    <div class="body-content">
+
+                    </div>
+                </div>
+                <div class="coral-Modal-footer">
+                    <button type="button" class="coral-Button coral-Button--primary" data-dismiss="modal">Okay!</button>
+                </div>
+            </div>
+        </div>
+        <div class="layer solution-page" style="display: none;">
+
+
+
+
+
+
+
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> Configure Subscription </a>
+                    <button class="save-solution coral-Button coral-Button--primary right disableAndOpaque">Save</button>
+                    <button class="back coral-Button right">Cancel</button>
+                </nav>
+            </header>
+
+            <div class="container with-margin">
+            </div>
+            <div class="wait-container hidden">
+                <div class="coral-Wait coral-Wait--large center"></div>
+            </div>
+
+
+
+        </div>
+        <div class="layer ftp-setup-page" style="display: none;">
+
+
+
+
+
+
+
+
+
+
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> FTP Setup and Upload </a>
+                    <button class="back done-ftp-setup coral-Button coral-Button--primary right">Done</button>
+                    <button class="back coral-Button right">Cancel</button>
+                </nav>
+            </header>
+
+            <div class="container with-margin">
+            </div>
+            <div class="wait-container hidden">
+                <div class="coral-Wait coral-Wait--large center"></div>
+            </div>
+        </div>
+        <div class="layer lookup-page" style="display: none;">
+
+
+
+
+
+
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> ID Lookup </a>
+                    <button class="back done-id-lookup coral-Button coral-Button--primary right">Done</button>
+                </nav>
+            </header>
+
+            <div class="container with-margin">
+                <div class="id-lookup-container">
+                    <label class="description-label">ID Lookup</label>
+                    <div class="content">
+                        <div class="border-container">
+                            <div class="border-content step">
+                                <label class="label-description create-mode">Enter a Customer ID and view all the information that is known about the user</label>
+                                <form class="fields" id="CID-lookup" method="GET" novalidate="novalidate">
+                                    <div class="fieldRow">
+                                        <input type="text" class="coral-Textfield id-lookup-field">
+                                        <button type="submit" class="coral-Button coral-Button--primary" disabled="">Start Lookup</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="border-content lookup-details">
+                            <!--- CID Lookup Details here -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="wait-container hidden">
+                <div class="coral-Wait coral-Wait--large center"></div>
+            </div>
+        </div>
+        <div id="generic-modal" class="coral-Modal">
+            <div class="coral-Modal-header">
+                <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+                <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+                <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                    <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+                </button>
+            </div>
+            <div class="coral-Modal-body">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hidden dtm-coachmarks-details" data-dtm-coachmarklocale="en" data-dtm-coachmarksolution="mac"></div>
+    <script type="text/javascript">
+        if(typeof _satellite !== "undefined" && _satellite) {
+            _satellite.pageBottom();
+        }
+    </script>
+
+
+</div><div id="error-ds-modal" class="coral-Modal coral-Modal--error" data-type="error" aria-hidden="true" role="dialog" aria-labelledby="modal-header1425052918082-label" aria-describedby="modal-header1425052918082-message" tabindex="-1" style="margin-left: -195px; margin-top: -279px; display: none;">
+    <div class="coral-Modal-header">
+        <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS coral-Icon--alert"></i>
+        <h2 class="coral-Modal-title coral-Heading coral-Heading--2" id="modal-header1425052918082-label" tabindex="0">Error</h2>
+        <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+            <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+        </button>
+    </div>
+    <div class="coral-Modal-body" id="modal-header1425052918082-message" role="document" tabindex="0"><title>Error 500 There was an error processing your request. It has been logged (ID 5ada5df4dbfe3187).</title><h2>HTTP ERROR 500</h2><p>Problem accessing /v1/metrics/14260/uploaded_profiles. Reason:</p><pre>    There was an error processing your request. It has been logged (ID 5ada5df4dbfe3187).</pre><p></p><br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                <br>                                                </div>
+</div>
+<link rel="stylesheet" href="/css/adobe-fonts.css" type="text/css">
+</body></html>

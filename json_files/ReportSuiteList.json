@@ -1,0 +1,52 @@
+[
+  {
+    "value" : "swhstarwoodver2",
+    "text" : "Starwood",
+    "name" : "Starwood"
+  },
+  {
+    "value" : "chelseafcplus",
+    "text" : "Chelsea FC Plus",
+    "name" : "chelseafcplus"
+  },
+  {
+    "value" : "hospitality",
+    "text" : "Hospitality",
+    "name" : "Hospitality"
+  },
+  {
+    "value" : "devgundersen",
+    "text" : "devgundersen",
+    "name" : "devgundersen"
+  },
+  {
+    "value" : "expedia3",
+    "text" : "Expedia UK",
+    "name" : "Expedia UK"
+  },
+  {
+    "value" : "devgundytest",
+    "text" : "Gundy Test",
+    "name" : "Gundy Test"
+  },
+  {
+    "value" : "websnapshot",
+    "text" : "New Websnapshot Rollup User",
+    "name" : "New Websnapshot Rollup User"
+  },
+  {
+    "value" : "omnituretraining",
+    "text" : "Omniture Training Videos",
+    "name" : "Omniture Training Videos"
+  },
+  {
+    "value" : "superstats_v6",
+    "text" : "SiteCatalyst Reports",
+    "name" : "SiteCatalyst Reports"
+  },
+  {
+    "value" : "geo1metrixxfsidev",
+    "text" : "we.Finance - Historical",
+    "name" : "we.Finance - Historical"
+  }
+]

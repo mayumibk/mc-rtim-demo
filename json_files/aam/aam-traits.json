@@ -1,0 +1,1116 @@
+{
+  "total" : 250,
+  "page" : 0,
+  "pageSize" : 50,
+  "list" :
+  [
+    {
+      "createTime" : 1429040296000,
+      "updateTime" : 1429040296000,
+      "sid" : 1831312,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$1,000,000+",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040242000,
+      "updateTime" : 1429040242000,
+      "sid" : 1831202,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$10,000 - $19,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040287000,
+      "updateTime" : 1429040287000,
+      "sid" : 1831292,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000 - $124,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040243000,
+      "updateTime" : 1429040243000,
+      "sid" : 1831203,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000 - $200,000",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040293000,
+      "updateTime" : 1429040293000,
+      "sid" : 1831306,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000 thru $149,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040287000,
+      "updateTime" : 1429040287000,
+      "sid" : 1831293,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$125,000 - $149,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040284000,
+      "updateTime" : 1429040284000,
+      "sid" : 1831285,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$15,000 - $19,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040288000,
+      "updateTime" : 1429040288000,
+      "sid" : 1831294,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$150,000 - $199,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040294000,
+      "updateTime" : 1429040294000,
+      "sid" : 1831307,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$150,000 thru $249,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040292000,
+      "updateTime" : 1429040292000,
+      "sid" : 1831302,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$2,500 thru $24,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040243000,
+      "updateTime" : 1429040243000,
+      "sid" : 1831204,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$20,000 - $29,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040284000,
+      "updateTime" : 1429040284000,
+      "sid" : 1831286,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$20,000 - $29,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040288000,
+      "updateTime" : 1429040288000,
+      "sid" : 1831295,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$200,000 - $249,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040244000,
+      "updateTime" : 1429040244000,
+      "sid" : 1831205,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$200,000+",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040292000,
+      "updateTime" : 1429040292000,
+      "sid" : 1831303,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$25,000 thru $49,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040289000,
+      "updateTime" : 1429040289000,
+      "sid" : 1831296,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$250,000 - $399,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040294000,
+      "updateTime" : 1429040294000,
+      "sid" : 1831308,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$250,000 thru $374,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040285000,
+      "updateTime" : 1429040285000,
+      "sid" : 1831287,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$30,000 - $39,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040244000,
+      "updateTime" : 1429040244000,
+      "sid" : 1831206,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$30,000- $39,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040295000,
+      "updateTime" : 1429040295000,
+      "sid" : 1831309,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$375,000 thru $499,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040245000,
+      "updateTime" : 1429040245000,
+      "sid" : 1831207,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$40,000 - $49,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040285000,
+      "updateTime" : 1429040285000,
+      "sid" : 1831288,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$40,000 - $49,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040289000,
+      "updateTime" : 1429040289000,
+      "sid" : 1831297,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$400,000 - $499,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040285000,
+      "updateTime" : 1429040285000,
+      "sid" : 1831289,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000 - $59,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040246000,
+      "updateTime" : 1429040246000,
+      "sid" : 1831208,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000 - $74,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040293000,
+      "updateTime" : 1429040293000,
+      "sid" : 1831304,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000 thru $74,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040295000,
+      "updateTime" : 1429040295000,
+      "sid" : 1831310,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$500,000 thru $749,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040290000,
+      "updateTime" : 1429040290000,
+      "sid" : 1831298,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$500,000+",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040286000,
+      "updateTime" : 1429040286000,
+      "sid" : 1831290,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$60,000 - $74,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040246000,
+      "updateTime" : 1429040246000,
+      "sid" : 1831209,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$75,000 - $99,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040286000,
+      "updateTime" : 1429040286000,
+      "sid" : 1831291,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$75,000 - $99,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040293000,
+      "updateTime" : 1429040293000,
+      "sid" : 1831305,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$75,000 thru $99,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040296000,
+      "updateTime" : 1429040296000,
+      "sid" : 1831311,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$750,000 thru $999,999",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040291000,
+      "updateTime" : 1429040291000,
+      "sid" : 1831301,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "-$2,499 thru $2,499",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040291000,
+      "updateTime" : 1429040291000,
+      "sid" : 1831300,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "-$20,000 thru -$2,500",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040246000,
+      "updateTime" : 1429040246000,
+      "sid" : 1831210,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "&lt;$10,000",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1428614976000,
+      "updateTime" : 1429020796000,
+      "sid" : 1824492,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Account - Registration - Complete",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=1824492",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57510,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1428614975000,
+      "updateTime" : 1429020795000,
+      "sid" : 1824491,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Account - Registration - Start",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=1824491",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57510,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1428614988000,
+      "updateTime" : 1429020849000,
+      "sid" : 1824523,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Account View",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=1824523",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57510,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040272000,
+      "updateTime" : 1429040272000,
+      "sid" : 1831262,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Accounting",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040229000,
+      "updateTime" : 1429040229000,
+      "sid" : 1831173,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Accounting and Finance",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1401989112000,
+      "updateTime" : 1429020781000,
+      "sid" : 993878,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Ad Engagement - 7 Day Expire - All Impressions",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=993878",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57517,
+      "dataSourceId" : 1950
+    },
+    {
+      "createTime" : 1401989113000,
+      "updateTime" : 1429020783000,
+      "sid" : 993881,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Ad Engagement - 7 Day Expire - All Impressions",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=993881",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57517,
+      "dataSourceId" : 1950
+    },
+    {
+      "createTime" : 1401989112000,
+      "updateTime" : 1429020782000,
+      "sid" : 993880,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Ad Engagement - Never Expire - All Impressions",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=993880",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57517,
+      "dataSourceId" : 1950
+    },
+    {
+      "createTime" : 1401989112000,
+      "updateTime" : 1429020781000,
+      "sid" : 993879,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Ad Engagment - ConsumerInfo Site Visitor",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=993879",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57517,
+      "dataSourceId" : 1950
+    },
+    {
+      "createTime" : 1401989111000,
+      "updateTime" : 1429020780000,
+      "sid" : 993877,
+      "traitType" : "RULE_BASED_TRAIT",
+      "name" : "Ad Engagment - Impression Clickers - Extension",
+      "description" : "",
+      "status" : "ACTIVE",
+      "url" : "csherman.demdex.net/event?d_sid=993877",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 57517,
+      "dataSourceId" : 1950
+    },
+    {
+      "createTime" : 1429040277000,
+      "updateTime" : 1429040277000,
+      "sid" : 1831272,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Amex Cardholders",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040231000,
+      "updateTime" : 1429040231000,
+      "sid" : 1831178,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Auto",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040254000,
+      "updateTime" : 1429040254000,
+      "sid" : 1831225,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Auto",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    },
+    {
+      "createTime" : 1429040234000,
+      "updateTime" : 1429040234000,
+      "sid" : 1831184,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "Auto Insurance",
+      "description" : "",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_SEGMENTS",
+        "MAP_TO_MODELS",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "pid" : 1577,
+      "folderId" : 87682,
+      "dataSourceId" : 20882
+    }
+  ]
+}

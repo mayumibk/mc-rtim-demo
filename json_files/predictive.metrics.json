@@ -1,0 +1,884 @@
+[
+  {
+    "id" : "metrics/bounces",
+    "name" : "Bounces",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/exits",
+    "name" : "Exits",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/averagetimespentonsite",
+    "name" : "Average Time Spent on Site (seconds)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/averagetimespentonpage",
+    "name" : "Average Time Spent on Page (seconds)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "metrics/carts",
+    "name" : "Unused",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/entries",
+    "name" : "Entries",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/checkouts",
+    "name" : "Unused",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/cartremovals",
+    "name" : "Unused",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/averagepagedepth",
+    "name" : "Average Page Depth",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "metrics/bouncerate",
+    "name" : "Bounce Rate",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/timespentvisitor",
+    "name" : "Time Spent per Visitor (seconds)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/occurrences",
+    "name" : "Occurrences",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/reloads",
+    "name" : "Reloads",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/itemtimespent",
+    "name" : "Total Seconds Spent",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitors",
+    "name" : "Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorshourly",
+    "name" : "Hourly Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorsdaily",
+    "name" : "Daily Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorsweekly",
+    "name" : "Weekly Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorsmonthly",
+    "name" : "Monthly Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorsquarterly",
+    "name" : "Quarterly Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visitorsyearly",
+    "name" : "Yearly Unique Visitors",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/cartadditions",
+    "name" : "Unused",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/orders",
+    "name" : "Bookings",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/pageviews",
+    "name" : "Page Views",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/singlepagevisits",
+    "name" : "Single Page Visits",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/cartviews",
+    "name" : "Unused",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/revenue",
+    "name" : "Revenue",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/units",
+    "name" : "Room Nights",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/visits",
+    "name" : "Visits",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event1",
+    "name" : "Hotel List - City Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event2",
+    "name" : "Hotel List - Address Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event3",
+    "name" : "Hotel List - Airport Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event4",
+    "name" : "Revenue - Local Currency",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event5",
+    "name" : "Product Views (Use this one)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event6",
+    "name" : "SPG Enrollments",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event7",
+    "name" : "SearchResults - Add Remove Favorite",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event8",
+    "name" : "Negative Conversion Amount",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event9",
+    "name" : "Page View Event",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event10",
+    "name" : "* Advance Search Performed",
+    "type" : "standard",
+    "tracked" : true,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event11",
+    "name" : "Hotel List - Hotel Name Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event12",
+    "name" : "* Repeat Visitor (by Campaign)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event13",
+    "name" : "RFP Submissions",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event14",
+    "name" : "StarPoints",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event15",
+    "name" : "PromoReg",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event16",
+    "name" : "* Step 1: Guest Information",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event17",
+    "name" : "* Step 2: Verify Information",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event18",
+    "name" : "* Step 3: Booking Confirmation",
+    "type" : "standard",
+    "tracked" : true,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event19",
+    "name" : "Visit Start Event",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event20",
+    "name" : "Media File Plays",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event21",
+    "name" : "* zForm Abandon",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event22",
+    "name" : "* zForm Success",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event23",
+    "name" : "* zForm Error",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event25",
+    "name" : "BPO - Revenue",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event26",
+    "name" : "BPO - Revenue (local)",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event27",
+    "name" : "BPO - Bookings",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event28",
+    "name" : "BPO - Room Nights",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event29",
+    "name" : "BPO - Awards Cash",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event30",
+    "name" : "BPO - Awards Points",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event32",
+    "name" : "Landing Page - City Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event33",
+    "name" : "Landing Page - Destination Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event34",
+    "name" : "Currency Conversion Changes",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event35",
+    "name" : "Rate Toggles",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event36",
+    "name" : "More Search Options",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event37",
+    "name" : "Resorts: Live Video Link Clicks",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event38",
+    "name" : "Resorts: Property Link",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event39",
+    "name" : "Resorts: Index Right Arrow",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event40",
+    "name" : "Resorts: Index Left Arrow",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event41",
+    "name" : "Resorts: Promo Link",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event42",
+    "name" : "Resorts: View Large Images",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event43",
+    "name" : "Resorts: View Small Images",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event44",
+    "name" : "Resorts: Activities Images Right Arrow",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event45",
+    "name" : "Resorts: Activities Images Left Arrow",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event46",
+    "name" : "Compare Resorts",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event47",
+    "name" : "Print Button Clicked",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event48",
+    "name" : "Social Media Clicks",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event49",
+    "name" : "Share Clicks",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event50",
+    "name" : "Content Click",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event51",
+    "name" : "Watch Webisode",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event52",
+    "name" : "Clicks on Calendar \"Continue\" Button",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event53",
+    "name" : "YSYW Booking",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event54",
+    "name" : "YSYW View",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event55",
+    "name" : "Bazaar Voice Interactions",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event56",
+    "name" : "Upgrade Offers",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event57",
+    "name" : "Upgrade Requests",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event58",
+    "name" : "Upgrade Room Nights Requested",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event59",
+    "name" : "YSYW Submission",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event60",
+    "name" : "YSYW Too Late",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event61",
+    "name" : "AMEX CC Clicks",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event62",
+    "name" : "AMEX CC Submits",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event63",
+    "name" : "AMEX CC Views",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event64",
+    "name" : "Video Start",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event65",
+    "name" : "Video 25%",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event66",
+    "name" : "Video 50%",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event67",
+    "name" : "Video 75%",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event68",
+    "name" : "Video 90%",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event69",
+    "name" : "Distressed Inventory Homepage View",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event70",
+    "name" : "Distressed Inventory Interaction",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event71",
+    "name" : "Atlas - View Throughs",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event72",
+    "name" : "Atlas - Click Throughs",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event73",
+    "name" : "Atlas - Impressions",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event74",
+    "name" : "Atlas - Clicks",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event75",
+    "name" : "Atlas - Total Media Cost",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event76",
+    "name" : "Atlas - Click Conversions",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event77",
+    "name" : "Atlas - View Conversions",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event78",
+    "name" : "Atlas - Click Cost Rate",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event79",
+    "name" : "Login",
+    "type" : "standard",
+    "tracked" : true,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event80",
+    "name" : "SPG Activate Account",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event81",
+    "name" : "SPG Password Retrieval",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event82",
+    "name" : "VIdeo 100%",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event83",
+    "name" : "Hotel List - AS Hotel Name Searches",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event84",
+    "name" : "Booking Res Form Email Add",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event85",
+    "name" : "Booking For Others - Other",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event86",
+    "name" : "Booking For Others - Myself",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event89",
+    "name" : "SPC Registration",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event90",
+    "name" : "Image View",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "metrics/event91",
+    "name" : "Upsell Offer",
+    "type" : "standard",
+    "tracked" : false,
+    "caSupport" : true
+  },
+  {
+    "id" : "f380459",
+    "name" : "BPV (Bookings per Visit) (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f380460",
+    "name" : "RPV (Revenue per Visit) (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f380461",
+    "name" : "Conversion (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f380564",
+    "name" : "AOV (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f380565",
+    "name" : "Buyer Conversion (Daily) (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f393829",
+    "name" : "ADR (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f883624",
+    "name" : "LOS (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f380563",
+    "name" : "Page Views per Visit (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f605244",
+    "name" : "Exit Rate (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  },
+  {
+    "id" : "f659734",
+    "name" : "Bounce Rate (Calculated)",
+    "type" : "calculated",
+    "tracked" : false,
+    "caSupport" : false
+  }
+]

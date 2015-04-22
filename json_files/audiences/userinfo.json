@@ -1,0 +1,81 @@
+{
+  "userID" : "1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu",
+  "userName" : "Laura Richardson",
+  "userName_xss" : "Laura Richardson",
+  "home" : "/home/users/mac/adobe-fsi-demo/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu",
+  "impersonated" : false,
+  "allowedApps" :
+  [
+    {
+      "appName" : "Websites",
+      "appDescription" : "Create and manage multiple websites.",
+      "iconClass" : "siteadmin",
+      "path" : "/libs/wcm/core/content/siteadmin",
+      "vanityPath" : "/siteadmin"
+    },
+    {
+      "appName" : "Digital Assets",
+      "appDescription" : "Organize your various digital assets.",
+      "iconClass" : "damadmin",
+      "path" : "/libs/wcm/core/content/damadmin",
+      "vanityPath" : "/damadmin"
+    },
+    {
+      "appName" : "Communities",
+      "appDescription" : "Create and manage your social communities.",
+      "iconClass" : "socoadmin",
+      "path" : "/libs/collab/core/content/admin",
+      "vanityPath" : "/socoadmin"
+    },
+    {
+      "appName" : "Campaigns",
+      "appDescription" : "Manage your marketing campaigns.",
+      "iconClass" : "mcmadmin",
+      "path" : "/libs/mcm/content/admin",
+      "vanityPath" : "/mcmadmin"
+    },
+    {
+      "appName" : "Inbox",
+      "appDescription" : "Manage your inbox items.",
+      "iconClass" : "inbox",
+      "path" : "/libs/cq/workflow/content/inbox",
+      "vanityPath" : "/inbox"
+    },
+    {
+      "appName" : "Users",
+      "appDescription" : "Manage your users and groups.",
+      "iconClass" : "useradmin",
+      "path" : "/libs/cq/security/content/admin",
+      "vanityPath" : "/useradmin"
+    },
+    {
+      "appName" : "Tools",
+      "appDescription" : "Maintain and configure your system.",
+      "iconClass" : "misc",
+      "path" : "/libs/wcm/core/content/misc",
+      "vanityPath" : "/miscadmin"
+    },
+    {
+      "appName" : "Tagging",
+      "appDescription" : "Organize your tags and their namespaces.",
+      "iconClass" : "tagadmin",
+      "path" : "/libs/cq/tagging/content/tagadmin",
+      "vanityPath" : "/tagging"
+    }
+  ],
+  "preferences" :
+  {
+    "language" : "en",
+    "linkingActions" :
+    {
+      "dma_analytics" : "[{\"ident\":\"all\",\"DoNotShowMessage\":\"true\"}]",
+      "dma_audiencemanager" : "[{\"ident\":\"all\",\"DoNotShowMessage\":\"true\"}]",
+      "dma_tnt" : "[{\"ident\":\"all\",\"DoNotShowMessage\":\"true\"}]"
+    },
+    "firstTimeExperience" :
+    {
+      "introduction2" : "hide",
+      "introduction" : "hide"
+    }
+  }
+}

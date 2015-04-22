@@ -1,0 +1,361 @@
+[
+  {
+    "pid" : 1577,
+    "name" : "CRM",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 1948,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Analytics",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 1949,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "DFA",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 1950,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Media Optimizer",
+    "description" : "Adobe Media Optimizer (AdLens) HTTP S2S Destination",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "411",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 2056,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Charles Sherman",
+    "description" : "For use with visitor ID service and CRS",
+    "status" : "ACTIVE",
+    "inboundS2S" : false,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "AVID",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15489,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Audience Library",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : false,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "AudienceLibrary",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15490,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Report Suite - geo1xx114",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "{&quot;suite&quot;:&quot;geo1xx114&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15491,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Report Suite - geo1xxfsi114",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "{&quot;suite&quot;:&quot;geo1xxfsi114&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15492,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Report Suite - geo1xxmedia114",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "{&quot;suite&quot;:&quot;geo1xxmedia114&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15493,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Report Suite - geo1xxmobile114",
+    "description" : "",
+    "status" : "ACTIVE",
+    "inboundS2S" : true,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "{&quot;suite&quot;:&quot;geo1xxmobile114&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 2,
+    "idType" : "COOKIE",
+    "dataSourceId" : 15494,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "we.Finance CRM Data",
+    "description" : "Customer attributes from the customer relationship management system, uploaded against a hashed (obfuscated) customer ID.",
+    "status" : "ACTIVE",
+    "inboundS2S" : false,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : false,
+    "allowDataSharing" : false,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "integrationCode" : "crm_id",
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 19638,
+    "containerIds" :
+    [
+    ]
+  },
+  {
+    "pid" : 1577,
+    "name" : "Data Source",
+    "description" : "Data source for demo account",
+    "status" : "ACTIVE",
+    "inboundS2S" : false,
+    "outboundS2S" : false,
+    "useAudienceManagerVisitorID" : true,
+    "allowDataSharing" : true,
+    "permissions" :
+    [
+      "READ",
+      "WRITE",
+      "CREATE",
+      "DELETE",
+      "MAP_TO_SEGMENTS",
+      "MAP_TO_MODELS",
+      "CREATE_ALGO_TRAITS"
+    ],
+    "masterDataSourceIdProvider" : false,
+    "uniqueTraitIntegrationCodes" : false,
+    "uniqueSegmentIntegrationCodes" : false,
+    "marketingCloudVisitorIdVersion" : 0,
+    "idType" : "COOKIE",
+    "dataSourceId" : 20882,
+    "containerIds" :
+    [
+    ]
+  }
+]

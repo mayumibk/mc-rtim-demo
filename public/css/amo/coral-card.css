@@ -1,0 +1,2033 @@
+/**
+    Class: .grid
+    Grid View for elements with card-* classes.
+*/
+
+.grid {
+    overflow: hidden;
+    padding: 0.9375rem 0 0 0.9375rem;
+}
+
+.grid .show-list,
+.grid header[class^="card-"],
+.grid header[class*=" card-"] {
+    display: none;
+}
+
+.grid > [class^="grid-"],
+.grid > [class*=" grid-"] {
+    float: left;
+}
+
+.grid > .grid-0,
+.grid > .grid-1 {
+    width: 100%;
+}
+
+.grid > .grid-2 {
+    width: 50%;
+}
+
+.grid > .grid-3 {
+    width: 33.333333333333336%;
+}
+
+.grid > .grid-4 {
+    width: 25%;
+}
+
+.grid > .grid-5 {
+    width: 20%;
+}
+
+.grid > .grid-6 {
+    width: 16.666666666666668%;
+}
+
+.grid > .grid-7 {
+    width: 14.285714285714286%;
+}
+
+.grid > .grid-8 {
+    width: 12.5%;
+}
+
+.grid > .grid-9 {
+    width: 11.11111111111111%;
+}
+
+.grid > .grid-10 {
+    width: 10%;
+}
+
+.grid > .grid-11 {
+    width: 9.090909090909092%;
+}
+
+.grid > .grid-12 {
+    width: 8.333333333333334%;
+}
+
+.grid > .grid-13 {
+    width: 7.6923076923076925%;
+}
+
+.grid > .grid-14 {
+    width: 7.142857142857143%;
+}
+
+.grid > .grid-15 {
+    width: 6.666666666666667%;
+}
+
+.grid > .grid-16 {
+    width: 6.25%;
+}
+
+.grid > .grid-17 {
+    width: 5.882352941176471%;
+}
+
+.grid > .grid-18 {
+    width: 5.555555555555555%;
+}
+
+.grid > .grid-19 {
+    width: 5.2631578947368425%;
+}
+
+.grid > .grid-20 {
+    width: 5%;
+}
+
+.grid.selection-mode {
+    background: url("../resources/components/card/selection-mode.png") #d4d4d4;
+}
+
+/**
+    Class: .list
+    List View for elements with card-* classes.
+*/
+
+.list .show-grid {
+    display: none;
+}
+
+.list header[class^="card-"],
+.list header[class*=" card-"] {
+    background: #f9f9f9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #e3e3e3 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #e3e3e3));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #e3e3e3 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f9f9f9 0%, #e3e3e3 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #e3e3e3 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f9f9f9 0%, #e3e3e3 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e3e3e3', GradientType=0);
+    /* IE6-9 */
+    height: 3.125rem;
+    padding: 0 0.625rem;
+    line-height: 1.125rem;
+    font-size: 0.75rem;
+    /* The sort triangle
+             Only for historical reasons: The sorting triangle was never used the way it was implemented in prior versions
+             but we need the related <i> for aligning the header.
+
+             Use .image in new lists.
+          */
+    /*
+            The image header column should not show any image outlines
+          */
+}
+
+.list header[class^="card-"].selectable,
+.list header[class*=" card-"].selectable {
+    padding-left: 2.8125rem;
+}
+
+.list header[class^="card-"].selectable .select[class],
+.list header[class*=" card-"].selectable .select[class] {
+    width: 2.8125rem;
+}
+
+.list header[class^="card-"].movable,
+.list header[class*=" card-"].movable {
+    padding-right: 2.8125rem;
+}
+
+.list header[class^="card-"] > div:not(.label),
+.list header[class*=" card-"] > div:not(.label),
+.list header[class^="card-"] .label > div,
+.list header[class*=" card-"] .label > div {
+    float: left;
+    margin-top: 1rem;
+}
+
+.list header[class^="card-"] > div:not(.label).sort-asc,
+.list header[class*=" card-"] > div:not(.label).sort-asc,
+.list header[class^="card-"] .label > div.sort-asc,
+.list header[class*=" card-"] .label > div.sort-asc,
+.list header[class^="card-"] > div:not(.label).sort-desc,
+.list header[class*=" card-"] > div:not(.label).sort-desc,
+.list header[class^="card-"] .label > div.sort-desc,
+.list header[class*=" card-"] .label > div.sort-desc {
+    position: relative;
+}
+
+.list header[class^="card-"] > div:not(.label).sort-asc:after,
+.list header[class*=" card-"] > div:not(.label).sort-asc:after,
+.list header[class^="card-"] .label > div.sort-asc:after,
+.list header[class*=" card-"] .label > div.sort-asc:after,
+.list header[class^="card-"] > div:not(.label).sort-desc:after,
+.list header[class*=" card-"] > div:not(.label).sort-desc:after,
+.list header[class^="card-"] .label > div.sort-desc:after,
+.list header[class*=" card-"] .label > div.sort-desc:after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    left: 0.625rem;
+    width: 0;
+    height: 0;
+    margin: -0.1875rem;
+    border: 0.3125rem solid transparent;
+}
+
+.list header[class^="card-"] > div:not(.label).sort-asc:after,
+.list header[class*=" card-"] > div:not(.label).sort-asc:after,
+.list header[class^="card-"] .label > div.sort-asc:after,
+.list header[class*=" card-"] .label > div.sort-asc:after {
+    top: -0.3125rem;
+    border-bottom-color: #999999;
+}
+
+.list header[class^="card-"] > div:not(.label).sort-desc:after,
+.list header[class*=" card-"] > div:not(.label).sort-desc:after,
+.list header[class^="card-"] .label > div.sort-desc:after,
+.list header[class*=" card-"] .label > div.sort-desc:after {
+    top: 0;
+    border-top-color: #999999;
+}
+
+.list header[class^="card-"] .sort,
+.list header[class*=" card-"] .sort {
+    float: left;
+    position: relative;
+}
+
+.list header[class^="card-"] .image,
+.list header[class*=" card-"] .image {
+    border: none;
+    background: none;
+}
+
+/**
+  Element: Card View
+  Displays assets in result set as a card
+*/
+
+[class^="card-"],
+[class*=" card-"] {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+}
+
+[class^="card-"] > a,
+[class*=" card-"] > a,
+[class^="card-"] > .card,
+[class*=" card-"] > .card {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+[class^="card-"] .image,
+[class*=" card-"] .image {
+    display: block;
+}
+
+[class^="card-"] img,
+[class*=" card-"] img {
+    display: block;
+}
+
+[class^="card-"] h4,
+[class*=" card-"] h4,
+[class^="card-"] p,
+[class*=" card-"] p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+[class^="card-"] h4,
+[class*=" card-"] h4 {
+    font-size: inherit;
+    font-weight: bold;
+    color: #333333;
+}
+
+[class^="card-"] > a i,
+[class*=" card-"] > a i,
+[class^="card-"] > .card i,
+[class*=" card-"] > .card i {
+    line-height: 1.2;
+    font-size: 0.75rem;
+    min-width: 0.875rem;
+    min-height: 0.875rem;
+}
+
+[class^="card-"] > a i:before,
+[class*=" card-"] > a i:before,
+[class^="card-"] > .card i:before,
+[class*=" card-"] > .card i:before {
+    width: 0.875rem;
+    height: 0.875rem;
+    -webkit-background-size: 0.75rem;
+    -moz-background-size: 0.75rem;
+    -o-background-size: 0.75rem;
+    background-size: 0.75rem;
+}
+
+[class^="card-"] i,
+[class*=" card-"] i,
+[class^="card-"] i:before,
+[class*=" card-"] i:before,
+[class^="card-"] i:hover:before,
+[class*=" card-"] i:hover:before,
+[class^="card-"] a:hover i:before,
+[class*=" card-"] a:hover i:before {
+    color: inherit;
+    opacity: inherit;
+}
+
+[class^="card-"] > i,
+[class*=" card-"] > i {
+    display: none;
+}
+
+.grid [class^="card-"],
+.grid [class*=" card-"] {
+    width: -webkit-calc(100% - 0.9375rem);
+    width: -moz-calc(100% - 0.9375rem);
+    width: -o-calc(100% - 0.9375rem);
+    width: calc(100% - 0.9375rem);
+    margin: 0 0 0.9375rem 0;
+    background: #ffffff;
+    float: left;
+}
+
+.grid [class^="card-"] > a,
+.grid [class*=" card-"] > a,
+.grid [class^="card-"] > .card,
+.grid [class*=" card-"] > .card {
+    -webkit-box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 100%;
+}
+
+.grid [class^="card-"] .image,
+.grid [class*=" card-"] .image {
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+.grid [class^="card-"] img,
+.grid [class*=" card-"] img {
+    width: 100%;
+    opacity: 1;
+}
+
+.grid [class^="card-"] img.multiplied,
+.grid [class*=" card-"] img.multiplied {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.grid [class^="card-"] .label,
+.grid [class*=" card-"] .label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.3125rem;
+}
+
+.grid [class^="card-"] h4,
+.grid [class*=" card-"] h4 {
+    margin: 0.375rem 0.625rem;
+}
+
+.grid [class^="card-"] p,
+.grid [class*=" card-"] p {
+    margin: -0.4375rem 0.625rem 0.375rem;
+}
+
+.grid [class^="card-"] p:empty,
+.grid [class*=" card-"] p:empty {
+    display: none;
+}
+
+.grid [class^="card-"] .info,
+.grid [class*=" card-"] .info {
+    padding-top: 0.5625rem;
+}
+
+.grid [class^="card-"] .flag,
+.grid [class*=" card-"] .flag {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 0.625rem;
+    right: -0.3125rem;
+    margin-right: -0.0625rem;
+    padding: 0.3125rem 0.46875rem;
+    color: #4b4b4b;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0.0625rem solid;
+    -webkit-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    background-color: #c8c8c8;
+    border-color: #b7b7b7;
+}
+
+.grid [class^="card-"] .flag:after,
+.grid [class*=" card-"] .flag:after {
+    content: " ";
+    position: absolute;
+    bottom: -0.4375rem;
+    right: -0.0625rem;
+    width: 0;
+    height: 0;
+    border: 0.1875rem solid transparent;
+}
+
+.grid [class^="card-"] .flag:after,
+.grid [class*=" card-"] .flag:after {
+    border-left-color: #b7b7b7;
+    border-top-color: #b7b7b7;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--error,
+.grid [class*=" card-"] .flag.coral-Alert--error,
+.grid [class^="card-"] .flag.error,
+.grid [class*=" card-"] .flag.error {
+    background-color: #fd6667;
+    border-color: #c64340;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--error:after,
+.grid [class*=" card-"] .flag.coral-Alert--error:after,
+.grid [class^="card-"] .flag.error:after,
+.grid [class*=" card-"] .flag.error:after {
+    border-left-color: #c64340;
+    border-top-color: #c64340;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--notice,
+.grid [class*=" card-"] .flag.coral-Alert--notice,
+.grid [class^="card-"] .flag.notice,
+.grid [class*=" card-"] .flag.notice {
+    background-color: #fcc734;
+    border-color: #dda62b;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--notice:after,
+.grid [class*=" card-"] .flag.coral-Alert--notice:after,
+.grid [class^="card-"] .flag.notice:after,
+.grid [class*=" card-"] .flag.notice:after {
+    border-left-color: #dda62b;
+    border-top-color: #dda62b;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--success .grid [class^="card-"] .flag.success,
+.grid [class^="card-"] .flag.coral-Alert--success .grid [class*=" card-"] .flag.success,
+.grid [class*=" card-"] .flag.coral-Alert--success .grid [class^="card-"] .flag.success,
+.grid [class*=" card-"] .flag.coral-Alert--success .grid [class*=" card-"] .flag.success {
+    background-color: #b3c975;
+    border-color: #8ca447;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--success .grid [class^="card-"] .flag.success:after,
+.grid [class^="card-"] .flag.coral-Alert--success .grid [class*=" card-"] .flag.success:after,
+.grid [class*=" card-"] .flag.coral-Alert--success .grid [class^="card-"] .flag.success:after,
+.grid [class*=" card-"] .flag.coral-Alert--success .grid [class*=" card-"] .flag.success:after {
+    border-left-color: #8ca447;
+    border-top-color: #8ca447;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--help,
+.grid [class*=" card-"] .flag.coral-Alert--help,
+.grid [class^="card-"] .flag.info,
+.grid [class*=" card-"] .flag.info {
+    background-color: #7da9e8;
+    border-color: #6a86c0;
+}
+
+.grid [class^="card-"] .flag.coral-Alert--help:after,
+.grid [class*=" card-"] .flag.coral-Alert--help:after,
+.grid [class^="card-"] .flag.info:after,
+.grid [class*=" card-"] .flag.info:after {
+    border-left-color: #6a86c0;
+    border-top-color: #6a86c0;
+}
+
+.grid [class^="card-"] .coral-Alert,
+.grid [class*=" card-"] .coral-Alert,
+.grid [class^="card-"] .alert,
+.grid [class*=" card-"] .alert {
+    position: relative;
+    top: 0;
+    margin: 0 -0.375rem;
+    -webkit-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+.grid [class^="card-"] .coral-Alert.large,
+.grid [class*=" card-"] .coral-Alert.large,
+.grid [class^="card-"] .alert.large,
+.grid [class*=" card-"] .alert.large {
+    display: none;
+}
+
+.grid [class^="card-"] .coral-Alert:before,
+.grid [class*=" card-"] .coral-Alert:before,
+.grid [class^="card-"] .alert:before,
+.grid [class*=" card-"] .alert:before,
+.grid [class^="card-"] .coral-Alert:after,
+.grid [class*=" card-"] .coral-Alert:after,
+.grid [class^="card-"] .alert:after,
+.grid [class*=" card-"] .alert:after {
+    content: " ";
+    position: absolute;
+    bottom: -0.4375rem;
+    width: 0;
+    height: 0;
+    border-width: 0.1875rem;
+    border-style: solid;
+    border-color: inherit;
+    border-bottom-color: transparent;
+}
+
+.grid [class^="card-"] .coral-Alert:before,
+.grid [class*=" card-"] .coral-Alert:before,
+.grid [class^="card-"] .alert:before,
+.grid [class*=" card-"] .alert:before {
+    left: -0.0625rem;
+    border-left-color: transparent;
+}
+
+.grid [class^="card-"] .coral-Alert:after,
+.grid [class*=" card-"] .coral-Alert:after,
+.grid [class^="card-"] .alert:after,
+.grid [class*=" card-"] .alert:after {
+    right: -0.0625rem;
+    border-right-color: transparent;
+}
+
+.grid [class^="card-"] .coral-Alert > div,
+.grid [class*=" card-"] .coral-Alert > div,
+.grid [class^="card-"] .alert > div,
+.grid [class*=" card-"] .alert > div {
+    padding-right: 0;
+}
+
+.grid [class^="card-"] .coral-Alert .text-ellipsis,
+.grid [class*=" card-"] .coral-Alert .text-ellipsis,
+.grid [class^="card-"] .alert .text-ellipsis,
+.grid [class*=" card-"] .alert .text-ellipsis {
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: -1.25rem;
+    padding-left: 1.875rem;
+    text-indent: -0.625rem;
+}
+
+.grid [class^="card-"] .coral-Alert .text-ellipsis div,
+.grid [class*=" card-"] .coral-Alert .text-ellipsis div,
+.grid [class^="card-"] .alert .text-ellipsis div,
+.grid [class*=" card-"] .alert .text-ellipsis div {
+    display: inline;
+}
+
+.list [class^="card-"],
+.list [class*=" card-"] {
+    display: block;
+}
+
+.list [class^="card-"] .select,
+.list [class*=" card-"] .select {
+    line-height: 1.2;
+    font-size: 0.75rem;
+    min-width: 0.875rem;
+    min-height: 0.875rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 2.8125rem;
+    height: 100%;
+}
+
+.list [class^="card-"] .select:before,
+.list [class*=" card-"] .select:before {
+    width: 0.875rem;
+    height: 0.875rem;
+    -webkit-background-size: 0.75rem;
+    -moz-background-size: 0.75rem;
+    -o-background-size: 0.75rem;
+    background-size: 0.75rem;
+}
+
+.list [class^="card-"] .select:before,
+.list [class*=" card-"] .select:before {
+    content: " ";
+    position: absolute;
+    top: 1.0625rem;
+    left: 0.9375rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    -webkit-box-shadow: inset 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.list [class^="card-"] .select ~ a,
+.list [class*=" card-"] .select ~ a,
+.list [class^="card-"] .select ~ .card,
+.list [class*=" card-"] .select ~ .card {
+    padding-left: 2.8125rem;
+}
+
+.list [class^="card-"] .move,
+.list [class*=" card-"] .move {
+    display: inline-block;
+    width: 1.125em;
+    height: 1.125em;
+    line-height: 1;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: text-top;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    min-width: 1.625rem;
+    min-height: 1.625rem;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 2.8125rem;
+    height: 100%;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.list [class^="card-"] .move:before,
+.list [class*=" card-"] .move:before {
+    font-family: AdobeIcons;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.172;
+    color: #000000;
+    opacity: 0.65;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    content: " ";
+    speak: none;
+}
+
+.list [class^="card-"] .move.black:before,
+.list [class*=" card-"] .move.black:before {
+    color: #000000 !important;
+    opacity: 0.65 !important;
+}
+
+.list [class^="card-"] .move.white.withLabel,
+.list [class*=" card-"] .move.white.withLabel,
+.list [class^="card-"] .move.white:before,
+.list [class*=" card-"] .move.white:before {
+    color: #ffffff !important;
+}
+
+.list [class^="card-"] .move.white:before,
+.list [class*=" card-"] .move.white:before {
+    opacity: 0.65 !important;
+}
+
+.list [class^="card-"] .move.blue:before,
+.list [class*=" card-"] .move.blue:before {
+    color: #4191d2 !important;
+    opacity: 1 !important;
+}
+
+.list [class^="card-"] .move.disabled:before,
+.list [class*=" card-"] .move.disabled:before,
+.list [class^="card-"] .move[disabled]:before,
+.list [class*=" card-"] .move[disabled]:before,
+.list [class^="card-"] .move.disabled:hover:before,
+.list [class*=" card-"] .move.disabled:hover:before,
+.list [class^="card-"] .move[disabled]:hover:before,
+.list [class*=" card-"] .move[disabled]:hover:before {
+    color: #000000;
+    opacity: 0.15;
+}
+
+.list [class^="card-"] .move.active:before,
+.list [class*=" card-"] .move.active:before,
+.list [class^="card-"] .move.active:hover:before,
+.list [class*=" card-"] .move.active:hover:before {
+    color: #4191d2;
+    opacity: 1;
+}
+
+.list [class^="card-"] .move:before,
+.list [class*=" card-"] .move:before {
+    content: "\f21f";
+}
+
+.list [class^="card-"] .move:before,
+.list [class*=" card-"] .move:before {
+    width: 1.625rem;
+    height: 1.625rem;
+    -webkit-background-size: 1.5rem;
+    -moz-background-size: 1.5rem;
+    -o-background-size: 1.5rem;
+    background-size: 1.5rem;
+}
+
+.list [class^="card-"] .move:before,
+.list [class*=" card-"] .move:before {
+    display: block;
+    margin: 0.75rem auto;
+}
+
+.list [class^="card-"] .move ~ a,
+.list [class*=" card-"] .move ~ a,
+.list [class^="card-"] .move ~ .card,
+.list [class*=" card-"] .move ~ .card {
+    padding-right: 2.8125rem;
+}
+
+.list [class^="card-"] .spinner,
+.list [class*=" card-"] .spinner {
+    position: absolute;
+    z-index: 3;
+    top: 1.1rem;
+    right: .9rem;
+}
+
+.list [class^="card-"] .sort,
+.list [class*=" card-"] .sort {
+    display: block;
+    height: 100%;
+}
+
+.list [class^="card-"] > a,
+.list [class*=" card-"] > a,
+.list [class^="card-"] > .card,
+.list [class*=" card-"] > .card {
+    display: block;
+    height: 3.125rem;
+    padding: 0 0.625rem;
+    border-bottom: 0.0625rem solid #d2d2d2;
+}
+
+.list [class^="card-"] > a i,
+.list [class*=" card-"] > a i,
+.list [class^="card-"] > .card i,
+.list [class*=" card-"] > .card i {
+    display: none;
+}
+
+.list [class^="card-"] > a:focus,
+.list [class*=" card-"] > a:focus {
+    border-bottom-color: #eeeeee;
+    background: #bbd2e5;
+}
+
+.list [class^="card-"] > a,
+.list [class*=" card-"] > a,
+.list [class^="card-"] > .card,
+.list [class*=" card-"] > .card,
+.list [class^="card-"] .label,
+.list [class*=" card-"] .label {
+    overflow: hidden;
+    height: 3.125rem;
+}
+
+.list [class^="card-"] h4,
+.list [class*=" card-"] h4,
+.list [class^="card-"] .main,
+.list [class*=" card-"] .main,
+.list [class^="card-"] img,
+.list [class*=" card-"] img,
+.list [class^="card-"] .image,
+.list [class*=" card-"] .image {
+    position: relative;
+    float: left;
+}
+
+.list [class^="card-"] .image img,
+.list [class*=" card-"] .image img {
+    display: none;
+}
+
+.list [class^="card-"] h4,
+.list [class*=" card-"] h4,
+.list [class^="card-"] p,
+.list [class*=" card-"] p {
+    margin-top: 1rem;
+}
+
+.list [class^="card-"] .main > h4,
+.list [class*=" card-"] .main > h4 {
+    margin-right: 0.625rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.list [class^="card-"] .main > p,
+.list [class*=" card-"] .main > p {
+    float: left;
+    margin-right: 0.3125rem;
+    border: 1px solid transparent;
+}
+
+.list [class^="card-"] .flag,
+.list [class*=" card-"] .flag,
+.list [class^="card-"] .alert,
+.list [class*=" card-"] .alert,
+.list [class^="card-"] .coral-Alert,
+.list [class*=" card-"] .coral-Alert {
+    display: none;
+}
+
+.selection-mode [class^="card-"],
+.selection-mode [class*=" card-"] {
+    cursor: pointer;
+}
+
+.grid [class^="card-"].selected .select,
+.grid [class*=" card-"].selected .select {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 3rem;
+    height: 3rem;
+    margin: -1.5rem;
+    top: 50%;
+    left: 50%;
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNjQ4IDY0OCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQ4IDY0OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzI0LDBDMTQ1LjEsMCwwLDE0NS4xLDAsMzI0czE0NS4xLDMyNCwzMjQsMzI0YzE3OC45LDAsMzI0LTE0NS4xLDMyNC0zMjRTNTAyLjksMCwzMjQsMHogTTI1Miw1MDRMMTA4LDM2MA0KCWw3Mi03Mmw3Miw3MmwyMTYtMjE2bDcyLDcyTDI1Miw1MDR6Ii8+DQo8L3N2Zz4NCg==);
+    opacity: 0.65;
+}
+
+.grid [class^="card-"].selected > a,
+.grid [class*=" card-"].selected > a,
+.grid [class^="card-"].selected > .card,
+.grid [class*=" card-"].selected > .card {
+    background: #52a5e3;
+}
+
+.grid [class^="card-"].selected img.multiplied,
+.grid [class*=" card-"].selected img.multiplied {
+    visibility: visible;
+}
+
+.grid [class^="card-"].selected img.multiplied + img,
+.grid [class*=" card-"].selected img.multiplied + img {
+    visibility: hidden;
+}
+
+.list [class^="card-"].selected > i.select,
+.list [class*=" card-"].selected > i.select {
+    display: inline-block;
+    width: 1.125em;
+    height: 1.125em;
+    line-height: 1;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.list [class^="card-"].selected > i.select:before,
+.list [class*=" card-"].selected > i.select:before {
+    font-family: AdobeIcons;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.172;
+    color: #000000;
+    opacity: 0.65;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    content: " ";
+    speak: none;
+}
+
+.list [class^="card-"].selected > i.select.black:before,
+.list [class*=" card-"].selected > i.select.black:before {
+    color: #000000 !important;
+    opacity: 0.65 !important;
+}
+
+.list [class^="card-"].selected > i.select.white.withLabel,
+.list [class*=" card-"].selected > i.select.white.withLabel,
+.list [class^="card-"].selected > i.select.white:before,
+.list [class*=" card-"].selected > i.select.white:before {
+    color: #ffffff !important;
+}
+
+.list [class^="card-"].selected > i.select.white:before,
+.list [class*=" card-"].selected > i.select.white:before {
+    opacity: 0.65 !important;
+}
+
+.list [class^="card-"].selected > i.select.blue:before,
+.list [class*=" card-"].selected > i.select.blue:before {
+    color: #4191d2 !important;
+    opacity: 1 !important;
+}
+
+.list [class^="card-"].selected > i.select.disabled:before,
+.list [class*=" card-"].selected > i.select.disabled:before,
+.list [class^="card-"].selected > i.select[disabled]:before,
+.list [class*=" card-"].selected > i.select[disabled]:before,
+.list [class^="card-"].selected > i.select.disabled:hover:before,
+.list [class*=" card-"].selected > i.select.disabled:hover:before,
+.list [class^="card-"].selected > i.select[disabled]:hover:before,
+.list [class*=" card-"].selected > i.select[disabled]:hover:before {
+    color: #000000;
+    opacity: 0.15;
+}
+
+.list [class^="card-"].selected > i.select.active:before,
+.list [class*=" card-"].selected > i.select.active:before,
+.list [class^="card-"].selected > i.select.active:hover:before,
+.list [class*=" card-"].selected > i.select.active:hover:before {
+    color: #4191d2;
+    opacity: 1;
+}
+
+.list [class^="card-"].selected > i.select:before,
+.list [class*=" card-"].selected > i.select:before {
+    content: "\f146";
+}
+
+.list [class^="card-"].selected > i.select:before,
+.list [class*=" card-"].selected > i.select:before {
+    border-color: rgba(4, 62, 105, 0.4375);
+    color: #065896;
+}
+
+.list [class^="card-"].selected > a,
+.list [class*=" card-"].selected > a,
+.list [class^="card-"].selected > .card,
+.list [class*=" card-"].selected > .card {
+    border-bottom-color: #eeeeee;
+    background: #bbd2e5;
+}
+
+.list [class^="card-"].selected > a:focus,
+.list [class*=" card-"].selected > a:focus {
+    background: #52a5e3;
+}
+
+/**
+    Class: .stack
+    Displays a card stack below the card (can be used in conjunction with any other card-* type to make it a stack).
+    Apply this class to any card element (on the <article> element).
+    In list view, to represent the stack a box-stack should be placed on the desired element that shows that stack.
+*/
+
+.grid .stack {
+    margin-bottom: 1.4375rem;
+    z-index: 0;
+}
+
+.grid .stack > a,
+.grid .stack > .card {
+    position: relative;
+    z-index: 2;
+}
+
+.grid .stack:before,
+.grid .stack:after {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    height: 0.25rem;
+    pointer-events: none;
+    background: inherit;
+    -webkit-box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.09375rem 0.09375rem rgba(0, 0, 0, 0.25);
+}
+
+.grid .stack:before {
+    bottom: -0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+}
+
+.grid .stack:after {
+    bottom: -0.25rem;
+    left: 0.25rem;
+    right: 0.25rem;
+}
+
+/**
+    Class: .card-project
+    Displays a project (which groups WCM pages, DAM assets and other concepts together).
+*/
+
+.grid .card-project {
+    width: -webkit-calc(100% - 1.6875rem);
+    width: -moz-calc(100% - 1.6875rem);
+    width: -o-calc(100% - 1.6875rem);
+    width: calc(100% - 1.6875rem);
+    margin-left: 0.375rem;
+    margin-right: 0.375rem;
+}
+
+.grid .card-project .image {
+    border-bottom: none;
+}
+
+.grid .card-project .label {
+    position: absolute;
+    top: 50%;
+    left: -0.3125rem;
+    right: -0.3125rem;
+    margin: -0.0625rem;
+    padding: 0 0.3125rem;
+    border: 0.0625rem solid #dddddd;
+    background-color: #000000;
+    -webkit-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+}
+
+.grid .card-project .label:before,
+.grid .card-project .label:after {
+    content: " ";
+    position: absolute;
+    bottom: -0.4375rem;
+    height: 0;
+    width: 0;
+    border: 0.1875rem solid transparent;
+    border-top-color: #6f6f6f;
+    border-bottom-style: outset;
+}
+
+.grid .card-project .label:before {
+    left: -0.0625rem;
+    border-right-color: #6f6f6f;
+}
+
+.grid .card-project .label:after {
+    right: -0.0625rem;
+    border-left-color: #6f6f6f;
+}
+
+.grid .card-project.selected .label {
+    background-color: #52a5e3;
+    border-color: #268edc;
+}
+
+.grid .card-project.selected .label:before {
+    border-top-color: #3c9adf;
+    border-right-color: #3c9adf;
+}
+
+.grid .card-project.selected .label:after {
+    border-top-color: #3c9adf;
+    border-left-color: #3c9adf;
+}
+
+.grid .card-project .image {
+    border-bottom: none;
+}
+
+.grid .card-project .label {
+    position: absolute;
+    top: 50%;
+    left: -0.3125rem;
+    right: -0.3125rem;
+    margin: -0.0625rem;
+    padding: 0 0.3125rem;
+    border: 0.0625rem solid #000000;
+    background-color: #2a2a2a;
+    -webkit-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+}
+
+.grid .card-project .label:before,
+.grid .card-project .label:after {
+    content: " ";
+    position: absolute;
+    bottom: -0.4375rem;
+    height: 0;
+    width: 0;
+    border: 0.1875rem solid transparent;
+    border-top-color: #151515;
+    border-bottom-style: outset;
+}
+
+.grid .card-project .label:before {
+    left: -0.0625rem;
+    border-right-color: #151515;
+}
+
+.grid .card-project .label:after {
+    right: -0.0625rem;
+    border-left-color: #151515;
+}
+
+.grid .card-project.selected .label {
+    background-color: #193850;
+    border-color: #0d1d29;
+}
+
+.grid .card-project.selected .label:before {
+    border-top-color: #132b3c;
+    border-right-color: #132b3c;
+}
+
+.grid .card-project.selected .label:after {
+    border-top-color: #132b3c;
+    border-left-color: #132b3c;
+}
+
+.grid .card-project .label {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.grid .card-project .label h4 {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.list .card-project p {
+    display: none;
+}
+
+/**
+    Class: .card-collection
+    Displays collection card with a banner.
+*/
+
+.grid .card-collection {
+    width: -webkit-calc(100% - 1.6875rem);
+    width: -moz-calc(100% - 1.6875rem);
+    width: -o-calc(100% - 1.6875rem);
+    width: calc(100% - 1.6875rem);
+    margin-left: 0.375rem;
+    margin-right: 0.375rem;
+}
+
+.grid .card-collection .image {
+    border-bottom: none;
+}
+
+.grid .card-collection .label {
+    position: absolute;
+    top: 50%;
+    left: -0.3125rem;
+    right: -0.3125rem;
+    margin: -0.0625rem;
+    padding: 0 0.3125rem;
+    border: 0.0625rem solid #dddddd;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 0.5rem -0.3125rem rgba(0, 0, 0, 0.5);
+}
+
+.grid .card-collection .label:before,
+.grid .card-collection .label:after {
+    content: " ";
+    position: absolute;
+    bottom: -0.4375rem;
+    height: 0;
+    width: 0;
+    border: 0.1875rem solid transparent;
+    border-top-color: #eeeeee;
+    border-bottom-style: outset;
+}
+
+.grid .card-collection .label:before {
+    left: -0.0625rem;
+    border-right-color: #eeeeee;
+}
+
+.grid .card-collection .label:after {
+    right: -0.0625rem;
+    border-left-color: #eeeeee;
+}
+
+.grid .card-collection.selected .label {
+    background-color: #52a5e3;
+    border-color: #268edc;
+}
+
+.grid .card-collection.selected .label:before {
+    border-top-color: #3c9adf;
+    border-right-color: #3c9adf;
+}
+
+.grid .card-collection.selected .label:after {
+    border-top-color: #3c9adf;
+    border-left-color: #3c9adf;
+}
+
+.grid .card-collection .info p {
+    float: left;
+}
+
+.list .card-collection p {
+    display: none;
+}
+
+/**
+    Class: .card-page
+    Displays a WCM page card.
+*/
+
+.grid .card-page .info-approved,
+.grid .card-page .info-locked,
+.grid .card-page .user {
+    display: none;
+}
+
+.grid .card-page .published,
+.grid .card-page .modified {
+    float: left;
+}
+
+.grid .card-page .info > .links {
+    float: right;
+}
+
+.grid .card-page .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.grid .card-page .image:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.5) 75%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.5) 75%, #ffffff 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.5) 75%, #ffffff 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.5) 75%, #ffffff 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.5) 75%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='#ffffff', GradientType=0);
+}
+
+.grid .card-page.selected .image:after {
+    background: -moz-linear-gradient(top, rgba(82, 165, 227, 0) 0%, rgba(82, 165, 227, 0.1) 25%, rgba(82, 165, 227, 0.25) 50%, rgba(82, 165, 227, 0.5) 75%, #52a5e3 100%);
+    background: -webkit-linear-gradient(top, rgba(82, 165, 227, 0) 0%, rgba(82, 165, 227, 0.1) 25%, rgba(82, 165, 227, 0.25) 50%, rgba(82, 165, 227, 0.5) 75%, #52a5e3 100%);
+    background: -o-linear-gradient(top, rgba(82, 165, 227, 0) 0%, rgba(82, 165, 227, 0.1) 25%, rgba(82, 165, 227, 0.25) 50%, rgba(82, 165, 227, 0.5) 75%, #52a5e3 100%);
+    background: -ms-linear-gradient(top, rgba(82, 165, 227, 0) 0%, rgba(82, 165, 227, 0.1) 25%, rgba(82, 165, 227, 0.25) 50%, rgba(82, 165, 227, 0.5) 75%, #52a5e3 100%);
+    background: linear-gradient(to bottom, rgba(82, 165, 227, 0) 0%, rgba(82, 165, 227, 0.1) 25%, rgba(82, 165, 227, 0.25) 50%, rgba(82, 165, 227, 0.5) 75%, #52a5e3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(82, 165, 227, 0)', endColorstr='#52a5e3', GradientType=0);
+}
+
+.grid .card-page .descriptor {
+    margin: 0.375rem 0.625rem -0.375rem 0.625rem;
+    text-transform: uppercase;
+}
+
+.grid .card-page .meta-info {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375rem;
+    margin-bottom: 0.625rem;
+}
+
+.grid .card-page .meta-info > span {
+    margin-right: 0.375rem;
+}
+
+.list .card-page .image {
+    margin: 0.625rem 0.5rem 0 0;
+    border: 0.0625rem solid #d2d2d2;
+}
+
+.list .card-page .image,
+.list .card-page .image > img {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.list .card-page .image > img {
+    display: none;
+}
+
+.list .card-page .image > img.show-grid {
+    display: none;
+}
+
+.list .card-page .image > img.multiplied {
+    display: none;
+}
+
+.list .card-page .image.progress-bar {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.list .card-page .sort {
+    margin: 0 0.5rem 0 0;
+    width: 1.75rem;
+}
+
+.list .card-page .image {
+    background: #ffffff;
+}
+
+.list .card-page.stack .image:before,
+.list .card-page.stack .image:after {
+    content: " ";
+    position: absolute;
+    height: 0.0625rem;
+    border: 0.0625rem solid #d2d2d2;
+    background: #ffffff;
+}
+
+.list .card-page.stack .image:before {
+    bottom: -0.1875rem;
+    left: 0.0625rem;
+    width: 1.5rem;
+}
+
+.list .card-page.stack .image:after {
+    bottom: -0.3125rem;
+    left: 0.1875rem;
+    width: 1.25rem;
+}
+
+.list .card-page .main {
+    width: 65%;
+}
+
+.list .card-page .main > p {
+    font-size: 0.625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list .card-page .main .info-locked {
+    font-weight: bold;
+    color: #333333;
+    padding: 0 0.3125rem;
+    border: 1px solid #bbbbbb;
+    background: #cccccc;
+}
+
+.list .card-page .main .info-approved {
+    font-weight: bold;
+    color: #333333;
+    padding: 0 0.3125rem;
+    border: 1px solid #bbbbbb;
+    background: #cccccc;
+    background: #ffd24d;
+    border-color: #eec63e;
+}
+
+.list .card-page .published,
+.list .card-page .modified {
+    float: left;
+    width: 15%;
+    margin-top: 0.4375rem;
+}
+
+.list .card-page .published .date,
+.list .card-page .modified .date {
+    font-weight: bold;
+    color: #333333;
+}
+
+.list .card-page .published .date,
+.list .card-page .modified .date,
+.list .card-page .published .user,
+.list .card-page .modified .user {
+    display: block;
+}
+
+.list .card-page .links {
+    float: left;
+    width: 5%;
+}
+
+.list .card-page .descriptor {
+    position: absolute;
+    top: 0.625rem;
+}
+
+.list .card-page .descriptor ~ * {
+    margin-top: 0.4375rem;
+}
+
+.list .card-page .meta-info {
+    display: none;
+}
+
+.list.small .card-page .main {
+    width: 60%;
+}
+
+.list.small .card-page .published,
+.list.small .card-page .modified {
+    width: 20%;
+}
+
+.list.small .card-page .links {
+    display: none;
+}
+
+.list.xsmall .card-page .main {
+    width: 70%;
+}
+
+.list.xsmall .card-page .published {
+    width: 30%;
+}
+
+.list.xsmall .card-page .modified,
+.list.xsmall .card-page .links {
+    display: none;
+}
+
+.list.xxsmall .card-page .main {
+    width: 100%;
+}
+
+.list.xxsmall .card-page .published,
+.list.xxsmall .card-page .modified,
+.list.xxsmall .card-page .links {
+    display: none;
+}
+
+.list .card-page.page-hidden a > *,
+.list .card-page.page-redirect a > *,
+.list .card-page.page-deactivated a > *,
+.list .card-page.page-hidden .card > *,
+.list .card-page.page-redirect .card > *,
+.list .card-page.page-deactivated .card > *,
+.grid .card-page.page-hidden img,
+.grid .card-page.page-redirect img,
+.grid .card-page.page-deactivated img,
+.grid .card-page.page-hidden canvas,
+.grid .card-page.page-redirect canvas,
+.grid .card-page.page-deactivated canvas {
+    opacity: 0.5;
+}
+
+.grid .card-page.page-hidden h4,
+.grid .card-page.page-redirect h4,
+.grid .card-page.page-deactivated h4 {
+    color: inherit;
+}
+
+/**
+
+    Class: .card-asset
+    Displays a DAM asset card.
+*/
+
+.grid .card-asset .user,
+.grid .card-asset .type {
+    display: none;
+}
+
+.grid .card-asset .resolution,
+.grid .card-asset .size,
+.grid .card-asset .modified,
+.grid .card-asset .published {
+    float: left;
+}
+
+.grid .card-asset .links,
+.grid .card-asset .comments {
+    float: right;
+}
+
+.grid .card-asset .info {
+    clear: left;
+    height: 1.125rem;
+}
+
+.grid .card-asset .low-resolution {
+    display: block;
+    background: rgba(0, 0, 0, 0.13);
+    padding: 1rem 0;
+    border-bottom: none;
+}
+
+.grid .card-asset .low-resolution > img {
+    margin: 0 auto;
+    width: auto;
+}
+
+.grid .card-asset .low-resolution > img.multiplied {
+    top: 1rem;
+    left: 0;
+    right: 0;
+}
+
+.list .card-asset .image {
+    margin: 0.5625rem 0.5rem 0 0;
+    border: 0.0625rem solid transparent;
+}
+
+.list .card-asset .image,
+.list .card-asset .image > img {
+    width: 2.375rem;
+    height: 1.875rem;
+}
+
+.list .card-asset .image > img {
+    display: block;
+}
+
+.list .card-asset .image > img.show-grid {
+    display: none;
+}
+
+.list .card-asset .image > img.multiplied {
+    display: none;
+}
+
+.list .card-asset .image.progress-bar {
+    width: 2.375rem;
+    height: 1.875rem;
+}
+
+.list .card-asset .sort {
+    margin: 0 0.5rem 0 0;
+    width: 2.375rem;
+}
+
+.list .card-asset h4,
+.list .card-asset .main {
+    width: 50%;
+}
+
+.list .card-asset .type,
+.list .card-asset .resolution,
+.list .card-asset .size,
+.list .card-asset .modified {
+    float: left;
+    width: 10%;
+}
+
+.list .card-asset .links,
+.list .card-asset .comments {
+    float: left;
+    width: 5%;
+}
+
+.list .card-asset .modified {
+    margin-top: 0.4375rem;
+}
+
+.list .card-asset .modified .date {
+    font-weight: bold;
+    color: #333333;
+}
+
+.list .card-asset .modified .date,
+.list .card-asset .modified .user {
+    display: block;
+}
+
+.list .card-asset .published {
+    display: none;
+}
+
+.list.small .card-asset h4,
+.list.small .card-asset .main {
+    width: 50%;
+}
+
+.list.small .card-asset .resolution,
+.list.small .card-asset .size {
+    width: 15%;
+}
+
+.list.small .card-asset .modified {
+    width: 20%;
+}
+
+.list.small .card-asset .type,
+.list.small .card-asset .links,
+.list.small .card-asset .published,
+.list.small .card-asset .comments {
+    display: none;
+}
+
+.list.xsmall .card-asset h4,
+.list.xsmall .card-asset .main {
+    width: 70%;
+}
+
+.list.xsmall .card-asset .modified {
+    width: 30%;
+}
+
+.list.xsmall .card-asset .type,
+.list.xsmall .card-asset .resolution,
+.list.xsmall .card-asset .size,
+.list.xsmall .card-asset .links,
+.list.xsmall .card-asset .published,
+.list.xsmall .card-asset .comments {
+    display: none;
+}
+
+.list.xxsmall .card-asset h4,
+.list.xxsmall .card-asset .main {
+    width: 100%;
+}
+
+.list.xxsmall .card-asset .type,
+.list.xxsmall .card-asset .resolution,
+.list.xxsmall .card-asset .size,
+.list.xxsmall .card-asset .modified,
+.list.xxsmall .card-asset .links,
+.list.xxsmall .card-asset .published,
+.list.xxsmall .card-asset .comments {
+    display: none;
+}
+
+/**
+
+    Class: .card-asset.uploading
+    Progress bar displayed while assets are being uploaded.
+*/
+
+.card-asset.uploading .coral-Progress .coral-Progress-bar {
+    vertical-align: middle;
+    margin: 0.25rem 0;
+}
+
+.card-asset.uploading .coral-Progress .cancel {
+    display: inline-block;
+    width: 1.125em;
+    height: 1.125em;
+    line-height: 1;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: text-top;
+    line-height: 1.2;
+    font-size: 0.75rem;
+    min-width: 0.875rem;
+    min-height: 0.875rem;
+    vertical-align: middle;
+    padding: 0.5rem;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.card-asset.uploading .coral-Progress .cancel:before {
+    font-family: AdobeIcons;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.172;
+    color: #000000;
+    opacity: 0.65;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    content: " ";
+    speak: none;
+}
+
+.card-asset.uploading .coral-Progress .cancel.black:before {
+    color: #000000 !important;
+    opacity: 0.65 !important;
+}
+
+.card-asset.uploading .coral-Progress .cancel.white.withLabel,
+.card-asset.uploading .coral-Progress .cancel.white:before {
+    color: #ffffff !important;
+}
+
+.card-asset.uploading .coral-Progress .cancel.white:before {
+    opacity: 0.65 !important;
+}
+
+.card-asset.uploading .coral-Progress .cancel.blue:before {
+    color: #4191d2 !important;
+    opacity: 1 !important;
+}
+
+.card-asset.uploading .coral-Progress .cancel.disabled:before,
+.card-asset.uploading .coral-Progress .cancel[disabled]:before,
+.card-asset.uploading .coral-Progress .cancel.disabled:hover:before,
+.card-asset.uploading .coral-Progress .cancel[disabled]:hover:before {
+    color: #000000;
+    opacity: 0.15;
+}
+
+.card-asset.uploading .coral-Progress .cancel.active:before,
+.card-asset.uploading .coral-Progress .cancel.active:hover:before {
+    color: #4191d2;
+    opacity: 1;
+}
+
+.card-asset.uploading .coral-Progress .cancel:before {
+    content: "\f14f";
+}
+
+.card-asset.uploading .coral-Progress .cancel:before {
+    width: 0.875rem;
+    height: 0.875rem;
+    -webkit-background-size: 0.75rem;
+    -moz-background-size: 0.75rem;
+    -o-background-size: 0.75rem;
+    background-size: 0.75rem;
+}
+
+.card-asset.uploading .coral-Progress .cancel:hover {
+    opacity: 0.6;
+}
+
+.grid .card-asset.uploading .coral-Progress {
+    display: block;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem 0;
+    border-bottom: none;
+    text-align: center;
+}
+
+.grid .card-asset.uploading .coral-Progress .cancel {
+    margin: 0 -0.625rem 0 -0.125rem;
+}
+
+.list .card-asset.uploading {
+    /*
+          position: static;
+          background: @card-asset-image-upload-background;
+      */
+}
+
+.list .card-asset.uploading h4 {
+    width: 50%;
+}
+
+.list .card-asset.uploading p {
+    width: 10%;
+}
+
+.list .card-asset.uploading .card:before {
+    content: " ";
+    display: block;
+    float: left;
+    width: 2.375rem;
+    height: 1.875rem;
+    margin: 0.5625rem 0.5rem 0 0;
+    border: 0.0625rem solid transparent;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.list .card-asset.uploading .coral-Progress {
+    position: absolute;
+    left: -webkit-calc((100% - 5.6875rem ) * 0.6 + 5.6875rem);
+    left: -moz-calc((100% - 5.6875rem ) * 0.6 + 5.6875rem);
+    left: -o-calc((100% - 5.6875rem ) * 0.6 + 5.6875rem);
+    left: calc((100% - 5.6875rem ) * 0.6 + 5.6875rem);
+    margin-top: 0.625rem;
+}
+
+.list .card-asset.uploading .coral-Progress .cancel {
+    display: inline-block;
+}
+
+.list .card-asset.uploading .move ~ .card .coral-Progress {
+    position: absolute;
+    left: -webkit-calc((100% - 8.5rem ) * 0.6 + 5.6875rem);
+    left: -moz-calc((100% - 8.5rem ) * 0.6 + 5.6875rem);
+    left: -o-calc((100% - 8.5rem ) * 0.6 + 5.6875rem);
+    left: calc((100% - 8.5rem ) * 0.6 + 5.6875rem);
+}
+
+.list.small .card-asset.uploading p {
+    display: none;
+}
+
+.list.small .card-asset.uploading .coral-Progress {
+    position: absolute;
+    left: -webkit-calc((100% - 5.6875rem ) * 0.5 + 5.6875rem);
+    left: -moz-calc((100% - 5.6875rem ) * 0.5 + 5.6875rem);
+    left: -o-calc((100% - 5.6875rem ) * 0.5 + 5.6875rem);
+    left: calc((100% - 5.6875rem ) * 0.5 + 5.6875rem);
+}
+
+.list.small .card-asset.uploading .move ~ .card .coral-Progress {
+    position: absolute;
+    left: -webkit-calc((100% - 8.5rem ) * 0.5 + 5.6875rem);
+    left: -moz-calc((100% - 8.5rem ) * 0.5 + 5.6875rem);
+    left: -o-calc((100% - 8.5rem ) * 0.5 + 5.6875rem);
+    left: calc((100% - 8.5rem ) * 0.5 + 5.6875rem);
+}
+
+.list.xsmall .card-asset.uploading p,
+.list.xxsmall .card-asset.uploading p {
+    display: none;
+}
+
+.list.xsmall .card-asset.uploading .coral-Progress,
+.list.xxsmall .card-asset.uploading .coral-Progress {
+    left: auto;
+    right: 0.625rem;
+}
+
+.list.xsmall .card-asset.uploading .coral-Progress .coral-Progress-bar,
+.list.xxsmall .card-asset.uploading .coral-Progress .coral-Progress-bar {
+    width: 6rem;
+}
+
+.list.xsmall .card-asset.uploading .move ~ .card .coral-Progress,
+.list.xxsmall .card-asset.uploading .move ~ .card .coral-Progress {
+    left: auto;
+    right: 3.4375rem;
+}
+
+.list.xxsmall .card-asset.uploading h4 {
+    width: 80%;
+}
+
+.list.xxsmall .card-asset.uploading .coral-Progress .coral-Progress-bar {
+    width: 2rem;
+}
+
+/**
+    Class: .card-directory
+    Displays a DAM directory card.
+*/
+
+.grid .card-directory {
+    margin-top: 1.3125rem;
+}
+
+.grid .card-directory:before {
+    content: " ";
+    position: absolute;
+    top: -1.3125rem;
+    left: 0.3125rem;
+    right: 0.3125rem;
+    height: 0.8125rem;
+    border-bottom: 0.4375rem solid #cccccc;
+    background: url('../resources/components/card/directory.svg') no-repeat;
+}
+
+.grid .card-directory.selected:before {
+    border-bottom-color: #478fc5;
+    background-position: 0 -15px;
+}
+
+.list .card-directory .image {
+    margin: 0.5625rem 0.5rem 0 0;
+    border: 0.0625rem solid transparent;
+}
+
+.list .card-directory .image,
+.list .card-directory .image > img {
+    width: 2.375rem;
+    height: 1.875rem;
+}
+
+.list .card-directory .image > img {
+    display: none;
+}
+
+.list .card-directory .image > img.show-grid {
+    display: none;
+}
+
+.list .card-directory .image > img.multiplied {
+    display: none;
+}
+
+.list .card-directory .image.progress-bar {
+    width: 2.375rem;
+    height: 1.875rem;
+}
+
+.list .card-directory .sort {
+    margin: 0 0.5rem 0 0;
+    width: 2.375rem;
+}
+
+.list .card-directory .coral-Icon--folder {
+    line-height: 1.2;
+    font-size: 2rem;
+    min-width: 2.125rem;
+    min-height: 2.125rem;
+    display: block;
+    margin-top: -0.25rem;
+}
+
+.list .card-directory .coral-Icon--folder:before {
+    width: 2.125rem;
+    height: 2.125rem;
+    -webkit-background-size: 2rem;
+    -moz-background-size: 2rem;
+    -o-background-size: 2rem;
+    background-size: 2rem;
+}
+
+.list .card-directory .coral-Icon--folder:before {
+    font-size: 2.375rem;
+    color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+}
+
+.list.small .card-directory h4,
+.list.small .card-directory .main {
+    width: 50%;
+}
+
+.list.small .card-directory .modified {
+    width: 20%;
+}
+
+.list.small .card-directory .type,
+.list.small .card-directory .published {
+    display: none;
+}
+
+.list.xsmall .card-directory h4,
+.list.xsmall .card-directory .main {
+    width: 70%;
+}
+
+.list.xsmall .card-directory .modified {
+    width: 30%;
+}
+
+.list.xsmall .card-directory .type,
+.list.xsmall .card-directory .published {
+    display: none;
+}
+
+.list.xxsmall .card-directory h4,
+.list.xxsmall .card-directory .main {
+    width: 100%;
+}
+
+.list.xxsmall .card-directory .type,
+.list.xxsmall .card-directory .modified,
+.list.xxsmall .card-directory .published {
+    display: none;
+}
+
+/**
+    Class: .card-board
+    Displays a WCM board card.
+*/
+
+.grid .card-board > a,
+.grid .card-board > .card {
+    padding: 0.25rem;
+}
+
+.grid .card-board .label {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0.3125rem;
+    color: #ffffff;
+    background-color: #aaaaaa;
+}
+
+.grid .card-board .label h4 {
+    margin-bottom: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    border-bottom: 1px solid #bbbbbb;
+    color: #ffffff;
+}
+
+.grid .card-board .label .info {
+    padding-top: 0;
+}
+
+.grid .card-board .label .info p {
+    float: left;
+    margin-top: 0.3125rem;
+}
+
+.grid .card-board .label .info p.info-time {
+    float: right;
+}
+
+.grid .card-board .image {
+    overflow: hidden;
+    margin: 0 -0.125rem -0.25rem;
+    border-bottom: none;
+}
+
+.grid .card-board .image img {
+    float: left;
+    margin: 0 0.125rem 0.25rem;
+    max-width: 100%;
+    width: -webkit-calc(50% - 0.25rem);
+    width: -moz-calc(50% - 0.25rem);
+    width: -o-calc(50% - 0.25rem);
+    width: calc(50% - 0.25rem);
+}
+
+.grid .card-board .image img.wide {
+    width: -webkit-calc(100% - 0.25rem);
+    width: -moz-calc(100% - 0.25rem);
+    width: -o-calc(100% - 0.25rem);
+    width: calc(100% - 0.25rem);
+}
+
+[class^="card-"].dragging,
+[class*=" card-"].dragging {
+    -webkit-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    background-color: #eeeeee;
+    opacity: 0.8;
+    z-index: 10000;
+}

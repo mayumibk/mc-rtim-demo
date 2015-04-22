@@ -1,0 +1,314 @@
+[
+  {
+    "folderId" : 0,
+    "pid" : 0,
+    "path" : "/All Traits",
+    "parentFolderId" : 0,
+    "folderCount" : 9,
+    "subFolders" :
+    [
+      {
+        "folderId" : 87682,
+        "pid" : 1577,
+        "path" : "/All Traits/3rd Party Financial",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ],
+        "dataSourceId" : null,
+        "name" : "3rd Party Financial"
+      },
+      {
+        "folderId" : 5098,
+        "pid" : 0,
+        "path" : "/All Traits/3rd-Party Data",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ],
+        "dataSourceId" : 0,
+        "name" : "3rd-Party Data"
+      },
+      {
+        "folderId" : 57508,
+        "pid" : 1577,
+        "path" : "/All Traits/Adobe Analytics Traits",
+        "parentFolderId" : 0,
+        "folderCount" : 2,
+        "subFolders" :
+        [
+          {
+            "folderId" : 57510,
+            "pid" : 1577,
+            "path" : "/All Traits/Adobe Analytics Traits/Conversion Traits",
+            "parentFolderId" : 57508,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Conversion Traits"
+          },
+          {
+            "folderId" : 57511,
+            "pid" : 1577,
+            "path" : "/All Traits/Adobe Analytics Traits/Day of Week Traits",
+            "parentFolderId" : 57508,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Day of Week Traits"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "Adobe Analytics Traits"
+      },
+      {
+        "folderId" : 57512,
+        "pid" : 1577,
+        "path" : "/All Traits/CRM",
+        "parentFolderId" : 0,
+        "folderCount" : 1,
+        "subFolders" :
+        [
+          {
+            "folderId" : 57516,
+            "pid" : 1577,
+            "path" : "/All Traits/CRM/Offline Data",
+            "parentFolderId" : 57512,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Offline Data"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "CRM"
+      },
+      {
+        "folderId" : 57517,
+        "pid" : 1577,
+        "path" : "/All Traits/Media Traits",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ],
+        "dataSourceId" : null,
+        "name" : "Media Traits"
+      },
+      {
+        "folderId" : 83511,
+        "pid" : 1577,
+        "path" : "/All Traits/On Boarded",
+        "parentFolderId" : 0,
+        "folderCount" : 2,
+        "subFolders" :
+        [
+          {
+            "folderId" : 83516,
+            "pid" : 1577,
+            "path" : "/All Traits/On Boarded/modeled traits",
+            "parentFolderId" : 83511,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "modeled traits"
+          },
+          {
+            "folderId" : 83515,
+            "pid" : 1577,
+            "path" : "/All Traits/On Boarded/offline traits",
+            "parentFolderId" : 83511,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "offline traits"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "On Boarded"
+      },
+      {
+        "folderId" : 57500,
+        "pid" : 1577,
+        "path" : "/All Traits/Products",
+        "parentFolderId" : 0,
+        "folderCount" : 7,
+        "subFolders" :
+        [
+          {
+            "folderId" : 57506,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/About Us",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "About Us"
+          },
+          {
+            "folderId" : 57502,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Guidance and Retirement",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Guidance and Retirement"
+          },
+          {
+            "folderId" : 57507,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Home",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Home"
+          },
+          {
+            "folderId" : 57501,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Investment and Trading",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Investment and Trading"
+          },
+          {
+            "folderId" : 57504,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Investor Education",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Investor Education"
+          },
+          {
+            "folderId" : 57505,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Open an Account",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Open an Account"
+          },
+          {
+            "folderId" : 57503,
+            "pid" : 1577,
+            "path" : "/All Traits/Products/Research",
+            "parentFolderId" : 57500,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Research"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "Products"
+      },
+      {
+        "folderId" : 57518,
+        "pid" : 1577,
+        "path" : "/All Traits/Shared Data Traits",
+        "parentFolderId" : 0,
+        "folderCount" : 2,
+        "subFolders" :
+        [
+          {
+            "folderId" : 57519,
+            "pid" : 1577,
+            "path" : "/All Traits/Shared Data Traits/AutoTrader",
+            "parentFolderId" : 57518,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "AutoTrader"
+          },
+          {
+            "folderId" : 57520,
+            "pid" : 1577,
+            "path" : "/All Traits/Shared Data Traits/Zillow",
+            "parentFolderId" : 57518,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Zillow"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "Shared Data Traits"
+      },
+      {
+        "folderId" : 57521,
+        "pid" : 1577,
+        "path" : "/All Traits/Social and Search Traits",
+        "parentFolderId" : 0,
+        "folderCount" : 2,
+        "subFolders" :
+        [
+          {
+            "folderId" : 57522,
+            "pid" : 1577,
+            "path" : "/All Traits/Social and Search Traits/Search Referrer",
+            "parentFolderId" : 57521,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Search Referrer"
+          },
+          {
+            "folderId" : 57523,
+            "pid" : 1577,
+            "path" : "/All Traits/Social and Search Traits/Social Referrer",
+            "parentFolderId" : 57521,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ],
+            "dataSourceId" : null,
+            "name" : "Social Referrer"
+          }
+        ],
+        "dataSourceId" : null,
+        "name" : "Social and Search Traits"
+      }
+    ],
+    "dataSourceId" : null,
+    "name" : "All Traits"
+  }
+]

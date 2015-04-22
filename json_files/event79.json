@@ -1,0 +1,16 @@
+{
+  "id" : "metrics/event79",
+  "title" : "Interest Rate Inquiries",
+  "type" : "int",
+  "category" : "Conversion",
+  "support" :
+  [
+    "reportingServices",
+    "oberon",
+    "dataWarehouse"
+  ],
+  "allocation" : true,
+  "precision" : 0,
+  "calculated" : false,
+  "segmentable" : true
+}

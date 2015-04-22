@@ -1,0 +1,132 @@
+{
+  "PKey" : "qrUASWw1GP4QlaeyNH9fry10PohxFqhW0ElhhTft7Kw",
+  "collectLineNumber" : false,
+  "countPreview" :
+  {
+    "href" : "/rest/head/audience/qrUASWw1GP4QlaeyNH9fry10PohxFqhW0ElhhTft7Kw/countPreview/"
+  },
+  "created" : "2015-02-18 16:55:55.055Z",
+  "createdBy" :
+  {
+    "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+    "title" : "Business administrator (businessAdmin)"
+  },
+  "desc" : "",
+  "doNotPersist" : true,
+  "errorLimit" : 100,
+  "expirationDate" : "",
+  "extension" : "",
+  "geoUnit" :
+  {
+    "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+    "title" : "All (all)"
+  },
+  "icon" : "",
+  "iconsrc" : "",
+  "isShared" : false,
+  "jobLogs" :
+  {
+    "href" : "/rest/head/audience/qrUASWw1GP4QlaeyNH9frx3DkfotPiRi7FmRRIT2ISw/jobLogs/"
+  },
+  "label" : "Golf Cart Guests ",
+  "lastModified" : "2015-02-18 20:31:01.845Z",
+  "modifiedBy" :
+  {
+    "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+    "title" : "Business administrator (businessAdmin)"
+  },
+  "name" : "AUD52",
+  "orgUnit" :
+  {
+    "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+    "title" : "All (all)"
+  },
+  "rejectFilename" : "",
+  "source" :
+  {
+    "dataSourceConfig" :
+    {
+      "codepage" : "latin1",
+      "colType" : "delimiter",
+      "commaIsSep" : false,
+      "consecutiveDelimiters" : false,
+      "dataSourceColumn" :
+      [
+      ],
+      "firstLineIsTitle" : false,
+      "ignoreConfigCheck" : false,
+      "ignoredChar" : 0,
+      "ignoredLines" : 0,
+      "multiline" : false,
+      "otherSep" : "",
+      "sampleLines" : "",
+      "semiColumnIsSep" : false,
+      "spaceIsSep" : false,
+      "tabIsSep" : false,
+      "textQualifier" : "none",
+      "timezone" : "_inherit_",
+      "useCR" : false,
+      "useLF" : false
+    },
+    "format" : "text",
+    "lastParsedDataSource" : "",
+    "md5" : "",
+    "name" : "",
+    "upload" : true
+  },
+  "title" : "Golf Cart Guests  (AUD52)",
+  "type" : "query",
+  "where" :
+  {
+    "condition" :
+    [
+      {
+        "PKey" : "XuOTudC1-q9vUPQBt_fO0TPybdmWPoNlJVeWYoe9WsRhGczQ_BQij2ZveNSFr2-k86j_CiWx7XD4kDZpv9G0Qw",
+        "aliasSqlTable" : "",
+        "boolOperator" : "AND",
+        "compositeKey" : "",
+        "condition" :
+        [
+        ],
+        "dateTypeAndPrecision" :
+        {
+          "precision" : "",
+          "type" : ""
+        },
+        "dependkey" : "",
+        "desc" : "",
+        "enabledIf" : "",
+        "entityLabel" : "",
+        "entityName" : "",
+        "entityType" : "",
+        "expr" : "@gender=0",
+        "filterLabel" : "",
+        "filterName" : "",
+        "ignore" : false,
+        "internalId" : -2147483648,
+        "noSqlBind" : false,
+        "order" : 0,
+        "setOperator" : "",
+        "subQuery" : "",
+        "xpath" : ""
+      }
+    ],
+    "count" :
+    {
+      "href" : "/rest/head/audience/qrUASWw1GP4QlaeyNH9fry10PohxFqhW0ElhhTft7Kw/where/count/"
+    },
+    "ctx" : "",
+    "displayFilter" : "Gender is equal to Unknown",
+    "extendedSchema" : "",
+    "filterName" : "",
+    "filteringResource" : "profile",
+    "forceHint" : "",
+    "preview" :
+    {
+      "href" : "/rest/head/audience/qrUASWw1GP4QlaeyNH9fry10PohxFqhW0ElhhTft7Kw/where/preview/"
+    }
+  },
+  "workflow" : null
+}

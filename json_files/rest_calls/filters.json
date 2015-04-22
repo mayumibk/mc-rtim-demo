@@ -1,0 +1,2861 @@
+{
+  "birthday" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s1HPVT-mYhLqbUIh79Ilwj2QXSLmqcPvLRAn2IiWhKTL",
+    "category" : "01_demographics",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQKqUFOZKM3Agj1Z0tn1qvW5mtHStHaYW7a9K6-jQpgI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'eq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Day(@birthDate) = Day(ToDateTime($(__FILTER_CTX__/@day))) and Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 2,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQ88lpnHJ4v4O2TAfBMAZ8klABpMm10nezcKGKOvK8hU",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'gteq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) >= Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 3,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj9fwQOM6ZAR3hg52eNkSNHhpkHT4v9OAMx6Hi25TQ1ls",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'gt'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) > Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 4,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjBNxA91xeZs0-uDfc8AzkJTWTtgNQHTsJkupFl6PxPTM",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'lteq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) <= Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 5,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjWnTtTU6QWSmoPQC5e9J68VecrpjLDMPGzmokZ6J4fVM",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'lt'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) < Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 6,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pjie0jvcUWNcHyyMa04wdOVlqImW2VINNwqdAUXcgLFBc",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'diff'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Day(@birthDate) != Day(ToDateTime($(__FILTER_CTX__/@day))) and Month(@birthDate) != Month(ToDateTime($(__FILTER_CTX__/@day)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 7,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'absolute' and $(__FILTER_CTX__/@precision) == 'day'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjtmH-RZSCQrgWPC85BC9t3g",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjieJg__apqI3PWbn06ofcSNvOTA5fkH5BE1J7OF5rFD0",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'eq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 11,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pjha1q_1uEJFr3zj8yR3kmxzfZBngYiLenxWW23Q9Wgbs",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'gteq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) >= Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 12,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjtmFuPxXGT0-XLGwMtHC96EVkxXqywyjbBZPysnxA1wM",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'gt'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 13,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjZqOl1VggMShcdSuY0QyW5UPPpoEtQfT5WPQCvfFF0Do",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'lteq'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) <= Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 14,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjTgCivJeJq2BUw6Kz21XB447Dr2IjLUEd41rv-viz2bA",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'lt'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 15,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjpktZPbxpfV6CrNN3KFtRB3qXNORdspK_d8quQQ7L2nE",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@operator) == 'diff'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) != Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 16,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'absolute' and $(__FILTER_CTX__/@precision) == 'month'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 10,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjkmQdfHkFUeV4jbrRXePAdg",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjW8TX-zHxmAuo5Jf39mpTj2e5Q6TWLa0PTrZypNGPiLY",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@includeStart)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) >= Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 21,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjHmoGNfpsYJl_Utm_hvdBppX7DteBCwiNTBwAu1TQ0WM",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "!$(__FILTER_CTX__/@includeStart)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@day))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@day))) and Day(@birthDate) > Day(ToDateTime($(__FILTER_CTX__/@day))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 22,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjpGMAkQIAdTvvnUuYiuJkjnNPqYfDmuwK-iCi3V2JKoo",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@includeEnd)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@endDay))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@endDay))) and Day(@birthDate) <= Day(ToDateTime($(__FILTER_CTX__/@endDay))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 23,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjRCWEQFD9CSauEQQEUu8mqkqJYwUVPfVK2O1TsDBgiys",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "!$(__FILTER_CTX__/@includeEnd)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@endDay))) or (Month(@birthDate) = Month(ToDateTime($(__FILTER_CTX__/@endDay))) and Day(@birthDate) < Day(ToDateTime($(__FILTER_CTX__/@endDay))))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 24,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'interval' and $(__FILTER_CTX__/@precision) == 'day'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 20,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjqukAVtyH-bL-VeTHkdPnvQ",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pjb-LhUPYIuejZEeIargNdEN0o9m-Ua13ljz3Qs1jXWvo",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@includeStart)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) >= Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 31,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjbhWhhyZIRi42zGKp2E0epO0hIkm5h2MLa3W5p_if1h4",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "!$(__FILTER_CTX__/@includeStart)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) > Month(ToDateTime($(__FILTER_CTX__/@month)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 32,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj6A6iz6AdEtIrYhBOlnFQeTThszQ-T-ZyHHmubGAXpUI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@includeEnd)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) <= Month(ToDateTime($(__FILTER_CTX__/@endMonth)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 33,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjbLmI7FJeotsuvAzeX8fYqoPkijnJACsSiZXah3goFo8",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "!$(__FILTER_CTX__/@includeEnd)",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) < Month(ToDateTime($(__FILTER_CTX__/@endMonth)))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 34,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'interval' and $(__FILTER_CTX__/@precision) == 'month'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 30,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjQPZHXx3oiaG7lTaGDpmeAg",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj8DKREe--T8bOUuf2GmQk6SUj5nea_Bf_7znqozsdeys",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjO1M-eZxadQbbxjo9tZ4mxz6FXpZppQm9sQaksKYkdSA",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "DateOnly(GetDate()) < AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))) and DaysDiff(AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))), DateOnly(GetDate())) <= ToInteger($(__FILTER_CTX__/@nextUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 41,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                },
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjLQr4MBE9gy9F-oi344KBVIvu0xi4eWCMfUCNGoY0JCc",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "DateOnly(GetDate()) > AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))) and DaysDiff(AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))+1), DateOnly(GetDate())) <= ToInteger($(__FILTER_CTX__/@nextUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 42,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                }
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'nextUnits'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 400,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjEEZCzd8xxyqFUNJ46m6MiP_g2a3wOA7MhnihviQS1Cc",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'next'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Day(@birthDate) = Day(AddDays(DateOnly(GetDate()), 1)) and Month(@birthDate) = Month(AddDays(DateOnly(GetDate()), 1))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 43,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjoewMwFY_aK6UYoPo4d5ByDNyropMEbLY3gOxLyhZsLo",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'current'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Day(@birthDate) = Day(GetDate()) and Month(@birthDate) = Month(GetDate())",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 44,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjinNtTHNLBEANWEilH9yMRFKkLxyLmdkhIJ8UQUudO_Q",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'previous'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Day(@birthDate) = Day(SubDays(DateOnly(GetDate()), 1)) and Month(@birthDate) = Month(SubDays(DateOnly(GetDate()), 1))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 45,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjxKl0j2FTF4h3-L15aWEydhTUgSO6gocoj3WNd3-TWCg",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pjl93Kc__Hqjir3XKLfAyd4LGkxKhk_fpg6rohKLL6l7Y",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "DateOnly(GetDate()) > AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))) and DaysDiff(DateOnly(GetDate()), AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate)))) <= ToInteger($(__FILTER_CTX__/@previousUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 46,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                },
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjIeRMfj1VM4VxKRQpk9ZSvBD6APsL8AKjei_e1_IH9fY",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "DateOnly(GetDate()) < AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))) and DaysDiff(DateOnly(GetDate()), AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))-1)) <= ToInteger($(__FILTER_CTX__/@previousUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 47,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                }
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'previousUnits'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 460,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'relative' and $(__FILTER_CTX__/@precision) == 'day'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 40,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLj-ACrUzVYJ119GtNTu0dDkw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjrpMNFiuU5UTlduDgtiUnIhSJ-USTvibj9DJnwQG_9qY",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjP1KwPUCkZU9VSFLNgmYQ0wTpH7Ea-i8CHqzBMv43OOM",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "Month(@birthDate) > Month(getDate()) and MonthsDiff(AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))), DateOnly(GetDate())) <= ToInteger($(__FILTER_CTX__/@nextUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 51,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                },
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjDp8NuKHcztIUrz9mkm_RdjoyEvbFO26Rxpl_aX9kwnk",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "Month(@birthDate) <= Month(getDate()) and MonthsDiff(AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))+1), DateOnly(GetDate())) <= ToInteger($(__FILTER_CTX__/@nextUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 52,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                }
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'nextUnits'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 500,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj-gz7pZlvwNofYylCmjvVxLwexIDPclVpr01hkto-9ig",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'next'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) = Month(AddMonths(DateOnly(GetDate()), 1))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 53,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj4U1BTdpuaXAcF8LeJPb0SK0CzF4iNTcC8eI4ziZL2aE",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'current'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) = Month(GetDate())",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 54,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj1VCBFNDiMLFKj43MIMawuD-nsLdcr_s2R0tM40Pu52g",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'previous'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "Month(@birthDate) = Month(SubMonths(DateOnly(GetDate()), 1))",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 55,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjKFtSuKPHGBBxJdlbuqYv-703-14drVYXdifo4h6xVOQ",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjqaJj_wO0SRp0TbAttOc4kixoK8HUWAm6Lem62PCEunw",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "Month(getDate()) > Month(@birthDate) and MonthsDiff(DateOnly(GetDate()), AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate)))) <=  ToInteger($(__FILTER_CTX__/@previousUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 56,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                },
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8Pj91ECv_FP77L_gW28akkR5Ngf9iDMTCegofokRtpR6g0",
+                  "aliasSqlTable" : "",
+                  "boolOperator" : "OR",
+                  "compositeKey" : "",
+                  "condition" :
+                  [
+                  ],
+                  "dateTypeAndPrecision" :
+                  {
+                    "precision" : "",
+                    "type" : ""
+                  },
+                  "dependkey" : "",
+                  "desc" : "",
+                  "enabledIf" : "",
+                  "entityLabel" : "",
+                  "entityName" : "",
+                  "entityType" : "",
+                  "expr" : "Month(getDate()) <= Month(@birthDate) and MonthsDiff(DateOnly(GetDate()), AddYears(@birthDate, ToInteger(Year(GetDate()) - Year(@birthDate))-1))  <=  ToInteger($(__FILTER_CTX__/@previousUnitsValue))",
+                  "filterLabel" : "",
+                  "filterName" : "",
+                  "ignore" : false,
+                  "internalId" : 57,
+                  "noSqlBind" : false,
+                  "order" : 0,
+                  "setOperator" : "",
+                  "subQuery" : "",
+                  "xpath" : ""
+                }
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "$(__FILTER_CTX__/@relativeValue) == 'previousUnits'",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 560,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@type) == 'relative' and $(__FILTER_CTX__/@precision) == 'month'",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 50,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Birthday",
+      "extendedSchema" : "",
+      "filterName" : "birthday",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/birthday?type=$value&precision=$value&operator=$value&day=$value&month=$value&includeStart=$value&endDay=$value&endMonth=$value&includeEnd=$value&relativeValue=$value&nextUnitsValue=$value&previousUnitsValue=$value",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Birthday",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "birthdayRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HWlKfWDY3kDQ4CXiP3nfnXCAgoA1hXkYO5tviM5FU_bgQ",
+          "apiName" : "birthdayRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "day" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaF6I6oKiDJZtvbiJle2bxonh4Dl4YsmaKdKhVBP5MgBlQ",
+              "apiName" : "day",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Date",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "date",
+              "revResName" : "",
+              "type" : "date"
+            },
+            "endDay" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaHZIQjBFVr7OPy3O3wsKfbnqG8-UYkmGy3cgWmDp8hTZw",
+              "apiName" : "endDay",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "End date",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "date",
+              "revResName" : "",
+              "type" : "date"
+            },
+            "endMonth" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaHcGHzIuG3Y9roJMm1RG-nJny_BrK4xYj6JE6MC7P9PcA",
+              "apiName" : "endMonth",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "End month",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "date",
+              "revResName" : "",
+              "type" : "date"
+            },
+            "includeEnd" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaEt6mnQSdCvNcbflwLSK8mjp3m2tL04Hru6qe-1kNcw-A",
+              "apiName" : "includeEnd",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Included",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "boolean",
+              "revResName" : "",
+              "type" : "boolean"
+            },
+            "includeStart" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaEt6mnQSdCvNcbflwLSK8mj69U7bCiah1Abheq3-m-NXg",
+              "apiName" : "includeStart",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Included",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "boolean",
+              "revResName" : "",
+              "type" : "boolean"
+            },
+            "month" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaHsxHgmTjUKYS6y88bgoJRh5-GHDpX6JSIT-FR0P9MXhg",
+              "apiName" : "month",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Month",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "date",
+              "revResName" : "",
+              "type" : "date"
+            },
+            "nextUnitsValue" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaE_LjkkqCSo989VW4qsH3rAbV6gZfYqTdX2Lp_eRd05ECS4gQeNOnEXSVrCLf1DTZI",
+              "apiName" : "nextUnitsValue",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Extent of the upcoming period",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "long",
+              "revResName" : "",
+              "type" : "integer"
+            },
+            "operator" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFZAVkRh5xwBoOk1H1Qzqa9KXepsYeQQutDgsu68q5NmQ",
+              "apiName" : "operator",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Operator",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "enumeration",
+              "values" :
+              {
+                "diff" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGV2U0d_wNH42b1yYDZu54d7CnuXbzq6ofgJqdz0UXwbww",
+                  "displayOrder" : 5,
+                  "image" : "",
+                  "label" : "Different from",
+                  "name" : "diff",
+                  "value" : "diff"
+                },
+                "eq" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGVfxwoI3W4I7C6lwhMz5aljYQwW1K0fHvZCNgLxIKePsw",
+                  "displayOrder" : 0,
+                  "image" : "",
+                  "label" : "Equal to",
+                  "name" : "eq",
+                  "value" : "eq"
+                },
+                "gt" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUYfg7C01aDazDJJq4QZuiqkALZmNaIe91xUBHkv7Gq2Q",
+                  "displayOrder" : 2,
+                  "image" : "",
+                  "label" : "After",
+                  "name" : "gt",
+                  "value" : "gt"
+                },
+                "gteq" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUo1JfAL7S-C3JRRwXbla2oTIiqDn0JTT1r_x34As7Z5g",
+                  "displayOrder" : 1,
+                  "image" : "",
+                  "label" : "On or after",
+                  "name" : "gteq",
+                  "value" : "gteq"
+                },
+                "lt" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGV9puU2kmGx19bkjLn7gUgSdH7-_E5aE9WGbz5NRqsRLA",
+                  "displayOrder" : 4,
+                  "image" : "",
+                  "label" : "Before",
+                  "name" : "lt",
+                  "value" : "lt"
+                },
+                "lteq" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXJsyRthIlM3_U4C8kjffhiBJ6isAbDg-JHdFJ4h3ui9g",
+                  "displayOrder" : 3,
+                  "image" : "",
+                  "label" : "On or before",
+                  "name" : "lteq",
+                  "value" : "lteq"
+                }
+              }
+            },
+            "precision" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaGsPYA330qJqQOyxqgDEID1sj0fqg8dwLoE0OsQqe2Big",
+              "apiName" : "precision",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Filter precision",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "enumeration",
+              "values" :
+              {
+                "day" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUJbO3C-oicoYeInzrl0zcLuShP-ncrhFvWAwtshmv3Zw",
+                  "displayOrder" : 1,
+                  "image" : "",
+                  "label" : "Day",
+                  "name" : "day",
+                  "value" : "day"
+                },
+                "month" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXRm3HPCf00lzvD01yXSbbqHGnHZSbqEcSZBYQI62p64Q",
+                  "displayOrder" : 0,
+                  "image" : "",
+                  "label" : "Month",
+                  "name" : "month",
+                  "value" : "month"
+                }
+              }
+            },
+            "previousUnitsValue" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFTcS97yMUaw01GAVXveuZXuXxH0q4HN4N7ehm5Fil2I09C__Zz7tUE7RNsR8WyoaA",
+              "apiName" : "previousUnitsValue",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Extent of the preceding period",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "long",
+              "revResName" : "",
+              "type" : "integer"
+            },
+            "relativeValue" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaGJdR8EJPLGAQ9wTEt-WLs1y5RrJVmog4vT3ZVzL10XMw",
+              "apiName" : "relativeValue",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Relative period",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "string"
+            },
+            "type" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaF-NIq2HYReDufXzHfvlnMkqZxP3_J5ufcBqxRDtj9eLA",
+              "apiName" : "type",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Filter type",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "enumeration",
+              "values" :
+              {
+                "absolute" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXzuC1sHhzeRwJU7pr3vw0c9mrfyHDoDxAMALfurW6hpg",
+                  "displayOrder" : 0,
+                  "image" : "",
+                  "label" : "Absolute",
+                  "name" : "absolute",
+                  "value" : "absolute"
+                },
+                "interval" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUnMOEa7ClI3ZWeNunjzLUGljcig5Ibg9Yi7_fpaudDOA",
+                  "displayOrder" : 1,
+                  "image" : "",
+                  "label" : "Range",
+                  "name" : "interval",
+                  "value" : "interval"
+                },
+                "relative" :
+                {
+                  "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGVHS5BHltOkxybqI58hxN6PTATMArPy01onF9KOyA_juQ",
+                  "displayOrder" : 2,
+                  "image" : "",
+                  "label" : "Relative",
+                  "name" : "relative",
+                  "value" : "relative"
+                }
+              }
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "birthdayRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "birthday",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <init>\n    <set dstPath=\"type\" expr=\"type || 'absolute'\" id=\"2937330475\" type=\"enum\"/>\n    <set dstPath=\"precision\" expr=\"precision || 'day'\" id=\"2937330476\" type=\"enum\"/>\n    <set dstPath=\"operator\" expr=\"operator || 'eq'\" id=\"2937330477\" type=\"enum\"/>\n    <set dstPath=\"includeStart\" expr=\"!!includeStart\" id=\"2937330478\" type=\"boolean\"/>\n    <set dstPath=\"includeEnd\" expr=\"!!includeEnd\" id=\"2937330479\" type=\"boolean\"/>\n    <set dstPath=\"nextUnitsValue\" expr=\"nextUnitsValue ? nextUnitsValue : 1\" id=\"2937330480\"\n         type=\"number\"/>\n    <set dstPath=\"previousUnitsValue\" expr=\"previousUnitsValue ? previousUnitsValue : 1\"\n         id=\"2937330481\" type=\"number\"/>\n  </init>\n  <canvas>\n    <container id=\"2937330482\">\n      <text id=\"2937330483\" style=\"medium\"><![CDATA[Define the filtering conditions on the birth date.]]></text>\n    </container>\n    <container id=\"2937330484\">\n      <dropDown datePart=\"day\" id=\"2937330485\" label=\"Filter type\" path=\"type\"/>\n      <dropDown datePart=\"day\" id=\"2937330486\" label=\"Level of precision\" path=\"precision\"/>\n      <dropDown datePart=\"day\" id=\"2937330487\" label=\"Operator\" path=\"operator\" visibleIf=\"type === 'absolute'\"/>\n    </container>\n    <container id=\"2937330488\">\n      <input datePart=\"day\" id=\"2937330489\" label=\"Date\" path=\"day\" visibleIf=\"type === 'absolute' &amp;&amp; precision === 'day'\"/>\n      <input datePart=\"month\" id=\"2937330490\" label=\"Month\" path=\"month\" visibleIf=\"type === 'absolute' &amp;&amp; precision === 'month'\"/>\n      <input datePart=\"day\" id=\"2937330491\" label=\"Start date\" path=\"day\" visibleIf=\"type === 'interval' &amp;&amp; precision === 'day'\"/>\n      <input datePart=\"month\" id=\"2937330492\" label=\"Start month\" path=\"month\" visibleIf=\"type === 'interval' &amp;&amp; precision === 'month'\"/>\n    </container>\n    <container id=\"2937330493\">\n      <checkBox datePart=\"day\" id=\"2937330494\" label=\"Included\" path=\"includeStart\"\n                visibleIf=\"type === 'interval'\"/>\n    </container>\n    <container id=\"2937330495\">\n      <input datePart=\"day\" id=\"2937330496\" label=\"End date\" path=\"endDay\" visibleIf=\"type === 'interval' &amp;&amp; precision === 'day'\"/>\n      <input datePart=\"month\" id=\"2937330497\" label=\"End month\" path=\"endMonth\" visibleIf=\"type === 'interval' &amp;&amp; precision === 'month'\"/>\n    </container>\n    <container id=\"2937330498\">\n      <checkBox datePart=\"day\" id=\"2937330499\" label=\"Included\" path=\"includeEnd\"\n                visibleIf=\"type === 'interval'\"/>\n    </container>\n    <container id=\"2937330500\" layout=\"stackLeft\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'day'\">\n      <container id=\"2937330501\" valign=\"middle\">\n        <radioButton datePart=\"day\" id=\"2937330502\" label=\"Upcoming days\" path=\"relativeValue\"\n                     valign=\"middle\" value=\"nextUnits\"/>\n      </container>\n      <input datePart=\"day\" id=\"2937330503\" noLabel=\"true\" path=\"nextUnitsValue\"/>\n    </container>\n    <container id=\"2937330504\">\n      <radioButton datePart=\"day\" id=\"2937330505\" label=\"Tomorrow\" path=\"relativeValue\"\n                   value=\"next\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'day'\"/>\n      <radioButton datePart=\"day\" id=\"2937330506\" label=\"Today\" path=\"relativeValue\"\n                   value=\"current\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'day'\"/>\n      <radioButton datePart=\"day\" id=\"2937330507\" label=\"Yesterday\" path=\"relativeValue\"\n                   value=\"previous\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'day'\"/>\n    </container>\n    <container id=\"2937330508\" layout=\"stackLeft\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'day'\">\n      <container id=\"2937330509\" valign=\"middle\">\n        <radioButton datePart=\"day\" id=\"2937330510\" label=\"Preceding days\" path=\"relativeValue\"\n                     valign=\"middle\" value=\"previousUnits\"/>\n      </container>\n      <input datePart=\"day\" id=\"2937330511\" noLabel=\"true\" path=\"previousUnitsValue\"/>\n    </container>\n    <container id=\"2937330512\" layout=\"stackLeft\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'month'\">\n      <container id=\"2937330513\" valign=\"middle\">\n        <radioButton datePart=\"day\" id=\"2937330514\" label=\"Upcoming months\" path=\"relativeValue\"\n                     value=\"nextUnits\"/>\n      </container>\n      <input datePart=\"day\" id=\"2937330515\" noLabel=\"true\" path=\"nextUnitsValue\"/>\n    </container>\n    <container id=\"2937330516\">\n      <radioButton datePart=\"day\" id=\"2937330517\" label=\"Next month\" path=\"relativeValue\"\n                   value=\"next\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'month'\"/>\n      <radioButton datePart=\"day\" id=\"2937330518\" label=\"This month\" path=\"relativeValue\"\n                   value=\"current\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'month'\"/>\n      <radioButton datePart=\"day\" id=\"2937330519\" label=\"Last month\" path=\"relativeValue\"\n                   value=\"previous\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'month'\"/>\n    </container>\n    <container id=\"2937330520\" layout=\"stackLeft\" visibleIf=\"type === 'relative' &amp;&amp; precision === 'month'\">\n      <container id=\"2937330521\" valign=\"middle\">\n        <radioButton datePart=\"day\" id=\"2937330522\" label=\"Preceding months\" path=\"relativeValue\"\n                     valign=\"middle\" value=\"previousUnits\"/>\n      </container>\n      <input datePart=\"day\" id=\"2937330523\" noLabel=\"true\" path=\"previousUnitsValue\"/>\n    </container>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  },
+  "byEmail" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5szc_UIFovc1lmQIYevPgUDbDQUu2t4dd9noYzPA-xq7D",
+    "category" : "99_none",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "Upper(@email) = Upper($(__FILTER_CTX__/@email))",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "",
+      "extendedSchema" : "",
+      "filterName" : "byEmail",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/byEmail?email=$value",
+    "formType" : "",
+    "fragmentName" : "",
+    "label" : "By email",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "byEmailRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HU0Pbc0XlJc5_uIDocp2-up-o19Xuvt0KyEMEdzIplrtA",
+          "apiName" : "byEmailRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "email" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaEwrEUOUudNHVjzRVU5bylITRuL_T2pk25XKzxjm0twQw",
+              "apiName" : "email",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Email",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "string"
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "byEmailRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "byEmail",
+    "webPage" : "",
+    "webPageName" : ""
+  },
+  "byStaticAudience" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5sz2k5E47tB7UUK5OC5MpJl5LZRYCaezTX7yyqzM-_Tav",
+    "category" : "99_none",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "@id = [temp:audience:$RestKey(__FILTER_CTX__/audience):@id]",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "By static audience",
+      "extendedSchema" : "",
+      "filterName" : "byStaticAudience",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/byStaticAudience?",
+    "formType" : "",
+    "fragmentName" : "",
+    "label" : "By static audience",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "byStaticAudienceRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HV2LxqX2jQQTwmtursrd9ZjYjoFuBrq0XePRETDncCdyh-7u5ffsi-DxyQpXsVnGkE",
+          "apiName" : "byStaticAudienceRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "audience" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaHri7Ly7CpA5SaS8H1bz42LJClZBumePeHXJMsqSI7sTQ",
+              "apiName" : "audience",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Audience",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "audienceBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "byStaticAudienceRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "byStaticAudience",
+    "webPage" : "",
+    "webPageName" : ""
+  },
+  "byText" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s-TCs7VJRg-UCwWEEmhjPcu33rj2qhYUd_Kldlbf3TC8",
+    "category" : "99_none",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "OR",
+          "compositeKey" : "",
+          "condition" :
+          [
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@text) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "@lastName LIKE $(__FILTER_CTX__/@text) + '%'",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        },
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLj8Oh35mcTg0JUl-C5N9nGNw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/@text) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "@email LIKE $(__FILTER_CTX__/@text) + '%'",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 2,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "",
+      "extendedSchema" : "",
+      "filterName" : "byText",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/byText?text=$value",
+    "formType" : "",
+    "fragmentName" : "",
+    "label" : "By name or email",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "byTextRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HUxpQ9dYIkObtuuiTdeaEZdd9yI06ESYtPveY1XCbBuxg",
+          "apiName" : "byTextRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "text" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaGeJgxMJdlBeaoSmcZwMF7MsUpOCcjKGlltEPVAi7zAtw",
+              "apiName" : "text",
+              "category" : "99_none",
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Text",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "attribute",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resType" : "string",
+              "revResName" : "",
+              "type" : "string"
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "byTextRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "byText",
+    "webPage" : "",
+    "webPageName" : ""
+  },
+  "hasClickedDelivery" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s4qUrbV8pfRWqhpvLxwIREL3jHgcX5_uo7Du68LnqmMA",
+    "category" : "03_emails",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQKqUFOZKM3Agj1Z0tn1qvW5mtHStHaYW7a9K6-jQpgI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "[delivery] = $RestKey(__FILTER_CTX__/delivery)",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 2,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQ88lpnHJ4v4O2TAfBMAZ8klABpMm10nezcKGKOvK8hU",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "[@url-id] != 1",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 3,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/delivery) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "trackingLog",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "EXISTS",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Have clicked a link",
+      "extendedSchema" : "",
+      "filterName" : "hasClickedDelivery",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/hasClickedDelivery?",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Clicked",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "hasClickedDeliveryRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HXIEtTrZCEy55XShP18F5yO4hvMDoU0ZU-a6WM0ijQMJ_BHOf_wS7YUohsrsweePu8",
+          "apiName" : "hasClickedDeliveryRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "delivery" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFm5yNaiOR8KhwvpI4NVVZGvnOgg9t-K-BhBtmkGOHKUQ",
+              "apiName" : "delivery",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Delivery",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "deliveryBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "hasClickedDeliveryRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "hasClickedDelivery",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <init>\n    <set const=\"\" dstPath=\"/ignored/start\" id=\"2937330524\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/end\" id=\"2937330525\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/state\" id=\"2937330526\" type=\"enum\"/>\n  </init>\n  <rail id=\"2937330527\">\n    <railTab help=\"Show search\" icon=\"coral-search\" id=\"2937330528\" label=\"Search\">\n      <input datePart=\"day\" id=\"2937330529\" label=\"Start date\" path=\"/ignored/start\"/>\n      <input datePart=\"day\" id=\"2937330530\" label=\"End date\" path=\"/ignored/end\"/>\n      <dropDown datePart=\"day\" firstItemLabel=\"All\" firstItemValue=\"\" id=\"2937330531\"\n                path=\"/ignored/state\">\n        <item id=\"2937330532\" label=\"Editing\" name=\"edition\"/>\n        <item id=\"2937330533\" label=\"In progress\" name=\"started\"/>\n        <item id=\"2937330534\" label=\"Finished\" name=\"finished\"/>\n        <item id=\"2937330535\" label=\"Warning\" name=\"warning\"/>\n        <item id=\"2937330536\" label=\"Erroneous\" name=\"error\"/>\n      </dropDown>\n    </railTab>\n  </rail>\n  <canvas>\n    <text id=\"2937330537\" style=\"medium\"><![CDATA[Select a delivery to target profiles that clicked it.]]></text>\n    <itemPicker flat=\"true\" id=\"2937330540\" noLabel=\"true\" path=\"delivery\">\n      <list fragmentName=\"component:detailedListFragment\" id=\"2937330541\">\n        <filter name=\"withFCP\">\n          <param const=\"false\" id=\"2937330538\" name=\"withFCP\" type=\"boolean\"/>\n        </filter>\n        <filter name=\"byLogicalStatus\">\n          <param id=\"2937330539\" name=\"state\" path=\"/ignored/state\"/>\n        </filter>\n      </list>\n    </itemPicker>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  },
+  "hasOpenedDelivery" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s40m3PmyTLHTUi-Bs_br5Uo11zwsBu5IDRt_s4ti8g_Q",
+    "category" : "03_emails",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQKqUFOZKM3Agj1Z0tn1qvW5mtHStHaYW7a9K6-jQpgI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "[delivery] = $RestKey(__FILTER_CTX__/delivery)",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 2,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/delivery) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "trackingLog",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "EXISTS",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Has opened a delivery",
+      "extendedSchema" : "",
+      "filterName" : "hasOpenedDelivery",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/hasOpenedDelivery?",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Opened",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "hasOpenedDeliveryRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HXOoS8ar8bNzkqqpMwGkLki8aTZtl8f4R2q3vpubtefVTbDu4uF3q3OmzN_LHyO6Gc",
+          "apiName" : "hasOpenedDeliveryRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "delivery" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFm5yNaiOR8KhwvpI4NVVZGvnOgg9t-K-BhBtmkGOHKUQ",
+              "apiName" : "delivery",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Delivery",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "deliveryBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "hasOpenedDeliveryRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "hasOpenedDelivery",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <init>\n    <set const=\"\" dstPath=\"/ignored/start\" id=\"2936543415\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/end\" id=\"2936543416\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/state\" id=\"2936543417\" type=\"enum\"/>\n  </init>\n  <rail id=\"2936543418\">\n    <railTab help=\"Show search\" icon=\"coral-search\" id=\"2936543419\" label=\"Search\">\n      <input datePart=\"day\" id=\"2936543420\" label=\"Start date\" path=\"/ignored/start\"/>\n      <input datePart=\"day\" id=\"2936543421\" label=\"End date\" path=\"/ignored/end\"/>\n      <dropDown datePart=\"day\" firstItemLabel=\"All\" firstItemValue=\"\" id=\"2936543422\"\n                path=\"/ignored/state\">\n        <item id=\"2936543423\" label=\"Editing\" name=\"edition\"/>\n        <item id=\"2936543424\" label=\"In progress\" name=\"started\"/>\n        <item id=\"2936543425\" label=\"Finished\" name=\"finished\"/>\n        <item id=\"2936543426\" label=\"Warning\" name=\"warning\"/>\n        <item id=\"2936543427\" label=\"Erroneous\" name=\"error\"/>\n      </dropDown>\n    </railTab>\n  </rail>\n  <canvas>\n    <text id=\"2936543428\" style=\"medium\"><![CDATA[Select a delivery to target profiles that opened it.]]></text>\n    <itemPicker flat=\"true\" id=\"2936543431\" noLabel=\"true\" path=\"delivery\">\n      <list fragmentName=\"component:detailedListFragment\" id=\"2936543432\">\n        <filter name=\"withFCP\">\n          <param const=\"false\" id=\"2936543429\" name=\"withFCP\" type=\"boolean\"/>\n        </filter>\n        <filter name=\"byLogicalStatus\">\n          <param id=\"2936543430\" name=\"state\" path=\"/ignored/state\"/>\n        </filter>\n      </list>\n    </itemPicker>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  },
+  "hasReceivedDelivery" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s4WBndJ3Xmab1GCQ0dSobiUsKN7x9Ii_J7_JDrnL5QH0",
+    "category" : "03_emails",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQKqUFOZKM3Agj1Z0tn1qvW5mtHStHaYW7a9K6-jQpgI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "[delivery] = $RestKey(__FILTER_CTX__/delivery)",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 2,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            },
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQ88lpnHJ4v4O2TAfBMAZ8klABpMm10nezcKGKOvK8hU",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "@status = 1",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 3,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/delivery) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "broadLog",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "EXISTS",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Has received a delivery",
+      "extendedSchema" : "",
+      "filterName" : "hasReceivedDelivery",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/hasReceivedDelivery?",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Received",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "hasReceivedDeliveryRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HU6cfV51QxdGT2gMupikLBWaDBLwqnOCV_72peZZYW3iFbIp7InOmXQ8Ut_LRjPHLQ",
+          "apiName" : "hasReceivedDeliveryRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "delivery" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFm5yNaiOR8KhwvpI4NVVZGvnOgg9t-K-BhBtmkGOHKUQ",
+              "apiName" : "delivery",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Delivery",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "deliveryBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "hasReceivedDeliveryRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "hasReceivedDelivery",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <init>\n    <set const=\"\" dstPath=\"/ignored/start\" id=\"2936543397\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/end\" id=\"2936543398\" type=\"datetime\"/>\n    <set const=\"\" dstPath=\"/ignored/state\" id=\"2936543399\" type=\"enum\"/>\n  </init>\n  <rail id=\"2936543400\">\n    <railTab help=\"Show search\" icon=\"coral-search\" id=\"2936543401\" label=\"Search\">\n      <input datePart=\"day\" id=\"2936543402\" label=\"Start date\" path=\"/ignored/start\"/>\n      <input datePart=\"day\" id=\"2936543403\" label=\"End date\" path=\"/ignored/end\"/>\n      <dropDown datePart=\"day\" firstItemLabel=\"All\" firstItemValue=\"\" id=\"2936543404\"\n                path=\"/ignored/state\">\n        <item id=\"2936543405\" label=\"Editing\" name=\"edition\"/>\n        <item id=\"2936543406\" label=\"In progress\" name=\"started\"/>\n        <item id=\"2936543407\" label=\"Finished\" name=\"finished\"/>\n        <item id=\"2936543408\" label=\"Warning\" name=\"warning\"/>\n        <item id=\"2936543409\" label=\"Erroneous\" name=\"error\"/>\n      </dropDown>\n    </railTab>\n  </rail>\n  <canvas>\n    <text id=\"2936543410\" style=\"medium\"><![CDATA[Select a delivery to target profiles that received it.]]></text>\n    <itemPicker flat=\"true\" id=\"2936543413\" noLabel=\"true\" path=\"delivery\">\n      <list fragmentName=\"component:detailedListFragment\" id=\"2936543414\">\n        <filter name=\"withFCP\">\n          <param const=\"false\" id=\"2936543411\" name=\"withFCP\" type=\"boolean\"/>\n        </filter>\n        <filter name=\"byLogicalStatus\">\n          <param id=\"2936543412\" name=\"state\" path=\"/ignored/state\"/>\n        </filter>\n      </list>\n    </itemPicker>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  },
+  "profile" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5sypBJo_nljMhVIapM4lvFLSIDRMw-dJhv6Ul-uHy3_En",
+    "category" : "00_general",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/profile) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "@id = $RestKey(__FILTER_CTX__/profile)",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Profile",
+      "extendedSchema" : "",
+      "filterName" : "profile",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/profile?",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Profile",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "profileRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HWobrwuT6lm-8SzgYyAWNyDHtQgWqh-2AaJcWkcT4-P_A",
+          "apiName" : "profileRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "profile" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaHC9_xMXS_dwKNQQti-UpGQZbGuMJjErFN1xWlNcYL8pQ",
+              "apiName" : "profile",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Profile",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "profileBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "profileRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "profile",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <canvas>\n    <text id=\"2934050655\" style=\"medium\"><![CDATA[Select the profile that you would like to target.]]></text>\n    <itemPicker flat=\"true\" id=\"2934050658\" noLabel=\"true\" path=\"profile\">\n      <list id=\"2934050659\">\n        <component name=\"detailedGrid\">\n          <column id=\"2934050656\" labelPath=\"title\"/>\n          <column id=\"2934050657\" labelPath=\"lastModified\" width=\"150\">\n            <component fragmentName=\"component:howLongAgoFragment\"/>\n          </column>\n        </component>\n      </list>\n    </itemPicker>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  },
+  "subscribers" :
+  {
+    "PKey" : "VafT_n9LrQ_qmLizXVI5s1zQ2fVZX14KFCCRNbv92xZieZMckbc4ScvIKK0uVWkn",
+    "category" : "02_services",
+    "condition" :
+    {
+      "condition" :
+      [
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAx9g11iEegHJMJUO6XkJRLjYt76iI8NNMTtFTytoul7jw",
+          "aliasSqlTable" : "",
+          "boolOperator" : "AND",
+          "compositeKey" : "",
+          "condition" :
+          [
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJl4Dv9H79zWBUynanXgNyAwYFSoUGWIv15m3omG3F8PjQKqUFOZKM3Agj1Z0tn1qvW5mtHStHaYW7a9K6-jQpgI",
+              "aliasSqlTable" : "",
+              "boolOperator" : "AND",
+              "compositeKey" : "",
+              "condition" :
+              [
+              ],
+              "dateTypeAndPrecision" :
+              {
+                "precision" : "",
+                "type" : ""
+              },
+              "dependkey" : "",
+              "desc" : "",
+              "enabledIf" : "",
+              "entityLabel" : "",
+              "entityName" : "",
+              "entityType" : "",
+              "expr" : "[service] = $RestKey(__FILTER_CTX__/service)",
+              "filterLabel" : "",
+              "filterName" : "",
+              "ignore" : false,
+              "internalId" : 2,
+              "noSqlBind" : false,
+              "order" : 0,
+              "setOperator" : "",
+              "subQuery" : "",
+              "xpath" : ""
+            }
+          ],
+          "dateTypeAndPrecision" :
+          {
+            "precision" : "",
+            "type" : ""
+          },
+          "dependkey" : "",
+          "desc" : "",
+          "enabledIf" : "$(__FILTER_CTX__/service) != ''",
+          "entityLabel" : "",
+          "entityName" : "",
+          "entityType" : "",
+          "expr" : "subscription",
+          "filterLabel" : "",
+          "filterName" : "",
+          "ignore" : false,
+          "internalId" : 1,
+          "noSqlBind" : false,
+          "order" : 0,
+          "setOperator" : "EXISTS",
+          "subQuery" : "",
+          "xpath" : ""
+        }
+      ],
+      "ctx" : "",
+      "displayFilter" : "Subscribers to an information service",
+      "extendedSchema" : "",
+      "filterName" : "subscribers",
+      "forceHint" : ""
+    },
+    "data" : "/rest/head/profile/subscribers?",
+    "formType" : "webPage",
+    "fragmentName" : "",
+    "label" : "Subscribers",
+    "metadata" :
+    {
+      "PKey" : "",
+      "content" :
+      {
+        "subscribersRecipient" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HWQrruQaPwaUSEVgc0RwSEe-Mz0wLnwBuo_ukF9TkNRCA",
+          "apiName" : "subscribersRecipient",
+          "category" : "99_none",
+          "content" :
+          {
+            "service" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFlQv-5oiwAl9hRW9chpa53prKlinbdjcpCLtnEGMRZmQ",
+              "apiName" : "service",
+              "category" : "99_none",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Service",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "serviceBase",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "",
+      "name" : "subscribersRecipient",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "resName" : "subscribers",
+    "webPage" : "<webPage title=\"Add a rule\">\n  <canvas>\n    <text id=\"2934050709\" style=\"medium\"><![CDATA[Select a service to target its subscribers.]]></text>\n    <itemPicker flat=\"true\" id=\"2934050710\" noLabel=\"true\" path=\"service\">\n      <list fragmentName=\"component:detailedListFragment\" id=\"2934050711\"/>\n    </itemPicker>\n  </canvas>\n</webPage>",
+    "webPageName" : ""
+  }
+}

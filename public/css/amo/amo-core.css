@@ -1,0 +1,730 @@
+/*
+  amo-core.css
+
+  CSS definitions for the new display workflow demo. The definitions assume
+  that shared controls are being used so this file suggests how a project-wide
+  .css file (or files) might be structured. These definitions are also closely
+  tied to Brian’s new display workflow demo HTML. I doubt that this file will
+  become the real “amp-core” CSS.
+
+  Note that these definitions assume that 1) normalize.css has already been
+  included and 2) the CoralUI (and optionally ngCoralUI) CSS has been
+  included. The latter will allow inheritance to define important
+  properties like font and color. Note that coral--light and coral--dark
+  define the core font properties. Also note that 1em defaults to 16px
+  and the default font size is .8125rem (13px).
+
+  The definitions here follow the SUIT convention (see https://github.com/suitcss/suit).
+  Note that SUIT is the standard for CoralUI's CSS. A SUIT name looks like:
+
+      namespace-Component--modifierName-descendantName
+
+  or, from the SUIT spec:
+
+      [<namespace>-]<ComponentName>[--modifierName|-descendantName]
+
+  where...
+
+  namespace represents our AMO organization. I initially suggest "amo" for classes
+  that are tied to core, customer-facing features like portfolio, display, social.
+  And I suggest amosc for shared components. These are typically things like controls
+  that are used across the product or common structural elements such as modal
+  dialogs.
+
+  Component will probably represent major functional groups within our AMO project.
+  Examples are the major tabs (Portfolio, Search, Display, etc.) or shared components
+  (e.g, Brian's quiet controls or modal dialogs). The base classes would then look
+  like amo-Display, amo-Search, amosc-TextInput, amosc-ModalDialog, etc.
+
+  modifierName is an optional value that describes specific distinct usages of the
+  class; for example, amosc-TextInput--blur or amosc-ModalDialog--yesno. Note that
+  the modifier can represent a wide semantic range. It's use is really based on the
+  class it "modifies."
+
+  descendantName is used in a class that appears within the DOM element where the
+  base class appears. It thus styles a sub-element of a root element. For example,
+  an element with class amosc-ModalDialog--yesno might have a sub-element that uses
+  amosc-ModalDialog--yesno-title. Different types of dialogs might have different
+  title styles.
+
+  SUIT also specifies a utility class format for classes that are used at throughout
+  the HTML for small details like positioning or structural definitions. Examples are
+  u-floatLeft, u-block, etc. CoralUI provides a number of typical utility styles
+  in layout.styl. These class names use the "u-coral" prefix. I suggest that any
+  utility classes we create be prefixed with "u-amo".
+
+  This initial file does not yet address color issues. Font definitions are
+  partially handled via inheritance from more generic CoralUI classes. So, in AMO
+  we might ultimately define some AMO-specific font classes that are similar to
+  CoralUI classes like coral-Heading.
+
+  Created by Kevin Monahan (monahan@adobe.com) on 11/6/14. The source
+  for this file comes from demo HTML created by Brian.
+*/
+
+/* -------- Resets -------- */
+
+/* Full screen coverage for body, also no padding. */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* -------- Modifications to CoralUI classes --------
+
+    We need to be careful about CoralUI overrides. Any changes to the
+    CoralUI definitions should be done with due deliberation.
+*/
+
+.amosc-FullScreenForm h1.coral-Heading {
+  padding: 17px 17px 0 17px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #eeeded;
+}
+
+.amosc-FullScreenForm h2.coral-Heading {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 42px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.amosc-h2-fix {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    padding: 0px !important;
+}
+
+.amosc-Control .coral-Textfield {
+  padding: 0.4rem;
+  height: 28px;
+}
+.amosc-Control .coral-Form-field {
+  height: 28px;
+}
+
+.u-amo-flex60 .coral-Form-fieldlabel {
+  display: block;
+  width: 160px;
+  text-align: right;
+  padding-top: 7px;
+  float: left;
+}
+
+.u-amo-flex40 .coral-Form-fieldlabel {
+  display: block;
+  width: 140px;
+  text-align: right;
+  padding-top: 7px;
+  float: left;
+}
+
+.amosc-Control--labelSpan {
+    float:left;
+    margin-right: 5px;
+}
+
+.amosc-Control:hover > .coral-Form-fieldlabel .coral-Icon {
+    height: 14px;
+    width: 14px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 14px;
+    opacity: .5;
+}
+
+.coral-Form-fieldlabel .coral-Icon {
+    display:none;
+}
+
+.amosc-DatePickerControl .coral-Button,
+.amosc-DatePickerControl .coral-InputGroup-button,
+.amosc-DatePickerControl .coral-Button--square {
+    height: 28px;
+    padding: 0px;
+}
+
+.coral-Table-row:hover {
+    background-color: rgb(224, 233, 247);
+}
+
+.coral-Table-cell--editable {
+    cursor: pointer;
+}
+
+.coral-Table-inGridTextInput {
+    height: 70%;
+    width: 100%;
+}
+
+.u-position-relative {
+    position: relative;
+}
+
+.u-block {
+    display: block !important;
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.u-margin-left {
+    margin-left: 15px;
+}
+
+.u-margin-right {
+    margin-right: 15px;
+}
+
+.coral-Table-headerRow--light > th {
+    background: #eeeeee;
+}
+
+.coral-Table-headerCell > .amosc-Control {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.coral-Table-headerCell > .amosc-Control:hover {
+    background-color: inherit;
+}
+
+.coral-Table-headerCell > .amosc-Control--quiet {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 0;
+}
+
+.coral-Table-headerCell > .amoad-Creatives-groupTool {
+    width: 14rem;
+}
+
+.coral-Table-cell--imageWrapper {
+    text-align: center;
+}
+
+.coral-Table-cell > img {
+    max-height: 2.6875rem;
+    max-width: 10rem;
+    width: auto;
+}
+
+/* -------- Utilities -------- */
+/*
+  We include these here so that subsquent references ("cascade") can
+  override properties.
+*/
+
+/* Standard column widths for 1- and 2-column forms. */
+.u-amo-flex90 {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  min-width: 1000px;
+}
+
+.u-amo-flex60 {
+  width: 60%;
+  float: left;
+  min-width: 570px;
+}
+
+.u-amo-flex40 {
+  width: 40%;
+  float: left;
+}
+
+/* Causes following elements to appear below the bottom margin. */
+.u-amo-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* resets the layout of an area, mainly to hide default CoralUI options, when appropriate. */
+.u-amo-contentBlock {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: auto;
+}
+
+.u-amo-half-width {
+    width: 49%;
+    display: inline-block;
+}
+
+.u-amo-capitalize {
+    text-transform: capitalize;
+}
+
+.u-amo-uppercase {
+    text-transform: uppercase;
+}
+
+.u-amo-lowercase {
+    text-transform: lowercase;
+}
+
+.u-amo-noPadding {
+    padding: 0px !important;
+}
+
+.u-amo-textRight {
+    text-align: right;
+}
+
+.u-amo-textLeft {
+    text-align: left;
+}
+
+.u-amo-noScroll {
+    overflow: hidden;
+}
+
+.u-amo-noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.u-amo-caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.u-amo-caret--right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid ;
+}
+
+.u-amo-pointer {
+    cursor: pointer;
+}
+
+/* -------- Items we might get from Coral's CSS or inherited values -------- */
+/* As with utility classes above, placed here so subsequent references can override properties. */
+
+
+.coral-Select-button {
+  height: 28px;
+}
+
+.coral-SelectList-item {
+  padding: .5rem .625rem;
+}
+
+.coral-SelectList-item:hover {
+    outline: none;
+    color: #fff;
+    background: #326ec8;
+}
+
+.inputGroup {
+  float: left;
+}
+
+.coral-RadioGroup {
+  display: inline-block;
+  margin: 5px 5px 5px 10px;
+}
+
+.coral-Select-button {
+  line-height: 1.2rem;
+}
+
+.coral-Select-button::after {
+  top: .5rem;
+}
+
+.coral-Tooltip {
+  margin: .6rem;
+}
+
+.amosc-quietForm-switch {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.coral-Tooltip {
+    max-width: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: .8125rem;
+    line-height: 1rem;
+}
+
+.coral-Modal-header {
+    height: 3.0rem;
+}
+
+/* -------- Standard color definitions (no CoralUI override) -------- */
+/*
+  This section is still in development. I'm looking at various ways CoralUI
+  and ngCoral have handled this.
+*/
+
+.u-amo-required {
+  color: #EF0307;
+}
+
+
+/* ======== AMO application-specific classes ======== */
+
+/* -------- Top-level classes -------- */
+/* Currently just amosc-FullScreen and it allies, for demonstration purposes. */
+
+/*
+  A root class for full-screen presentations. An initial variation
+  will be for forms. Other possibilities might include grids and gadget
+  panels.
+*/
+.amosc-FullScreen {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Our first type of full-screen presentation--a form. */
+.amosc-FullScreenForm {
+
+}
+
+/* The top, header part of the form. */
+.amosc-FullScreenForm-header {
+  height: 60px;
+  background-color: #464646;
+}
+
+/* The body of the form where most of the work gets done. */
+.amosc-FullScreenForm-body {
+
+}
+
+.amosc-FullScreenForm-body .u-amo-contentBlock {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* -------- Controls -------- */
+
+/*
+  The base class for all controls. Again, for demonstration purposes
+  here to continue the discussion on CSS layout. We might later
+  distinguish an input field (label + active area) from a control
+  (just the active area), etc.
+
+  This particular CSS file focuses on HTML and CSS for displaying
+  controls in a "quiet dialog."
+*/
+.amosc-Control {
+  padding: 10px 0;
+  min-height: 28px;
+}
+.amosc-Control:hover {
+  background-color: rgba(0,0,0,0.04);
+  cursor: pointer;
+}
+
+/* The label for the control--vs the active part of the control. */
+.amosc-Control--label {
+  padding-left: 15px;
+  font-size: .75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* To handle two-column (60%/40%) dialogs */
+.u-amo-flex40 .amosc-Control--label,
+.u-amo-flex60 .amosc-Control--label {
+  display: block;
+  text-align: left;
+  padding-top: 7px;
+  float: left;
+}
+.u.-amo-flex40 .amosc-Control--label {
+  width: 120px;
+}
+.u-amo-flex60 .amosc-Control--label {
+  width: 160px;
+}
+
+/*
+Angular overrides
+*/
+.coral-Textfield.ng-invalid-greater.ng-dirty, .coral-Textfield.ng-invalid-number.ng-dirty {
+    box-shadow: 0 0 .1875rem #ff4132;
+    color: #cc544b;
+    border-color: #ff4132;
+}
+
+.coral-Textfield:invalid.ng-dirty {
+    box-shadow: 0 0 .1875rem #ff4132;
+}
+
+.coral-Textfield:invalid.ng-pristine {
+    border-color: #b9b9b9;
+    color: #4b4b4b;
+}
+
+.coral-Textfield:invalid.ng-pristine:focus {
+    border: .0625rem solid #3287d2;
+}
+
+/*
+  The presentation of a control when it is quiet--as part
+  of the quiet dialog pattern.
+*/
+.amosc-Control--quiet {
+  font-weight: 100;
+  font-size: 1rem;
+  padding-top: 7px;
+  display: block;
+  min-width: 230px;
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.amosc-Control .coral-Icon--edit {
+  visibility: hidden;
+  margin-left: 5px;
+  color: #4b4b4b;
+}
+.amosc-Control:hover .coral-Icon--edit {
+  visibility: visible;
+  margin-left: 5px;
+  color: #4b4b4b;
+}
+.amosc-Control--defaultText {
+  color: #969696;
+}
+
+.amosc-Control--quiet.makeInvisible {
+  display: none !important;
+}
+
+.amosc-Triangle--up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #4b4b4b;
+}
+
+.amosc-Triangle--down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #4b4b4b;
+}
+
+.amosc-Triangle--left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #4b4b4b;
+}
+
+.amosc-Triangle--right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #4b4b4b;
+}
+
+.amosc-scrollTriangle--right {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+    cursor: pointer;
+    border-left-color: #969696;
+    z-index: 900;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.amosc-scrollTriangle--right.makeInvisible {
+    opacity: 0;
+    cursor: default;
+}
+
+.amosc-scrollTriangle--right:hover {
+    border-left-color: #4b4b4b;
+}
+
+.amosc-scrollTriangle--left {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -10px;
+    cursor: pointer;
+    border-right-color: #969696;
+    z-index: 900;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.amosc-scrollTriangle--left.makeInvisible {
+    opacity: 0;
+    cursor: default;
+}
+
+.amosc-scrollTriangle--left:hover {
+    border-right-color: #4b4b4b;
+}
+
+.amosc-badge {
+    background-color: rgb(211, 212, 214);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.amosc-selectList-popover {
+    position: static;
+    margin: 0;
+    width: 100%;
+}
+
+.amosc-selectList-popover-wrapper {
+    padding: 0 !important;
+}
+
+/*
+  Identifies the element and children as the "active"
+  presentation of a control. A counterpart to amosc-Control--quiet
+*/
+.amosc-Control--active {
+
+}
+
+.u-amo-contentBlock.u-amo-group > .amosc-Control {
+    float: left;
+    width: 100%;
+}
+
+.u-amo-contentBlock.u-amo-group > .amosc-Control:hover {
+    background: #E1E6ED;
+}
+
+.amosc-Control--active > .coral-Button--square {
+    width: 28px;
+    height: 28px;
+}
+
+.amosc-Control--active .coral-Icon--infoCircle {
+  height: 14px;
+  width: 14px;
+  overflow: hidden;
+  padding-top: 7px;
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 14px;
+  opacity: .5;
+}
+
+.makeInvisible * {
+  height: 0 !important;
+  width: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.amosc-Control--active.makeInvisible {
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  display: block !important;
+  float: left !important;
+}
+
+.flexHeight {
+  height: auto;
+}
+
+.coral-Textfield--multiline.comments {
+  width: 800px;
+  height: 150px;
+  margin: 5px 10px;
+}
+
+.shortInput {
+  width: 80px;
+}
+
+.shorterInput {
+  width: 60px;
+  min-width: 60px;
+}
+
+.mediumInput {
+  width: 150px;
+}
+
+.longInput {
+  width: 270px;
+}
+
+.pad-left {
+  padding-left: 15px;
+}
+
+.pageButtons {
+  padding: 55px 0 20px 0;
+}
+
+.amo-fullScreenIframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+/* This is required for using the ngCloudVizChart directive as an element */
+ng-cloud-viz-chart {
+    display: block;
+}
+
+.amo-statusImage {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.amo-statusCenteredImage {
+  height: 1.1rem;
+  width: 1.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%
+
+}

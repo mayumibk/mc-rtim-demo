@@ -1,0 +1,30 @@
+{
+  "id" : "537c1f0ce4b05ae126300adf",
+  "name" : "my report suite segment",
+  "description" : "",
+  "rsid" : "Starwood",
+  "modified" : "2014-05-20T20:35:39-0700",
+  "siteTitle" : "Starwood",
+  "approved" : 0,
+  "favorite" : 0,
+  "owner" :
+  {
+    "id" : 123237,
+    "name" : "Tim Lott",
+    "login" : "timlott"
+  },
+  "tags" :
+  [
+  ],
+  "shares" :
+  [
+    {
+      "shareId" : 117049,
+      "shareToId" : 1,
+      "shareToType" : "all",
+      "componentType" : "segment",
+      "componentId" : "537c1f0ce4b05ae126300adf",
+      "shareToDisplayName" : "All"
+    }
+  ]
+}

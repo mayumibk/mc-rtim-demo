@@ -1,0 +1,120 @@
+{
+  "content" :
+  [
+    {
+      "PKey" : "HJ0dXTxqxgD104_MolpcGbhTeS02Rh1JfjjJi-_UYVM",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "created" : "2015-02-18 16:18:36.452Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/program/Yq-RoZqwbveYtQsfXk2WwFiZQRsrOjhcUEAA5HoYf09GTiuReyYMY1J7KHRPaVcfbeVH7WfqBa0Dnz_6XR4xmw/activities/HJ0dXTxqxgD104_MolpcGbhTeS02Rh1JfjjJi-_UYVM",
+      "icon" : "campaign",
+      "isTemplate" : false,
+      "label" : "Campaign - The Phoenician",
+      "lastModified" : "2015-02-18 16:34:10.681Z",
+      "logicalStatus" : "started",
+      "mainDate" : "2015-02-18",
+      "metadata" : "campaign",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "CMP62",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" :
+      {
+        "PKey" : "-h8ItWp1X72nKbvLlVklpDl7IaRQl6r8vSRpB4-omzQ",
+        "title" : "Brand - The Luxury Collection (PRG124)"
+      },
+      "start" : "2015-02-18",
+      "status" : "started",
+      "style" : "folder",
+      "template" :
+      {
+        "PKey" : "-RjjG1AEOHSIyhk4uEnEFxhocSnykcJ6twVQdK2ftok1vr74zNK3lPbGTmtwB9OF",
+        "title" : "New campaign (newCampaign)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/Brand-Phoenician.png",
+      "title" : "Campaign - The Phoenician (CMP62)"
+    },
+    {
+      "PKey" : "HJ0dXTxqxgD104_MolpcGW7ygMG5nG9BHyzAQeW3b1I",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "created" : "2015-02-18 16:23:43.644Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/program/Yq-RoZqwbveYtQsfXk2WwFiZQRsrOjhcUEAA5HoYf09GTiuReyYMY1J7KHRPaVcfbeVH7WfqBa0Dnz_6XR4xmw/activities/HJ0dXTxqxgD104_MolpcGW7ygMG5nG9BHyzAQeW3b1I",
+      "icon" : "campaign",
+      "isTemplate" : false,
+      "label" : "Campaign - The Royal Hawaiian",
+      "lastModified" : "2015-02-18 16:32:25.384Z",
+      "logicalStatus" : "started",
+      "mainDate" : "2015-02-18",
+      "metadata" : "campaign",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "CMP63",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" :
+      {
+        "PKey" : "-h8ItWp1X72nKbvLlVklpDl7IaRQl6r8vSRpB4-omzQ",
+        "title" : "Brand - The Luxury Collection (PRG124)"
+      },
+      "start" : "2015-02-18",
+      "status" : "started",
+      "style" : "folder",
+      "template" :
+      {
+        "PKey" : "-RjjG1AEOHSIyhk4uEnEFxhocSnykcJ6twVQdK2ftok1vr74zNK3lPbGTmtwB9OF",
+        "title" : "New campaign (newCampaign)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/Brand-RoyalHawaii.png",
+      "title" : "Campaign - The Royal Hawaiian (CMP63)"
+    }
+  ],
+  "count" :
+  {
+    "href" : "/rest/head/program/Yq-RoZqwbveYtQsfXk2WwFiZQRsrOjhcUEAA5HoYf09GTiuReyYMY1J7KHRPaVcfbeVH7WfqBa0Dnz_6XR4xmw/activities/byPlanning/byText/_count?startDate=&endDate=&_lineCount=31&_order=lastModified desc&_lineStart=vUhOhf1Yln2LFGgZS1z4nQ",
+    "value" : 2
+  }
+}

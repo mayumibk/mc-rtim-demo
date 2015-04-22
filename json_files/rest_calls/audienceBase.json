@@ -1,0 +1,585 @@
+{
+  "apiName" : "resourceType",
+  "content" :
+  {
+    "content" :
+    {
+      "content" :
+      {
+        "PKey" : "DMXkC6YjAbPY3-yoE4jClKBhd_2WW857QskJSMDsvFfaB0AP86-n8vbLgxLgSAJF",
+        "compatibleResources" :
+        {
+          "audience" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvz3NpsFpD6JFjADzRX9AB_V6jsmzvcwS1X59HwWZhybxw9pOcxGsqcDL43oziG_Ow",
+            "label" : "Audience",
+            "name" : "audience"
+          },
+          "audienceBase" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvz3NpsFpD6JFjADzRX9AB_V6jsmzvcwS1X59HwWZhybSLZ5f-P0VkUxkyDD6PDUGSvdAwm6ADFROteFNoYyvNM",
+            "label" : "AudienceBase",
+            "name" : "audienceBase"
+          },
+          "nms:audience:audience" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvz3NpsFpD6JFjADzRX9AB-P0k-iawICNqq2n95d8gCQ0yRrdA6EgwkmNxlnbVR2unYoXvrNPcPzNKf6IjaE2gU",
+            "label" : "Audience",
+            "name" : "nms:audience:audience"
+          }
+        },
+        "content" :
+        {
+          "PKey" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUX1fVNJZ_PSj_iWUwUkPq8",
+            "apiName" : "PKey",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Main resource identifier",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "created" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGVAKcq382xyIsW6IyclFOCJoAIicuC5vNsMwYJv1Ahxzw",
+            "apiName" : "created",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Created",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "datetime",
+            "revResName" : "",
+            "type" : "date"
+          },
+          "createdBy" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HVTrPnsdssqujTTUlte49f-pU3SX1B1SUbqkGHA59EhXA",
+            "apiName" : "createdBy",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Created by",
+            "lazyLoaded" : false,
+            "length" : "",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resTarget" : "userBase",
+            "resType" : "link",
+            "revResName" : "",
+            "type" : "link",
+            "unbound" : false
+          },
+          "data" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HWZ_VQcWamV8EkwOeBcrNl5",
+            "apiName" : "data",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "XML Memo",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "memo",
+            "revResName" : "",
+            "type" : "string",
+            "unbound" : false
+          },
+          "desc" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HVWSfqE4hRXHyx1YMBP9kFS",
+            "apiName" : "desc",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Description",
+            "lazyLoaded" : false,
+            "length" : "512",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "CDATA",
+            "revResName" : "",
+            "type" : "string",
+            "unbound" : false
+          },
+          "expirationDate" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUmwdjdrRk18r-mf4vIi4T0oR8R2g9k8PFoEEL4fk7UYw",
+            "apiName" : "expirationDate",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Expires on",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "datetime",
+            "revResName" : "",
+            "type" : "date"
+          },
+          "geoUnit" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HWTKLBjwKGtZtBYuXzicVqM",
+            "apiName" : "geoUnit",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Geographical unit",
+            "lazyLoaded" : false,
+            "length" : "",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "geoUnit",
+            "resTarget" : "geoUnitBase",
+            "resType" : "link",
+            "revResName" : "",
+            "type" : "link",
+            "unbound" : false
+          },
+          "icon" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGV_Yycf9u7j_vGmjVpSfg9F",
+            "apiName" : "icon",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Source",
+            "lazyLoaded" : false,
+            "length" : "64",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "iconsrc" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGX3_InNsZISczkxgpORJU0DgUfdVDvd9YuCSrJQB3lEwg",
+            "apiName" : "iconsrc",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Source",
+            "lazyLoaded" : false,
+            "length" : "64",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "label" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXSVGKKbeuzT_7Gmp9wAAaL",
+            "apiName" : "label",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Label",
+            "lazyLoaded" : false,
+            "length" : "128",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : true,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "lastModified" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGWekuAykUivr0Ri-AF2jXv3Syq2ouNbDeRSrXglm_o0AQ",
+            "apiName" : "lastModified",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Last modified",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "datetime",
+            "revResName" : "",
+            "type" : "date"
+          },
+          "modifiedBy" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HXHzuc2fbclME5k2SISKFMa9bo64rob-KoIknLhy_og2w",
+            "apiName" : "modifiedBy",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Modified by ",
+            "lazyLoaded" : false,
+            "length" : "",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resTarget" : "userBase",
+            "resType" : "link",
+            "revResName" : "",
+            "type" : "link",
+            "unbound" : false
+          },
+          "name" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXt-cAZoX0HF1HCfgP1IpwA",
+            "apiName" : "name",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Identifier",
+            "lazyLoaded" : false,
+            "length" : "64",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "orgUnit" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HXznYufF3WfYsZKc__2rSGm",
+            "apiName" : "orgUnit",
+            "category" : "",
+            "content" :
+            {
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Organizational unit",
+            "lazyLoaded" : false,
+            "length" : "",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "orgUnit",
+            "resTarget" : "orgUnitBase",
+            "resType" : "link",
+            "revResName" : "",
+            "type" : "link",
+            "unbound" : false
+          },
+          "title" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGVfJ1rV9sFHWvAPdJtLPw-q",
+            "apiName" : "title",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Audience",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : true,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "string"
+          },
+          "type" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXGU7paEVQQnTs8ny6E4Mx9",
+            "apiName" : "type",
+            "category" : "",
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Type",
+            "lazyLoaded" : false,
+            "length" : "100",
+            "metadata" : "attribute",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "string",
+            "revResName" : "",
+            "type" : "enumeration",
+            "values" :
+            {
+              "aam" :
+              {
+                "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXaEPeigWApkn8LEMlKKzMAOE-O8hTwmHveY3hoab8msQ",
+                "displayOrder" : 3,
+                "image" : "",
+                "label" : "Shared Audience",
+                "name" : "aam",
+                "value" : "aam"
+              },
+              "file" :
+              {
+                "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGWXJe5nhuDy3eBhYfBEiwK32LIN_425ZBTC25nMvqdkOg",
+                "displayOrder" : 2,
+                "image" : "",
+                "label" : "File",
+                "name" : "file",
+                "value" : "file"
+              },
+              "list" :
+              {
+                "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXOgvHsw3NaEC2QV2gm7oawQLKvHUzbW89fPwPKrAv28w",
+                "displayOrder" : 1,
+                "image" : "",
+                "label" : "List",
+                "name" : "list",
+                "value" : "list"
+              },
+              "query" :
+              {
+                "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXJfeKavdZNspzIFUz2E1wpmq3NS4ONP8_9bngFACqRHQ",
+                "displayOrder" : 0,
+                "image" : "",
+                "label" : "Query",
+                "name" : "query",
+                "value" : "query"
+              }
+            }
+          },
+          "where" :
+          {
+            "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HU6emYFDsBZhM4X1ihghU22",
+            "apiName" : "where",
+            "category" : "",
+            "content" :
+            {
+              "filteringResource" :
+              {
+                "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaFRiJvB6Hdz_2Hw-g0sa34jIvWh5V-mERzSgGOWcPtx3EGMqIhrphZhzNsewnGx9rs",
+                "apiName" : "filteringResource",
+                "category" : "",
+                "dataPolicy" : "",
+                "desc" : "",
+                "displayFormat" : "",
+                "help" : "",
+                "label" : "Filtering dimension",
+                "lazyLoaded" : false,
+                "length" : "255",
+                "metadata" : "attribute",
+                "privacy" : "firstParty",
+                "readOnly" : false,
+                "required" : false,
+                "resName" : "",
+                "resType" : "string",
+                "revResName" : "",
+                "type" : "enumeration",
+                "values" :
+                {
+                  "alertAssigneeEvent" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGU_LwYOg7WERl8h8wCdrNFYKtoxgea185y-aoL3wiRJRmhHzkfFVYXXAnEDbnfPxv0",
+                    "displayOrder" : 5,
+                    "image" : "",
+                    "label" : "Workflow notification event",
+                    "name" : "alertAssigneeEvent",
+                    "value" : "alertAssigneeEvent"
+                  },
+                  "none" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXLponGkuBDZfZjBpZ8zDDNB-e4lgVWB60GAo2-smZBBA",
+                    "displayOrder" : 0,
+                    "image" : "",
+                    "label" : "Not defined",
+                    "name" : "none",
+                    "value" : "none"
+                  },
+                  "notifyAssigneeEvent" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGWs6Ha96BbjGyAvQeeVD7Y-awYYPFwF2pMvA1tKG5TZyjSuXgbK3duQ2u3bjMeO4hk",
+                    "displayOrder" : 4,
+                    "image" : "",
+                    "label" : "Workflow approval event",
+                    "name" : "notifyAssigneeEvent",
+                    "value" : "notifyAssigneeEvent"
+                  },
+                  "profile" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGVaSkxAdYLHWJ3Dsoj8EfYWemMFHYt_jc4M_-i-5S2oXg",
+                    "displayOrder" : 6,
+                    "image" : "",
+                    "label" : "Identified profiles",
+                    "name" : "profile",
+                    "value" : "profile"
+                  },
+                  "seedMember" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXxlGsPEyeJ1XF7KFCVsFGDmJsF4QefKTUvdDUnb6EzxQ",
+                    "displayOrder" : 2,
+                    "image" : "",
+                    "label" : "Test profiles",
+                    "name" : "seedMember",
+                    "value" : "seedMember"
+                  },
+                  "subscriptionEvent" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGUZnz0P0C3CC86ehAidAOL1l-QC-L2twMBvHKpHB9xF76aB3I-_oLKFVKrub5HM0JI",
+                    "displayOrder" : 7,
+                    "image" : "",
+                    "label" : "Subscription and unsubscription confirmation event",
+                    "name" : "subscriptionEvent",
+                    "value" : "subscriptionEvent"
+                  },
+                  "user" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXYSwnufopVgowEkxc_mqrcnWT2Srktt5byymHjKDiGVw",
+                    "displayOrder" : 1,
+                    "image" : "",
+                    "label" : "Users",
+                    "name" : "user",
+                    "value" : "user"
+                  },
+                  "wkfSupervisorEvent" :
+                  {
+                    "PKey" : "LrGfz68L9KlGdstpac1DJvAQ_T-miqVvqTbfWxusrGXLpPYkcgTLznqGkhmctGUQhpwpt9VxKE5E7dl4XCEb6ZDcwE470zIWEWLAn17TWGo",
+                    "displayOrder" : 3,
+                    "image" : "",
+                    "label" : "Erroneous workflow notification event",
+                    "name" : "wkfSupervisorEvent",
+                    "value" : "wkfSupervisorEvent"
+                  }
+                }
+              }
+            },
+            "dataPolicy" : "",
+            "desc" : "",
+            "displayFormat" : "",
+            "help" : "",
+            "label" : "Query definition",
+            "lazyLoaded" : false,
+            "length" : "0",
+            "metadata" : "element",
+            "privacy" : "firstParty",
+            "readOnly" : false,
+            "required" : false,
+            "resName" : "",
+            "resType" : "",
+            "revResName" : "",
+            "type" : "item",
+            "unbound" : false
+          }
+        },
+        "filters" :
+        {
+          "href" : "/rest/head/resourceType/DMXkC6YjAbPY3-yoE4jClKBhd_2WW857QskJSMDsvFfaB0AP86-n8vbLgxLgSAJF/filters/"
+        },
+        "label" : "AudienceBase",
+        "name" : "audienceBase",
+        "readOnly" : false,
+        "schema" : "nms:audience",
+        "type" : "item"
+      },
+      "name" : "audienceBase",
+      "type" : "collection"
+    },
+    "count" :
+    {
+      "lazyLoaded" : true
+    },
+    "next" :
+    {
+      "lazyLoaded" : true
+    }
+  },
+  "data" : "/rest/head/audienceBase/",
+  "help" : "AudienceBase",
+  "href" : "/rest/head/audienceBase/metadata",
+  "name" : "audienceBase",
+  "type" : "collection"
+}

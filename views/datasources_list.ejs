@@ -1,0 +1,31 @@
+<% datasources.forEach(function(datasource) { %>
+    <li class="listItem" data-path="/crs/freestone-inc/datasources/14260" data-segmentid="14260">
+        <div class="row fixed ItemRow">
+            <div class="cell middle checkbox">
+                <input type="checkbox" class="item-checkbox"/>
+                <span></span>
+            </div>
+
+            <div class="cell middle name" data-dtm-coachmarkConcept="crs" data-dtm-coachmarkCoachConcept="getstarted" data-dtm-coachmarkKey="dataSourceDescription">
+
+                <div class="title">
+                    <a href="datasources/editcustomerattributesource.html">
+                        <%= datasource.name %>
+                    </a>
+                </div>
+                <div class="description"><%= datasource.description %></div>
+            </div>
+            <div class="cell middle solutions">
+
+            </div>
+            <div class="cell middle status status-text">
+
+                <%= datasource.state %>
+
+            </div>
+            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+             is returned by the AAM API --->
+
+        </div>
+    </li>
+<% }); %>

@@ -1,0 +1,32 @@
+{
+  "info" :
+  {
+    "displayName" : "Tim Lott ",
+    "title" : "Awesome dudee",
+    "avatar" : "/images/mboucher.jpg"
+  },
+  "actions" :
+  [
+    {
+      "id" : "logout",
+      "primary" : true,
+      "url" : "https://beta-c.omniture.com/logout.html?ssSession=1d7dde328a1f29d83c46732503c48bc6&jpj=85640859366479",
+      "text" : "Sign Out"
+    },
+    {
+      "id" : "settings",
+      "url" : "https://beta-c.omniture.com/p/suite/1.3/index.html?a=Product.SwitchProduct&product_id=suite&redirect_command=User.GetAccountInfo&ssSession=1d7dde328a1f29d83c46732503c48bc6&jpj=85640859366479&ssSession=1d7dde328a1f29d83c46732503c48bc6",
+      "text" : "Account Settings"
+    }
+  ],
+  "organizations" :
+  [
+    {
+      "tenantId" : "",
+      "active" : true,
+      "reportSuiteID" : "swhstarwoodver2",
+      "reportSuiteName" : "Test",
+      "name" : "WE.Finance"
+    }
+  ]
+}

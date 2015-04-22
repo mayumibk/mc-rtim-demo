@@ -1,0 +1,28 @@
+.hide{display:none!important}
+.foundation-content>:not(.foundation-content-current){display:none}
+.card.foundation-collection-container.mode-selection{background:url(foundation/css/resources/selmode_bg.png)}
+.foundation-layout-card.foundation-collection{position:relative}
+.foundation-layout-card .foundation-collection-quickactions{display:none}
+.foundation-layout-list .foundation-collection-quickactions{display:none}
+.foundation-layout-mode>:not(:first-child){display:none}
+.foundation-layout-mode>:not(:first-child).show{display:block}
+.foundation-layout-inline>*{float:left}
+.foundation-layout-inline:after{content:"";clear:both;display:block}
+.foundation-layout-inline[data-foundation-layout*=\22gap\22\:true]>*{margin-right:1.5rem}
+.foundation-layout-inline[data-foundation-layout*=\22gap\22\:true]>*:last-child{margin-right:0}
+.foundation-layout-form label{display:block;margin-bottom:.3125rem}
+.foundation-layout-form label>span:first-child{display:block}
+.foundation-layout-form input[type=text]{width:13rem}
+.foundation-layout-form textarea{width:13rem;height:8.75rem;min-width:13rem;max-width:13rem;min-height:5rem}
+.foundation-layout-form .datepicker input[type=text]{width:11rem}
+.foundation-layout-form .dropdown:not(.dropdown-editable) button{width:13rem}
+.foundation-layout-form .dropdown.dropdown-editable input[type=text]{width:11rem}
+.foundation-layout-form .pathbrowser{margin-top:.5rem}
+.foundation-layout-form input[type="checkbox"]+span{margin-bottom:.5rem}
+.foundation-layout-profile{padding:.9375rem}
+.foundation-layout-profile:after{content:"";display:block;clear:both}
+.foundation-layout-profile .grid{float:left;padding:0;width:14.9375rem}
+.foundation-layout-profile .tabs{float:left;width:calc(100% - 14.9375rem);width:-webkit-calc(100% - 14.9375rem);width:-moz-calc(100% - 14.9375rem)}
+.foundation-form.mode-default .foundation-field-edit{display:none}
+.foundation-form.mode-edit .foundation-field-readonly{display:none}
+.foundation-form.mode-default .foundation-field-hide-in-default{display:none}

@@ -1,0 +1,79 @@
+[
+  {
+    "path" : "/All Segments",
+    "pid" : 0,
+    "folderId" : 0,
+    "name" : "All Segments",
+    "parentFolderId" : 0,
+    "folderCount" : 4,
+    "subFolders" :
+    [
+      {
+        "path" : "/All Segments/Analytics Segments",
+        "pid" : 1577,
+        "folderId" : 34467,
+        "name" : "Analytics Segments",
+        "parentFolderId" : 0,
+        "folderCount" : 2,
+        "subFolders" :
+        [
+          {
+            "path" : "/All Segments/Analytics Segments/Behavioral",
+            "pid" : 1577,
+            "folderId" : 34471,
+            "name" : "Behavioral",
+            "parentFolderId" : 34467,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          },
+          {
+            "path" : "/All Segments/Analytics Segments/offline traits",
+            "pid" : 1577,
+            "folderId" : 34470,
+            "name" : "offline traits",
+            "parentFolderId" : 34467,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          }
+        ]
+      },
+      {
+        "path" : "/All Segments/CLTV",
+        "pid" : 1577,
+        "folderId" : 20575,
+        "name" : "CLTV",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ]
+      },
+      {
+        "path" : "/All Segments/checkout starters",
+        "pid" : 1577,
+        "folderId" : 20576,
+        "name" : "checkout starters",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ]
+      },
+      {
+        "path" : "/All Segments/mutual",
+        "pid" : 1577,
+        "folderId" : 20574,
+        "name" : "mutual",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ]
+      }
+    ]
+  }
+]

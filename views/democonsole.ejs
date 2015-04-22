@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html ng-app="consoleApp" class="wf-adobeclean-i4-active wf-adobeclean-n3-active wf-adobeclean-n4-active wf-adobeclean-n7-active wf-adobecleancondensed-n4-active wf-adobecleancondensed-n7-active wf-active">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Demo Console</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/touchicon.png">
+
+    <script type="text/javascript" src="/js/angular.min.js"></script>
+    <script type="text/javascript" src="/js/angular-filter.js"></script>
+    <script type="text/javascript" src="/js/jquery.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/utils.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/granite.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/shared.lc-1424416731228-lc.min.js"></script>
+
+    <link rel="stylesheet" href="/css/mac-coralui2.lc-1424416731228-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/mac.crs.datasourcepage.lc-1424416731228-lc.min.css" type="text/css">
+
+
+    <script type="text/javascript" src="/js/mac-coralui2.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/underscore.lc-1424416731228-lc.min.js"></script>
+    <script type="text/javascript" src="/js/mac.crs.datasourcepage.lc-1424416731228-lc.min.js"></script>
+
+
+</head>
+<body class="coral--light" ng-controller="consoleController">
+<div id="page-info" data-attribute-limit="" data-locale="en_US" folder-name="">
+
+    <div id="infoModal" class="coral-Modal" data-type="info">
+        <div class="coral-Modal-header">
+            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+            <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+            <button type="button" class="coral-MinimalButton coral-Modal-closeButton" title="Close" data-dismiss="modal">
+                <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon "></i>
+            </button>
+        </div>
+        <div class="coral-Modal-body">
+            <p></p>
+        </div>
+    </div>
+    <div class="layer-container">
+        <div class="layer datasource-page" style="display: block;">
+            <header class="top">
+                <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+                    <a> Adobe Marketing Cloud Demo Console </a>
+                    <button id="save-configuration" class="coral-Button coral-Button--primary right" ng-click="saveChanges()">Save</button>
+                    <button id="reset-demo" class="coral-Button reset right">Reset Demo</button>
+                </nav>
+            </header>
+            <div class="container with-margin">
+                <div class="info-container">
+                    <div class="datasource-info left">
+                        <div class="alerts-box">
+                            <div class="alert-message"></div>
+                        </div>
+                        <!-- Tabs -->
+                        <div class="coral-TabPanel" data-init='tabs' >
+                            <nav class="coral-TabPanel-navigation">
+                                <a class="coral-TabPanel-tab is-active" data-toggle="tab">General</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Generated Segments</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Events</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Segments</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Dimensions</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Datasources</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Customer Attributes</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Audiences</a>
+                                <a class="coral-TabPanel-tab" data-toggle="tab">Audience Dimensions</a>
+                            </nav>
+                            <div class="coral-TabPanel-content">
+                                <section class="coral-TabPanel-pane is-active">
+                                    <div class="fieldRow">
+                                        <label>Demoer information</label>
+                                        <div class="border-container">
+                                            <div class="border-content">
+                                                <div>During the demo, information below will be displayed in the UI.</div>
+                                                <div class="ic-input-region">
+                                                    <input type="text" name="displayName" class="datasource-title coral-Textfield" placeholder="Your Full Name" ng-model="config.displayName">
+                                                    <input type="text" name="loginName" class="datasource-title coral-Textfield top-margin" placeholder="Your Marketing Cloud Login ID (display purposes only) " ng-model="config.loginName">
+                                                    <input type="text" name="title" class="datasource-title coral-Textfield top-margin" placeholder="Your Title (display purposes only)" ng-model="config.title">
+                                                    <div id="dropzone">
+                                            <span class="center browse">Drag and drop your Avatar (less than 100x100 pixels, or
+                                                <span class="coral-FileUpload" data-upload-url="/democonsole/uploadavatar" data-auto-start="true" data-init="fileupload">
+                                                    <span class="coral-FileUpload-trigger coral-Link">
+                                                        <input class="coral-FileUpload-input" type="file" name="file" data-file-name-parameter="file.fileName" title="Browse" data-usehtml5="true" data-size-limit="100000000"  data-dropzone="#dropzone" id="coral-1">
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span id="progress-zone" class="coral-Progress center coral-Progress--large">
+                                                <div class="coral-Progress-bar">
+                                                    <div class="coral-Progress-status" style="width: 0%;"></div>
+                                                </div>
+                                                <label class="coral-Progress-label">0%</label>
+                                             </span>
+                                                        <div class="fileUploadProgressText"><label></label></div>
+                                                    </div>
+                                                    <div class="top-margin activate-content">
+                                                        <img id="avatar-image"  class="coral-FileUpload" data-upload-url="/democonsole/uploadavatar" data-auto-start="true" data-init="fileupload" data-file-name-parameter="file.fileName" ng-src="{{config.avatar}}"/>
+                                                        <span class="coral-Icon coral-Icon--infoCircle coral-icon--sizeS" data-init="quicktip" data-quicktip-type="info" data-quicktip-arrow="left" data-quicktip-content="To replace the avatar, drag and drop another image from your machine." tabindex="0" aria-describedby="coral-3"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fields">
+                                        <div class="fieldRow">
+                                            <label>Company Name &amp; Description</label>
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input type="text" name="companyName" class="datasource-title coral-Textfield" placeholder="Organization Name" ng-model="config.name">
+                                                    <input type="text" name="reportSuiteName" class="datasource-title coral-Textfield top-margin" placeholder="Report Suite Name" ng-model="config.reportSuiteName">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div class="fields">
+                                        <div class="fieldRow">
+                                            <label>Selected Anomaly</label>
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input type="text" name="anomalyName" class="datasource-title coral-Textfield" placeholder="Selected Anomaly" ng-model="config.anomalyName">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="fields">
+                                        <div class="fieldRow">
+                                            <label>Segment 1 Definition</label>
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input ng-repeat="segment in config.firstSegment" ng-change="updateSegments()" type="text" name = "firstSegmentItem{{ $index + 1}}" class="datasource-title coral-Textfield top-margin" placeholder="First Segment Item {{ $index  + 1}}" ng-model="segment.name">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="fields">
+                                        <div class="fieldRow">
+                                            <label>Segment 2 Definition</label>
+                                            <span class="coral-Icon coral-Icon--infoCircle coral-icon--sizeS" data-init="quicktip" data-quicktip-type="info" data-quicktip-arrow="left" data-quicktip-content="Segment 2 is read-only: Attributes defined in Segment 2 must be a subset of Segment 1." tabindex="0" aria-describedby="coral-3"></span>
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input ng-repeat="segment in config.secondSegment" ng-model="segment.name" type="text" name="secondSegmentItem{{ $index + 1}}" class="datasource-title coral-Textfield top-margin" placeholder="Second Segment Item {{ $index + 1 }}" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="metricsTab" class="fields">
+                                        <div ng-repeat="(key,value) in events | groupBy: 'category'" class="fieldRow">
+                                            <div class="border-container">
+                                                <div class="border-content">{{key}}
+                                                    <input ng-repeat="event in value" type="text" class="datasource-title coral-Textfield" ng-model="event.title"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="segmentsTab" class="fields">
+                                        <div class="fieldRow">
+                                            <div class="border-container">
+                                                <div class="border-content" ng-repeat="segment in segments">
+                                                    <input type="text" class="datasource-title coral-Textfield" ng-model="segment.name"/>
+                                                    <input type="text" class="datasource-title coral-Textfield" ng-model="segment.description"/>
+                                                    <input type="text" class="datasource-title coral-Textfield" ng-model="segment.tags"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="dimensionsTab" class="fields">
+                                        <div ng-repeat="(key,value) in dimensions | groupBy: 'category'" class="fieldRow">
+                                            <div class="border-container">
+                                                <div class="border-content">{{key}}
+                                                        <input ng-repeat="dimension in value" type="text" class="datasource-title coral-Textfield" ng-model="dimension.title"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="dimensionsTab" class="fields">
+                                        <div ng-repeat="datasource in config.datasources" class="fieldRow">
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input type="text" name="datasourceName" class="datasource-title coral-Textfield" placeholder="Datasource Name" ng-model="datasource.name">
+                                                    <input type="text" name="datasourceDescription" class="datasource-title coral-Textfield" placeholder="Datasource Description" ng-model="datasource.description">
+                                                    <input type="text" name="datasourceState" class="datasource-title coral-Textfield" placeholder="Datasource State" ng-model="datasource.state">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="dimensionsTab" class="fields">
+                                        <div ng-repeat="attribute in config.attributes" class="fieldRow">
+                                            <div class="border-container">
+                                                <div class="border-content">
+                                                    <input type="text" name="attributeName" class="datasource-title coral-Textfield" placeholder="Attribute Name" ng-model="attribute.name">
+                                                    <input type="text" name="attributeDescription" class="datasource-title coral-Textfield" placeholder="Attribute Description" ng-model="attribute.displayName">
+                                                    <input type="text" name="attributeState" class="datasource-title coral-Textfield" placeholder="Attribute State" ng-model="attribute.description">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="dimensionsTab" class="fields">
+                                        <button id="add-audience" class="coral-Button" ng-click="addAudience()">Add Audience</button>
+                                        <div ng-repeat="audience in config.audiences" class="fieldRow top-margin">
+                                            <div class="border-container top-margin">
+                                                <div class="border-content">
+                                                    <input type="text" name="attributeName" class="datasource-title coral-Textfield" placeholder="Audience Name" ng-model="audience.name">
+                                                    <input type="text" name="attributeDescription" class="datasource-title coral-Textfield" placeholder="Description" ng-model="audience.description">
+                                                    <input type="text" name="attributeState" class="datasource-title coral-Textfield" placeholder="Source" ng-model="audience.source">
+                                                    <input type="text" name="attributeState" class="datasource-title coral-Textfield" placeholder="Size" ng-model="audience.size">
+                                                    <input type="text" name="attributeState" class="datasource-title coral-Textfield" placeholder="Active" ng-model="audience.active">
+                                                    <input type="text" name="attributeState" class="datasource-title coral-Textfield" placeholder="Date Modified" ng-model="audience.dateModified">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="coral-TabPanel-pane">
+                                    <div id="dimensionsTab" class="fields">
+                                        <button id="add-audience" class="coral-Button" ng-click="addAudienceDimension()">Add Dimension</button>
+                                        <div ng-repeat="dimension in config.dimensions" class="fieldRow top-margin">
+                                            <div class="border-container top-margin">
+                                                <div class="border-content">
+                                                    <input type="text" name="attributeName" class="datasource-title coral-Textfield" placeholder="Attribute Name" ng-model="dimension.name">
+                                                    <input type="text" name="attributeDescription" class="datasource-title coral-Textfield" placeholder="Attribute Description" ng-model="dimension.id">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="fieldRow">
+                                <label>Demo Launchpad</label>
+                                <div class="border-container">
+                                    <div class="border-content">
+                                        <a href="/reports/anomalydetection" target="_blank">Anomaly Detection & Contribution Analysis</a>
+                                        <div class="top-margin"><a href="/mac/datasources" target="_blank">Customer Attributes</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="waitIndicator" class="coral-Wait coral-Wait--large center hidden"></div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="/css/adobe-fonts.css" type="text/css">
+<link rel="stylesheet" href="/css/democonsole.css" type="text/css">
+<script type="text/javascript" src="/js/demo.console.js"></script>
+</body></html>

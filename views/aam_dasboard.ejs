@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html ng-app="portalApp">
+<head>
+    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+
+    <title ng-bind="pageTitle">
+        Adobe AudienceManager | General Reports
+    </title>
+    <link href="/css/adobe-fonts.css" rel="stylesheet" type="text/css">
+
+    <meta name="_tk" content="J_noF4E91cbwTKwGLbWez87wXav2Vj4xKbsWVwXjask" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+    <link rel="SHORTCUT ICON" href="/portal/favicon.ico">
+    <link href="/css/aam/cui.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/aam/coral.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/aam/ng-table.css" rel="stylesheet" type="text/css" />
+    <link href="/css/aam/adobe_am_v2.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/aam/tree-control.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/aam/coral-transition.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/aam/reports.css" rel="stylesheet" type="text/css"/>
+
+
+    <script type="text/javascript" src="/js/aam/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="/js/aam/underscore-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/js/aam/angular.js"></script>
+    <script type="text/javascript" src="/js/aam/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="/js/aam/angular-ui-router.js"></script>
+    <script type="text/javascript" src="/js/aam/ng-table.js"></script>
+    <script type="text/javascript" src="/js/aam/angular-tree-control.js"></script>
+    <script type="text/javascript" src="/js/aam/jquery.easing.1.3.js"></script>
+
+
+    <script>
+        // Use traditional method to serialize arrays
+        //  perms : [1,2,3] will become perms=1&perms=2&perms=3
+        $.ajaxSettings.traditional = true;
+
+        $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
+            var token = $('meta[name=_tk]').attr("content");
+
+
+            if (options.type == "GET") {
+
+
+                if (options && options.data && typeof options.data === 'string' && options.data.match(/\+/)) {
+                    options.data = options.data.replace(/\+/g, '%20');
+                }
+
+                options.cache = false;
+
+
+                if ($.isEmptyObject(options.data)) {
+                    options.data = "no-cache=true";
+                }
+                else {
+                    options.data += "&no-cache=true";
+                }
+            }
+
+            if (typeof token !== "undefined") {
+                return jqXHR.setRequestHeader('AAM-CSRF-Token', token);
+            }
+        });
+
+        $(document).ajaxComplete(function(event, xhr, settings) {
+            if (typeof xhr === "object" && typeof xhr.status !== "undefined") {
+                switch (xhr.status) {
+
+                    case 401 :
+
+                        window.document.location.href = 'https://marketing.adobe.com';
+
+                        break;
+                }
+            }
+        });
+
+        window.navHelper = {
+            skipStandardTitle: false,
+            changeTitleAndActiveTab: function(obj) {
+                var self = this,
+                        title = obj.title,
+                        tab = obj.tab || '';
+
+                if (typeof title == 'string' && title.length) {
+                    this.skipStandardTitle = true;
+                }
+
+                $(function() {
+                    if (self.skipStandardTitle) {
+                        $('h2.page-title').html(title);
+                    }
+
+                    $('body').removeClass().addClass(tab);
+                });
+            },
+            changeTitle : function(args) {
+                window.document.title = window.document.title.replace(/\|\s(.*)$/, "| " + args.title);
+            }
+        };
+    </script>
+    <script>
+        ADOBE = {
+            AM : {
+                pid : 1799
+            }
+        };
+    </script>
+
+    <script type="text/javascript" src="/js/aam/moment.js"></script>
+
+
+    <script type="text/javascript" src="/js/aam/coral.min.js"></script>
+
+
+    <script>
+        var require = {baseUrl : '/js/amm', urlArgs : "v=" + '91' };
+    </script>
+
+
+
+
+
+
+
+    <!-- Modules -->
+
+
+
+
+
+
+    <!-- Behaviors -->
+
+
+
+
+    <!-- Models -->
+
+
+
+
+
+
+    <!-- Directives -->
+
+
+
+
+
+
+
+
+
+    <!-- Services -->
+
+
+    <script src="/js/aam/combined.js"></script>
+
+
+
+</head>
+<body id="GeneralReports" class="Analytics GeneralReports">
+<div id="cloud-header">
+    <div class="crumbs">
+        <a id="marketing-cloud-link" href="https://marketing.adobe.com">
+            <div class="logo"></div>
+            Adobe Marketing Cloud
+        </a>
+        <i class="chevron"></i>
+        <label id="solutions-crumb">Audience Manager</label>
+    </div>
+    <div class="drawer">
+        <label id="help-button" data-toggle="help-dropdown">Help</label>
+        <div id="notifications-badge" data-toggle="notifications-dropdown" class=" empty">
+            <span class="one-char empty">0</span>
+        </div>
+        <span id="user-selector-button" data-toggle="user-selector-dropdown" class="userIcon"></span>
+    </div>
+</div>
+<link href="/css/aam/header-1.1.9.min.css" rel="stylesheet" type="text/css"/>
+<script src="/js/aam/header-1.1.9.min.js"></script>
+
+<script>
+    new adobe.CloudHeader({
+        activeSolution : "Media Optimizer",
+        activeCapability : "AudienceManager",
+        searchProduct : "audiencemanager",
+        timeout : 5000,
+        server : "https://marketing.adobe.com",
+        lang : "en_US",
+        activeOrgId : "08D334B8528BFC930A490D44@AdobeOrg",
+        hasImsSession : true
+    });
+</script>
+
+<div class="page" role="main">
+    <div id="main-rail" class="rail left scroll" role="complementary">
+        <div class="wrap">
+            <div class="rail-view">
+                <script type="text/javascript" src="/js/aam/nav.js"> </script>
+
+                <script type="text/javascript">
+                    var userRoles = [
+
+                        "EDIT_DERIVED_SIGNALS"
+
+
+                        ,
+
+                        "DELETE_MODELS"
+
+
+                        ,
+
+                        "MAP_ALL_TRAITS_TO_MODELS"
+
+
+                        ,
+
+                        "VIEW_MODELS"
+
+
+                        ,
+
+                        "VIEW_DCS_REGIONS"
+
+
+                        ,
+
+                        "DELETE_ALL_DESTINATIONS"
+
+
+                        ,
+
+                        "VIEW_SELF"
+
+
+                        ,
+
+                        "DELETE_SEGMENTS"
+
+
+                        ,
+
+                        "EDIT_SEGMENTS"
+
+
+                        ,
+
+                        "DELETE_DATASOURCES"
+
+
+                        ,
+
+                        "DELETE_ALL_SEGMENTS"
+
+
+                        ,
+
+                        "VIEW_SEGMENTS"
+
+
+                        ,
+
+                        "CREATE_ALL_ALGO_TRAITS"
+
+
+                        ,
+
+                        "EDIT_ALL_TRAITS"
+
+
+                        ,
+
+                        "EDIT_DATASOURCES"
+
+
+                        ,
+
+                        "VIEW_DESTINATIONS"
+
+
+                        ,
+
+                        "EDIT_MODELS"
+
+
+                        ,
+
+                        "PTRUSER"
+
+
+                        ,
+
+                        "MAP_ALL_TO_SEGMENTS"
+
+
+                        ,
+
+                        "VIEW_TRAITS"
+
+
+                        ,
+
+                        "VIEW_DATASOURCES"
+
+
+                        ,
+
+                        "VIEW_ALL_TRAITS"
+
+
+                        ,
+
+                        "EDIT_TRAITS"
+
+
+                        ,
+
+                        "EDIT_ALL_DESTINATIONS"
+
+
+                        ,
+
+                        "DELETE_ALL_TRAITS"
+
+
+                        ,
+
+                        "DELETE_TRAITS"
+
+
+                        ,
+
+                        "VIEW_DERIVED_SIGNALS"
+
+
+                        ,
+
+                        "VIEW_ALL_DESTINATIONS"
+
+
+                        ,
+
+                        "CREATE_DERIVED_SIGNALS"
+
+
+                        ,
+
+                        "PTRREPORTS"
+
+
+                        ,
+
+                        "CREATE_DATASOURCES"
+
+
+                        ,
+
+                        "VIEW_DESTINATION_CONFIGS"
+
+
+                        ,
+
+                        "VIEW_ALL_SEGMENTS"
+
+
+                        ,
+
+                        "MAP_ALL_SEGMENTS_TO_MODELS"
+
+
+                        ,
+
+                        "CREATE_TRAITS"
+
+
+                        ,
+
+                        "CREATE_MODELS"
+
+
+                        ,
+
+                        "EDIT_ALL_SEGMENTS"
+
+
+                        ,
+
+                        "MAP_ALL_TO_DESTINATIONS"
+
+
+                        ,
+
+                        "CREATE_ALL_SEGMENTS"
+
+
+                        ,
+
+                        "CREATE_ALL_TRAITS"
+
+
+                        ,
+
+                        "VIEW_TAGS"
+
+
+                        ,
+
+                        "DELETE_DERIVED_SIGNALS"
+
+
+                        ,
+
+                        "DELETE_DESTINATIONS"
+
+
+                        ,
+
+                        "CREATE_SEGMENTS"
+
+
+                        ,
+
+                        "EDIT_DESTINATIONS"
+
+
+                        ,
+
+                        "CREATE_DESTINATIONS"
+
+
+                    ];
+
+                    var permissions = {
+                        enabled : !!userRoles
+                    };
+
+                    function showTableauTriange(id) {
+                        $('#' + id + ' .triangle_right').each(function() {
+                            var t = $(this),
+                                    p = ('?portalReportID=' + t.data('id')).toLowerCase();
+                            if (location.search.replace(/#.*?/, '').toLowerCase() == p) {
+                                t.css('visibility', 'visible').closest('section').addClass('open');
+                            }
+                        });
+                    }
+                </script>
+
+
+                <section class="links open foldable" id="reportingNav">
+                    <a class="heading">Analytics</a>
+                    <nav class="fold">
+                        <div class="sub_item" id="nav_dashboard"><a href="/portal/Analytics/reports.ddx#/dashboard" >Dashboard</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_general_reports"><a href="/portal/Analytics/reports.ddx#/general-reports" >General Reports</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_trend_reports"><a href="/portal/Analytics/reports.ddx#/trend-graph" >Trend Reports</a><div class="triangle_right"></div></div>
+
+                        <div class="sub_item" id="nav_custom_reports"><a href="/portal/Analytics/CustomReports.ddx" >Custom Reports</a><div class="triangle_right"></div></div>
+
+                        <div class="sub_item" id="nav_outbound_history"><a href="/portal/Analytics/OutboundHistory.ddx#/outbound-history" >Outbound History</a><div class="triangle_right"></div></div>
+                    </nav>
+                </section>
+
+
+                <section id="manageDataNav" class="links open foldable">
+                    <a class="heading">Manage Data</a>
+                    <nav class="fold">
+
+
+                        <div class="sub_item" id="nav_traits"><a href="/portal/Traits/Traits.ddx#show/list">Traits</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_segments"><a href="/portal/Segments/SegmentBuilder.ddx">Segments</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_destinations"><a href="/portal/Segments/ListDestinations.ddx">Destinations</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_manageDerivedSignals"><a href="/portal/Segments/ManageDerivedSignal.ddx">Derived Signals</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_models"><a href="/portal/Segments/Models.ddx">Models</a><div class="triangle_right"></div></div>
+
+
+                        <div class="sub_item" id="nav_tim"><a href="/portal/tim/TimHome.ddx">Tags</a><div class="triangle_right"></div></div>
+
+                    </nav>
+                </section>
+                <section id="tools" class="links open foldable">
+                    <a class="heading">Tools</a>
+
+                    <nav class="fold">
+                        <div class="sub_item" id="nav_visitorProfileViewer"><a href="/portal/Profile/VisitorProfileViewer.ddx">Visitor Profile Viewer</a></div>
+                    </nav>
+
+                </section>
+
+
+
+
+
+
+                <div id="modal-template"></div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="content">
+        <flash class="coral-Alert coral-Alert--{{flash.getMessage().type}}" ng-show="flash.getMessage()">
+            <i class="coral-Alert-typeIcon coral-Icon coral-Icon--sizeS icon-{{flash.getMessage().type}}"></i>
+            <b class="coral-Alert-title">{{flash.getMessage().type|uppercase}}</b>
+            <span ng-bind-html="flash.getMessage().text"></span>
+        </flash>
+        <div class="secondary-nav">
+            <a id="nav_button" class="header-button left" href="#">
+                <i class="icon-navigation medium coral-Icon coral-Icon--sizeM coral-Icon--navigation"></i>
+            </a>
+            <h2 class="page-title"></h2><span class="context-help" title="Help" data-id="c_tb_dashboard.html">&nbsp;</span>
+            <div class="icongroup right" id="contextNav"></div>
+        </div>
+        <div id="scroll-content">
+            <div id="mainContent">
+
+                <div ui-view></div>
+
+
+
+                <link rel="stylesheet" href="/css/aam/cloudviz.css" type="text/css" />
+                <script type="text/javascript" src="/js/aam/cloudviz/d3.js"></script>
+                <script type="text/javascript" src="/js/aam/cloudviz/dv.js"></script>
+                <script type="text/javascript" src="/js/aam/cloudviz/cloudviz.js"></script>
+                <script type="text/javascript" src="/js/aam/reports/general/controller.js"></script>
+                <script type="text/javascript" src="/js/aam/reports/trend/graph/controller.js"></script>
+                <script type="text/javascript" src="/js/aam/reports/trend/bulk-export/controller.js"></script>
+                <script type="text/javascript" src="/js/aam/reports/dashboard/controller.js"></script>
+
+
+            </div>
+
+            <div id="footer" class="footer">
+                <div class="copyright">&copy; <span id="copyrightYear"></span> Adobe Systems Incorporated. All Rights <span id="reservedForIP" style="display: inline; text-align: left;">Reserved.</span> <span id="ipAddressHidden" style="visibility: hidden;">68.67.173.11</span></div>
+                <div class="links">
+                    <a target="_blank" href="https://marketing.adobe.com/resources/help/en_US/aam/index.com">Help</a>
+                    <a target="_blank" href="http://www.adobe.com/misc/terms.html">Terms of Use</a>
+                    <a target="_blank" href="http://www.adobe.com/privacy.html">Privacy Policy</a>
+                    <span>Language: <a href="#">English</a></span>
+                </div>
+                <input type="hidden" name="_tk" id="_tk" value="J_noF4E91cbwTKwGLbWez87wXav2Vj4xKbsWVwXjask" />
+            </div>
+
+            <script type="text/javascript">
+                (function() {
+                    var copyrightYear = document.getElementById('copyrightYear');
+
+                    copyrightYear.style.cssText = 'display: inline; text-align: left;';
+                    copyrightYear.innerHTML = new Date().getFullYear();
+
+                    var reservedForIP = document.getElementById('reservedForIP'),
+                            ipAddressHidden = document.getElementById('ipAddressHidden');
+
+                    function toggleIP() {
+                        var visibility = ipAddressHidden.style.visibility === 'hidden' ? 'visible' : 'hidden';
+
+                        ipAddressHidden.style.visibility = visibility;
+                    }
+
+                    if (reservedForIP.addEventListener) {
+                        reservedForIP.addEventListener('click', toggleIP);
+                    } else if (reservedForIP.attachEvent) {
+                        reservedForIP.attachEvent('onclick', toggleIP);
+                    }
+                }());
+            </script>
+
+
+
+        </div>
+    </div>
+    <div id="right-rail" class="rail right scroll">
+
+    </div>
+</div>
+
+<div class="dialog" style="display:none;" id="alertBoxDialog" title="Alert">
+    <div id="alertError" class="message failure"><div class="error">ERROR: </div> <span class='errorMsg'></span></div>
+    <div id="alertWarning" class="message notice"><div class="warning">&nbsp;</div><span class='warningMsg'></span></div>
+    <div id="alertMsg"></div>
+    <div class="buttons"><button class="oldClose">Close</button></div>
+</div>
+
+<div id="overlayBackground" style="display:none;"></div>
+
+<cui-modal visible="modals.loading" loading-modal>
+    <span header><div class="coral-Wait coral-Wait--large"></div>Loading</span>
+    <span content><div class="coral-Wait coral-Wait--large"></div>Loading</span>
+
+    <div template class="coral-Modal" id="loadingModal">
+        <div class="coral-Modal-header">
+            <h2 class="coral-Modal-title coral-Heading coral-Heading--2"></h2>
+            <i class="coral-Modal-typeIcon coral-Icon coral-Icon--sizeS"></i>
+        </div>
+        <div class="coral-Modal-body"></div>
+    </div>
+</cui-modal>
+
+
+<script>
+    $(function() {
+
+        // Default state of left rail is closed. When integration is mostly finished,
+        // remove this line and call cui.css BEFORE adobe_am.css
+        $('.page').css({ left: 0 });
+
+        // Hiding/showing of main rail
+        $('#nav_button').click(
+                function() {
+                    if ($('.page').css('left') === '0px') {
+                        $('.page').animate({ left: '-15rem' }, 300, function() { $(window).trigger('App:Nav:Closed'); });
+                    } else {
+                        $('.page').animate({ left: 0 }, 300, function() { $(window).trigger('App:Nav:Opened'); });
+                    }
+                }
+        );
+
+        // Hiding/showing of right rail
+        $('.drawer .icon-tableandchart').toggle(
+                function() { $('#right-rail').animate({ right: 0 }, 300); },
+                function() { $('#right-rail').animate({ right: '-15rem' }, 300); }
+        );
+
+        // Expanding and contracting of submenus within main rail.
+        var subHt = $('.open .sub_item').eq(0).height();
+
+        $('.rail-view a.heading').click(function() {
+            var hdr = $(this).closest('section.links');
+
+            // Calculating the exact height of the subnav for a much smoother animation
+            var subNum = $(this).next('.fold').find('> .sub_item').length;
+            var nestOpenSubNum = $(this).next('.fold').find('.foldable.open .sub_item').length;
+            subNum += nestOpenSubNum;
+            var speed = (subNum * 3/subNum) * 100;
+            var totalSubNavHt = subNum * subHt;
+
+            if (hdr.hasClass('open') || $(this).next('.fold')[0].style.display === 'block') {
+                $(this).next('.fold').slideUp(speed, function() { hdr.removeClass('open'); });
+            } else {
+                hdr.addClass('open');
+                $(this).next('.fold')
+                        .css({ height: 0, display: 'block' })
+                        .animate({ height: totalSubNavHt }, speed, function() {
+                            $(this).css({ height: 'auto' });
+                        });
+            }
+        });
+
+        // Use body's id for page title and assign corresponding inline help filename.
+        var pageTitle, help;
+
+        switch ($('body').attr('id')) {
+            case 'AnalyticsQuickView':  pageTitle = 'Dashboard'; break;
+            case 'GeneralReports':      pageTitle = 'General Reports'; break;
+            case 'TrendReports':        pageTitle = 'Trend Reports'; break;
+            case 'CustomReports':       pageTitle = 'Custom Reports'; break;
+            case 'CustomerReports':     pageTitle = 'Reports'; break;
+            //case 'OnboardingStatus':    pageTitle = 'Onboarding Status'; break;
+            //case 'OutboundHistory':     pageTitle = 'Outbound History'; break;
+            case 'Traits':              pageTitle = 'Traits'; help = 'c_tb_dashboard.html'; break;
+            case 'Segments':            pageTitle = 'Segments'; help = 'c_segments_main.html'; break;
+            case 'DestinationList':     pageTitle = 'Destinations'; help = 'c_dest_main_dashboard.html'; break;
+            case 'ManageDestination':   pageTitle = 'Destinations'; help = 'c_dest_main_dashboard.html'; break;
+            case 'DerivedSignals':      pageTitle = 'Derived Signals'; help = 'c_tb_derived_signal.html'; break;
+            case 'ManageHome':          pageTitle = 'Models'; help = 'c_models_list_view.html'; break;
+            case 'Tags':                pageTitle = 'Tags'; break;
+            case 'TagsHistory':         pageTitle = 'TIM History'; break;
+            case 'VisitorProfileViewer':pageTitle = 'Visitor Profile Viewer'; break;
+            case 'Management':          pageTitle = 'Users'; $('#adminNav').addClass('open'); break;
+            case 'GroupManagement':     pageTitle = 'Groups'; $('#adminNav').addClass('open'); break;
+            case 'Limits':              pageTitle = 'Limits'; $('#adminNav').addClass('open'); break;
+            case 'AdminUsers':          pageTitle = 'My Account'; break;
+        }
+
+        if (!navHelper.skipStandardTitle) {
+            $('.page-title').html(pageTitle);
+        }
+
+        if (help) { $('.secondary-nav .context-help').attr({ 'data-id': help }).show() }
+
+        // Removes ugly scrollbar off left rail when menu height exceeds
+        // height of window, but turns scrollbar on when user mouseovers it.
+        // (toggleClass doesn't work well here for some reason)
+        $('#main-rail').hover(
+                function() { $(this).addClass('scrollable'); },
+                function() { $(this).removeClass('scrollable'); }
+        );
+
+        // Remove section headers of sections that user does not have access to.
+        $('nav.fold').each(function() {
+            if (!$(this).find('.sub_item').length) {
+                $(this).closest('section').remove();
+            }
+        });
+
+
+    });
+</script>
+
+
+
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" + "js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","73d698cd70","2307655","MwcGZhBWVkBZU0JYDgpNN0YQQkxAeVNCWA4KTRZXElhKR0s=",0,256,new Date().getTime(),"","","","",""]);</script>
+
+
+</body>
+
+</html>

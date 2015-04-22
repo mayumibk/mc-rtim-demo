@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources -->
+<html class="wf-adobeclean-i4-active wf-adobeclean-n3-active wf-adobeclean-n4-active wf-adobeclean-n7-active wf-adobecleancondensed-n4-active wf-adobecleancondensed-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Customer Attribute Sources</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico">
+
+
+    <link rel="apple-touch-icon" sizes="144x144" href="https://freestone-inc.marketing.adobe.com/etc/designs/mac/touchicon.png">
+
+
+    <script>if(!window.console){var f=function(){};console={log:f,trace:f,debug:f,info:f,warn:f,error:f};}</script>
+    <script src="/js/login.config.js"></script>
+    <link rel="stylesheet" href="/css/mac-all.lc-1424416731228-lc.min.css" type="text/css">
+    <script type="text/javascript" src="/js/mac-all.lc-1424416731228-lc.min.js"></script>
+
+
+
+
+
+    <script>
+        (function ($) {
+            function ssoKeepAlive() {
+                $.ajax({
+                    url:"https://adobeid-na1.services.adobe.com/ims/check/v1/token?client_id=MarketingCloud11&scope=openid%2cavatar%2caudiencemanager_api%2cread_organizations%2cupdate_profile.first_name%2cupdate_profile.last_name%2cupdate_profile.phoneNumber%2cupdate_profile.job_function%2cadditional_info.job_function%2csession%2cadditional_info.projectedProductContext%2cupdate_profile.preferred_languages&_=1425048611640&callback=?",
+                    dataType:"jsonp",
+                    success:function (data) {
+                        window.console && console.log(new Date(), data);
+                        if (data.error) {
+                            // check failed -> redirect to logout
+                            //top.location.href = "/libs/cq/core/content/login.logout.html"
+                        } else {
+                            refreshSession(data.session, data.access_token);
+                        }
+                    }
+                });
+            }
+            function refreshSession(session, accessToken) {
+                $.ajax({
+                    url:session + "?bearer_token=" + accessToken + "&callback=?",
+                    dataType:"jsonp"
+                });
+            }
+            $(window).on("load", function () {
+                setTimeout(ssoKeepAlive, 0);
+                setInterval(ssoKeepAlive, 10 * 60 * 1000);
+            });
+        })(jQuery);
+    </script>
+
+</head>
+<body class="endor-Panel"><div class="mboxDefault" id="mbox-target-global-mbox-1425048611940-4040" style="visibility: visible; display: block;"></div>
+<div class="page" role="main">
+
+    <div class="endor-Panel-header endor-BreadcrumbBar is-closed" data-close-on-click="true">
+        <nav class="endor-Crumbs">
+            <a class="endor-Crumbs-item" href="https://freestone-inc.marketing.adobe.com/"><i class="endor-Crumbs-brandicon icon-marketingcloud medium"></i> Adobe Marketing Cloud</a>
+            <a class="endor-Crumbs-item endor-Crumbs-item--ellipsis" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#"></a>
+        </nav>
+    </div>
+
+    <div class="js-endor-page endor-Panel-content endor-Panel-content--breadcrumbBarHeight endor-Page ">
+        <div id="main-rail" class="rail left theme-dark" role="complementary">
+            <div class="wrap">
+
+                <div class="js-endor-navrail endor-Page-sidepanel endor-Page-sidepanel--navigation color-dark" data-view="feature">
+                    <a class="endor-Brand" data-init="brand" data-href="" href="https://freestone-inc.marketing.adobe.com/">
+                        <i class="endor-Brand-icon icon-marketingcloud medium"></i> Adobe Marketing Cloud
+                    </a>
+
+                    <div class="coral-ColumnView coral-ColumnView--navigation">
+                        <nav class="coral-ColumnView-column is-active" data-coral-columnview-id="root">
+                            <a class="coral-ColumnView-item" href="mac/feed">Feed</a>
+                            <a class="coral-ColumnView-item " href="mac/boards">Boards</a>
+                            <a class="coral-ColumnView-item" href="mac/assets">Assets</a>
+                            <a class="coral-ColumnView-item" href="mac/tools">Tools</a>
+                            <a class="coral-ColumnView-item" href="mac/solutions">Solutions</a>
+
+                            <a class="coral-ColumnView-item" href="#">Audiences<a>
+
+                                    <a class="is-active coral-ColumnView-item" href="datasources.html">Customer Attributes<a>
+
+
+                                            <span class="group marketing-app-group coral-ColumnView-item">Marketing Apps</span>
+
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://sc.omniture.com/p/suite/1.3/index.html?a=Landing.Main&amp;IMS=1" data-solution="ANALYTICS" data-company-name="Geometrixx" data-product-name="Analytics" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="https://freestone-inc.marketing.adobe.com/content/mac/freestone-inc/home/users/7FFF/pmtpidq2mh6xlhjvnmvu5hgia9g-n5yxv-ji0s2ql6y/boards/starwood-main.html#">Analytics</a>
+
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://mobilemarketing.adobe.com" data-solution="ANALYTICS" data-product-name="Analytics" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="https://freestone-inc.marketing.adobe.com/content/mac/freestone-inc/home/users/7FFF/pmtpidq2mh6xlhjvnmvu5hgia9g-n5yxv-ji0s2ql6y/boards/starwood-main.html#">Mobile Services</a>
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Geometrixx" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="https://freestone-inc.marketing.adobe.com/content/mac/freestone-inc/home/users/7FFF/pmtpidq2mh6xlhjvnmvu5hgia9g-n5yxv-ji0s2ql6y/boards/starwood-main.html#">Target</a>
+
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Geometrixx" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="https://freestone-inc.marketing.adobe.com/content/mac/freestone-inc/home/users/7FFF/pmtpidq2mh6xlhjvnmvu5hgia9g-n5yxv-ji0s2ql6y/boards/starwood-main.html#">Social</a>
+
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Geometrixx" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="#">Experience Manager</a>
+
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Geometrixx" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="#">Media Optimizer</a>
+                                            <a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Geometrixx" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="05D27FF4521616B60A490D4C@AdobeOrg" data-always-show="false" href="#">Campaign</a>
+                        </nav>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div id="linkAccountModal" class="modal linkAccountModal">
+            <div class="modal-header hidden hidden">
+                <h2>Link Account</h2>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body questionLink hidden">
+            </div>
+            <div class="modal-footer questionLink hidden">
+                <button class="noButton">No</button>&nbsp;&nbsp;&nbsp;
+                <button class="yesButton primary">Yes</button>
+            </div>
+            <div class="waitAddContainer">
+                <div class="wait large"></div>
+            </div>
+        </div>
+
+        <div class="content foundation-content" style="opacity: 1;">
+            <div class="foundation-content-current">
+
+
+
+                <nav class="endor-Panel-header endor-BlackBar">
+                    <button class="js-endor-navrail-toggle endor-BlackBar-nav  is-active" title="Toggle Rail"><i class="icon-navigation"></i></button>
+                    <button class="endor-BlackBar-back foundation-history-control" title="Back" data-foundation-history-control-action="back"><i class="icon-chevronleft"></i></button>
+
+                    <div class="endor-BlackBar-right popovers">
+                        <a class="help-link endor-BlackBar-item endor-BlackBar-item--text coral-u-hiddenXS withLabel" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#help_popover" data-toggle="popover">Help</a>
+                        <a class="endor-BlackBar-item endor-Badge foundation-setter notifications-link" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#notifications_popover" data-href="#notifications_popover">1</a>
+                        <a class="endor-BlackBar-item endor-UserProfile user user-link" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#user_popover">
+
+                            <div class="endor-UserProfile-tenant"><%= name %></div>
+
+                            <div class="endor-UserProfile-avatar" id="user-profile-avatar"><img src="<%= avatar %>" alt="avatar"></div>
+                        </a>
+                    </div>
+
+
+                    <div class="endor-BlackBar-title" role="heading" aria-level="1">Customer Attribute Sources</div>
+
+                </nav><div id="help_popover" class="popover" style="max-height: none; display: none; top: 36px; left: 854.890625px; right: auto;">
+
+
+                    <form method="get" action="https://microsite.omniture.com/t2/help/en_US/home/index.html?q={query}" target="_blank" data-preview-url="https://microsite.omniture.com/t2/help/search-json.php?locale=en_US&amp;q={query}">
+                        <input type="hidden" name="_charset_" value="utf-8">
+                        <div class="search">
+                            <input name="q" type="text" autocomplete="off" placeholder="Search">
+                            <button type="submit"></button>
+                            <button type="reset"></button>
+                        </div>
+                    </form>
+
+                    <ul class="link-list search-results"></ul>
+                    <ul class="link-list">
+
+                        <li>
+                            <a href="https://microsite.omniture.com/t2/help/en_US/home/index.html?r=undefined&f=release" target="_blank" title="What&#39;s New">What's New</a>
+                        </li>
+
+                        <li>
+                            <a href="https://microsite.omniture.com/t2/help/en_US/home/index.html?r=undefined&f=home" target="_blank" title="Help Home">Help Home</a>
+                        </li>
+
+                        <li>
+                            <a href="http://helpx.adobe.com/marketing-cloud/contact-support.html" target="_blank" title="Customer Care">Customer Care</a>
+                        </li>
+
+                        <li>
+                            <a href="http://help-forums.adobe.com/content/adobeforums/en.html" target="_blank" title="Community">Community</a>
+                        </li>
+
+                        <li>
+                            <a href="https://marketing.adobe.com/exchange" target="_blank" title="Exchange">Exchange</a>
+                        </li>
+
+
+                        <li data-dtm-coachmarkkey="turnoffCoachmarks" class="">
+                            <label class="coachmarkslabel" style="line-height: 1rem;">
+                                <input type="checkbox" name="c1" value="1" class="coachmarksinput" style="float: left;width: 0rem;">
+                                <span class="coachmarksspan" style="padding-left: 1.4rem;">Coach Marks</span>
+                            </label>
+                        </li>
+
+                    </ul>
+
+                    <div class="popover-arrow arrow-up" style="top: -20px; left: 78px;"></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <script>
+                    (function ($) {
+                        function ssoKeepAlive() {
+                            $.ajax({
+                                url:"https://adobeid-na1.services.adobe.com/ims/check/v1/token?client_id=MarketingCloud11&scope=openid%2cavatar%2caudiencemanager_api%2cread_organizations%2cupdate_profile.first_name%2cupdate_profile.last_name%2cupdate_profile.phoneNumber%2cupdate_profile.job_function%2cadditional_info.job_function%2csession%2cadditional_info.projectedProductContext%2cupdate_profile.preferred_languages&_=1425048611691&callback=?",
+                                dataType:"jsonp",
+                                success:function (data) {
+                                    window.console && console.log(new Date(), data);
+                                    if (data.error) {
+                                        // check failed -> redirect to logout
+                                        //top.location.href = "/libs/cq/core/content/login.logout.html"
+                                    } else {
+                                        refreshSession(data.session, data.access_token);
+                                    }
+                                }
+                            });
+                        }
+                        function refreshSession(session, accessToken) {
+                            $.ajax({
+                                url:session + "?bearer_token=" + accessToken + "&callback=?",
+                                dataType:"jsonp"
+                            });
+                        }
+                        $(window).on("load", function () {
+                            setTimeout(ssoKeepAlive, 0);
+                            setInterval(ssoKeepAlive, 10 * 60 * 1000);
+                        });
+                    })(jQuery);
+                </script>
+
+
+
+
+                <div id="crs-content">
+                    <div id="pageInfo" data-searchpath="/libs/mac/contents/crs/datasources.search.html" class="hidden"></div>
+
+                    <div class="actionBar">
+                        <div class="left search-placeholder">
+                            <div class="search">
+                                <input type="text" class="searchField" placeholder="Search All">
+                                <button type="submit">
+                                    <a id="search-popover-point" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#search-popover" data-toggle="popover" data-point-from="bottom" data-align-from="right"></a>
+                                </button>
+                                <button type="reset" title="Clear search field" class="clearSearch hidden"></button>
+                            </div>
+                        </div>
+
+                        <div class="middle actions-container">
+                            <div class="actionBox action-new" data-dtm-coachmarkconcept="crs" data-dtm-coachmarkcoachconcept="getstarted" data-dtm-coachmarkkey="newButton">
+                                <a href="https://freestone-inc.marketing.adobe.com/crs/create.html/freestone-inc/datasources">
+                                    <i class="icon-add-circle small icon"></i>
+                                    <span>New</span>
+                                </a>
+                            </div>
+
+                            <div class="actionBox action-delete">
+                                <a href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#" class="icon-delete small"></a>
+                                <span>Delete</span>
+                            </div>
+                        </div>
+
+                        <!--- Markup for the Gear Icon which gives the option to hide/show columns in the datasources list ---->
+                        <div class="right filters-placeholder">
+                            <div class="filterBox settings" data-dtm-coachmarkconcept="crs" data-dtm-coachmarkcoachconcept="getstarted" data-dtm-coachmarkkey="dataSourceSettings">
+                                <a class="icon-gear small" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#columns-filter-popover" data-toggle="popover" data-point-from="bottom" data-align-from="right"></a>
+                                <div id="columns-filter-popover" class="popover dsList-popover">
+                                    <ul>
+
+                                        <li class="column-name">
+                                            <input type="checkbox" id="solutions-checkbox" data-target="hide-solutions" checked="">
+                                            <label for="solutions-checkbox">Configured Solutions</label>
+                                        </li>
+                                        <li class="column-name">
+                                            <input type="checkbox" id="status-checkbox" data-target="hide-status" checked="">
+                                            <label for="status-checkbox">Status</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list">
+                        <li class="header">
+                            <div class="row fixed listHeader">
+                                <div class="cell middle checkbox">
+                                    <input type="checkbox" id="select-all-checkbox">
+                                    <span></span>
+                                </div>
+                                <div class="cell middle name sortable sorting-enabled" data-sort-by="NAME">
+                                    <span>Name &amp; Description</span>
+                                    <i class="icon icon-arrowup"></i>
+                                </div>
+
+                                <div class="cell middle solutions sortable sorting-enabled" data-sort-by="CONFIGURED_SOLUTION">
+                                    <span>Configured Solutions</span>
+                                    <i class="icon icon-arrowup hidden"></i>
+                                </div>
+                                <div class="cell middle status status-text sortable sorting-enabled" data-sort-by="DS_STATUS">
+                                    <span>Status</span>
+                                    <i class="icon icon-arrowup hidden"></i>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="datasourcesList">
+                        <ul class="list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14260" data-segmentid="14260">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name" data-dtm-coachmarkconcept="crs" data-dtm-coachmarkcoachconcept="getstarted" data-dtm-coachmarkkey="dataSourceDescription">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14260">
+                                                All-SPG Loyalty CRM
+                                            </a>
+                                        </div>
+                                        <div class="description">Loyalty program attributes for Starwood Preferred Guests. This version contains new SPG Pro attributes also.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14254" data-segmentid="14254">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14254" x-cq-linkchecker="skip">
+                                                EDW Snapshot - Jan 2015
+                                            </a>
+                                        </div>
+                                        <div class="description">Monthly update from Starwood's enterprise data warehouse.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14250" data-segmentid="14250">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14250" x-cq-linkchecker="skip">
+                                                EMEA Customer Context
+                                            </a>
+                                        </div>
+                                        <div class="description">Dataset containing customer context for EMEA property guests.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14253" data-segmentid="14253">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14253" x-cq-linkchecker="skip">
+                                                Four Points Call Center
+                                            </a>
+                                        </div>
+                                        <div class="description">Call center data from global Four Points properties.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14259" data-segmentid="14259">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14259" x-cq-linkchecker="skip">
+                                                G1 New System POC
+                                            </a>
+                                        </div>
+                                        <div class="description">First rev of G1 for validation. Need to update this when G2 goes live in April.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14255" data-segmentid="14255">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14255" x-cq-linkchecker="skip">
+                                                Hatfield Metrics Analysis
+                                            </a>
+                                        </div>
+                                        <div class="description">Project Hatfield dataset - excluding the latest properties as of Jan 1, 2015.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14256" data-segmentid="14256">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14256" x-cq-linkchecker="skip">
+                                                JIT Model Output
+                                            </a>
+                                        </div>
+                                        <div class="description">Propensity model assignments to high value customer segments.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14257" data-segmentid="14257">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14257" x-cq-linkchecker="skip">
+                                                Legacy DB
+                                            </a>
+                                        </div>
+                                        <div class="description">Old system output for transition comparison.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14258" data-segmentid="14258">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14258" x-cq-linkchecker="skip">
+                                                Motherload 2014
+                                            </a>
+                                        </div>
+                                        <div class="description">Full CRM snapshot for FY 2014.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14205" data-segmentid="14205">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14205" x-cq-linkchecker="skip">
+                                                MS Dynamics POC
+                                            </a>
+                                        </div>
+                                        <div class="description">Customer query for POC.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/6070" data-segmentid="6070">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/6070" x-cq-linkchecker="skip">
+                                                MyCRMdata
+                                            </a>
+                                        </div>
+                                        <div class="description">Test upload for segmentation testing &amp; validation on new platform.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+                                        Analytics
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Active
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14146" data-segmentid="14146">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14146" x-cq-linkchecker="skip">
+                                                Property-customer connections
+                                            </a>
+                                        </div>
+                                        <div class="description">Data associating customers to specific properties with accompanying detail.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+                                        Analytics
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Active
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14252" data-segmentid="14252">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14252" x-cq-linkchecker="skip">
+                                                Sheraton Call Center
+                                            </a>
+                                        </div>
+                                        <div class="description">Call center data for global Sheraton properties.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+
+                            <li class="listItem" data-path="/crs/freestone-inc/datasources/14251" data-segmentid="14251">
+                                <div class="row fixed ItemRow">
+                                    <div class="cell middle checkbox">
+                                        <input type="checkbox" class="item-checkbox">
+                                        <span></span>
+                                    </div>
+
+                                    <div class="cell middle name">
+
+                                        <div class="title">
+                                            <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14251" x-cq-linkchecker="skip">
+                                                Westin Call Center
+                                            </a>
+                                        </div>
+                                        <div class="description">Call center dataset for Westin properties globally.
+                                        </div>
+                                    </div>
+
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+
+                                    <!-- TODO Get Configured Solutions -->
+                                    <div class="cell middle solutions">
+
+                                    </div>
+                                    <div class="cell middle status status-text">
+
+                                        Inactive
+
+                                    </div>
+                                    <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                     is returned by the AAM API --->
+
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+                        <div>
+
+                            <div id="waitContainer" class="wait large center hidden"></div>
+
+                            <div id="search-popover" class="popover dsList-popover">
+                                <ul class="popover-listitems">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14260" data-segmentid="14260">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name" data-dtm-coachmarkconcept="crs" data-dtm-coachmarkcoachconcept="getstarted" data-dtm-coachmarkkey="dataSourceDescription">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14260">
+                                                        All-SPG Loyalty CRM
+                                                    </a>
+                                                </div>
+                                                <div class="description">Loyalty program attributes for Starwood Preferred Guests. This version contains new SPG Pro attributes also.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14254" data-segmentid="14254">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14254" x-cq-linkchecker="skip">
+                                                        EDW Snapshot - Jan 2015
+                                                    </a>
+                                                </div>
+                                                <div class="description">Monthly update from Starwood's enterprise data warehouse.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14250" data-segmentid="14250">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14250" x-cq-linkchecker="skip">
+                                                        EMEA Customer Context
+                                                    </a>
+                                                </div>
+                                                <div class="description">Dataset containing customer context for EMEA property guests.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14253" data-segmentid="14253">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14253" x-cq-linkchecker="skip">
+                                                        Four Points Call Center
+                                                    </a>
+                                                </div>
+                                                <div class="description">Call center data from global Four Points properties.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14259" data-segmentid="14259">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14259" x-cq-linkchecker="skip">
+                                                        G1 New System POC
+                                                    </a>
+                                                </div>
+                                                <div class="description">First rev of G1 for validation. Need to update this when G2 goes live in April.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14255" data-segmentid="14255">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14255" x-cq-linkchecker="skip">
+                                                        Hatfield Metrics Analysis
+                                                    </a>
+                                                </div>
+                                                <div class="description">Project Hatfield dataset - excluding the latest properties as of Jan 1, 2015.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14256" data-segmentid="14256">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14256" x-cq-linkchecker="skip">
+                                                        JIT Model Output
+                                                    </a>
+                                                </div>
+                                                <div class="description">Propensity model assignments to high value customer segments.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14257" data-segmentid="14257">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14257" x-cq-linkchecker="skip">
+                                                        Legacy DB
+                                                    </a>
+                                                </div>
+                                                <div class="description">Old system output for transition comparison.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14258" data-segmentid="14258">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14258" x-cq-linkchecker="skip">
+                                                        Motherload 2014
+                                                    </a>
+                                                </div>
+                                                <div class="description">Full CRM snapshot for FY 2014.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14205" data-segmentid="14205">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14205" x-cq-linkchecker="skip">
+                                                        MS Dynamics POC
+                                                    </a>
+                                                </div>
+                                                <div class="description">Customer query for POC.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/6070" data-segmentid="6070">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/6070" x-cq-linkchecker="skip">
+                                                        MyCRMdata
+                                                    </a>
+                                                </div>
+                                                <div class="description">Test upload for segmentation testing &amp; validation on new platform.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+                                                Analytics
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Active
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14146" data-segmentid="14146">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>4
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14146" x-cq-linkchecker="skip">
+                                                        Property-customer connections
+                                                    </a>
+                                                </div>
+                                                <div class="description">Data associating customers to specific properties with accompanying detail.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+                                                Analytics
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Active
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14252" data-segmentid="14252">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14252" x-cq-linkchecker="skip">
+                                                        Sheraton Call Center
+                                                    </a>
+                                                </div>
+                                                <div class="description">Call center data for global Sheraton properties.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+
+                                    <li class="listItem" data-path="/crs/freestone-inc/datasources/14251" data-segmentid="14251">
+                                        <div class="row fixed ItemRow">
+                                            <div class="cell middle checkbox">
+                                                <input type="checkbox" class="item-checkbox">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="cell middle name">
+
+                                                <div class="title">
+                                                    <a href="https://freestone-inc.marketing.adobe.com/crs/details.edit.html/freestone-inc/datasources/14251" x-cq-linkchecker="skip">
+                                                        Westin Call Center
+                                                    </a>
+                                                </div>
+                                                <div class="description">Call center dataset for Westin properties globally.
+                                                </div>
+                                            </div>
+
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+
+                                            <!-- TODO Get Configured Solutions -->
+                                            <div class="cell middle solutions">
+
+                                            </div>
+                                            <div class="cell middle status status-text">
+
+                                                Inactive
+
+                                            </div>
+                                            <!--- TODO - Uncomment the following columns and make appropriate changes in datasources.less after this info
+                                             is returned by the AAM API --->
+
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+
+                            <div id="confirm-delete-modal"></div>
+                            <div id="warn-copy-modal"></div>
+
+                            <div id="error-dsList-modal" class="alert error">
+                                <button class="close" data-dismiss="alert">×</button>
+                                <strong>ERROR</strong>
+                                <div class="message"></div>
+                            </div>
+
+                            <div id="warn-dsList-modal" class="alert notice">
+                                <button class="close" data-dismiss="alert">×</button>
+                                <strong>WARN</strong>
+                                <div class="message"></div>
+                            </div>
+
+
+                            <div id="success-dsList-modal" class="alert success">
+                                <button class="close" data-dismiss="alert">x</button>
+                                <strong>SUCCESS</strong>
+                                <div class="message"></div>
+                            </div>
+
+                        </div>
+
+                        <link rel="stylesheet" href="/css/clientlibs.lc-1424416731228-lc.min.css" type="text/css">
+                        <script type="text/javascript" src="/js/clientlibs.lc-1424416731228-lc.min.js"></script>
+
+
+
+                        <div>
+                            <footer class="endor-Panel-footer endor-Footer endor-Footer--sticky footer-solution">
+                                <span class="endor-Footer-copyright">© 2015 Adobe Systems Incorporated. All Rights Reserved</span>
+                                <div class="endor-Footer-links">
+                                    <a class="endor-Footer-item" href="http://www.adobe.com/go/marketingcloud_help" target="_blank">Help</a>
+                                    <a class="endor-Footer-item" href="https://marketing.adobe.com/resources/help/en_US/terms.html" target="_blank">Terms of Use</a>
+                                    <a class="endor-Footer-item" href="http://www.adobe.com/go/marketingcloud_privacy" target="_blank">Privacy Policy</a>
+                                    <div class="endor-Footer-item">
+                                        <label>Language:</label>
+                                        <a class="coral-Link endor-currentLanguage" href="https://freestone-inc.marketing.adobe.com/content/mac/freestone-inc/home/users/7FFF/pmtpidq2mh6xlhjvnmvu5hgia9g-n5yxv-ji0s2ql6y/profile.html" data-target="#language-selector-popover" data-toggle="popover" data-point-from="bottom" data-align-from="right">English</a>
+                                    </div>
+                                </div>
+                            </footer>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="pulldown" style="position:absolute;top:0;left:0;">
+            <div id="mac-pinToBoard" class="popover arrow-top">
+                <h4>Pin Card To Board <a class="icon-add right" href="https://freestone-inc.marketing.adobe.com/crs.html/freestone-inc/datasources#" data-target="mac-create-board">Create Board</a></h4>
+                <div class="dropdown-list"></div>
+            </div>
+        </nav>
+
+        <div id="delete-card" class="modal">
+            <div class="modal-header">
+                <h2>Delete Card</h2>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Deleting this card will cause all pinned references to be deleted as well. Continue?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal">Cancel</button>
+                <button type="button" class="primary warning" data-dismiss="modal">Delete</button>
+            </div>
+        </div>
+
+        <div class="firsttimeexperience"></div>
+
+
+        <div id="ajax_target"></div>
+        <div id="mac-dialog-mate"></div>
+        <div class="mc_dialogs">
+            <div class="mc_dialog_mate"></div>
+            <div class="mc_report_dialog"></div>
+        </div>
+        <div class="servicecomponents cloudservices">
+        </div>
+
+
+
+
+
+    </div></div></body>
+<link rel="stylesheet" href="/css/adobe-fonts.css" type="text/css">
+</html>

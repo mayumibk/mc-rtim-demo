@@ -1,0 +1,115 @@
+
+<style type="text/css">
+    .cloudvizChart {width: 100%; height: 320px;}
+</style>
+
+
+<div id="fixed-width">
+
+    <div class="coral-Alert coral-Alert--notice coral-Alert--large no-permissions" ng-show="!dashCtrl.showPartnerUniques() && !dashCtrl.showTraitGraphs() && !dashCtrl.showSegmentGraphs()">
+        <i class="coral-Alert-typeIcon coral-Icon coral-Icon--sizeS coral-Icon--checkCircle"></i>
+        <strong class="coral-Alert-title">NOTICE</strong>
+        <div class="coral-Alert-message">Due to your permission settings, you cannot see any reports on the dashboard.<br />Please reach out to your administrator to get permissions to view traits or segments.</div>
+    </div>
+
+
+    <div ng-show="dashCtrl.showPartnerUniques() || dashCtrl.showTraitGraphs() || dashCtrl.showSegmentGraphs()">
+        <aam-select id="date-range" class="coral-Select" ng-model="dashCtrl.config.selectedDateRange" on-select="dashCtrl.changeDateRange()">
+            <button type="button" class="coral-Select-button coral-MinimalButton">
+                <span class="coral-Select-button-text">Select</span>
+            </button>
+            <select class="coral-Select-select">
+                <option ng-repeat="range in dashCtrl.config.dateRange" value="{{range.value}}" ng-selected="range.value == dashCtrl.config.selectedDateRange">{{range.label}}</option>
+            </select>
+        </aam-select>
+
+        <span>before the last reporting date: {{dashCtrl.latestDate | utcTimeString }}</span>
+    </div>
+
+    <div class="coral-Well" id="unique-users" style="width: 1050px" ng-show="dashCtrl.showPartnerUniques()">
+
+        <span class="panel-title">Partner Uniques</span>
+
+        <label class="field coral-Checkbox normalize">
+            <input class="coral-Checkbox-input" type="checkbox" ng-model="dashCtrl.normalizePartnerUniquesGraph" ng-click="dashCtrl.toggleNormalizePartnerUniquesGraph()">
+            <span class="coral-Checkbox-checkmark"></span>
+            <span class="coral-Checkbox-description">Normalize</span>
+        </label>
+
+        <div id="cloudvizUniqueUsers" class="cloudvizChart"></div>
+
+        <div class="loading" ng-show="dashCtrl.config.loading.partnerUniques">
+            <div class="coral-Wait coral-Wait--large"></div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="coral-TabPanel" data-init="tabs" ng-show="dashCtrl.showTraitGraphs()">
+        <nav class="coral-TabPanel-navigation">
+            <a class="coral-TabPanel-tab is-active" data-toggle="tab" ng-click="dashCtrl.graphTab(dashCtrl.config.tabs.trait.largest)">Largest Traits</a>
+            <a class="coral-TabPanel-tab" data-toggle="tab" ng-click="dashCtrl.graphTab(dashCtrl.config.tabs.trait.mostChanged)">Most Changed Traits</a>
+
+            <div id="trait-type-select">
+                <aam-select class="coral-Select" ng-model="selectedTraitType" on-select="dashCtrl.filterTraits(selected)">
+                    <button type="button" class="coral-Select-button coral-MinimalButton">
+                        <span class="coral-Select-button-text">Filter</span>
+                    </button>
+                    <select class="coral-Select-select">
+                        <option ng-repeat="(k, v) in dashCtrl.config.traitTypes" value="{{v}}" ng-selected="v === selectedTraitType">{{v | titlecase}}</option>
+                    </select>
+                </aam-select>
+                <label>Show</label>
+            </div>
+
+        </nav>
+        <div class="coral-TabPanel-content">
+            <div class="loading" ng-show="dashCtrl.config.loading.trait">
+                <div class="coral-Wait coral-Wait--large"></div>
+                <div class="overlay"></div>
+            </div>
+            <section class="coral-TabPanel-pane is-active">
+                <div id="cloudvizLargestTraits" class="cloudvizChart"></div>
+                <span class="sorted-by">Sorted by Uniques</span>
+            </section>
+            <section class="coral-TabPanel-pane">
+                <div id="cloudvizMostChangedTraits" class="cloudvizChart"></div>
+                <span class="sorted-by">Sorted by Delta</span>
+            </section>
+            <label class="coral-Checkbox normalize">
+                <input class="coral-Checkbox-input" type="checkbox"
+                       ng-model="dashCtrl.config.normalized.trait"
+                       ng-click="dashCtrl.toggleNormalize(dashCtrl.config.tabs.trait)">
+                <span class="coral-Checkbox-checkmark"></span>
+                <span class="coral-Checkbox-description">Normalize</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="coral-TabPanel" data-init="tabs" ng-show="dashCtrl.showSegmentGraphs()">
+        <nav class="coral-TabPanel-navigation">
+            <a class="coral-TabPanel-tab is-active" data-toggle="tab" ng-click="dashCtrl.graphTab(dashCtrl.config.tabs.segment.largest)">Largest Segments</a>
+            <a class="coral-TabPanel-tab" data-toggle="tab" ng-click="dashCtrl.graphTab(dashCtrl.config.tabs.segment.mostChanged)">Most Changed Segments</a>
+        </nav>
+        <div class="coral-TabPanel-content">
+            <div class="loading" ng-show="dashCtrl.config.loading.segment">
+                <div class="coral-Wait coral-Wait--large"></div>
+                <div class="overlay"></div>
+            </div>
+            <section class="coral-TabPanel-pane is-active">
+                <div id="cloudvizLargestSegments" class="cloudvizChart"></div>
+                <span class="sorted-by">Sorted by Uniques</span>
+            </section>
+            <section class="coral-TabPanel-pane">
+                <div id="cloudvizMostChangedSegments" class="cloudvizChart"></div>
+                <span class="sorted-by">Sorted by Delta</span>
+            </section>
+            <label class="coral-Checkbox normalize">
+                <input class="coral-Checkbox-input" type="checkbox"
+                       ng-model="dashCtrl.config.normalized.segment"
+                       ng-click="dashCtrl.toggleNormalize(dashCtrl.config.tabs.segment)">
+                <span class="coral-Checkbox-checkmark"></span>
+                <span class="coral-Checkbox-description">Normalize</span>
+            </label>
+        </div>
+    </div>
+</div>

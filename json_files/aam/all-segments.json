@@ -1,0 +1,801 @@
+{
+  "total" : 31,
+  "page" : 0,
+  "pageSize" : 50,
+  "list" :
+  [
+    {
+      "pid" : 1577,
+      "sid" : 1830777,
+      "name" : "41-50 High Income",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429026021000,
+      "updateTime" : 1429026021000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(993868T OR 993876T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292663,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830776,
+      "name" : "51-60 High CLTV",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429025884000,
+      "updateTime" : 1429025884000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(993869T OR 993876T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292662,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830878,
+      "name" : "Auto Financing Intender - No Enrollment",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028142000,
+      "updateTime" : 1429028142000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(993883T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292674,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830877,
+      "name" : "CD Rate Check - Last 30 Days",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028141000,
+      "updateTime" : 1429028141000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824500T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292673,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995374,
+      "name" : "checkout start",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496440000,
+      "updateTime" : 1402496440000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993904T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20576,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109761,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830888,
+      "name" : "CRM - Household Income: 100 - 200K",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028341000,
+      "updateTime" : 1429028341000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824530T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292683,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830882,
+      "name" : "CRM - Loyalty Level - Medium",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028301000,
+      "updateTime" : 1429028301000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824514T OR 993888T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292678,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830774,
+      "name" : "Email Unsubscriber High Loyalty",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429025777000,
+      "updateTime" : 1429025777000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(1824526T OR 1824506T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292660,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830883,
+      "name" : "Frequent Transactors",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028302000,
+      "updateTime" : 1429028302000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(993905T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292679,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830884,
+      "name" : "HHI - No Purchase",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028302000,
+      "updateTime" : 1429028302000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(993888T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292680,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995371,
+      "name" : "High CLTV 18-25",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496159000,
+      "updateTime" : 1402496159000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993876T OR 993867T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 0,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109758,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995373,
+      "name" : "High CLTV 35-40",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496308000,
+      "updateTime" : 1402496308000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993876T OR 993875T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20575,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109760,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995372,
+      "name" : "High CLTV 41-50",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496249000,
+      "updateTime" : 1402496249000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993876T OR 993868T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20575,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109759,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830778,
+      "name" : "High LTV Female",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429026110000,
+      "updateTime" : 1429026110000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(993870T OR 993876T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292664,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830779,
+      "name" : "High LTV Male",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429026141000,
+      "updateTime" : 1429026141000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(993876T OR 993872T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292665,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 994014,
+      "name" : "High LTV NYC",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402000768000,
+      "updateTime" : 1402000768000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993876T OR 993874T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 0,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109227,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830880,
+      "name" : "High Net Worth - Find an Advisor",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028143000,
+      "updateTime" : 1429028143000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824514T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292676,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830772,
+      "name" : "Investment Visitors - High Income",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429025480000,
+      "updateTime" : 1429025480000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(993890T OR 993889T OR 993887T OR 993888T OR 993891T OR 993892T OR 993886T OR 993884T OR 993885T OR 993876T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292658,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830876,
+      "name" : "IRA Intenders - Last 30 Days",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028141000,
+      "updateTime" : 1429028141000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824509T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292672,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830731,
+      "name" : "Loyalty - High",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429022943000,
+      "updateTime" : 1429022943000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(1824506T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20575,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292649,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830732,
+      "name" : "Loyalty - Med",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429022993000,
+      "updateTime" : 1429022993000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(1824514T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292650,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995369,
+      "name" : "mutual fund 18-25",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496018000,
+      "updateTime" : 1402496018000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993867T OR 993887T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20574,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109756,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995368,
+      "name" : "Mutual Fund 26-34",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402495956000,
+      "updateTime" : 1402495956000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993887T OR 993866T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 0,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109755,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 995370,
+      "name" : "mutual fund 35-60",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1402496061000,
+      "updateTime" : 1402496061000,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "integrationCode" : "",
+      "segmentRule" : "(993887T OR 993875T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 20574,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 109757,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830881,
+      "name" : "Onsite Engagers",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028144000,
+      "updateTime" : 1429028144000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824528T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292677,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830781,
+      "name" : "Purchase &lt; 30",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429026272000,
+      "updateTime" : 1429026272000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "frequency([993905T] &gt;= 30D) &gt;= 1",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292666,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830875,
+      "name" : "Registered But No Login - Past 30 Days",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028140000,
+      "updateTime" : 1429028140000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824525T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292671,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830885,
+      "name" : "Registered Past 30 Days",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028303000,
+      "updateTime" : 1429028303000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824492T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34471,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292681,
+      "dataSourceId" : 1948
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830773,
+      "name" : "Saving Page High Loyalty Level",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429025694000,
+      "updateTime" : 1429025694000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "integrationCode" : "",
+      "segmentRule" : "(1824500T OR 1824506T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292659,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830879,
+      "name" : "Suscription Abandoner - High HHI",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028143000,
+      "updateTime" : 1429028143000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(1824506T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292675,
+      "dataSourceId" : 1949
+    },
+    {
+      "pid" : 1577,
+      "sid" : 1830887,
+      "name" : "Travel Enthusiast",
+      "description" : "",
+      "status" : "ACTIVE",
+      "createTime" : 1429028340000,
+      "updateTime" : 1429028340000,
+      "crUID" : 8531,
+      "upUID" : 8531,
+      "segmentRule" : "(993882T)",
+      "segmentRuleVersion" : 0,
+      "folderId" : 34470,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "CREATE",
+        "DELETE",
+        "MAP_TO_DESTINATIONS",
+        "MAP_TO_MODELS"
+      ],
+      "legacyId" : 292682,
+      "dataSourceId" : 1949
+    }
+  ]
+}

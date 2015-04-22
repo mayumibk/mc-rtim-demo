@@ -1,0 +1,129 @@
+{
+  "metadata" :
+  {
+    "delivery5" :
+    {
+      "PKey" : "LrGfz68L9KlGdstpac1DJlbmCu_fLT6bO0uXKc7MEV7Uzzo9Re9amSD_Lez6orte",
+      "content" :
+      {
+        "delivery5" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HUV3q_mk9P_SWA4_0VLXBEUJzh82f3azbR0GD5DKjWN2g",
+          "apiName" : "delivery5",
+          "category" : "",
+          "content" :
+          {
+            "target" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaGDs5no579M11hZPG_3iAcfsd9hsKNjUmwPmYpQE8E2CA",
+              "apiName" : "target",
+              "category" : "",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Targeting dimension",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "nms:recipient:recipient",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "Remarketing Email",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "delivery5",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "Remarketing Email",
+      "name" : "delivery5",
+      "readOnly" : false,
+      "type" : "item"
+    },
+    "query1" :
+    {
+      "PKey" : "LrGfz68L9KlGdstpac1DJoWfwaFcEh-tKjt1E09uisj0tl2h1bJFxrmSF1G_6G5P",
+      "content" :
+      {
+        "query1" :
+        {
+          "PKey" : "LrGfz68L9KlGdstpac1DJiJcla4guQbO3f0eM8-62HXihlZ7KWAdxB_gxVKKDX0h",
+          "apiName" : "query1",
+          "category" : "",
+          "content" :
+          {
+            "target" :
+            {
+              "PKey" : "LrGfz68L9KlGdstpac1DJi5vppZKLBUeYNXX6WheoaGDs5no579M11hZPG_3iAcfsd9hsKNjUmwPmYpQE8E2CA",
+              "apiName" : "target",
+              "category" : "",
+              "content" :
+              {
+              },
+              "dataPolicy" : "",
+              "desc" : "",
+              "displayFormat" : "",
+              "help" : "",
+              "label" : "Targeting dimension",
+              "lazyLoaded" : false,
+              "length" : "",
+              "metadata" : "element",
+              "privacy" : "firstParty",
+              "readOnly" : false,
+              "required" : false,
+              "resName" : "",
+              "resTarget" : "profile",
+              "resType" : "link",
+              "revResName" : "",
+              "type" : "link",
+              "unbound" : false
+            }
+          },
+          "dataPolicy" : "",
+          "desc" : "",
+          "displayFormat" : "",
+          "help" : "",
+          "label" : "Audience Selection",
+          "lazyLoaded" : false,
+          "length" : "",
+          "metadata" : "element",
+          "privacy" : "firstParty",
+          "readOnly" : false,
+          "required" : false,
+          "resName" : "query1",
+          "resType" : "",
+          "revResName" : "",
+          "type" : "item",
+          "unbound" : false
+        }
+      },
+      "label" : "Audience Selection",
+      "name" : "query1",
+      "readOnly" : false,
+      "type" : "item"
+    }
+  }
+}

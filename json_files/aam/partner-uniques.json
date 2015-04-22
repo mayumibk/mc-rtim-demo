@@ -1,0 +1,92 @@
+{
+  "pid" : 1577,
+  "name" : "Charles Sherman",
+  "description" : "Demo Environment for Charles Sherman",
+  "subdomain" : "csherman",
+  "imsOrgId" : "EB0F72DC524B28C30A490D45@AdobeOrg",
+  "lifecycle" : "DEMO",
+  "createTime" : 1401985693000,
+  "updateTime" : 1428675573000,
+  "crUID" : 607,
+  "upUID" : 11531,
+  "status" : "ACTIVE",
+  "accountTypes" :
+  [
+    "MMP",
+    "FULL_AAM",
+    "VISITOR_ID_SERVICE"
+  ],
+  "metrics" :
+  {
+    "1427846400000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1427932800000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428019200000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428105600000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428192000000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428278400000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428364800000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428451200000" :
+    {
+      "uniques" : 37357322,
+      "count" : 0
+    },
+    "1428537600000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428624000000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428710400000" :
+    {
+      "uniques" : 0,
+      "count" : 0
+    },
+    "1428796800000" :
+    {
+      "uniques" : 5660103,
+      "count" : 0
+    },
+    "1428883200000" :
+    {
+      "uniques" : 5154990,
+      "count" : 0
+    },
+    "1428969600000" :
+    {
+      "uniques" : 6510465,
+      "count" : 0
+    }
+  }
+}

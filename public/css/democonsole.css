@@ -1,0 +1,25 @@
+.alerts-box {
+    display: block;
+    width: 98.5%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #b4d7a7;
+    display: none;
+}
+.alert-message {
+    text-align: center;
+    padding: 0.7em;
+    font-family: "Adobe Clean", sans-serif;
+    font-size: medium;
+}
+
+#avatar-image {
+    float:left;
+    height: 60px;
+    width: 60px;
+}
+
+#dropzone {
+    display: none;
+}

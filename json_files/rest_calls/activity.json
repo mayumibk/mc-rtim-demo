@@ -1,0 +1,63 @@
+{
+  "PKey" : "wnykhNsawKK1gpu9Af2Qesq3EfArMG-r9pBj_6i_1yoEGHNt7v1zX15iaC10QZTSJPxpSjJXqTDzV_Qp9WDa4h9VXQeK9w423BfGWBc83y4",
+  "affinity" : "",
+  "collision" : "multiple",
+  "comment" : "",
+  "errorLimit" : 0,
+  "errors" : "",
+  "extension" : "",
+  "form" : "saveAudience",
+  "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/wnykhNsawKK1gpu9Af2Qesq3EfArMG-r9pBj_6i_1yoEGHNt7v1zX15iaC10QZTSJPxpSjJXqTDzV_Qp9WDa4h9VXQeK9w423BfGWBc83y4",
+  "img" : "nms:activities/group.svg",
+  "initScript" : "",
+  "isShared" : false,
+  "label" : "Save audience",
+  "mainSet" : "",
+  "mask" : "none",
+  "maxExecutionTime" : "PT0S",
+  "name" : "saveAudience1",
+  "onError" : "suspend",
+  "runOnSimulation" : true,
+  "savedAudience" :
+  {
+    "audience" : null,
+    "audience-cs" : "",
+    "computeName" : false,
+    "dataSource" : null,
+    "dataSource-cs" : "",
+    "dataSourceTarget" : 0,
+    "dedicatedTable" : true,
+    "prefix" : "",
+    "recycle" : true
+  },
+  "src" : "",
+  "tempMetadata" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/wnykhNsawKK1gpu9Af2Qesq3EfArMG-r9pBj_6i_1yoEGHNt7v1zX15iaC10QZTSJPxpSjJXqTDzV_Qp9WDa4h9VXQeK9w423BfGWBc83y4/tempMetadata/"
+  },
+  "timezone" : "_inherit_",
+  "title" : "Save audience (saveAudience1)",
+  "transitions" :
+  {
+    "result" :
+    {
+      "apiName" : "",
+      "code" : "",
+      "comment" : "",
+      "enabled" : false,
+      "label" : "",
+      "name" : "result",
+      "target" : "",
+      "title" : " (result)",
+      "x" : 0,
+      "y" : 0
+    }
+  },
+  "wakeup" :
+  {
+    "href" : "/rest/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activities/activity/wnykhNsawKK1gpu9Af2Qesq3EfArMG-r9pBj_6i_1yoEGHNt7v1zX15iaC10QZTSJPxpSjJXqTDzV_Qp9WDa4h9VXQeK9w423BfGWBc83y4/wakeup/"
+  },
+  "x" : 870,
+  "xpathEditTarget" : "",
+  "y" : 121
+}

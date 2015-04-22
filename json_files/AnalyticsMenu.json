@@ -1,0 +1,247 @@
+{
+  "name": "menuBase",
+  "icon": "coral-Icon--adobeAnalytics",
+  "children": [
+    {
+      "elementId": "analyticsBaseMenu",
+      "name": "Analytics",
+      "icon": "coral-Icon--adobeAnalytics",
+      "isMenuHome": false,
+      "homeMenuLabel": "",
+      "homeMenuIcon": "",
+      "children": [
+        {
+          "elementId": "analytics_menu_fM4Axpq5Hk",
+          "name": "Reports & Analytics",
+          "icon": "",
+          "tooltip": "Analytics > Reports & Analytics",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=site_catalyst&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": true
+        },
+        {
+          "elementId": "analytics_menu_5tkVyA6qpH",
+          "name": "Analyst Space",
+          "icon": "",
+          "tooltip": "Analytics > Analyst Space",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=site_catalyst&redirect_command=Analyst.Forage&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "Discover",
+          "name": "Ad Hoc Analysis",
+          "icon": "",
+          "tooltip": "Analytics > Ad Hoc Analysis",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=dsc&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "analytics_menu_oDFMvnpOk3",
+          "name": "Data Workbench",
+          "icon": "",
+          "tooltip": "Analytics > Data Workbench",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Insight.Main&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "analytics_menu_DAeU69b5CZ",
+          "name": "Data Warehouse",
+          "icon": "",
+          "tooltip": "Analytics > Data Warehouse",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=DataWarehouse.GetRequestReport&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "analytics_menu_4RveX3kgxh",
+          "name": "Visitor Click Map",
+          "icon": "",
+          "tooltip": "Analytics > Visitor Click Map",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Tools.GetClickMap&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "analytics_menu_8QkSVnyiwU",
+          "name": "Report Builder",
+          "icon": "",
+          "tooltip": "Analytics > Report Builder",
+          "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Tools.GetReportBuilder&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+          "selected": false
+        },
+        {
+          "elementId": "component_menu",
+          "name": "Components",
+          "icon": "",
+          "isMenuHome": false,
+          "homeMenuLabel": "",
+          "homeMenuIcon": "",
+          "children": [
+            {
+              "elementId": null,
+              "name": "Manage Segments",
+              "icon": "",
+              "tooltip": "Analytics > Components > Manage Segments",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=site_catalyst&redirect_command=ComponentManager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Manage Bookmarks",
+              "icon": "",
+              "tooltip": "Analytics > Components > Manage Bookmarks",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Bookmark.Manager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Manage Dashboards",
+              "icon": "",
+              "tooltip": "Analytics > Components > Manage Dashboards",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Dashboard.Manager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Manage Targets",
+              "icon": "",
+              "tooltip": "Analytics > Components > Manage Targets",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Target.Manager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Alerts",
+              "icon": "",
+              "tooltip": "Analytics > Components > Alerts",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Alert.Manager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Calendar Events",
+              "icon": "",
+              "tooltip": "Analytics > Components > Calendar Events",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=CalendarEvent.Manager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Scheduled Reports",
+              "icon": "",
+              "tooltip": "Analytics > Components > Scheduled Reports",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=ScheduledReport.ReportListManager&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Archived Reports",
+              "icon": "",
+              "tooltip": "Analytics > Components > Archived Reports",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=ReportArchive.Index&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            },
+            {
+              "elementId": null,
+              "name": "Report Settings",
+              "icon": "",
+              "tooltip": "Analytics > Components > Report Settings",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=User.GetReportSettings&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            }
+          ],
+          "selected": false
+        },
+        {
+          "elementId": "admin_menu_root",
+          "name": "Admin",
+          "icon": "",
+          "isMenuHome": false,
+          "homeMenuLabel": "",
+          "homeMenuIcon": "",
+          "children": [
+            {
+              "elementId": null,
+              "name": "Account Activity Report",
+              "icon": "",
+              "tooltip": "Analytics > Admin > Account Activity Report",
+              "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Company.AccountActivity&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+              "selected": false
+            }
+          ],
+          "selected": false
+        }
+      ],
+      "selected": false
+    },
+    {
+      "elementId": "prod_scm_link",
+      "name": "SearchCenter+",
+      "icon": "",
+      "tooltip": "SearchCenter+",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=sem&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_tnt_link",
+      "name": "Test&Target",
+      "icon": "",
+      "tooltip": "Test&Target",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.TrySaml&pid=ofm&cb=TestTarget.TestTarget&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_gen_link",
+      "name": "Data Connectors",
+      "icon": "",
+      "tooltip": "Data Connectors",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=sn&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_ams_link",
+      "name": "Mobile Services",
+      "icon": "",
+      "tooltip": "Mobile Services",
+      "url": "https:\/\/mobilemarketing.adobe.com",
+      "selected": false
+    },
+    {
+      "elementId": "prod_tc_link",
+      "name": "SearchAndPromote",
+      "icon": "",
+      "tooltip": "SearchAndPromote",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.TrySaml&pid=sitesearch&cb=SearchAndPromote.Main&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_sur_link",
+      "name": "Survey",
+      "icon": "",
+      "tooltip": "Survey",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=survey&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_rec_link",
+      "name": "Recommendations",
+      "icon": "",
+      "tooltip": "Recommendations",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.TrySaml&pid=rec&cb=Recommendations.Main&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_s7_link",
+      "name": "Scene7",
+      "icon": "",
+      "tooltip": "Scene7",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Scene7.Main&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    },
+    {
+      "elementId": "prod_social_link",
+      "name": "Social",
+      "icon": "",
+      "tooltip": "Social",
+      "url": "https:\/\/beta-c.omniture.com\/p\/suite\/1.3\/index.html?a=Product.SwitchProduct&product_id=social&ssSession=018665c024a46cc15807144591836faa&jpj=3803995991982",
+      "selected": false
+    }
+  ]
+}

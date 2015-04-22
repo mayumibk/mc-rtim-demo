@@ -1,0 +1,18 @@
+{
+  "buildNumber": 10147,
+  "instanceName": "acdemo",
+  "user": {
+    "id": 2967054,
+    "login": "businessAdmin",
+    "CS": "Business administrator (businessAdmin)",
+    "useIMS": false
+  },
+  "localeName": "en_US",
+  "timezoneName": "America/New_York",
+  "timezoneData": [
+
+  ],
+  "hasCampaign": false,
+  "hasMobileApp": true,
+  "newSecurityToken": "ourDBbNfTCqs7LrAInqNvxbmmBj6aey87TBfoFJ0xEYsXv4JM1hyPhsiSoBQTQI20PWi5pb5kXRYHoSazd7vkdYmvgeg-L_6J9xGaUiVZxU="
+}

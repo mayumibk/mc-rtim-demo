@@ -1,0 +1,792 @@
+{
+  "content" :
+  [
+    {
+      "PKey" : "TWcf365BYt26Fl1KIomKxBlytVgNRUHGp7QnJvngBUo",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 16:24:51.482Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/TWcf365BYt26Fl1KIomKxBlytVgNRUHGp7QnJvngBUo",
+      "icon" : "workflow",
+      "isTemplate" : false,
+      "label" : "Workflow - Retargeting",
+      "lastModified" : "2015-03-05 16:49:39.460Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "workflow",
+      "modifiedBy" : null,
+      "name" : "WKF90",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edit",
+      "template" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQtkmeSGxBwn19mmO6ZfXfvR0u_JikjdWUIoAL-PVouCl",
+        "title" : "New workflow (newWorkflow)"
+      },
+      "thumbnail" : "/nl/img/thumbnails/defaultWorkflow.png",
+      "title" : "Workflow - Retargeting (WKF90)"
+    },
+    {
+      "PKey" : "yLvbSUsMfu0J7bEyq7BaYDum5hQAJAXE0jvvVnO_pzs",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-20 16:59:08.684Z",
+      "createdBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+        "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/yLvbSUsMfu0J7bEyq7BaYDum5hQAJAXE0jvvVnO_pzs",
+      "icon" : "email",
+      "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4895091",
+      "isTemplate" : false,
+      "kpis" :
+      {
+        "FCPCount" : 0,
+        "delivered" : 0,
+        "deliveredMode" : "error",
+        "deliveredRatio" : 0,
+        "processed" : 0,
+        "processedRatio" : 0,
+        "recipientClick" : 0,
+        "recipientClickRatio" : 0,
+        "recipientOpen" : 0,
+        "recipientOpenRatio" : 0,
+        "renderingCount" : 0,
+        "sent" : 0,
+        "sentRatio" : 0,
+        "toDeliver" : 0,
+        "totalTarget" : 0,
+        "trapCount" : 0
+      },
+      "label" : "Retargeting Email",
+      "lastModified" : "2015-02-25 18:16:23.815Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "messageType" : "email",
+      "metadata" : "delivery",
+      "modifiedBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+        "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+      },
+      "name" : "DM406",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edition",
+      "template" :
+      {
+        "PKey" : "btKIVF_tpb2tEpZf5fPvRhIR-FeVKLNasdf969N0W4r7ImMYH8Yj9sQOWriDaO_7",
+        "title" : "Mountain Bike product launch (DM56)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/retargeting-email.png",
+      "title" : "Retargeting Email (DM406)",
+      "workflow" :
+      {
+        "PKey" : "TWcf365BYt26Fl1KIomKxDzxAN8snLQNNcek88hpV80",
+        "title" : "Workflow - Retargeting (WKF90)"
+      }
+    },
+    {
+      "PKey" : "yLvbSUsMfu0J7bEyq7BaYMI8rmpNnL4GzW8LX_NLPjc",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-19 14:35:52.350Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/yLvbSUsMfu0J7bEyq7BaYMI8rmpNnL4GzW8LX_NLPjc",
+      "icon" : "email",
+      "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4889539",
+      "isTemplate" : false,
+      "kpis" :
+      {
+        "FCPCount" : 0,
+        "delivered" : 0,
+        "deliveredMode" : "error",
+        "deliveredRatio" : 0,
+        "processed" : 0,
+        "processedRatio" : 0,
+        "recipientClick" : 0,
+        "recipientClickRatio" : 0,
+        "recipientOpen" : 0,
+        "recipientOpenRatio" : 0,
+        "renderingCount" : 0,
+        "sent" : 0,
+        "sentRatio" : 0,
+        "toDeliver" : 0,
+        "totalTarget" : 0,
+        "trapCount" : 0
+      },
+      "label" : "Retargeting Email Message",
+      "lastModified" : "2015-02-20 22:06:56.608Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "messageType" : "email",
+      "metadata" : "delivery",
+      "modifiedBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+        "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+      },
+      "name" : "DM397",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edition",
+      "template" :
+      {
+        "PKey" : "btKIVF_tpb2tEpZf5fPvRhIR-FeVKLNasdf969N0W4r7ImMYH8Yj9sQOWriDaO_7",
+        "title" : "Mountain Bike product launch (DM56)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/retargeting-email-message.png",
+      "title" : "Retargeting Email Message (DM397)",
+      "workflow" :
+      {
+        "PKey" : "TWcf365BYt26Fl1KIomKxDzxAN8snLQNNcek88hpV80",
+        "title" : "Workflow - Retargeting (WKF90)"
+      }
+    },
+    {
+      "PKey" : "TWcf365BYt26Fl1KIomKxLhgJXi8AWPB3z0BIjd6dF0",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 16:25:30.022Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/TWcf365BYt26Fl1KIomKxLhgJXi8AWPB3z0BIjd6dF0",
+      "icon" : "workflow",
+      "isTemplate" : false,
+      "label" : "Workflow - Guest Experience",
+      "lastModified" : "2015-02-20 19:47:31.013Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "workflow",
+      "modifiedBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO5XHn2dR_tgCGc3Gtuhv2vjPRgZAJSml3m6Shx8Adn_s",
+        "title" : "Mathieu Hannouz (hannouz@adobe.com)"
+      },
+      "name" : "WKF91",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edit",
+      "template" :
+      {
+        "PKey" : "iraLHLaQ1JUdCjnVscciQtkmeSGxBwn19mmO6ZfXfvR0u_JikjdWUIoAL-PVouCl",
+        "title" : "New workflow (newWorkflow)"
+      },
+      "thumbnail" : "/nl/img/thumbnails/defaultWorkflow.png",
+      "title" : "Workflow - Guest Experience (WKF91)"
+    },
+    {
+      "PKey" : "lcitVKbc0THhv1E3eutoSFpP4l17aIMgaYbx3idh53s",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 19:47:04.959Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/lcitVKbc0THhv1E3eutoSFpP4l17aIMgaYbx3idh53s",
+      "icon" : "landingPage",
+      "isTemplate" : false,
+      "label" : "Mobile Check-in",
+      "lastModified" : "2015-02-18 19:47:43.324Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "landingPage",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "LP42",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "service" : null,
+      "start" : "",
+      "state" : "edit",
+      "targetResource" : "profile",
+      "template" :
+      {
+        "PKey" : "UuWPZQLZCLMOswW4w766XrrUTJBalXkl6fgAvmCUmpZ80G0QdGXkbiD3fW4z4DYj",
+        "title" : "Subscription (subscription)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/mobile-checkin.png",
+      "title" : "Mobile Check-in (LP42)",
+      "type" : "subscription"
+    },
+    {
+      "PKey" : "lcitVKbc0THhv1E3eutoSARUTVCbislSI3opHTr32KI",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 19:29:15.668Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/lcitVKbc0THhv1E3eutoSARUTVCbislSI3opHTr32KI",
+      "icon" : "landingPage",
+      "isTemplate" : false,
+      "label" : "An Extra Night at $100 Credit",
+      "lastModified" : "2015-02-18 19:45:51.493Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "landingPage",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "LP40",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "service" : null,
+      "start" : "",
+      "state" : "edit",
+      "targetResource" : "profile",
+      "template" :
+      {
+        "PKey" : "UuWPZQLZCLMOswW4w766XrrUTJBalXkl6fgAvmCUmpZ80G0QdGXkbiD3fW4z4DYj",
+        "title" : "Subscription (subscription)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/extra-night-credit.jpg",
+      "title" : "An Extra Night at $100 Credit (LP40)",
+      "type" : "subscription"
+    },
+    {
+      "PKey" : "lcitVKbc0THhv1E3eutoSJxzcJLml6pbFzT9QmdMh94",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 19:24:45.249Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/lcitVKbc0THhv1E3eutoSJxzcJLml6pbFzT9QmdMh94",
+      "icon" : "landingPage",
+      "isTemplate" : false,
+      "label" : "Our Art Collection",
+      "lastModified" : "2015-02-18 19:27:07.210Z",
+      "logicalStatus" : "finished",
+      "mainDate" : "",
+      "metadata" : "landingPage",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "LP39",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "service" : null,
+      "start" : "",
+      "state" : "opened",
+      "targetResource" : "profile",
+      "template" :
+      {
+        "PKey" : "UuWPZQLZCLMOswW4w766XrrUTJBalXkl6fgAvmCUmpZ80G0QdGXkbiD3fW4z4DYj",
+        "title" : "Subscription (subscription)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/art-collection.jpg",
+      "title" : "Our Art Collection (LP39)",
+      "type" : "subscription"
+    },
+    {
+      "PKey" : "lcitVKbc0THhv1E3eutoSPeDT53yDxGB8B3Pt_tRVrQ",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 16:51:10.899Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/lcitVKbc0THhv1E3eutoSPeDT53yDxGB8B3Pt_tRVrQ",
+      "icon" : "landingPage",
+      "isTemplate" : false,
+      "label" : "Golf Courses ",
+      "lastModified" : "2015-02-18 19:23:49.984Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "landingPage",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "LP37",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "service" : null,
+      "start" : "",
+      "state" : "edit",
+      "targetResource" : "profile",
+      "template" :
+      {
+        "PKey" : "UuWPZQLZCLMOswW4w766XrrUTJBalXkl6fgAvmCUmpZ80G0QdGXkbiD3fW4z4DYj",
+        "title" : "Subscription (subscription)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/golf-courses.png",
+      "title" : "Golf Courses  (LP37)",
+      "type" : "subscription"
+    },
+    {
+      "PKey" : "yLvbSUsMfu0J7bEyq7BaYC7-uUWnTEzC6cZPQCzg8pY",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 19:18:52.572Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/yLvbSUsMfu0J7bEyq7BaYC7-uUWnTEzC6cZPQCzg8pY",
+      "icon" : "email",
+      "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4885134",
+      "isTemplate" : false,
+      "kpis" :
+      {
+        "FCPCount" : 0,
+        "delivered" : 0,
+        "deliveredMode" : "error",
+        "deliveredRatio" : 0,
+        "processed" : 0,
+        "processedRatio" : 0,
+        "recipientClick" : 0,
+        "recipientClickRatio" : 0,
+        "recipientOpen" : 0,
+        "recipientOpenRatio" : 0,
+        "renderingCount" : 0,
+        "sent" : 0,
+        "sentRatio" : 0,
+        "toDeliver" : 0,
+        "totalTarget" : 0,
+        "trapCount" : 0
+      },
+      "label" : "Take the fast track to fun",
+      "lastModified" : "2015-02-18 19:23:26.190Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "messageType" : "email",
+      "metadata" : "delivery",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "DM396",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edition",
+      "template" :
+      {
+        "PKey" : "btKIVF_tpb2tEpZf5fPvRiJe24WwUc0B4jCnNs061SbIaiBdH8qXwEKv4mgKbqvP",
+        "title" : "Standard email (mail)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/fasttrack-to-fun.png",
+      "title" : "Take the fast track to fun (DM396)",
+      "workflow" : null
+    },
+    {
+      "PKey" : "yLvbSUsMfu0J7bEyq7BaYLELkgB6ma_QE596I27U-fM",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 19:15:27.992Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/yLvbSUsMfu0J7bEyq7BaYLELkgB6ma_QE596I27U-fM",
+      "icon" : "email",
+      "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4885194",
+      "isTemplate" : false,
+      "kpis" :
+      {
+        "FCPCount" : 0,
+        "delivered" : 0,
+        "deliveredMode" : "error",
+        "deliveredRatio" : 0,
+        "processed" : 0,
+        "processedRatio" : 0,
+        "recipientClick" : 0,
+        "recipientClickRatio" : 0,
+        "recipientOpen" : 0,
+        "recipientOpenRatio" : 0,
+        "renderingCount" : 0,
+        "sent" : 0,
+        "sentRatio" : 0,
+        "toDeliver" : 0,
+        "totalTarget" : 0,
+        "trapCount" : 0
+      },
+      "label" : "Golf Special",
+      "lastModified" : "2015-02-18 19:17:22.066Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "messageType" : "email",
+      "metadata" : "delivery",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "DM395",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edition",
+      "template" :
+      {
+        "PKey" : "btKIVF_tpb2tEpZf5fPvRiJe24WwUc0B4jCnNs061SbIaiBdH8qXwEKv4mgKbqvP",
+        "title" : "Standard email (mail)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/doubleup-twice-rewards.png",
+      "title" : "Golf Special (DM395)",
+      "workflow" : null
+    },
+    {
+      "PKey" : "yLvbSUsMfu0J7bEyq7BaYJ-eFqiwJ77Q68gHUDia3S0",
+      "advanced" : false,
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 18:49:55.780Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/yLvbSUsMfu0J7bEyq7BaYJ-eFqiwJ77Q68gHUDia3S0",
+      "icon" : "email",
+      "inboxRenderingUrl" : "https://deliverability.neolane.net/dm/inboxRendering.jssp?cuid=d60966bf-f0df-47e6-8b5a-96f18d1ea9fd&did=4885193",
+      "isTemplate" : false,
+      "kpis" :
+      {
+        "FCPCount" : 0,
+        "delivered" : 0,
+        "deliveredMode" : "error",
+        "deliveredRatio" : 0,
+        "processed" : 0,
+        "processedRatio" : 0,
+        "recipientClick" : 0,
+        "recipientClickRatio" : 0,
+        "recipientOpen" : 0,
+        "recipientOpenRatio" : 0,
+        "renderingCount" : 0,
+        "sent" : 0,
+        "sentRatio" : 0,
+        "toDeliver" : 0,
+        "totalTarget" : 0,
+        "trapCount" : 0
+      },
+      "label" : "Promotion: SPG Double Play",
+      "lastModified" : "2015-02-18 19:14:00.645Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "messageType" : "email",
+      "metadata" : "delivery",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "DM394",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "state" : "edition",
+      "template" :
+      {
+        "PKey" : "btKIVF_tpb2tEpZf5fPvRiJe24WwUc0B4jCnNs061SbIaiBdH8qXwEKv4mgKbqvP",
+        "title" : "Standard email (mail)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/spg-double-play.png",
+      "title" : "Promotion: SPG Double Play (DM394)",
+      "workflow" : null
+    },
+    {
+      "PKey" : "lcitVKbc0THhv1E3eutoSMqhNkNmmmgKudDiPjs7798",
+      "alertMessage" : "",
+      "alertMode" : "",
+      "builtIn" : false,
+      "campaign" :
+      {
+        "PKey" : "HJ0dXTxqxgD104_MolpcGVar-xNsGY4BNsfaOktruRQ",
+        "title" : "Campaign - The Phoenician (CMP62)"
+      },
+      "created" : "2015-02-18 17:04:10.340Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "end" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/lcitVKbc0THhv1E3eutoSMqhNkNmmmgKudDiPjs7798",
+      "icon" : "landingPage",
+      "isTemplate" : false,
+      "label" : "Landing Page - Catering",
+      "lastModified" : "2015-02-18 17:04:40.016Z",
+      "logicalStatus" : "edition",
+      "mainDate" : "",
+      "metadata" : "landingPage",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "LP38",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "program" : null,
+      "service" : null,
+      "start" : "",
+      "state" : "edit",
+      "targetResource" : "profile",
+      "template" :
+      {
+        "PKey" : "UuWPZQLZCLMOswW4w766XrrUTJBalXkl6fgAvmCUmpbJyNhrwpY-o5R4QVktizaU",
+        "title" : "BlackList (blackList)"
+      },
+      "thumbnail" : "/images/starwood%20hotels/thumbnails/catering.png",
+      "title" : "Landing Page - Catering (LP38)",
+      "type" : "blackList"
+    }
+  ],
+  "count" :
+  {
+    "href" : "/rest/head/campaign/QEZ2JOqRdkXczD6JmjgpDtBx7kJFnsCCOPY8aTCpEWHbnmR8m8FZ41LEBVwV9HFe/activities/byPlanning/byLogicalStatus/byText/_count?startDate=&endDate=&state=&_lineCount=31&_order=lastModified desc&_lineStart=Y8qi1cQMdNi3aKZWWcmglw",
+    "value" : 12
+  }
+}

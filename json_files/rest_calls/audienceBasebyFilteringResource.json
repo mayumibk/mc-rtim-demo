@@ -1,0 +1,530 @@
+{
+  "content" :
+  [
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx18vavq2XyPDr9ZZg5Jfu7Fw",
+      "created" : "2014-11-26 18:44:14.951Z",
+      "createdBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO7Bd-ZlJK40DW21QhWf_YDanZVnwvCVsVts-TdTtj2OU",
+        "title" : "hannouz@adobe.com (hannouz_adobe_com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx18vavq2XyPDr9ZZg5Jfu7Fw",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "aLoft Target Spring 2015",
+      "lastModified" : "2015-02-18 19:55:28.605Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD40",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "aLoft Target Spring 2015 (AUD40)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx18h9SPxVBNR0hxetJpt17ek",
+      "created" : "2014-11-06 10:06:46.689Z",
+      "createdBy" :
+      {
+        "PKey" : "WgVxYa8C96apX9V7TwJ-4UNaNHFm_un67BAhJFAeI7A",
+        "title" : "Administrator (admin)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx18h9SPxVBNR0hxetJpt17ek",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Delta SkyMiles Crossover Rewards Target",
+      "lastModified" : "2015-02-18 20:30:47.705Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD27",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Delta SkyMiles Crossover Rewards Target (AUD27)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx18cSdzL-2d6djxoHKnPcohA",
+      "created" : "2015-02-18 16:55:55.055Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx18cSdzL-2d6djxoHKnPcohA",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Golf Cart Guests ",
+      "lastModified" : "2015-02-18 20:31:01.845Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD52",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Golf Cart Guests  (AUD52)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1-FTgpL8vOgmzt-a9XmFjH0",
+      "created" : "2015-01-12 15:20:24.771Z",
+      "createdBy" :
+      {
+        "PKey" : "PI-IZ3eY7HhcGsbJpPGbaj-CmxjYK_2tauzS8MRGf4Kcxnw4E12-9p3E6bNWH-6d",
+        "title" : "MARY Frédéric (frmary@adobe.com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1-FTgpL8vOgmzt-a9XmFjH0",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Hotel Booking abandoners",
+      "lastModified" : "2015-02-18 19:49:33.148Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD51",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Hotel Booking abandoners (AUD51)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1wVEricKWG8T35uLcCbC9lo",
+      "created" : "2015-01-08 16:29:47.352Z",
+      "createdBy" :
+      {
+        "PKey" : "PI-IZ3eY7HhcGsbJpPGbaj-CmxjYK_2tauzS8MRGf4Kcxnw4E12-9p3E6bNWH-6d",
+        "title" : "MARY Frédéric (frmary@adobe.com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1wVEricKWG8T35uLcCbC9lo",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "International traveler campaign",
+      "lastModified" : "2015-02-18 19:50:09.974Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD50",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "International traveler campaign (AUD50)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx15DHm_tpY_VoVi8sBklUkTA",
+      "created" : "2015-01-08 15:20:21.048Z",
+      "createdBy" :
+      {
+        "PKey" : "PI-IZ3eY7HhcGsbJpPGbaj-CmxjYK_2tauzS8MRGf4Kcxnw4E12-9p3E6bNWH-6d",
+        "title" : "MARY Frédéric (frmary@adobe.com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx15DHm_tpY_VoVi8sBklUkTA",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Late Arrivals",
+      "lastModified" : "2015-02-18 19:50:55.062Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD49",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Late Arrivals (AUD49)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx13tHVHUdElnrLZUw09B_bAU",
+      "created" : "2014-11-26 18:45:21.624Z",
+      "createdBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO7Bd-ZlJK40DW21QhWf_YDanZVnwvCVsVts-TdTtj2OU",
+        "title" : "hannouz@adobe.com (hannouz_adobe_com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx13tHVHUdElnrLZUw09B_bAU",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Luxuary Collection Target",
+      "lastModified" : "2015-02-18 19:55:01.963Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD41",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Luxuary Collection Target (AUD41)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx106evR5wcqw4e_sKTwRcQss",
+      "created" : "2014-11-26 18:37:09.618Z",
+      "createdBy" :
+      {
+        "PKey" : "9-EZwUchQp2v4GTCDxUzO7Bd-ZlJK40DW21QhWf_YDanZVnwvCVsVts-TdTtj2OU",
+        "title" : "hannouz@adobe.com (hannouz_adobe_com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx106evR5wcqw4e_sKTwRcQss",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "Memorable Mornings Target",
+      "lastModified" : "2015-02-18 20:25:41.040Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD39",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Memorable Mornings Target (AUD39)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1z6ErUTKUKtJTrrnBsONY8c",
+      "created" : "2014-11-06 12:43:01.267Z",
+      "createdBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1z6ErUTKUKtJTrrnBsONY8c",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "SPG Breakfast Plus Target",
+      "lastModified" : "2015-02-18 20:28:48.721Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD29",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "SPG Breakfast Plus Target (AUD29)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1-KDc3Zw_no4L3bLOHdft3k",
+      "created" : "2014-11-06 10:07:38.759Z",
+      "createdBy" :
+      {
+        "PKey" : "WgVxYa8C96apX9V7TwJ-4UNaNHFm_un67BAhJFAeI7A",
+        "title" : "Administrator (admin)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1-KDc3Zw_no4L3bLOHdft3k",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "SPG Credit Card Prospects",
+      "lastModified" : "2015-02-18 20:28:05.221Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD28",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "SPG Credit Card Prospects (AUD28)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1xe_OkPA7f9b7wa-LxHMw5g",
+      "created" : "2014-12-16 15:01:31.692Z",
+      "createdBy" :
+      {
+        "PKey" : "Hzmo_INWRfHwrTjfdHNOm3Jy2hY0uXWHh_5dT_EAcw2LeB6ZZK1xf78SLRkUjWIy",
+        "title" : "Hervé Phulpin (phulpin@adobe.com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1xe_OkPA7f9b7wa-LxHMw5g",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "SPG - Platinum",
+      "lastModified" : "2015-02-18 19:53:16.355Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD46",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "SPG - Platinum (AUD46)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx12VzyAI0sv28y8RSgoxLQxc",
+      "created" : "2014-12-05 18:46:30.506Z",
+      "createdBy" :
+      {
+        "PKey" : "1oOO6vvqWoTqS8bgB8SSQAAQ8tNasoWg0IS3e09wfyBIKKR7h9kOhqwPDYKag5bi",
+        "title" : "stinson@adobe.com (stinson_adobe_com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx12VzyAI0sv28y8RSgoxLQxc",
+      "icon" : "",
+      "iconsrc" : "",
+      "label" : "SPG - Preferred",
+      "lastModified" : "2015-02-18 19:53:31.688Z",
+      "modifiedBy" :
+      {
+        "PKey" : "j3Q_OKAl2uamv3sTdkhqanlxhM0MqXw0Z6wMPSEIGtA",
+        "title" : "Business administrator (businessAdmin)"
+      },
+      "name" : "AUD43",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "SPG - Preferred (AUD43)",
+      "type" : "query",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    },
+    {
+      "PKey" : "2gdiPkpwfus1-PMOj5mx1ypLURn6kCgo9JNq6LVX_v0",
+      "created" : "2015-02-20 00:55:12.315Z",
+      "createdBy" :
+      {
+        "PKey" : "ohSEEzKIVBX5sbQ_PMADDQjd8neUvQ73yYiUqy2o5fWpslieSYgth7c9MTBOh6By",
+        "title" : "Alexandre Morin (amorin@adobe.com)"
+      },
+      "desc" : "",
+      "expirationDate" : "",
+      "geoUnit" :
+      {
+        "PKey" : "_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "href" : "/rest/head/geoUnitBase/_8MoFr-0Eh2YFDdV35Sty3-ef7tYHpOt7EwY02ozqak",
+        "title" : "All (all)"
+      },
+      "href" : "/rest/head/audienceBase/2gdiPkpwfus1-PMOj5mx1ypLURn6kCgo9JNq6LVX_v0",
+      "icon" : "delivery",
+      "iconsrc" : "delivery",
+      "label" : "Test Alex",
+      "lastModified" : "2015-02-24 23:10:12.986Z",
+      "modifiedBy" :
+      {
+        "PKey" : "ohSEEzKIVBX5sbQ_PMADDQjd8neUvQ73yYiUqy2o5fWpslieSYgth7c9MTBOh6By",
+        "title" : "Alexandre Morin (amorin@adobe.com)"
+      },
+      "name" : "AUD54",
+      "orgUnit" :
+      {
+        "PKey" : "7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "href" : "/rest/head/orgUnitBase/7_ks35wq4YDkA9JyaAGSVZ4kEaBMWuGWnu2y2MvpiEQ",
+        "title" : "All (all)"
+      },
+      "title" : "Test Alex (AUD54)",
+      "type" : "aam",
+      "where" :
+      {
+        "filteringResource" : "profile"
+      }
+    }
+  ],
+  "count" :
+  {
+    "href" : "/rest/head/audienceBase/byText/byFilteringResource/_count?filteringResource=profile&_lineCount=31&_order=title&_lineStart=Wn5nVH4uuvl3xSkqlMdB9w",
+    "value" : 13
+  }
+}

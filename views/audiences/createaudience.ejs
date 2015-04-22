@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create New Audience</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/mac/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/mac/favicon.ico">
+
+
+    <link rel="apple-touch-icon" sizes="144x144" href="/etc/designs/mac/touchicon.png">
+
+    <script>if(!window.console){var f=function(){};console={log:f,trace:f,debug:f,info:f,warn:f,error:f};}</script>
+
+    <script type="text/javascript">
+        var AL = AL || {};
+        //TODO:(@sacjain) Read these values/configs from node when exist or extract them using machelper api later on
+        AL._MAX_NUMBER_OF_RULES = 5;
+        AL._RULES_COLOR_ARRAY = ['#8cc350','#5a6eaa','#d755a5','#1ebed7','#f0a01e','#9b8ce6','#3cb5a0','#3287d2','#f0557d','#c3d250','#eb782d','#78b4f5','#5faf69','#aa5fa5','#fa5a50','#f5c841'];
+        AL._tenant = "adobe-fsi-demo";
+        AL._tenantHome = "/";
+    </script>
+    <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/jquery.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/utils.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/granite.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/jquery.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/shared.lc-1428559268430-lc.min.js"></script>
+
+    <link rel="stylesheet" href="/css/audiences/mac-coralui2.lc-1428559268430-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/audiences/mac-cloudviz.lc-1428559268430-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/audiences/mac.al.admin.lc-1428559268430-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/audiences/mac.al.audiencepage.lc-1428559268430-lc.min.css" type="text/css">
+
+    <script type="text/javascript" src="/js/audiences/mac-coralui2.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/underscore.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/mac-cloudviz.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/mac.al.admin.lc-1428559268430-lc.min.js"></script>
+    <script type="text/javascript" src="/js/audiences/mac.al.audiencepage.lc-1428559268430-lc.min.js"></script>
+
+
+    <script>
+        $(function () {
+            $(".back").click(function (e) {
+                window.location.href = "/audiences.html";
+            });
+        });
+    </script>
+</head>
+<body class="coral--light">
+<header class="top">
+    <nav class="main js-coral-Wizard-nav coral-Wizard-nav coral--dark">
+        <a class="back"><i class="marketing-cloud-icon coral-Icon coral-Icon--adobeMarketingCloud coral-Icon--sizeM"></i></a>
+        <a class="segment-page-header  coral-Heading coral-Heading--3"> Create New Audience </a>
+    </nav>
+</header>
+<div class="page segment-page">
+    <div id="pageInfo"
+         data-editmode="false"
+         data-copymode="false"
+         data-path="/audiencelibrary/folder/"
+         data-source-id="null"
+         data-size=""
+         data-timeRange=""
+         data-sid=""
+         data-locale="en_US"
+            >
+    </div>
+    <div class="content">
+        <div class="innerContent">
+            <div class="container">
+                <div class="info-container">
+                    <div class="segment-info u-coral-pullLeft">
+                        <div class="fields fields-1">
+                            <div class="fieldRow">
+                                <label>Title</label>
+
+                                <input type="text" name="title" class="segment-title coral-Textfield"/>
+
+                            </div>
+
+                            <div class="fieldRow">
+                                <label>Description</label>
+
+                                <textarea name="description" class="segment-des coral-Textfield"></textarea>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Static data for now. Should be replaced with actual data when we have API in place -->
+                    <div class="diagram-container al-hidden u-coral-pullRight">
+                        <a class="coral-Icon coral-Icon--calendar coral-Icon--sizeS u-coral-pullRight al-vennCalendar" data-target="#bottomPopover" data-toggle="popover" data-point-from="bottom"></a>
+                        <div>
+                            <div class="dashed-icon">
+                                <img src="/css/audiences/images/VennDiagram_Dashed.png"></img>
+                                <span>Historical Estimate</span>
+                            </div>
+                            <div class="line-icon">
+                                <img src="/css/audiences/images/VennDiagram_Solid.png"></img>
+                                <span>Actual Audience</span>
+                            </div>
+                            <span class="venn-chart-time">Last 30 Days</span>
+                            <div id="vennDiagram" class="diagram"></div>
+                            <div id="venn-wait" class="coral-Wait coral-Wait--large coral-Wait--center al-hidden"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottomPopover" class="coral-Popover">
+                    <div class="coral-Popover-content">
+                        <ul class="coral-SelectList is-visible is-inline" data-init="selectlist">
+                            <li class="coral-SelectList-item coral-SelectList-item--option">
+                                <a data-id="DAYS7" class="withLabel">Last 7 Days</a>
+                            </li>
+                            <li class="coral-SelectList-item coral-SelectList-item--option">
+                                <a data-id="DAYS30" class="withLabel">Last 30 Days</a>
+                            </li>
+                            <li class="coral-SelectList-item coral-SelectList-item--option">
+                                <a data-id="DAYS60" class="withLabel">Last 60 Days</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <script id="empty-rule-template" type="text/template">
+
+
+
+
+
+
+
+
+                    <div class="coral-Well rule-container" data-rule="">
+                        <div class="rule-operator">
+        <span class="coral-Select operator-select" data-init="select">
+            <button type="button" class="coral-Select-button coral-MinimalButton">
+                <span class="coral-Select-button-text">AND</span>
+            </button>
+            <select class="coral-Select-select">
+                <option data-name="and"  value="and"
+                        >
+                    AND
+                </option>
+                <option data-name="or"  value="or"
+                        >
+                    OR
+                </option>
+                <option data-name="and not" value="and not"
+                        >
+                    AND NOT
+                </option>
+            </select>
+        </span>
+                        </div>
+
+
+                        <div class="rule-definition al-hidden"></div>
+
+
+                        <div class="rule-content ">
+                            <div class="attributeSource step step0">
+            <span class="coral-Select segmentPart al-select" data-init="select">
+                <button type="button" class="coral-Select-button coral-MinimalButton">
+                    <span class="coral-Select-button-text">Select Attribute Source  </span>
+                </button>
+                <select class="coral-Select-select">
+                    <option>Select Attribute Source</option>
+
+                    <option data-name="analytics"
+                            data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.reportSuite.html"
+                            >
+                        Raw Analytics Data
+                    </option>
+
+                    <option data-name="mac" class="lastStep"
+                            data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.macAudiences.html"
+                            >
+                        Marketing Cloud
+                    </option>
+                </select>
+            </span>
+                            </div>
+                            <div class="nextStepsContainer">
+
+                            </div>
+                        </div>
+
+                        <div class="lastStepContainer">
+
+                        </div>
+                    </div>
+
+                </script>
+
+                <div class="rules-container" id="rulesContainer">
+                    <div class="fields">
+                        <div class="fieldRow">
+                            <label>Rules</label>
+                            <div class="rules">
+
+                                <div class="coral-Well rule-container" data-rule="">
+                                    <div class="rule-operator">
+        <span class="coral-Select operator-select" data-init="select">
+            <button type="button" class="coral-Select-button coral-MinimalButton">
+                <span class="coral-Select-button-text">AND</span>
+            </button>
+            <select class="coral-Select-select">
+                <option data-name="and"  value="and"
+                        >
+                    AND
+                </option>
+                <option data-name="or"  value="or"
+                        >
+                    OR
+                </option>
+                <option data-name="and not" value="and not"
+                        >
+                    AND NOT
+                </option>
+            </select>
+        </span>
+                                    </div>
+
+
+                                    <div class="rule-definition al-hidden"></div>
+
+
+                                    <div class="rule-content ">
+                                        <div class="attributeSource step step0">
+            <span class="coral-Select segmentPart al-select" data-init="select">
+                <button type="button" class="coral-Select-button coral-MinimalButton">
+                    <span class="coral-Select-button-text">Select Attribute Source  </span>
+                </button>
+                <select class="coral-Select-select">
+                    <option>Select Attribute Source</option>
+
+                    <option data-name="analytics"
+                            data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.reportSuite.html"
+                            >
+                        Raw Analytics Data
+                    </option>
+
+                    <option data-name="mac" class="lastStep"
+                            data-templatePath="/audiencelibrary/adobe-fsi-demo/audiences/folder.newaudience.macAudiences.html"
+                            >
+                        Marketing Cloud
+                    </option>
+                </select>
+            </span>
+                                        </div>
+                                        <div class="nextStepsContainer">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="lastStepContainer">
+
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rule-wait" class="coral-Wait coral-Wait--large coral-Wait--center al-hidden"></div>
+                </div>
+
+
+                <div class="buttonRow">
+                    <button class="coral-Button back">Cancel</button>
+                    <button id="save-segment" class="coral-Button coral-Button--primary save-segment">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="al-rightRail u-coral-pullRight light" role="complimentary">
+
+        <div class="details">
+            <div class="box topbox">
+                <span class="withIcon noTitle highlight">
+                    <i class="coral-Icon coral-Icon--users coral-Icon--sizeS"></i>
+                    Audience Details
+                </span>
+            </div>
+
+            <div class="box-container">
+                <div class="box summaryBox">
+                    <span class="summaryTitle highlight">Summary&#x3a;</span>
+                    <div id="segment-summary">
+
+                        <div class="rule-definition"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container al-hidden">
+                <div class="box relatedSegmentBox">
+                    <span>Related Audiences</span>
+                    <div class="related-segments-container al-hidden">
+                        <div class="row fixed">
+                            <a href="#related-segments-popover" data-toggle="popover" data-point-from="left" data-align-from="right">
+                            </a>
+
+                            <!-- Static data..Should be replaced when APIs are integrated -->
+                            <div id="related-segments-popover" class="popover related-segments-popover">
+                                <ul>
+                                    <li>
+                                        <label>Title:</label>
+                                        <span>Chrome Visitors</span>
+                                    </li>
+                                    <li>
+                                        <label>Description:</label>
+                                        <span>Audience with Chrome Browser</span>
+                                    </li>
+                                    <li>
+                                        <label>Summary:</label>
+                                        <span>(Report Suite 31) Visitors where Browser equals Chrome</span>
+                                    </li>
+                                    <li>
+                                        <label>Number of Traits:</label>
+                                        <span>3</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="max-rules-warning-modal" class="modal"></div>
+    <div id="max-segment-warning-modal" class="modal"></div>
+
+    <div id="alert-box" class="coral-Alert coral-Alert--error">
+        <button type="button" class="coral-MinimalButton coral-Alert-closeButton" title="Close" data-dismiss="alert">
+            <i class="coral-Icon coral-Icon--sizeXS coral-Icon--close coral-MinimalButton-icon"></i>
+        </button>
+        <i class="coral-Alert-typeIcon coral-Icon coral-Icon--sizeS coral-Icon--alert"></i>
+        <strong class="coral-Alert-title">ERROR</strong>
+        <div class="coral-Alert-message"></div>
+    </div>
+
+    <div class="waitContainer al-hidden">
+        <div class="coral-Wait coral-Wait--large coral-Wait--center"></div>
+    </div>
+    <div class="coral-Tooltip coral-Tooltip--inspect coral-Tooltip--positionRight circletooltip al-hidden"></div>
+    <div id="value-tooltip"></div>
+</div>
+<script type="text/javascript" src="/js/demo-addon.js"></script>
+</body>
+</html>

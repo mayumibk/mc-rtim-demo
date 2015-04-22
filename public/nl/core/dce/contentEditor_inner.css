@@ -1,0 +1,94 @@
+body.nl_contentType-text {
+    font-family: "adobe-clean", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+span[data-mce-type="bookmark"] {
+    border: none !important;
+    width: 0 !important;
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: none !important;
+}
+
+.nl_img  {
+    background: #EEE center no-repeat url('/nl/img.png');
+    height: 50px;
+}
+
+.nl_img_filled  {
+    background: none;
+    height: auto;
+}
+
+.nl-dce-todo {
+    outline: 2px dotted #F89406 !important;
+}
+
+.nl-dce-done {
+    /*outline: 2px dotted #00960A !important;*/
+    outline: 0px none transparent !important;
+}
+
+.nl_currentSelectionOver {
+    outline: 2px dashed #00d8ff !important;
+    cursor: default !important;
+}
+
+.nl_currentSelection {
+    cursor: default;
+}
+
+.nl_currentEditing {
+    cursor: auto;
+}
+
+*.nl_currentEditing, *.nl_currentSelection,
+*.nl_currentEditing:focus, *.nl_currentSelection:focus {
+    outline: 3px solid #00d8ff !important;
+}
+
+*.nl_currentEditing, *.nl_currentEditing:focus{
+    outline: 3px solid #8dc63f !important;
+}
+
+img.nl_currentSelection {
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+
+span.nl-dce-field {
+    white-space:nowrap !important;
+    color: #2886dc !important;
+    text-shadow: none !important;
+    border: 3px solid #c3dbf0 !important;
+    cursor: pointer !important;
+    background-color: #cae4fc !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+span.nl-dce-fragment {
+    white-space:nowrap !important;
+    color: #443703 !important;
+    text-shadow: none !important;
+    border: 3px solid #e9cf86 !important;
+    cursor: pointer !important;
+    background-color: #f8e1a2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img, img.nl_currentEditing, img.nl_currentSelectionOver {
+    cursor: pointer;
+}
+
+.nl-dce-translate-highlight {
+    outline: 2px dashed #0069D6;
+}
+
+*[data-nl-type="landingPage"] {
+    color: #0c87c7;
+}

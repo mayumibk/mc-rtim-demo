@@ -1,0 +1,38 @@
+<% audiences.forEach(function(audience) { %>
+<li class="listItem" data-path="/audiencelibrary/adobe-fsi-demo/audiences/folder/1786352" data-segmentid="1786352" data-rule="(120938T OR 64086T OR 1836780T)">
+    <div class="row fixed segmentItemRow">
+        <div class="cell middle checkbox">
+            <input type="checkbox" class="item-checkbox"/>
+            <span></span>
+        </div>
+        <div class="cell middle name">
+            <div class="title textellipsis">
+
+                <a href="/audiences/details.edit.html/adobe-fsi-demo/audiences/folder/1786352">
+                    <%= audience.name %>
+                </a>
+
+            </div>
+            <div class="description textellipsis"><%= audience.description %>
+            </div>
+        </div>
+        <div class="cell middle source"><%= audience.source%>
+        </div>
+        <div class="cell middle size">
+
+            <%= audience.size %>
+
+
+        </div>
+
+        <div class="cell middle active">
+            <span><i class="icon-check small"></i></span>
+        </div>
+
+        <div class="cell middle modifiedDate"><%= audience.dateModified %></div>
+    </div>
+</li>
+<% }); %>
+
+
+

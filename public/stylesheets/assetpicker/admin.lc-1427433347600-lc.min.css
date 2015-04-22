@@ -1,0 +1,20 @@
+.wizard.hide-steps>nav>ol>li:before,.flexwizard.hide-steps>nav>ol>li:before,.wizard.hide-steps>nav>ol>li.active:after,.flexwizard.hide-steps>nav>ol>li.active:after,.wizard.hide-steps>nav>ol>li .lead-fill,.flexwizard.hide-steps>nav>ol>li .lead-fill{display:none}
+.flexwizard.hide-steps>nav>ol>li{border-bottom:0}
+.wizard.hide-steps>nav>ol>li,.flexwizard.hide-steps>nav>ol>li{font-size:1.125rem;padding-top:.25rem}
+.foundation-form.mode-default label{line-height:2}
+.foundation-form label{margin-bottom:4px}
+.foundation-form label>span:first-child{color:#9a9a9a}
+.foundation-form.mode-default .foundation-field-readonly.checkbox-status{padding-left:1.5em;color:#4b4b4b}
+.foundation-form.mode-default .foundation-field-readonly.checkbox-status.withLabel{padding-left:0}
+fieldset{border:0}
+fieldset fieldset{margin:0;padding:0 .5rem}
+fieldset>legend{text-transform:uppercase}
+fieldset.radiogroup>legend,fieldset.select>legend{padding:0;text-transform:none;font-size:.8125rem}
+fieldset.radiogroup .foundation-field-readonly{font-size:.8125rem}
+fieldset.select{font-size:.8125rem}
+fieldset.select ol{list-style:none;margin:0;padding:0}
+form.vertical label{display:block}
+form.vertical label>span:first-child{display:block}
+.foundation-field-readonly.filters ul.tags .popover{color:#9a9a9a}
+.foundation-field-readonly.filters ul.tags .popover div{padding:.3rem}
+.foundation-field-readonly.filters ul.tags a{color:white}

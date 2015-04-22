@@ -1,0 +1,224 @@
+
+<!doctype html>
+
+
+<script type="text/javascript" src="/js/angular.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta name='gwt:module' content='com.efrontier.gwt.dashboard.Main=com.efrontier.gwt.dashboard.Main'>
+    <meta name='gwt:version' content='MTQyOTAzMjEyOTM1Ng=='>
+    <meta name='sub_version_number' content='d3bfe8086c55a0f45f49c7395b71f09f51348335'>
+    <meta name='timestamp' content='09/04/2015 07:46 PM'>
+
+    <link rel='icon' href='com.efrontier.gwt.dashboard.Main/icons/marketingcloud_favicon.png?v=3' type='image/x-icon' id='favicon'/>
+    <link rel='shortcut icon' href='com.efrontier.gwt.dashboard.Main/icons/marketingcloud_favicon.png?v=3' />
+
+
+    <script type='text/javascript' language='JavaScript 1.5'>
+        var featureItemList = new Array();
+        featureItemList[0] = 'cmdashboard.navbaritem.allDisplayMananged';
+        featureItemList[1] = 'cmdashboard.report.EdnAdgroupReport';
+        featureItemList[2] = 'cmdashboard.navigator.syncTools';
+        featureItemList[3] = 'cmdashboard.report.NoActiveCampaignsPortfolioAlertsReport';
+        featureItemList[4] = 'cmdashboard.navigator.reportTemplates';
+        featureItemList[5] = 'cmdashboard.summary.portfolioAllPaused';
+        featureItemList[6] = 'cmdashboard.action.edit_edn_adgroups';
+        featureItemList[7] = 'cmdashboard.action.create_edn_campaigns';
+        featureItemList[8] = 'cmdashboard.report.pixelTest';
+        featureItemList[9] = 'cmdashboard.report.SocialCampaignReport';
+        featureItemList[10] = 'cmdashboard.report.CUSTOMEXCELARCHIVEREPORT';
+        featureItemList[11] = 'cmdashboard.navbaritem.quotaReport';
+        featureItemList[12] = 'cmdashboard.navbaritem.newNewSpendRecommendationViewProject9';
+        featureItemList[13] = 'cmdashboard.toolbaritem.bid_rules_button';
+        featureItemList[14] = 'cmdashboard.report.simulationsArchive';
+        featureItemList[15] = 'cmdashboard.summary.newConstraints';
+        featureItemList[16] = 'cmdashboard.navbaritem.createPortfolioView';
+        featureItemList[17] = 'cmdashboard.report.EdnCreativeReportGroupBySE';
+        featureItemList[18] = 'cmdashboard.report.budgetManagement';
+        featureItemList[19] = 'cmdashboard.action.edit_edn_campaigns';
+        featureItemList[20] = 'cmdashboard.report.SimulationReport';
+        featureItemList[21] = 'cmdashboard.report.EdnCreativeReport';
+        featureItemList[22] = 'cmdashboard.navigator.portfolioInsights';
+        featureItemList[23] = 'cmdashboard.navbaritem.simplePortfolioWorkflowWizard';
+        featureItemList[24] = 'cmdashboard.summary.link_edit_or_view_entity';
+        featureItemList[25] = 'cmdashboard.navbaritem.portfolioObjectiveGridView';
+        featureItemList[26] = 'cmdashboard.navbaritem.crossChannelRptView';
+        featureItemList[27] = 'cmdashboard.toolbaritem.generateFacebookBulkAdsBeta';
+        featureItemList[28] = 'cmdashboard.report.AccountProblemsAlertsReport';
+        featureItemList[29] = 'cmdashboard.navbaritem.portfolioCardsView';
+        featureItemList[30] = 'cmdashboard.navigator.bulksheetListView';
+        featureItemList[31] = 'cmdashboard.navbaritem.labelMgrView';
+        featureItemList[32] = 'cmdashboard.report.EdnCampaignReportGroupBySE';
+        featureItemList[33] = 'cmdashboard.navigator.keywordConstraints';
+        featureItemList[34] = 'cmdashboard.navbaritem.allBidStrategies';
+        featureItemList[35] = 'cmdashboard.report.column.portfolio_id';
+        featureItemList[36] = 'cmdashboard.module.campaignmanager';
+        featureItemList[37] = 'cmdashboard.report.EdnAdgroupReportGroupBySE';
+        featureItemList[38] = 'cmdashboard.action.edit_general';
+        featureItemList[39] = 'cmdashboard.summary.link_edit_or_view_account';
+        featureItemList[40] = 'cmdashboard.navigator.campaignAssignmentView';
+        featureItemList[41] = 'cmdashboard.navbaritem.agencySettings';
+        featureItemList[42] = 'cmdashboard.summary.BulksheetSummaryPanel';
+        featureItemList[43] = 'cmdashboard.report.EdnTrackedCampaignReport';
+        featureItemList[44] = 'cmdashboard.summary.portfolioHistory';
+        featureItemList[45] = 'cmdashboard.action.save_button';
+        featureItemList[46] = 'cmdashboard.summary.googleQuota';
+        featureItemList[47] = 'cmdashboard.action.generate_url_button';
+        featureItemList[48] = 'cmdashboard.summary.accountAccess';
+        featureItemList[49] = 'cmdashboard.report.runNewSimulation';
+        featureItemList[50] = 'cmdashboard.report.ClickModelAlertsReport';
+        featureItemList[51] = 'cmdashboard.toolbaritem.rulesMigrationButton';
+        featureItemList[52] = 'cmdashboard.report.BidsNotSetAlertsReport';
+        featureItemList[53] = 'cmdashboard.summary.portfolioConvergenceFailure';
+        featureItemList[54] = 'cmdashboard.navbaritem.updatePassword';
+        featureItemList[55] = 'cmdashboard.report.PortfolioBecameActiveAlertsReport';
+        featureItemList[56] = 'cmdashboard.action.delete_edn_creatives';
+        featureItemList[57] = 'cmdashboard.toolbaritem.portfolioSettingsViewp9';
+        featureItemList[58] = 'cmdashboard.navigator.targetSpend';
+        featureItemList[59] = 'cmdashboard.navbaritem.SocialAudienceTemplatesView';
+        featureItemList[60] = 'cmdashboard.summary.link_create_account';
+        featureItemList[61] = 'cmdashboard.navigator.portfolioSpotlight';
+        featureItemList[62] = 'cmdashboard.action.link_remove_all';
+        featureItemList[63] = 'cmdashboard.summary.masterAccountId';
+        featureItemList[64] = 'cmdashboard.settings.assignToPortfolio';
+        featureItemList[65] = 'cmdashboard.report.column.pid';
+        featureItemList[66] = 'cmdashboard.report.ExpiringConstraintsAlertsReport';
+        featureItemList[67] = 'cmdashboard.report.customSimulationAttribution';
+        featureItemList[68] = 'cmdashboard.navigator.simulations';
+        featureItemList[69] = 'cmdashboard.navigator.adCopySelection';
+        featureItemList[70] = 'cmdashboard.navigator.validatePortfolio';
+        featureItemList[71] = 'cmdashboard.action.editTrackingFields';
+        featureItemList[72] = 'cmdashboard.navbaritem.retailNavigator';
+        featureItemList[73] = 'cmdashboard.report.customSimulation';
+        featureItemList[74] = 'cmdashboard.navbaritem.viewAllAlerts';
+        featureItemList[75] = 'cmdashboard.navbaritem.portfolioWorkflowWizard';
+        featureItemList[76] = 'cmdashboard.module.tools';
+        featureItemList[77] = 'cmdashboard.action.external_reports';
+        featureItemList[78] = 'cmdashboard.navigator.portfolioSettingsView';
+        featureItemList[79] = 'cmdashboard.navigator.portfolioSettingsViewp9';
+        featureItemList[80] = 'cmdashboard.report.SocialAdgroupReport';
+        featureItemList[81] = 'cmdashboard.navigator.portSettings';
+        featureItemList[82] = 'cmdashboard.report.column.constraint_end_date';
+        featureItemList[83] = 'cmdashboard.action.editTrackingMethod';
+        featureItemList[84] = 'cmdashboard.navbaritem.keywordConstraintsView';
+        featureItemList[85] = 'cmdashboard.report.DisplayAdGroupReport';
+        featureItemList[86] = 'cmdashboard.navbaritem.rulesHomeView';
+        featureItemList[87] = 'cmdashboard.navigator.portfolioConfiguration';
+        featureItemList[88] = 'cmdashboard.navigator.ModelAccuracy';
+        featureItemList[89] = 'cmdashboard.module.admin';
+        featureItemList[90] = 'cmdashboard.toolbaritem.constraints_items';
+        featureItemList[91] = 'cmdashboard.module.portfolio';
+        featureItemList[92] = 'cmdashboard.navbaritem.transactionProperties';
+        featureItemList[93] = 'cmdashboard.navbaritem.KeywordLabelsView';
+        featureItemList[94] = 'cmdashboard.navbaritem.spendRecommendationView';
+        featureItemList[95] = 'cmdashboard.summary.viewAllAlerts';
+        featureItemList[96] = 'cmdashboard.report.column.constraint_start_date';
+        featureItemList[97] = 'cmdashboard.report.EdnCampaignReport';
+        featureItemList[98] = 'cmdashboard.navigator.topKeywordReport';
+        featureItemList[99] = 'cmdashboard.navigator.createPortfolioView';
+        featureItemList[100] = 'cmdashboard.module.socialmediamanager';
+        featureItemList[101] = 'cmdashboard.navbaritem.clientSettings';
+        featureItemList[102] = 'cmdashboard.summary.link_create_entity';
+        featureItemList[103] = 'cmdashboard.navbaritem.advancedReports';
+        featureItemList[104] = 'cmdashboard.navbaritem.bulksheetListView';
+        featureItemList[105] = 'cmdashboard.report.UnassignedCampaignsAlertsReport';
+        featureItemList[106] = 'cmdashboard.navbaritem.newReportsNavigator';
+        featureItemList[107] = 'cmdashboard.navigator.rulesImpactView';
+        featureItemList[108] = 'cmdashboard.navbaritem.manageWebRolesView';
+        featureItemList[109] = 'cmdashboard.report.column.adid';
+        featureItemList[110] = 'cmdashboard.summary.marginalCostToRevenue';
+        featureItemList[111] = 'cmdashboard.report.PortfolioOutOfSyncAlertsReport';
+        featureItemList[112] = 'cmdashboard.report.NoActiveKeywordPortfolioAlertsReport';
+        featureItemList[113] = 'cmdashboard.action.editAccountSettings';
+        featureItemList[114] = 'cmdashboard.navbaritem.webUserSettings';
+        featureItemList[115] = 'cmdashboard.navbaritem.excludeHistory';
+        featureItemList[116] = 'cmdashboard.report.PortConvergenceFailureAlertsReport';
+        featureItemList[117] = 'cmdashboard.report.DailyBudgetAlertsReport';
+        featureItemList[118] = 'cmdashboard.report.archivedSimulations';
+        featureItemList[119] = 'cmdashboard.action.editAutoUploadField';
+        featureItemList[120] = 'cmdashboard.toolbaritem.addSearchEngineAccount';
+        featureItemList[121] = 'cmdashboard.action.create_edn_creatives';
+        featureItemList[122] = 'cmdashboard.module.all';
+        featureItemList[123] = 'cmdashboard.report.DisplayCreativeReport';
+        featureItemList[124] = 'cmdashboard.module.snapshot';
+        featureItemList[125] = 'cmdashboard.summary.accountProblems';
+        featureItemList[126] = 'cmdashboard.summary.bidunitid';
+        featureItemList[127] = 'cmdashboard.report.EdnTrackedCampaignReportGroupBySE';
+        featureItemList[128] = 'cmdashboard.action.settings_btn';
+        featureItemList[129] = 'cmdashboard.report.MissingClickDataAlertsReport';
+        featureItemList[130] = 'cmdashboard.navbaritem.eventsTrxMetricRptView';
+        featureItemList[131] = 'cmdashboard.action.selectAttributionOptions';
+        featureItemList[132] = 'cmdashboard.navbaritem.displayManageSegments';
+        featureItemList[133] = 'cmdashboard.report.AdReport';
+        featureItemList[134] = 'cmdashboard.report.RevenueModelAlertsReport';
+        featureItemList[135] = 'cmdashboard.action.portfolio_navigation_searchtab';
+        featureItemList[136] = 'cmdashboard.navbaritem.portfolioConfiguration';
+        featureItemList[137] = 'cmdashboard.navbaritem.allDisplayTracking';
+        featureItemList[138] = 'cmdashboard.settings.newConstraints';
+        featureItemList[139] = 'cmdashboard.navbaritem.portfolioObjectiveView';
+        featureItemList[140] = 'cmdashboard.report.DisplayCampaignReport';
+        featureItemList[141] = 'cmdashboard.summary.link_edit_or_view';
+        featureItemList[142] = 'cmdashboard.action.status_change';
+        featureItemList[143] = 'cmdashboard.summary.portfolioNoActiveAds';
+        featureItemList[144] = 'cmdashboard.navigator.portfolioConstraints';
+        featureItemList[145] = 'cmdashboard.module.exchangemodule';
+        featureItemList[146] = 'cmdashboard.module.reports';
+        featureItemList[147] = 'cmdashboard.navigator.promotionsList';
+        featureItemList[148] = 'cmdashboard.report.DisplayAccountReport';
+        featureItemList[149] = 'cmdashboard.action.create_edn_adgroups';
+        featureItemList[150] = 'cmdashboard.navbaritem.newPortfolioWorkflowWizard';
+        var username = 'mboucher@adobe.com';
+        var webUserId = '27865';
+        var webUserRole = 'manager';
+        var agency = 'None';
+        var webUserBaseRole = 'account_manager';
+        var roleList = new Array();
+        roleList[0] = 'account_manager';
+        var datePatterns = {
+            shortDateFormat:'MM/dd/yyyy',
+            shortDateFormatEx:'MM/dd/yyyy',
+            shortDateTimeFormat:'MM/dd/yyyy hh:mm a',
+            shortDateTimeWithTimeZoneFormat:'MM/dd/yyyy HH:mm Z'
+        };
+        var tweetUrlSize = '22';
+        var tweetImageSize = '23';
+        var environment = 'enterprise.efrontier.com';
+    </script>
+
+
+
+    <title>AdLens</title>
+    <link rel="stylesheet" type="text/css" href="/css/amo/gxt-all.css" />
+    <link rel="stylesheet" type="text/css" href="/css/amo/cui.gxt.css" />
+</head>
+<body ng-app>
+<!--<script type="text/javascript" src="//use.typekit.net/dbp6jnj.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){};</script>-->
+<script type="text/javascript" src="/js/amo/jquery.min.js"></script>
+<script type="text/javascript" src="/js/amo/swfobject.js"></script>
+
+
+
+<script language="javascript" src="/js/amo/com.efrontier.gwt.dashboard.Main.nocache.js"></script>
+<iframe src="javascript:''" id="__gwt_historyFrame" style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+</body>
+
+
+</html>
