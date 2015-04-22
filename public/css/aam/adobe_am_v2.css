@@ -32,9 +32,9 @@ table {
   color: #333;
   border-width: 1px;
   border-style: solid;
-  background-image: url("/css/aam/images//StandardUp_button.png"); }
+  background-image: url("/css/aam/images/StandardUp_button.png"); }
   #mainContent button[class^="icon-"]:hover, #mainContent button[class*=" icon-"]:hover {
-    background-image: url("/css/aam/images//StandardHover_button.png"); }
+    background-image: url("/css/aam/images/StandardHover_button.png"); }
 #mainContent .num [class^="icon-"], #mainContent .num [class*=" icon-"] {
   width: auto;
   color: #000; }

@@ -561,7 +561,7 @@ div.segment_storage h4 {
     vertical-align: middle; }
 
 #SegmentEdit tbody tr.traitRule.hovered td {
-    background: url(../../images/adobe_ui/exp_builder/rulebg_mid_hover.png) center repeat-x #e3f3ff; }
+    background: url(../../images/rulebg_mid_hover.png) center repeat-x #e3f3ff; }
 
 #SegmentEdit tbody tr.traitRule.hovered td.rf_cell {
     background: none; }
@@ -576,7 +576,7 @@ div.segment_storage h4 {
     z-index: 100; }
 
 #SegmentEdit tbody tr.traitRule.hovered td.first {
-    background: url(../../images/adobe_ui/exp_builder/rulebg_hover.png) center left no-repeat #e3f3ff; }
+    background: url(../../images/rulebg_hover.png) center left no-repeat #e3f3ff; }
 
 #SegmentEdit tbody tr.traitRule td.first .mover {
     visibility: hidden; }
@@ -586,7 +586,7 @@ div.segment_storage h4 {
 
 #SegmentBuilder tbody tr.traitRule.on td.last,
 #SegmentBuilder tbody tr.traitRule.hovered td.last {
-    background: url(../../images/adobe_ui/exp_builder/rulebg_hover.png) 22px 31px repeat transparent; }
+    background: url(../../images/rulebg_hover.png) 22px 31px repeat transparent; }
 
 #SegmentBuilder tbody tr.traitRule {
     height: 30px; }
@@ -628,19 +628,19 @@ div.segment_storage h4 {
 
 #SegmentBuilder .groupTable tr.ruleOp.show td,
 #SegmentBuilder .groupTable tr.ruleOp.on td {
-    background: url(../../images/adobe_ui/exp_builder/ruleop_mid.png) repeat-x white; }
+    background: url(../../images/ruleop_mid.png) repeat-x white; }
 
 #SegmentBuilder .groupTable tr.ruleOp.show td.first,
 #SegmentBuilder .groupTable tr.ruleOp.on td.first {
-    background: url(../../images/adobe_ui/exp_builder/ruleop.png) left no-repeat white;
+    background: url(../../images/ruleop.png) left no-repeat white;
     padding-top: 62px; }
 
 #SegmentBuilder .groupTable tr.ruleOp.show td.last,
 #SegmentBuilder .groupTable tr.ruleOp.on td.last {
-    background: url(../../images/adobe_ui/exp_builder/ruleop.png) right no-repeat white; }
+    background: url(../../images/ruleop.png) right no-repeat white; }
 
 #SegmentEdit .groupTable tbody tr.ruleOp.off td.middle {
-    background: url("../../images/icons/op_dots_r2.png") no-repeat scroll 50% 0 #e3f3ff; }
+    background: url("/css/aam/images/op_dots_r2.png") no-repeat scroll 50% 0 #e3f3ff; }
 
 #SegmentEdit .AUI_content_white .panel_content div.recalculate_size {
     float: right;

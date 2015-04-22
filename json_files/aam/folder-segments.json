@@ -5,35 +5,90 @@
     "folderId" : 0,
     "name" : "All Segments",
     "parentFolderId" : 0,
-    "folderCount" : 4,
+    "folderCount" : 3,
     "subFolders" :
     [
       {
+        "path" : "/All Segments/Adobe Campaign",
+        "pid" : 1575,
+        "folderId" : 29838,
+        "name" : "Adobe Campaign",
+        "parentFolderId" : 0,
+        "folderCount" : 0,
+        "subFolders" :
+        [
+        ]
+      },
+      {
         "path" : "/All Segments/Analytics Segments",
-        "pid" : 1577,
-        "folderId" : 34467,
+        "pid" : 1575,
+        "folderId" : 20579,
         "name" : "Analytics Segments",
         "parentFolderId" : 0,
-        "folderCount" : 2,
+        "folderCount" : 6,
         "subFolders" :
         [
           {
-            "path" : "/All Segments/Analytics Segments/Behavioral",
-            "pid" : 1577,
-            "folderId" : 34471,
-            "name" : "Behavioral",
-            "parentFolderId" : 34467,
+            "path" : "/All Segments/Analytics Segments/geo1metrixxfsiauthor",
+            "pid" : 1575,
+            "folderId" : 29832,
+            "name" : "geo1metrixxfsiauthor",
+            "parentFolderId" : 20579,
             "folderCount" : 0,
             "subFolders" :
             [
             ]
           },
           {
-            "path" : "/All Segments/Analytics Segments/offline traits",
-            "pid" : 1577,
-            "folderId" : 34470,
-            "name" : "offline traits",
-            "parentFolderId" : 34467,
+            "path" : "/All Segments/Analytics Segments/geo1metrixxfsidev",
+            "pid" : 1575,
+            "folderId" : 20996,
+            "name" : "geo1metrixxfsidev",
+            "parentFolderId" : 20579,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          },
+          {
+            "path" : "/All Segments/Analytics Segments/geo1metrixxfsiprod",
+            "pid" : 1575,
+            "folderId" : 20581,
+            "name" : "geo1metrixxfsiprod",
+            "parentFolderId" : 20579,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          },
+          {
+            "path" : "/All Segments/Analytics Segments/geo1metrixxfsistage",
+            "pid" : 1575,
+            "folderId" : 23936,
+            "name" : "geo1metrixxfsistage",
+            "parentFolderId" : 20579,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          },
+          {
+            "path" : "/All Segments/Analytics Segments/geo1metrixxwefinance-dev",
+            "pid" : 1575,
+            "folderId" : 30549,
+            "name" : "geo1metrixxwefinance-dev",
+            "parentFolderId" : 20579,
+            "folderCount" : 0,
+            "subFolders" :
+            [
+            ]
+          },
+          {
+            "path" : "/All Segments/Analytics Segments/geo1metrixxwefinance-prod",
+            "pid" : 1575,
+            "folderId" : 30550,
+            "name" : "geo1metrixxwefinance-prod",
+            "parentFolderId" : 20579,
             "folderCount" : 0,
             "subFolders" :
             [
@@ -42,32 +97,10 @@
         ]
       },
       {
-        "path" : "/All Segments/CLTV",
-        "pid" : 1577,
-        "folderId" : 20575,
-        "name" : "CLTV",
-        "parentFolderId" : 0,
-        "folderCount" : 0,
-        "subFolders" :
-        [
-        ]
-      },
-      {
-        "path" : "/All Segments/checkout starters",
-        "pid" : 1577,
-        "folderId" : 20576,
-        "name" : "checkout starters",
-        "parentFolderId" : 0,
-        "folderCount" : 0,
-        "subFolders" :
-        [
-        ]
-      },
-      {
-        "path" : "/All Segments/mutual",
-        "pid" : 1577,
-        "folderId" : 20574,
-        "name" : "mutual",
+        "path" : "/All Segments/Audience Library",
+        "pid" : 1575,
+        "folderId" : 25320,
+        "name" : "Audience Library",
         "parentFolderId" : 0,
         "folderCount" : 0,
         "subFolders" :

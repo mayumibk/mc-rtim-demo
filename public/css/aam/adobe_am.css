@@ -178,7 +178,7 @@ div.AUI_SearchField {
 .context-help {
   margin: 0 0 0 6px;
   cursor: pointer;
-  background: url(../../images/adobe_ui/icons/help.png) center left no-repeat;
+  background: url(/css/aam/images/help.png) center left no-repeat;
   float: left;
   width: 14px;
   height: 14px; }
@@ -346,13 +346,13 @@ div.message.notice {
   font-weight: bold;
   display: inline;
   padding-left: 20px;
-  background: url(../../images/adobe_ui/icons/alert_red.png) center left no-repeat; }
+  background: url(/css/aam/images/alert_red.png) center left no-repeat; }
 
 .warning {
   font-weight: bold;
   display: inline;
   padding-left: 20px;
-  background: url(../../images/adobe_ui/icons/alert_yellow.png) center left no-repeat; }
+  background: url(/css/aam/images/alert_yellow.png) center left no-repeat; }
 
 #header {
   position: absolute;
@@ -477,27 +477,27 @@ div.message.notice {
 
 .icon-copy {
   padding-left: 15px;
-  background: url(../../images/adobe_ui/icons/copy.png) center left no-repeat;
+  background: url(/css/aam/images/copy.png) center left no-repeat;
   cursor: pointer; }
 
 .icon-delete {
   padding-left: 15px;
-  background: url(../../images/adobe_ui/icons/delete.png) center left no-repeat;
+  background: url(/css/aam/images/delete.png) center left no-repeat;
   cursor: pointer; }
 
 .icon-edit {
   padding-left: 15px;
-  background: url(../../images/adobe_ui/icons/edit.png) center left no-repeat;
+  background: url(/css/aam/images/edit.png) center left no-repeat;
   cursor: pointer; }
 
 .icon-download {
   padding-left: 15px;
-  background: url(../../images/adobe_ui/icons/download.png) center left no-repeat;
+  background: url(/css/aam/images/download.png) center left no-repeat;
   cursor: pointer; }
 
 .icon-email {
   padding-left: 15px;
-  background: url(../../images/adobe_ui/icons/email_standard.png) center left no-repeat;
+  background: url(/css/aam/images/email_standard.png) center left no-repeat;
   cursor: pointer; }
 
 .dtResults {
@@ -520,14 +520,14 @@ div.message.notice {
 
 .dtResults th.sorting_asc {
   padding-right: 10px;
-  background: #d1d1d1 url(../../images/adobe_ui/icons/sort_up.png) 95% 50% no-repeat; }
+  background: #d1d1d1 url(/css/aam/images/sort_up.png) 95% 50% no-repeat; }
 
 .dtResults th.sorting_desc {
   padding-right: 10px;
-  background: #d1d1d1 url(../../images/adobe_ui/icons/sort_down.png) 95% 50% no-repeat; }
+  background: #d1d1d1 url(/css/aam/images/sort_down.png) 95% 50% no-repeat; }
 
 .dtResults th.sorting:hover {
-  background: #dddddd url(../../images/adobe_ui/icons/sort_down.png) 95% 50% no-repeat; }
+  background: #dddddd url(/css/aam/images/sort_down.png) 95% 50% no-repeat; }
 
 .dtResults tr:hover {
   background: #EFEFEF; }
@@ -592,13 +592,13 @@ div.jstree .add {
   margin-left: 10px; }
 
 div.jstree .add {
-  background: url(../../images/adobe_ui/icons/add2.png) center center no-repeat; }
+  background: url(/css/aam/images/add2.png) center center no-repeat; }
 
 div.jstree .edit {
-  background: url(../../images/adobe_ui/icons/edit.png) center center no-repeat; }
+  background: url(/css/aam/images/edit.png) center center no-repeat; }
 
 div.jstree .delete {
-  background: url(../../images/adobe_ui/icons/delete.png) center center no-repeat; }
+  background: url(/css/aam/images/delete.png) center center no-repeat; }
 
 div.jstree li .jstree-hovered span {
   visibility: visible; }
@@ -642,7 +642,7 @@ div.jstree li .jstree-hovered span {
 
 .ui-dialog-titlebar-close {
   float: right;
-  background: url("../../images/adobe_ui/icons/close.png") no-repeat center right;
+  background: url("/css/aam/images/close.png") no-repeat center right;
   padding: 10px; }
 
 .ui-dialog-titlebar-close span {
@@ -673,12 +673,12 @@ div.jstree li .jstree-hovered span {
   margin: 0px; }
 
 #mainContent .accordion .container.open .header {
-  background: url("../../images/adobe_ui/icons/accordion_up.png") center left no-repeat;
+  background: url("/css/aam/images/accordion_up.png") center left no-repeat;
   margin-bottom: 4px;
   padding-left: 20px; }
 
 #mainContent .accordion .container.closed .header {
-  background: url("../../images/adobe_ui/icons/accordion_down.png") center left no-repeat;
+  background: url("/css/aam/images/accordion_down.png") center left no-repeat;
   padding-left: 20px; }
 
 #mainContent .accordion .container .header.disabled {
@@ -698,26 +698,26 @@ input.error {
   border: 1px solid #F00; }
 
 .icon-add {
-  background: url("../../images/adobe_ui/icons/add.png") no-repeat center left;
+  background: url("/css/aam/images/add.png") no-repeat center left;
   padding-left: 19px;
   display: inline-block; }
 
 .listDelete, .accordion td ul .listDelete {
   padding: 8px !important;
   border-width: 0;
-  background: url(../../images/adobe_ui/icons/delete.png) center center no-repeat;
+  background: url(/css/aam/images/delete.png) center center no-repeat;
   cursor: pointer; }
 
 .listClone, .accordion td ul .listClone {
   padding: 8px !important;
   border-width: 0;
-  background: url(../../images/icons/12x12/Clone_Standard.png) center center no-repeat;
+  background: url(/css/aam/images/Clone_Standard.png) center center no-repeat;
   cursor: pointer; }
 
 .listEdit, .accordion td ul .listEdit {
   padding: 8px !important;
   border-width: 0;
-  background: url(../../images/adobe_ui/icons/edit.png) center center no-repeat;
+  background: url(/css/aam/images/edit.png) center center no-repeat;
   cursor: pointer; }
 
 .trait_sidebar .trait_storage.folder_tree {
@@ -776,24 +776,24 @@ input.error {
   padding: 3px 10px; }
 
 .groupTable tbody tr td.first {
-  background: url(../../images/adobe_ui/exp_builder/rulebg_left.png) top left repeat-y #e3f3ff;
+  background: url(../../images/rulebg_left.png) top left repeat-y #e3f3ff;
   padding-left: 20px; }
 
 .groupTable tbody tr td.last {
-  background: url(../../images/adobe_ui/exp_builder/rulebg_right.png) top right repeat-y #e3f3ff; }
+  background: url(../../images/rulebg_right.png) top right repeat-y #e3f3ff; }
 
 .groupTable tbody tr td {
   background-color: #E3F3FF; }
 
 #rulesTable tbody tr.signalRule:hover td {
-  background: url(../../images/adobe_ui/exp_builder/rulebg_mid_hover.png) center repeat-x #e3f3ff; }
+  background: url(../../images/rulebg_mid_hover.png) center repeat-x #e3f3ff; }
 
 #rulesTable tbody tr.signalRule:hover td.first {
-  background: url(../../images/adobe_ui/exp_builder/rulebg_hover.png) center left no-repeat #e3f3ff;
+  background: url(../../images/rulebg_hover.png) center left no-repeat #e3f3ff;
   cursor: pointer; }
 
 #rulesTable tbody tr.signalRule:hover td.last {
-  background: url(../../images/adobe_ui/exp_builder/rulebg_hover.png) center right no-repeat #e3f3ff; }
+  background: url(../../images/rulebg_hover.png) center right no-repeat #e3f3ff; }
 
 #rulesTable tbody td .ruleActions {
   visibility: hidden;
@@ -810,10 +810,10 @@ input.error {
   cursor: pointer; }
 
 #rulesTable tbody .editRuleBtn {
-  background: url(../../images/adobe_ui/icons/edit.png) center center no-repeat; }
+  background: url(/css/aam/images/edit.png) center center no-repeat; }
 
 #rulesTable tbody .deleteRuleBtn {
-  background: url(../../images/adobe_ui/icons/delete.png) center center no-repeat; }
+  background: url(/css/aam/images/delete.png) center center no-repeat; }
 
 #mainContent .groupTable tbody tr.ruleNotice td {
   background: #FFF;
@@ -843,27 +843,27 @@ input.error {
   display: inline; }
 
 #rulesTable tr.ruleOp:hover td, #rulesTable tr.ruleOp.on td {
-  background: url(../../images/adobe_ui/exp_builder/ruleop_mid.png) repeat-x white; }
+  background: url(../../images/ruleop_mid.png) repeat-x white; }
 
 #rulesTable tr.ruleOp:hover td.first, #rulesTable tr.ruleOp.on td.first {
-  background: url(../../images/adobe_ui/exp_builder/ruleop.png) left no-repeat white;
+  background: url(../../images/ruleop.png) left no-repeat white;
   padding-top: 62px; }
 
 #rulesTable tr.ruleOp:hover td.last, #rulesTable tr.ruleOp.on td.last {
-  background: url(../../images/adobe_ui/exp_builder/ruleop.png) right no-repeat white; }
+  background: url(../../images/ruleop.png) right no-repeat white; }
 
 #exprTable {
   width: 100%; }
 
 #exprTable tr.ruleOp td {
-  background: url(../../images/adobe_ui/exp_builder/ruleop_mid2.png) top repeat-x white; }
+  background: url(../../images/ruleop_mid2.png) top repeat-x white; }
 
 #exprTable tr.ruleOp td.first {
-  background: url(../../images/adobe_ui/exp_builder/ruleop2.png) top left no-repeat white;
+  background: url(../../images/ruleop2.png) top left no-repeat white;
   padding-top: 43px; }
 
 #exprTable tr.ruleOp td.last {
-  background: url(../../images/adobe_ui/exp_builder/ruleop2.png) top right no-repeat white; }
+  background: url(../../images/ruleop2.png) top right no-repeat white; }
 
 #exprTable tr.ruleOp td div {
   background: #FFF;
@@ -871,36 +871,36 @@ input.error {
   display: inline; }
 
 .groupTable .groupTop td {
-  background: url(../../images/adobe_ui/exp_builder/ruletop_mid.png) top left repeat-x;
+  background: url(../../images/ruletop_mid.png) top left repeat-x;
   padding-top: 4px; }
 
 .groupTable .groupTop td.first {
-  background: url(../../images/adobe_ui/exp_builder/ruletop.png) top left no-repeat white; }
+  background: url(../../images/ruletop.png) top left no-repeat white; }
 
 .groupTable .groupTop td.last {
-  background: url(../../images/adobe_ui/exp_builder/ruletop.png) top right no-repeat white; }
+  background: url(../../images/ruletop.png) top right no-repeat white; }
 
 #exprTable .groupTop td.first {
-  background-image: url(../../images/adobe_ui/exp_builder/ruletop2.png); }
+  background-image: url(../../images/ruletop2.png); }
 
 #exprTable .groupTop td.last {
-  background-image: url(../../images/adobe_ui/exp_builder/ruletop2.png); }
+  background-image: url(../../images/ruletop2.png); }
 
 .groupTable .groupBtm td {
-  background: url(../../images/adobe_ui/exp_builder/rulebtm_mid.png) bottom left repeat-x;
+  background: url(../../images/rulebtm_mid.png) bottom left repeat-x;
   padding-top: 4px; }
 
 .groupTable .groupBtm td.first {
-  background: url(../../images/adobe_ui/exp_builder/rulebtm.png) bottom left no-repeat; }
+  background: url(../../images/rulebtm.png) bottom left no-repeat; }
 
 .groupTable .groupBtm td.last {
-  background: url(../../images/adobe_ui/exp_builder/rulebtm.png) bottom right no-repeat; }
+  background: url(../../images/rulebtm.png) bottom right no-repeat; }
 
 #exprTable .groupBtm td.first {
-  background-image: url(../../images/adobe_ui/exp_builder/rulebtm2.png); }
+  background-image: url(../../images/rulebtm2.png); }
 
 #exprTable .groupBtm td.last {
-  background-image: url(../../images/adobe_ui/exp_builder/rulebtm2.png); }
+  background-image: url(../../images/rulebtm2.png); }
 
 .dialog .hierarchyList {
   width: 187px; }
@@ -1691,7 +1691,7 @@ div.AUI_CollapsiblePanel_content {
 .cell button,
 div.AUI_SearchField button {
   background-color: #e4e4e4;
-  background-image: url("../scripts/aui/images/gradients/StandardUp_button.png");
+  background-image: url("/css/aam/images/StandardUp_button.png");
   background-position: top left;
   background-repeat: repeat-x;
   border-width: 1px;

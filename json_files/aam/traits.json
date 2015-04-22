@@ -1,0 +1,808 @@
+{
+  "total" : 7016,
+  "page" : 0,
+  "pageSize" : 50,
+  "list" :
+  [
+    {
+      "createTime" : 1423748627000,
+      "updateTime" : 1423748627000,
+      "sid" : 1634959,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$1,000,000-$5,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $1,000,000-$5,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78927,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$10,000 - $19,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1423748627000,
+      "updateTime" : 1423748627000,
+      "sid" : 1634960,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$10,000,000-$25,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $10,000,000-$25,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78928,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000 - $200,000",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63564,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000 to $124,999",
+      "description" : "eXelate - Demographic - Income Level - $100,000 to $124,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1423748628000,
+      "updateTime" : 1423748628000,
+      "sid" : 1634961,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$100,000,000-$500,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $100,000,000-$500,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63565,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$125,000 to $149,999",
+      "description" : "eXelate - Demographic - Income Level - $125,000 to $149,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63566,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$150,000 Plus",
+      "description" : "eXelate - Demographic - Income Level - $150,000 Plus",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78929,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$20,000 - $29,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63567,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$20,000 to $29,999",
+      "description" : "eXelate - Demographic - Income Level - $20,000 to $29,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78930,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$200,000+",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1423748629000,
+      "updateTime" : 1423748629000,
+      "sid" : 1634962,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$25,000,000-$50,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $25,000,000-$50,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1423748629000,
+      "updateTime" : 1423748629000,
+      "sid" : 1634963,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$250,000-$500,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $250,000-$500,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63568,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$30,000 to $39,999",
+      "description" : "eXelate - Demographic - Income Level - $30,000 to $39,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78931,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$30,000- $39,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78932,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$40,000 - $49,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63569,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$40,000 to $49,999",
+      "description" : "eXelate - Demographic - Income Level - $40,000 to $49,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1423748630000,
+      "updateTime" : 1423748630000,
+      "sid" : 1634964,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$5,000,000-$10,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $5,000,000-$10,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78933,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000 - $74,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63570,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000 to $59,999",
+      "description" : "eXelate - Demographic - Income Level - $50,000 to $59,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1423748631000,
+      "updateTime" : 1423748631000,
+      "sid" : 1634965,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$50,000,000-$100,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $50,000,000-$100,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1423748631000,
+      "updateTime" : 1423748631000,
+      "sid" : 1634966,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$500,000,000+",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $500,000,000+",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1423748632000,
+      "updateTime" : 1423748632000,
+      "sid" : 1634967,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$500,000-$1,000,000",
+      "description" : "DataLogix - DLX B2B - Sales Volume - $500,000-$1,000,000",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81240
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63571,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$60,000 to $74,999",
+      "description" : "eXelate - Demographic - Income Level - $60,000 to $74,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 78934,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$75,000 - $99,999",
+      "description" : " - All Traits - 3rd-Party Data - eXelate - Interest - Finance - Discretionary Spending",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 6383
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63572,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$75,000 to $99,999",
+      "description" : "eXelate - Demographic - Income Level - $75,000 to $99,999",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5414
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63653,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "1 Series",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - BMW - 1 Series",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5406
+    },
+    {
+      "createTime" : 1423748609000,
+      "updateTime" : 1423748609000,
+      "sid" : 1634932,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "1,000-4,999 Employees",
+      "description" : "DataLogix - DLX B2B - Company Size - 1,000-4,999 Employees",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81238
+    },
+    {
+      "createTime" : 1423748610000,
+      "updateTime" : 1423748610000,
+      "sid" : 1634933,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "10-49 Employees",
+      "description" : "DataLogix - DLX B2B - Company Size - 10-49 Employees",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81238
+    },
+    {
+      "createTime" : 1423748610000,
+      "updateTime" : 1423748610000,
+      "sid" : 1634934,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "100-499 Employees",
+      "description" : "DataLogix - DLX B2B - Company Size - 100-499 Employees",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81238
+    },
+    {
+      "createTime" : 1365186809000,
+      "updateTime" : 1365186809000,
+      "sid" : 390434,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "1500",
+      "description" : "Intent-Auto  Buyers ~ Make:RAM -1500",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 42474
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63525,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "18-24",
+      "description" : "eXelate - Demographic - Age - 18-24",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63832,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "2",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - Mazda - 2",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5382
+    },
+    {
+      "createTime" : 1423748607000,
+      "updateTime" : 1423748607000,
+      "sid" : 1634928,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "2-5 Years",
+      "description" : "DataLogix - DLX B2B - Company Age - 2-5 Years",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1288,
+      "dataSourceId" : 288,
+      "folderId" : 81237
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63693,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "200",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - Chrysler - 200",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5402
+    },
+    {
+      "createTime" : 1365186782000,
+      "updateTime" : 1365186782000,
+      "sid" : 390377,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "21-24",
+      "description" : "Demographic-Age: 21-24",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 120937,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "25-29",
+      "description" : "/All Traits/3rd-Party Data/eXelate/Demographic/Age",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63526,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "25-34",
+      "description" : "eXelate - Demographic - Age - 25-34",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1365186809000,
+      "updateTime" : 1365186809000,
+      "sid" : 390435,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "2500",
+      "description" : "Intent-Auto  Buyers ~ Make:RAM -2500",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 42474
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63833,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "3",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - Mazda - 3",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5382
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63654,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "3 Series",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - BMW - 3 Series",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5406
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 120938,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "30-34",
+      "description" : "/All Traits/3rd-Party Data/eXelate/Demographic/Age",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63703,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "300",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - Dodge - 300",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5401
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 120939,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "35-39",
+      "description" : "/All Traits/3rd-Party Data/eXelate/Demographic/Age",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63527,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "35-44",
+      "description" : "eXelate - Demographic - Age - 35-44",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1365186810000,
+      "updateTime" : 1365186810000,
+      "sid" : 390436,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "3500",
+      "description" : "Intent-Auto  Buyers ~ Make:RAM -3500",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 42474
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63935,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "4 Runner",
+      "description" : "eXelate - Intent - Auto - Buyers - Make - Toyota - 4 Runner",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5366
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 120940,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "40-44",
+      "description" : "/All Traits/3rd-Party Data/eXelate/Demographic/Age",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 120941,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "45-49",
+      "description" : "/All Traits/3rd-Party Data/eXelate/Demographic/Age",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    },
+    {
+      "createTime" : 1363623536000,
+      "updateTime" : 1363623536000,
+      "sid" : 63528,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "45-54",
+      "description" : "eXelate - Demographic - Age - 45-54",
+      "status" : "ACTIVE",
+      "permissions" :
+      [
+        "READ"
+      ],
+      "pid" : 1273,
+      "dataSourceId" : 3,
+      "folderId" : 5413
+    }
+  ]
+}
