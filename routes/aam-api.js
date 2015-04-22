@@ -38,9 +38,21 @@ router.get('/reports/largest-traits', function(req, res, next) {
     res.send(demo.readJSON('aam/largesttraits.json'));
 });
 
+
 router.get('/reports/largest-segments', function(req, res, next) {
     res.set('Content-Type','application/json');
     res.send(demo.readJSON('aam/largestsegments.json'));
+});
+
+
+router.get('/reports/largest-traits', function(req, res, next) {
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('aam/largesttraits.json'));
+});
+
+router.post('/reports/traits-trend', function(req, res, next) {
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('aam/traits-trend.json'));
 });
 
 router.get('/reports/most-changed-segments', function(req, res, next) {
