@@ -216,28 +216,50 @@ var saveSegment = function saveSegment(name, description, jsonSegments){
 
 var prependBlankSegment = function prependBlankSegment(segmentList) {
     // This is a hack to work around an issue with audience library UI which does not display the first segment in the dropdown.
-    var jsonTemplate = JSON.parse(readJSON('newsegment-template.json'));
 
+
+    var jsonTemplate = JSON.parse(readJSON('newsegment-template.json'));
+    jsonTemplate.name = "CC qualified customers";
     segmentList.unshift(jsonTemplate);
+
+    jsonTemplate = JSON.parse(readJSON('newsegment-template.json'));
+    segmentList.unshift(jsonTemplate);
+
     return segmentList;
 }
 
 var updateAudienceList = function updateAudienceList(segmentList){
+    var newAudience = {
+        "name": "",
+        "description": "",
+        "source":"Analytics",
+        "size":"Collecting Data",
+        "active":"Yes",
+        "dateModified": ""
+    };
+
     if(segmentList) {
         // get the first segment.
         var modified = moment(segmentList[0].modified);
-        var newAudience = {
-            "name": segmentList[0].name,
-            "description": segmentList[0].description,
-            "source":"Analytics",
-            "size":"Collecting Data",
-            "active":"Yes",
-            "dateModified": modified.format('MM/DD/YYYY h:mm a')
-        };
+        newAudience.name = segmentList[0].name;
+        newAudience.description = segmentList[0].description;
+        newAudience.dateModified = modified.format('MM/DD/YYYY h:mm a');
 
         config.audiences.unshift(newAudience);
+    } else {
+        if(config.audiences.length == 10) {
+            var modified = moment().subtract(2, "hours");
+            newAudience.name = "CC qualified customers";
+            newAudience.description = "Target customer for co-branded travel credit card.";
+            newAudience.dateModified = modified.format('MM/DD/YYYY h:mm a');
+
+            config.audiences.unshift(newAudience);
+        }
     }
 }
+
+
+
 
 var saveAudience = function saveAudience(data) {
     var now = moment();
