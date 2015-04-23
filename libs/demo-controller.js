@@ -240,9 +240,9 @@ var updateAudienceList = function updateAudienceList(segmentList){
 
     if(segmentList) {
         // get the first segment.
-        var modified = moment(segmentList[0].modified);
-        newAudience.name = segmentList[0].name;
-        newAudience.description = segmentList[0].description;
+        var modified = moment(segmentList[1].modified);
+        newAudience.name = segmentList[1].name;
+        newAudience.description = segmentList[1].description;
         newAudience.dateModified = modified.format('MM/DD/YYYY h:mm a');
 
         config.audiences.unshift(newAudience);
