@@ -1,0 +1,608 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+p, ul, ol, li {
+    margin: 0;
+    padding: 0; }
+
+ol, ul {
+    list-style: none outside none; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+table.data {
+    table-layout: fixed; }
+table.data td, table.data th {
+    overflow: hidden; }
+
+/* For use with use with ADOBE.AM.LoadingOverlay */
+/* For use with View pages right-most box */
+#mainContent [class^="icon-"], #mainContent [class*=" icon-"] {
+    height: 1.2em;
+    width: auto; }
+#mainContent [class^="icon-"]:before, #mainContent [class*=" icon-"]:before {
+    content: ''; }
+#mainContent button[class^="icon-"], #mainContent button[class*=" icon-"] {
+    height: 1.6rem;
+    width: auto;
+    color: #333;
+    border-width: 1px;
+    border-style: solid;
+    background-image: url("https://www.omniture-static.com/aui/1.0.2/images/gradients/StandardUp_button.png"); }
+#mainContent button[class^="icon-"]:hover, #mainContent button[class*=" icon-"]:hover {
+    background-image: url("https://www.omniture-static.com/aui/1.0.2/images/gradients/StandardHover_button.png"); }
+#mainContent .num [class^="icon-"], #mainContent .num [class*=" icon-"] {
+    width: auto;
+    color: #000; }
+#mainContent ul.toolbar {
+    background: url("../../images/icons/AUI_Button_Gradient.png") repeat-x;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+    border-color: #888;
+    border-style: solid;
+    border-width: 0 1px; }
+#mainContent ul.toolbar li {
+    border-color: #9D9D9D;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-box-sizing: content-box;
+    background-image: url("https://www.omniture-static.com/aui/1.0.2/images/gradients/StandardUp_button.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: Helvetica,Arial;
+    font-size: 12px;
+    font-weight: normal !important;
+    line-height: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px; }
+#mainContent ul.toolbar li [class^="icon-"], #mainContent ul.toolbar li [class*=" icon-"] {
+    height: 14px;
+    margin-right: 6px;
+    margin-top: 4px;
+    vertical-align: text-bottom;
+    padding-left: 15px; }
+#mainContent ul.toolbar li:first-child {
+    border-left: none;
+    /* no border */
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
+#mainContent ul.toolbar li:last-child {
+    padding: 0 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3); }
+#mainContent ul.toolbar li:hover {
+    background: #dfdfdf;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #dfdfdf 0%, #d7d7d7 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dfdfdf), color-stop(100%, #d7d7d7));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #dfdfdf 0%, #d7d7d7 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #dfdfdf 0%, #d7d7d7 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #dfdfdf 0%, #d7d7d7 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #dfdfdf 0%, #d7d7d7 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#d7d7d7',GradientType=0 );
+    /* IE6-9 */ }
+#mainContent ul.toolbar li:active {
+    background: #b2b2b2; }
+#mainContent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+#DestinationList .icon-add, #ManageDestination .icon-add {
+    color: #4B4B4B;
+    width: auto; }
+
+div.AUI_SearchField {
+    position: relative;
+    overflow: hidden;
+    height: 1.5rem;
+    padding: 0 26px 0 0;
+    box-shadow: 0 1px 4px 0 #E0E0E0 inset;
+    -moz-transition: all 0.15s ease-in-out 0s;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #a5a5a5; }
+div.AUI_SearchField input[type='text'] {
+    height: 100% !important;
+    margin: 0;
+    color: #333333;
+    font-size: 0.8rem;
+    border: none !important;
+    width: 9rem !important;
+    width: 8.6rem\9 !important;
+    background: transparent;
+    box-shadow: none;
+    padding: 0.2rem 0 0 0.4rem !important; }
+div.AUI_SearchField div.AUI_SearchField_Close {
+    background: url("https://www.omniture-static.com/aui/1.0.2/images/icons/9x9/ClearX_Standard.png") no-repeat scroll center center transparent;
+    cursor: pointer;
+    height: 9px;
+    right: 29px;
+    margin-left: -16px;
+    opacity: 0.7;
+    position: absolute;
+    top: 9px;
+    width: 16px;
+    left: auto; }
+div.AUI_SearchField button.AUI_SearchField_Search {
+    border-color: #a5a5a5;
+    border-image: none;
+    border-radius: 0 3px 3px 0;
+    border-style: none none none solid;
+    border-width: 0 0 0 1px;
+    height: 100%;
+    margin: 0;
+    min-width: 0 !important;
+    position: absolute;
+    width: 24px !important;
+    right: 0; }
+div.AUI_SearchField button.AUI_SearchField_Search div {
+    background: url("https://www.omniture-static.com/aui/1.0.2/images/icons/16x16/Search_Standard.png") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    margin: 0; }
+
+.context-help {
+    margin: 0 0 0 6px;
+    cursor: pointer;
+    background: url(../../images/adobe_ui/icons/help.png) center left no-repeat;
+    float: left;
+    width: 14px;
+    height: 14px; }
+.context-help.hide {
+    display: none; }
+
+.panel {
+    padding: 0;
+    margin-bottom: 12px; }
+.panel h3 {
+    margin: 8px 0 4px 10px; }
+
+.dark-bg {
+    background: #BFBFBF; }
+
+.light-bg {
+    background: #F4F4F4;
+    border: 1px solid #D9D9D9; }
+
+.page {
+    top: 2.75rem !important;
+    left: 0;
+    overflow-x: hidden !important; }
+
+.content-margin {
+    margin: 15px; }
+
+.background_page_loading {
+    background: url(/portal/common/cui/1.6.1/images/components/wait/wait_32.gif) no-repeat 50% 5em; }
+
+.AS-Pagination {
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    white-space: nowrap; }
+
+.AS-Pagination-pageSize, .AS-Pagination-page {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: middle; }
+
+.AS-Pagination-pageSizeGroup {
+    padding-right: 30px; }
+
+.AS-Pagination-decreasePage {
+    padding-right: 5px; }
+
+.AS-Pagination-increasePage {
+    padding-left: 5px; }
+
+.AS-Pagination-decreasePage, .AS-Pagination-increasePage {
+    opacity: .6;
+    cursor: pointer; }
+
+.AS-Pagination-decreasePage:hover, .AS-Pagination-increasePage:hover {
+    opacity: 1; }
+
+.basic_info_view {
+    overflow: hidden; }
+.basic_info_view .widget {
+    margin-top: 0 !important; }
+
+.basic_info {
+    margin: 0;
+    overflow: hidden; }
+
+.reach_accuracy_view .graph {
+    height: 290px !important; }
+.reach_accuracy_view .widget {
+    margin: 0 !important;
+    min-width: 613px; }
+
+#mainContent .dashboard.no-border .widget {
+    height: auto; }
+#mainContent .dashboard.no-border .model_processing_history_wrapper {
+    overflow: hidden;
+    padding: 0 !important; }
+#mainContent .dashboard.no-border .influential_traits_wrapper {
+    padding: 0 !important; }
+#mainContent .dashboard.no-border .influential_traits_wrapper .influential_traits .content {
+    height: 310px;
+    overflow: auto; }
+#mainContent .dashboard.no-border .content {
+    overflow: visible; }
+
+.Models #mainContent {
+    min-width: 868px;
+    width: auto; }
+.Models #mainContent #ModelList div.model_storage {
+    width: 210px; }
+.Models #mainContent #ModelList div.model_storage h4 {
+    margin: 0 0 4px 0; }
+.Models #mainContent #ModelList .models_list .content {
+    position: relative; }
+.Models #mainContent #ModelList .models_list div.AUI_Notification {
+    position: absolute !important;
+    z-index: 20000 !important;
+    top: 10px !important;
+    margin-left: 47% !important;
+    left: 0px !important; }
+.Models #mainContent #ModelList #models_table {
+    width: 100%; }
+.Models #mainContent #ModelList #models_table th:first-child {
+    padding-right: 0px;
+    min-width: 22px; }
+.Models #mainContent #ModelList #models_table td:last-child img {
+    margin: 4px 4px 4px 0px;
+    margin: 4px 0px 4px 0px\9;
+    cursor: pointer; }
+.Models #mainContent #ModelList #models_table .actions {
+    cursor: pointer;
+    padding-right: 0px; }
+.Models #mainContent #ModelList #models_table .actions img {
+    padding-left: 4px\9; }
+.Models #mainContent #ModelList .layout-2-col .col2 {
+    margin-left: 224px; }
+.Models #mainContent .widget {
+    float: none; }
+.Models #mainContent .widget h3 {
+    margin: 0 0 10px 0;
+    font-weight: bold; }
+.Models #mainContent .basic_info_and_graph {
+    padding: 10px 0;
+    zoom: 1; }
+.Models #mainContent .basic_info_and_graph .reach_accuracy_view {
+    min-width: 612px;
+    float: right;
+    height: 285px;
+    min-width: 515px;
+    width: 57%;
+    margin: 0 10px; }
+.Models #mainContent .basic_info_and_graph .reach_accuracy_view .widget {
+    padding: 0;
+    margin: 10px; }
+.Models #mainContent .basic_info_and_graph .reach_accuracy_view .widget h3 {
+    padding-top: 10px; }
+.Models #mainContent .basic_info_and_graph .reach_accuracy_view .widget .graph {
+    margin: 0 10px 10px 10px;
+    height: 265px; }
+.Models #mainContent .basic_info_and_graph .basic_info_view {
+    float: none;
+    width: auto; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget {
+    padding: 0;
+    margin: 0 10px;
+    overflow: auto;
+    height: 290px; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info {
+    padding: 0;
+    margin: 10px 0 10px 10px; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info h3 {
+    font-weight: bold;
+    margin: 0 0 10px; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info .trait .trait {
+    display: inline; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info .trait .segment {
+    display: none; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info .segment .segment {
+    display: inline; }
+.Models #mainContent .basic_info_and_graph .basic_info_view .widget .basic_info .segment .trait {
+    display: none; }
+.Models #mainContent .basic_info_and_graph #model_graph_container {
+    height: 214px;
+    margin: 0 auto 10px; }
+.Models #mainContent .layout_helper_model_processing {
+    width: 346px;
+    overflow: hidden;
+    float: left; }
+.Models #mainContent .layout_helper_influential_traits {
+    margin-left: 346px; }
+.Models #mainContent .widget.influential_traits_wrapper {
+    padding: 0 0 10px 0;
+    float: none !important; }
+.Models #mainContent .widget.influential_traits_wrapper h3 {
+    margin: 10px 0 5px 10px; }
+.Models #mainContent .influential_traits table {
+    width: 100%; }
+.Models #mainContent .influential_traits .content {
+    text-align: right; }
+.Models #mainContent .influential_traits .table_wrapper {
+    overflow: auto;
+    margin-bottom: 8px; }
+.Models #mainContent .model_processing_history_wrapper {
+    float: none !important;
+    padding: 0 0 10px 0 !important;
+    margin: 0 10px 0 0; }
+.Models #mainContent .model_processing_history_wrapper h3 {
+    margin: 10px 0 5px 10px !important; }
+.Models #mainContent .model_processing_history table {
+    width: 100%; }
+.Models #mainContent .traits_using_model_name_wrapper {
+    width: 100%;
+    padding: 0 !important;
+    overflow: hidden;
+    height: auto !important;
+    border: none !important; }
+.Models #mainContent .traits_using_model_name_wrapper h3 {
+    margin: 10px 0 10px 10px; }
+.Models #mainContent .dashboard.bottom {
+    overflow: hidden;
+    border: 1px solid #D9D9D9; }
+.Models #mainContent .traits_using_model_name table {
+    width: 100%; }
+.Models #mainContent .traits_using_model_name .table_wrapper {
+    height: 258px;
+    margin: 10px;
+    overflow: auto; }
+.Models #mainContent .traits_using_model_name .content {
+    height: 322px;
+    text-align: right;
+    padding: 0; }
+.Models #mainContent .traits_using_model_name button.primary {
+    margin: 6px 10px 10px 0; }
+.Models #mainContent .dashboard.bottom .widget {
+    float: none;
+    height: 284px; }
+.Models #mainContent #modelbuilder {
+    min-width: 870px;
+    max-width: 1075px; }
+.Models #mainContent #modelbuilder.mode_edit .create {
+    display: none; }
+.Models #mainContent #modelbuilder.mode_edit .edit {
+    display: block; }
+.Models #mainContent #modelbuilder.mode_edit .trait_or_segment h1, .Models #mainContent #modelbuilder.mode_edit .trait_or_segment .btns, .Models #mainContent #modelbuilder.mode_edit .trait_or_segment hr {
+    display: none; }
+.Models #mainContent #modelbuilder.mode_edit .lookback_and_algorithms .radiobtn {
+    display: none; }
+.Models #mainContent #modelbuilder.mode_edit .lookback_and_algorithms .edit {
+    display: inline; }
+.Models #mainContent #modelbuilder.mode_edit .section.datasources .checkbox {
+    display: none; }
+.Models #mainContent #modelbuilder.mode_create .create {
+    display: block; }
+.Models #mainContent #modelbuilder.mode_create .edit {
+    display: none; }
+.Models #mainContent #modelbuilder.mode_create .trait_or_segment .create {
+    display: inline; }
+.Models #mainContent #modelbuilder .context-help {
+    position: relative;
+    top: 11px; }
+.Models #mainContent #modelbuilder .AUI_CollapsiblePanel_heading .context-help {
+    top: 0px; }
+.Models #mainContent .AUI_CollapsiblePanel_content {
+    padding: 0;
+    overflow: hidden; }
+.Models #mainContent .AUI_CollapsiblePanel_content.hidden {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #basic_info_accordion .acc_panel {
+    background: none;
+    border: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #basic_info_accordion .acc_panel .input_holder {
+    margin: 12px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #basic_info_accordion .acc_panel .input_holder label {
+    width: 70px;
+    display: inline-block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #basic_info_accordion .acc_panel .input_holder input {
+    width: 250px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion {
+    overflow: hidden;
+    height: 300px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .conf_layout {
+    overflow: hidden;
+    margin: 4px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .section {
+    vertical-align: top;
+    background: #fff;
+    border: 1px solid #b4b4b4; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper {
+    display: none;
+    overflow: hidden; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper .traitsegment_inner {
+    overflow: visible; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper h2 {
+    font-size: 12px;
+    font-weight: bold;
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.trait h2.trait_basic_info {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.trait h2.trait_graph {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.trait .segment_status {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.trait .segment_status + dd {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.trait h1 .segment {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.segment h2.segment_basic_info {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.segment h2.segment_graph {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.segment .segment_status {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.segment .segment_status + dd {
+    display: block; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion #traitsegment_wrapper.segment h1 .trait {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment {
+    margin: 4px 4px 2px;
+    *zoom: 1; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment h2 {
+    font-weight: normal;
+    margin: 2px 0 5px 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .btns {
+    padding-bottom: 10px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment hr {
+    height: 1px;
+    color: #B4B4B4;
+    background-color: #B4B4B4;
+    border: 1px solid #b4b4b4;
+    border-width: 0 0 1px 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .basic_info {
+    float: left;
+    width: 48%; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .basic_info dl {
+    width: 100%; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .basic_info dt {
+    font-weight: bold;
+    width: 88px;
+    clear: left;
+    float: left;
+    margin: 3px 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .basic_info dt.segment_status {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .basic_info dd {
+    width: 72%;
+    float: left;
+    margin: 3px 0px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .graph {
+    float: left;
+    width: 420px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .graph #graph_container {
+    width: 400px;
+    height: 255px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .graph #graph_container.no_results {
+    border: 1px solid #b4b4b4; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .trait_or_segment .graph #graph_container #cloudVizChart {
+    width: 602px;
+    height: 255px;
+    padding: 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms {
+    float: left;
+    height: 190px;
+    margin: 7px 0 4px 4px !important;
+    width: 31%; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms #algorithms p {
+    margin: 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms #algorithms .algorithms_list .radiobtn {
+    width: 20px;
+    height: 20px;
+    float: left;
+    clear: left;
+    position: relative;
+    top: 1px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms #algorithms .algorithms_list .name {
+    float: left;
+    height: 20px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms #lookback {
+    margin-bottom: 20px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms #lookback p {
+    margin: 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .layout-helper {
+    margin: -31% 0 0 31.9%;
+    *margin: 0 0 0 31.9%; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .layout-helper-sub {
+    width: 99.8%;
+    float: left;
+    margin: 7px 0px 0 0px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources {
+    width: 98%;
+    height: 190px;
+    float: right;
+    margin-right: 3px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container {
+    height: 146px;
+    overflow: auto; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container .checkbox div {
+    width: 12px;
+    height: 12px;
+    background: url(https://www.omniture-static.com/aui/1.0.2/images/ui/Checklist/checkbox_unchecked.png) no-repeat; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container .checkbox div input[type='checkbox'] {
+    display: none; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container .checkbox div.checked {
+    background: url(https://www.omniture-static.com/aui/1.0.2/images/ui/Checklist/checkbox_checked.png) no-repeat; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container .name {
+    float: left;
+    height: 24px;
+    font-size: 12px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources #datasources_container table {
+    width: 100%; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .processing_freq {
+    width: 97%;
+    float: right;
+    height: 190px;
+    margin-right: 4px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .processing_freq p {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px 0; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .lookback_and_algorithms, .Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .datasources, .Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .processing_freq {
+    min-width: 263px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .acc_panel {
+    overflow: hidden;
+    padding: 10px; }
+.Models #mainContent .AUI_CollapsiblePanel_content #configuration_accordion .acc_panel h1 {
+    font-size: 12px;
+    margin: 0 0 7px 0; }
+.Models div.AUI_Notification ul {
+    list-style: disc outside none;
+    margin-left: 14px !important; }
+.Models .traits_table th.disabled img {
+    display: none; }
+
+.page-title {
+    font-size: 1.5rem; }
+
+#influential_traits_modal .influential_traits_list {
+    position: relative; }
+#influential_traits_modal .influential_traits_list div.AUI_Notification {
+    position: absolute !important;
+    z-index: 20000 !important;
+    top: 10px !important;
+    margin-left: 47% !important;
+    left: 0px !important; }

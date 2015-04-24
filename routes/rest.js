@@ -142,6 +142,4 @@ router.post('/head/workflow/wnykhNsawKK1gpu9Af2Qet-NarmYC6_F2WpPNeN9ROg/activiti
     res.send(demo.getRestJSON('saveActivity.json'));
 });
 
-router.post('')
-
 module.exports = router;

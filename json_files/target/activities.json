@@ -1,0 +1,1731 @@
+{
+  "total" : 13,
+  "nextPageUri" : "/target/adobe-tech-marketing/target/activities.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=2&pageSize=10",
+  "pageSize" : 10,
+  "privileges" : "[read]",
+  "uri" : "/target/adobe-tech-marketing/target/activities.at.json",
+  "reference" : "/activities",
+  "id" : "activities",
+  "lastPageUri" : "/target/adobe-tech-marketing/target/activities.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=2&pageSize=10",
+  "page" : 1,
+  "items" :
+  [
+    {
+      "startDate" : "",
+      "jcr:lastModified" : 1429809870664,
+      "status" : "LIVE",
+      "segment" : "",
+      "privileges" : "[read]",
+      "jcr:title" : "DAT LP Travel card promo - CC upgrade with miles",
+      "endDate" : "",
+      "jcr:description" : "Display ad reinforcement. Target 5 & 15K mileage offers to levels of qualified audiences.",
+      "uri" : "/target/adobe-tech-marketing/target/activities/dat_lp_travel_cardpromo-ccupgradewithmiles.at.json",
+      "reference" : "/activities/dat_lp_travel_cardpromo-ccupgradewithmiles",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "dat_lp_travel_cardpromo-ccupgradewithmiles",
+      "controlExperienceId" : 0,
+      "deactivatedDate" : "",
+      "priority" : 0,
+      "activatedDate" : 1429737156294,
+      "activityType" : "Experience-Targeting",
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "46f2574f-dc2e-4402-8db0-85a5fff63d3d",
+          "targetLastSynced" : 1429809870664,
+          "targetId" : 75373,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "experiences-0" :
+        {
+          "id" : "experiences-0",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429809352597,
+          "targetId" : 162955,
+          "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/0/v-1429733362011",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "experiences-1" :
+        {
+          "id" : "experiences-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429809352597,
+          "targetId" : 162956,
+          "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/1/v-1429733362016",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "experiences-2" :
+        {
+          "id" : "experiences-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429809352597,
+          "targetId" : 162957,
+          "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/2/v-1429733362018",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        }
+      },
+      "metrics" :
+      [
+        {
+          "metricLocalId" : 3,
+          "jcr:lastModified" : 1429809352570,
+          "jcr:title" : "Conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1429733361988",
+          "type" : "conversion",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "elementClick",
+          "activityType" : "Experience-Targeting",
+          "worth" : 0.0
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1429809352575,
+        "ref:audiences" :
+        [
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://localhost:1092/target/wefinance/en/personal.html",
+          "jcr:lastModified" : 1429809352574,
+          "targets" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "legacy" : false
+        }
+      },
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1429809352582,
+          "ref:audiences" :
+          [
+            "/audiences/all_visitors"
+          ],
+          "jcr:title" : "Experience A",
+          "targetName" : "Exp-A-1429733361981",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "1",
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1429809352587,
+          "ref:audiences" :
+          [
+            "/audiences/imported/67/649537"
+          ],
+          "jcr:title" : "Experience B",
+          "targetName" : "Exp-B-1429733361983",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "2",
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1429809352591,
+          "ref:audiences" :
+          [
+            "/audiences/imported/62/645372"
+          ],
+          "jcr:title" : "Experience C",
+          "targetName" : "Exp-C-1429733361984",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ]
+    },
+    {
+      "startDate" : "",
+      "reportSuite" : "adbsummit-prod",
+      "jcr:lastModified" : 1429805101061,
+      "status" : "LIVE",
+      "segment" : "",
+      "privileges" : "[read]",
+      "jcr:title" : "CC Application Form Test - Step 1 (email only)",
+      "endDate" : "",
+      "jcr:description" : "Test if a shortened version version of Step 1 drives more application completes in the funnel.",
+      "uri" : "/target/adobe-tech-marketing/target/activities/cc_application_formtest-step1emailonly.at.json",
+      "reference" : "/activities/cc_application_formtest-step1emailonly",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "cc_application_formtest-step1emailonly",
+      "controlExperienceId" : 0,
+      "priority" : 0,
+      "activatedDate" : 1429805101061,
+      "activityType" : "A-B-analytics",
+      "metrics" :
+      [
+        {
+          "id" : "0",
+          "metricLocalId" : 3,
+          "reportSuite" : "adbsummit-prod",
+          "jcr:lastModified" : 1429741716503,
+          "jcr:title" : "Checkouts",
+          "analyticsMetricId" : "checkouts",
+          "analyticsMetricSource" : "real",
+          "type" : "analytics",
+          "activityType" : "A-B-analytics",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/660/1429741660.png",
+          "jcr:lastModified" : 1429741716506,
+          "jcr:title" : "Experience A",
+          "trafficSplit" : 50,
+          "targetId" : 0,
+          "targetName" : "Exp-A-1429741716489",
+          "zones" :
+          [
+          ],
+          "actions" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/660/1429741660.png",
+          "jcr:lastModified" : 1429741716508,
+          "jcr:title" : "Experience B",
+          "targetId" : 1,
+          "targetName" : "Exp-B-1429741716490",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "1",
+          "trafficSplit" : 50,
+          "actions" :
+          [
+          ]
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1429741716512,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://localhost:1092/content/wefinance/en/personal.html",
+          "jcr:lastModified" : 1429741716511,
+          "targets" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "legacy" : false
+        }
+      },
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "c93a44b6-b814-432d-9ce1-5683986e395f",
+          "targetLastSynced" : 1429805101061,
+          "targetId" : 75382,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        }
+      }
+    },
+    {
+      "startDate" : "",
+      "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/922/1429555922.png",
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "jcr:title" : "No Recommendation",
+          "targetName" : "No Recommendation"
+        },
+        {
+          "id" : "1",
+          "jcr:title" : "Top-Selling Products from Across the Site + 2 x 2 Design",
+          "targetName" : "41764"
+        },
+        {
+          "id" : "2",
+          "jcr:title" : "Most Viewed Products from Across the Site + 2 x 2 Design",
+          "targetName" : "41765"
+        }
+      ],
+      "jcr:lastModified" : 1429737165511,
+      "privileges" : "[read]",
+      "jcr:title" : "Recommendations LP",
+      "endDate" : "",
+      "jcr:description" : "",
+      "id" : "untitled_activity20apr2015115315-0700",
+      "priority" : 0,
+      "thirdPartyId" : "12390",
+      "activatedDate" : 1429737165511,
+      "recAlgoSessionId" : 1429555917150,
+      "status" : "LIVE",
+      "ref:algorithms" :
+      [
+        "/target/adobe-tech-marketing/target/setup/recs/algorithms/most_viewed_products_from_across_the_site",
+        "/target/adobe-tech-marketing/target/setup/recs/algorithms/top_selling_products_from_across_the_site"
+      ],
+      "uri" : "/target/adobe-tech-marketing/target/activities/untitled_activity20apr2015115315-0700.at.json",
+      "reference" : "/activities/untitled_activity20apr2015115315-0700",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "pageType" : "landingPage",
+      "industryType" : "",
+      "controlExperienceId" : 0,
+      "activityType" : "recommendation",
+      "ref:catalog" : "/products/catalogs/all_catalogs",
+      "ref:recTemplates" :
+      [
+        "/content/dam/mac/adobe-tech-marketing/Recommendations Designs/2 x 2 Design"
+      ],
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429737165511,
+          "targetId" : 75187,
+          "recId" : 12390,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        }
+      },
+      "configuration" :
+      {
+        "id" : "configuration",
+        "defaultContent" : 10,
+        "jcr:lastModified" : 1429556114319,
+        "jcr:lastModifiedBy" : "Gina Casagrande"
+      },
+      "location" :
+      {
+        "id" : "location",
+        "selector" : "HTML > BODY > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(1) > DIV.parbase:eq(0) > DIV.ThreeColumn-1:eq(0)",
+        "cssSelector" : "HTML > BODY > DIV:nth-of-type(4) > DIV:nth-of-type(3) > DIV:nth-of-type(2) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(1)",
+        "jcr:lastModified" : 1429556114323,
+        "action" : "setContent",
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "recommendationglobalconfig" :
+        {
+          "id" : "recommendationglobalconfig",
+          "jcr:lastModified" : 1429556114322,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      },
+      "metrics" :
+      [
+        {
+          "metricLocalId" : 3,
+          "jcr:lastModified" : 1429556114329,
+          "jcr:title" : "Conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1429555995614",
+          "type" : "conversion",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "pageView",
+          "activityType" : "recommendation",
+          "worth" : ""
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1429556114333,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+          "jcr:lastModified" : 1429556114332,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      }
+    },
+    {
+      "optimizingMetric" : "CONVERSION_RATE",
+      "startDate" : "",
+      "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/599/1429728599.png",
+      "jcr:lastModified" : 1429728711344,
+      "status" : "LIVE",
+      "privileges" : "[read]",
+      "jcr:title" : "AP - Random Forest - LP2 bottom promo mod",
+      "exclusions" :
+      [
+      ],
+      "endDate" : "",
+      "jcr:description" : "",
+      "uri" : "/target/adobe-tech-marketing/target/activities/ap_landing_page.at.json",
+      "algorithmIds" :
+      [
+        "e_greedy_rf"
+      ],
+      "reference" : "/activities/ap_landing_page",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "ap_landing_page",
+      "priority" : 0,
+      "ref:reportAudiences" :
+      [
+      ],
+      "activatedDate" : 1429728711344,
+      "activityType" : "1-1",
+      "elm:version" : "15.02.3",
+      "reportinggroups" :
+      [
+      ],
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "c1a5573d-0457-4e83-8122-21b81ebf6cbc",
+          "targetLastSynced" : 1429728711344,
+          "targetId" : 63056,
+          "targetSyncPending" : false,
+          "targetSyncFailedResource" : "cc-banner-student.jpg",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-2" :
+        {
+          "id" : "locations-0-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429728671502,
+          "targetId" : 134524,
+          "targetName" : "/ap_landing_page/locations/0/offers/2/1408993329767",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-1" :
+        {
+          "id" : "locations-0-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429728671502,
+          "targetId" : 134523,
+          "targetName" : "/ap_landing_page/locations/0/offers/1/1408993329279",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-3" :
+        {
+          "id" : "locations-0-offers-3",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429728671502,
+          "targetId" : 134525,
+          "targetName" : "/ap_landing_page/locations/0/offers/3/1408993330366",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        }
+      },
+      "metrics" :
+      [
+        {
+          "metricLocalId" : 3,
+          "jcr:lastModified" : 1429728671474,
+          "jcr:title" : "conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1408993211196",
+          "type" : "conversion",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "pageView",
+          "activityType" : "1-1",
+          "worth" : ""
+        }
+      ],
+      "locations" :
+      [
+        {
+          "id" : "0",
+          "selector" : "HTML > BODY:nth-child(2) > DIV:nth-child(4) > DIV:nth-child(5) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(2) > P:nth-child(3)",
+          "jcr:lastModified" : 1429728671489,
+          "status" : "READY",
+          "jcr:title" : "Location 1",
+          "type" : "html",
+          "idTag" : "c2bf4a8e-6368-45e5-83de-78ce0f7636d0",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1429728671494,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+          "jcr:lastModified" : 1429728671493,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      },
+      "controlexperience" :
+      {
+        "id" : "controlexperience",
+        "visitorPercentage" : 10,
+        "jcr:lastModified" : 1429728671496,
+        "type" : "random",
+        "jcr:lastModifiedBy" : "Gina Casagrande"
+      }
+    },
+    {
+      "optimizingMetric" : "CONVERSION_RATE",
+      "startDate" : "",
+      "jcr:lastModified" : 1429555892728,
+      "status" : "LIVE",
+      "privileges" : "[read]",
+      "jcr:title" : "Landing page AP test",
+      "exclusions" :
+      [
+      ],
+      "endDate" : "",
+      "jcr:description" : "",
+      "uri" : "/target/adobe-tech-marketing/target/activities/landing_page_ap_test.at.json",
+      "algorithmIds" :
+      [
+        "e_greedy_rf"
+      ],
+      "reference" : "/activities/landing_page_ap_test",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "landing_page_ap_test",
+      "priority" : 0,
+      "ref:reportAudiences" :
+      [
+      ],
+      "activatedDate" : 1429555892728,
+      "activityType" : "1-1",
+      "elm:version" : "15.02.3",
+      "reportinggroups" :
+      [
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1414081711589,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+          "jcr:lastModified" : 1414081711587,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      },
+      "locations" :
+      [
+        {
+          "id" : "0",
+          "selector" : "#MCBoxShot > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+          "jcr:lastModified" : 1414081711600,
+          "status" : "READY",
+          "jcr:title" : "Location 1",
+          "type" : "image",
+          "idTag" : "222da4ad-fad0-4543-880e-fa06f5f03e9b",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "1",
+          "selector" : "HTML > BODY.Text:eq(0) > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(2) > DIV.parbase:eq(0) > DIV.ThreeColumn-3:eq(0) > DIV.LayoutRowTop:eq(0) > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+          "jcr:lastModified" : 1414081711611,
+          "status" : "READY",
+          "jcr:title" : "Location 2",
+          "type" : "image",
+          "idTag" : "4cfbf985-b8ec-4abb-9dbc-5df31fe75965",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "2",
+          "selector" : "HTML > BODY.Text:eq(0) > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(1) > DIV.parbase:eq(0) > DIV.ThreeColumn-1:eq(0) > DIV.LayoutP:eq(0) > DIV.LayoutP:eq(0) > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+          "jcr:lastModified" : 1414081711706,
+          "status" : "READY",
+          "jcr:title" : "Location 3",
+          "type" : "image",
+          "idTag" : "3fa44713-db4f-4412-9d24-0a95e52abb99",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "3",
+          "selector" : "HTML > BODY.Text:eq(0) > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(0) > DIV.parbase:eq(0) > DIV.ThreeColumn-1:eq(0) > TABLE.LayoutRowTop:eq(0) > TBODY:nth-of-type(1) > TR:nth-of-type(1) > TD.LayoutCellSides:eq(0) > H2.TextH5:eq(0)",
+          "jcr:lastModified" : 1414081711717,
+          "status" : "READY",
+          "jcr:title" : "Location 4",
+          "type" : "text",
+          "idTag" : "e6e6ad2a-add0-47f2-b74e-b7a3fda3587d",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "metrics" :
+      [
+        {
+          "jcr:lastModified" : 1414081711726,
+          "jcr:title" : "conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1414081711558",
+          "type" : "conversion",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "pageView",
+          "activityType" : "1-1",
+          "worth" : ""
+        }
+      ],
+      "controlexperience" :
+      {
+        "id" : "controlexperience",
+        "visitorPercentage" : 10,
+        "jcr:lastModified" : 1414081711730,
+        "type" : "random",
+        "jcr:lastModifiedBy" : "Gina Casagrande"
+      },
+      "sync" :
+      {
+        "id" : "sync",
+        "locations-0-offers-1" :
+        {
+          "id" : "locations-0-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081711737,
+          "targetId" : 141147,
+          "targetName" : "/landing_page_ap_test/locations/0/offers/1/1414081753591",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-3-offers-2" :
+        {
+          "id" : "locations-3-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081711737,
+          "targetId" : 141153,
+          "targetName" : "/landing_page_ap_test/locations/3/offers/2/1414081757129",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-3-offers-1" :
+        {
+          "id" : "locations-3-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081711737,
+          "targetId" : 141152,
+          "targetName" : "/landing_page_ap_test/locations/3/offers/1/1414081756534",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "abacf674-e9aa-49e3-8855-08e06cbd2844",
+          "targetLastSynced" : 1429555892728,
+          "targetId" : 65986,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "locations-1-offers-1" :
+        {
+          "id" : "locations-1-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081869422,
+          "targetId" : 141149,
+          "targetName" : "/landing_page_ap_test/locations/1/offers/1/1414081754513",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-2-offers-1" :
+        {
+          "id" : "locations-2-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081988990,
+          "targetId" : 141151,
+          "targetName" : "/landing_page_ap_test/locations/2/offers/1/1414081755988",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-1-offers-2" :
+        {
+          "id" : "locations-1-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081869448,
+          "targetId" : 141150,
+          "targetName" : "/landing_page_ap_test/locations/1/offers/2/1414081755201",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-2" :
+        {
+          "id" : "locations-0-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081711737,
+          "targetId" : 141148,
+          "targetName" : "/landing_page_ap_test/locations/0/offers/2/1414081754044",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        }
+      }
+    },
+    {
+      "optimizingMetric" : "CONVERSION_RATE",
+      "startDate" : "",
+      "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/531/1429555531.png",
+      "jcr:lastModified" : 1429555865140,
+      "status" : "LIVE",
+      "privileges" : "[read]",
+      "jcr:title" : "Homepage promo mod MVT",
+      "exclusions" : 0,
+      "endDate" : "",
+      "jcr:description" : "",
+      "uri" : "/target/adobe-tech-marketing/target/activities/untitled_activity20apr2015114730-0700.at.json",
+      "algorithmIds" :
+      [
+        "full_factorial"
+      ],
+      "reference" : "/activities/untitled_activity20apr2015114730-0700",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "untitled_activity20apr2015114730-0700",
+      "priority" : 0,
+      "ref:reportAudiences" :
+      [
+      ],
+      "activatedDate" : 1429555865140,
+      "activityType" : "MVT",
+      "reportinggroups" :
+      [
+      ],
+      "sync" :
+      {
+        "id" : "sync",
+        "locations-0-offers-1" :
+        {
+          "id" : "locations-0-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162441,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/0/offers/1/v-1429555651457",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-1-offers-3" :
+        {
+          "id" : "locations-1-offers-3",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162451,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/1/offers/3/v-1429555651470",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "APPROVED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "8638b90c-9c46-494d-9674-cd317da14851",
+          "targetLastSynced" : 1429555865140,
+          "targetId" : 75185,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "locations-2-offers-3" :
+        {
+          "id" : "locations-2-offers-3",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162454,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/2/offers/3/v-1429555651479",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-2-offers-2" :
+        {
+          "id" : "locations-2-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162453,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/2/offers/2/v-1429555651478",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-1-offers-1" :
+        {
+          "id" : "locations-1-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162449,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/1/offers/1/v-1429555651467",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-2-offers-1" :
+        {
+          "id" : "locations-2-offers-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162452,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/2/offers/1/v-1429555651476",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-1-offers-2" :
+        {
+          "id" : "locations-1-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162450,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/1/offers/2/v-1429555651468",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-3" :
+        {
+          "id" : "locations-0-offers-3",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162448,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/0/offers/3/v-1429555651461",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "locations-0-offers-2" :
+        {
+          "id" : "locations-0-offers-2",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1429555701735,
+          "targetId" : 162447,
+          "targetName" : "/untitled_activity20apr2015114730-0700/locations/0/offers/2/v-1429555651459",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        }
+      },
+      "metrics" :
+      [
+        {
+          "metricLocalId" : 3,
+          "jcr:lastModified" : 1429555701601,
+          "constraints" :
+          [
+          ],
+          "jcr:title" : "Engagement",
+          "targetName" : "Metric-A-1429555651438",
+          "type" : "engagement",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "engagementType" : "pageViews",
+          "action" : "",
+          "activityType" : "MVT",
+          "worth" : ""
+        }
+      ],
+      "locations" :
+      [
+        {
+          "id" : "0",
+          "selector" : "HTML > BODY > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(1) > DIV.parbase:eq(0) > DIV.ThreeColumn-1:eq(0) > DIV.LayoutP:eq(0) > DIV.LayoutP:eq(0) > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+          "height" : 123,
+          "cssSelector" : "HTML > BODY > DIV:nth-of-type(4) > DIV:nth-of-type(3) > DIV:nth-of-type(2) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > A:nth-of-type(1) > IMG:nth-of-type(1)",
+          "jcr:lastModified" : 1429555701615,
+          "width" : 306,
+          "jcr:title" : "Location 1",
+          "type" : "image",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "1",
+          "selector" : "HTML > BODY > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(1) > DIV.parbase:eq(0) > DIV.ThreeColumn-1:eq(0) > TABLE.LayoutRowTop:eq(0) > TBODY:nth-of-type(1) > TR:nth-of-type(1) > TD.LayoutCellSides:eq(0) > H2.TextH5:eq(0)",
+          "cssSelector" : "HTML > BODY > DIV:nth-of-type(4) > DIV:nth-of-type(3) > DIV:nth-of-type(2) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(1) > TD:nth-of-type(1) > H2:nth-of-type(1)",
+          "jcr:lastModified" : 1429555701625,
+          "jcr:title" : "Location 2",
+          "type" : "text",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "2",
+          "selector" : "HTML > BODY > DIV.LayoutGrid:eq(0) > DIV.par:eq(0) > DIV.parsys_column:eq(0) > DIV.parsys_column:eq(2) > DIV.parbase:eq(0) > DIV.ThreeColumn-3:eq(0) > DIV.LayoutRowTop:eq(0) > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+          "height" : 180,
+          "cssSelector" : "HTML > BODY > DIV:nth-of-type(4) > DIV:nth-of-type(3) > DIV:nth-of-type(2) > DIV:nth-of-type(3) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(1) > A:nth-of-type(1) > IMG:nth-of-type(1)",
+          "jcr:lastModified" : 1429555701634,
+          "width" : 306,
+          "jcr:title" : "Location 3",
+          "type" : "image",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "excluded" : false,
+          "jcr:title" : "Experience A",
+          "targetName" : "Exp-A-1429555651358"
+        },
+        {
+          "id" : "1",
+          "excluded" : false,
+          "jcr:title" : "Experience B",
+          "targetName" : "Exp-B-1429555651359"
+        },
+        {
+          "id" : "2",
+          "excluded" : false,
+          "jcr:title" : "Experience C",
+          "targetName" : "Exp-C-1429555651360"
+        },
+        {
+          "id" : "3",
+          "excluded" : false,
+          "jcr:title" : "Experience D",
+          "targetName" : "Exp-D-1429555651362"
+        },
+        {
+          "id" : "4",
+          "excluded" : false,
+          "jcr:title" : "Experience E",
+          "targetName" : "Exp-E-1429555651363"
+        },
+        {
+          "id" : "5",
+          "excluded" : false,
+          "jcr:title" : "Experience F",
+          "targetName" : "Exp-F-1429555651364"
+        },
+        {
+          "id" : "6",
+          "excluded" : false,
+          "jcr:title" : "Experience G",
+          "targetName" : "Exp-G-1429555651365"
+        },
+        {
+          "id" : "7",
+          "excluded" : false,
+          "jcr:title" : "Experience H",
+          "targetName" : "Exp-H-1429555651366"
+        },
+        {
+          "id" : "8",
+          "excluded" : false,
+          "jcr:title" : "Experience I",
+          "targetName" : "Exp-I-1429555651368"
+        },
+        {
+          "id" : "9",
+          "excluded" : false,
+          "jcr:title" : "Experience J",
+          "targetName" : "Exp-J-1429555651369"
+        },
+        {
+          "id" : "10",
+          "excluded" : false,
+          "jcr:title" : "Experience K",
+          "targetName" : "Exp-K-1429555651370"
+        },
+        {
+          "id" : "11",
+          "excluded" : false,
+          "jcr:title" : "Experience L",
+          "targetName" : "Exp-L-1429555651371"
+        },
+        {
+          "id" : "12",
+          "excluded" : false,
+          "jcr:title" : "Experience M",
+          "targetName" : "Exp-M-1429555651372"
+        },
+        {
+          "id" : "13",
+          "excluded" : false,
+          "jcr:title" : "Experience N",
+          "targetName" : "Exp-N-1429555651374"
+        },
+        {
+          "id" : "14",
+          "excluded" : false,
+          "jcr:title" : "Experience O",
+          "targetName" : "Exp-O-1429555651375"
+        },
+        {
+          "id" : "15",
+          "excluded" : false,
+          "jcr:title" : "Experience P",
+          "targetName" : "Exp-P-1429555651376"
+        },
+        {
+          "id" : "16",
+          "excluded" : false,
+          "jcr:title" : "Experience Q",
+          "targetName" : "Exp-Q-1429555651377"
+        },
+        {
+          "id" : "17",
+          "excluded" : false,
+          "jcr:title" : "Experience R",
+          "targetName" : "Exp-R-1429555651379"
+        },
+        {
+          "id" : "18",
+          "excluded" : false,
+          "jcr:title" : "Experience S",
+          "targetName" : "Exp-S-1429555651380"
+        },
+        {
+          "id" : "19",
+          "excluded" : false,
+          "jcr:title" : "Experience T",
+          "targetName" : "Exp-T-1429555651381"
+        },
+        {
+          "id" : "20",
+          "excluded" : false,
+          "jcr:title" : "Experience U",
+          "targetName" : "Exp-U-1429555651382"
+        },
+        {
+          "id" : "21",
+          "excluded" : false,
+          "jcr:title" : "Experience V",
+          "targetName" : "Exp-V-1429555651384"
+        },
+        {
+          "id" : "22",
+          "excluded" : false,
+          "jcr:title" : "Experience W",
+          "targetName" : "Exp-W-1429555651385"
+        },
+        {
+          "id" : "23",
+          "excluded" : false,
+          "jcr:title" : "Experience X",
+          "targetName" : "Exp-X-1429555651386"
+        },
+        {
+          "id" : "24",
+          "excluded" : false,
+          "jcr:title" : "Experience Y",
+          "targetName" : "Exp-Y-1429555651387"
+        },
+        {
+          "id" : "25",
+          "excluded" : false,
+          "jcr:title" : "Experience Z",
+          "targetName" : "Exp-Z-1429555651389"
+        },
+        {
+          "id" : "26",
+          "excluded" : false,
+          "jcr:title" : "Experience AA",
+          "targetName" : "Exp-[-1429555651390"
+        },
+        {
+          "id" : "27",
+          "excluded" : false,
+          "jcr:title" : "Experience AB",
+          "targetName" : "Exp-\\-1429555651391"
+        },
+        {
+          "id" : "28",
+          "excluded" : false,
+          "jcr:title" : "Experience AC",
+          "targetName" : "Exp-]-1429555651392"
+        },
+        {
+          "id" : "29",
+          "excluded" : false,
+          "jcr:title" : "Experience AD",
+          "targetName" : "Exp-^-1429555651394"
+        },
+        {
+          "id" : "30",
+          "excluded" : false,
+          "jcr:title" : "Experience AE",
+          "targetName" : "Exp-_-1429555651395"
+        },
+        {
+          "id" : "31",
+          "excluded" : false,
+          "jcr:title" : "Experience AF",
+          "targetName" : "Exp-`-1429555651396"
+        },
+        {
+          "id" : "32",
+          "excluded" : false,
+          "jcr:title" : "Experience AG",
+          "targetName" : "Exp-a-1429555651397"
+        },
+        {
+          "id" : "33",
+          "excluded" : false,
+          "jcr:title" : "Experience AH",
+          "targetName" : "Exp-b-1429555651398"
+        },
+        {
+          "id" : "34",
+          "excluded" : false,
+          "jcr:title" : "Experience AI",
+          "targetName" : "Exp-c-1429555651400"
+        },
+        {
+          "id" : "35",
+          "excluded" : false,
+          "jcr:title" : "Experience AJ",
+          "targetName" : "Exp-d-1429555651401"
+        },
+        {
+          "id" : "36",
+          "excluded" : false,
+          "jcr:title" : "Experience AK",
+          "targetName" : "Exp-e-1429555651402"
+        },
+        {
+          "id" : "37",
+          "excluded" : false,
+          "jcr:title" : "Experience AL",
+          "targetName" : "Exp-f-1429555651403"
+        },
+        {
+          "id" : "38",
+          "excluded" : false,
+          "jcr:title" : "Experience AM",
+          "targetName" : "Exp-g-1429555651405"
+        },
+        {
+          "id" : "39",
+          "excluded" : false,
+          "jcr:title" : "Experience AN",
+          "targetName" : "Exp-h-1429555651406"
+        },
+        {
+          "id" : "40",
+          "excluded" : false,
+          "jcr:title" : "Experience AO",
+          "targetName" : "Exp-i-1429555651407"
+        },
+        {
+          "id" : "41",
+          "excluded" : false,
+          "jcr:title" : "Experience AP",
+          "targetName" : "Exp-j-1429555651408"
+        },
+        {
+          "id" : "42",
+          "excluded" : false,
+          "jcr:title" : "Experience AQ",
+          "targetName" : "Exp-k-1429555651409"
+        },
+        {
+          "id" : "43",
+          "excluded" : false,
+          "jcr:title" : "Experience AR",
+          "targetName" : "Exp-l-1429555651411"
+        },
+        {
+          "id" : "44",
+          "excluded" : false,
+          "jcr:title" : "Experience AS",
+          "targetName" : "Exp-m-1429555651412"
+        },
+        {
+          "id" : "45",
+          "excluded" : false,
+          "jcr:title" : "Experience AT",
+          "targetName" : "Exp-n-1429555651413"
+        },
+        {
+          "id" : "46",
+          "excluded" : false,
+          "jcr:title" : "Experience AU",
+          "targetName" : "Exp-o-1429555651414"
+        },
+        {
+          "id" : "47",
+          "excluded" : false,
+          "jcr:title" : "Experience AV",
+          "targetName" : "Exp-p-1429555651415"
+        },
+        {
+          "id" : "48",
+          "excluded" : false,
+          "jcr:title" : "Experience AW",
+          "targetName" : "Exp-q-1429555651417"
+        },
+        {
+          "id" : "49",
+          "excluded" : false,
+          "jcr:title" : "Experience AX",
+          "targetName" : "Exp-r-1429555651418"
+        },
+        {
+          "id" : "50",
+          "excluded" : false,
+          "jcr:title" : "Experience AY",
+          "targetName" : "Exp-s-1429555651419"
+        },
+        {
+          "id" : "51",
+          "excluded" : false,
+          "jcr:title" : "Experience AZ",
+          "targetName" : "Exp-t-1429555651420"
+        },
+        {
+          "id" : "52",
+          "excluded" : false,
+          "jcr:title" : "Experience BA",
+          "targetName" : "Exp-u-1429555651421"
+        },
+        {
+          "id" : "53",
+          "excluded" : false,
+          "jcr:title" : "Experience BB",
+          "targetName" : "Exp-v-1429555651423"
+        },
+        {
+          "id" : "54",
+          "excluded" : false,
+          "jcr:title" : "Experience BC",
+          "targetName" : "Exp-w-1429555651424"
+        },
+        {
+          "id" : "55",
+          "excluded" : false,
+          "jcr:title" : "Experience BD",
+          "targetName" : "Exp-x-1429555651425"
+        },
+        {
+          "id" : "56",
+          "excluded" : false,
+          "jcr:title" : "Experience BE",
+          "targetName" : "Exp-y-1429555651426"
+        },
+        {
+          "id" : "57",
+          "excluded" : false,
+          "jcr:title" : "Experience BF",
+          "targetName" : "Exp-z-1429555651427"
+        },
+        {
+          "id" : "58",
+          "excluded" : false,
+          "jcr:title" : "Experience BG",
+          "targetName" : "Exp-{-1429555651429"
+        },
+        {
+          "id" : "59",
+          "excluded" : false,
+          "jcr:title" : "Experience BH",
+          "targetName" : "Exp-|-1429555651430"
+        },
+        {
+          "id" : "60",
+          "excluded" : false,
+          "jcr:title" : "Experience BI",
+          "targetName" : "Exp-}-1429555651431"
+        },
+        {
+          "id" : "61",
+          "excluded" : false,
+          "jcr:title" : "Experience BJ",
+          "targetName" : "Exp-~-1429555651432"
+        },
+        {
+          "id" : "62",
+          "excluded" : false,
+          "jcr:title" : "Experience BK",
+          "targetName" : "Exp--1429555651433"
+        },
+        {
+          "id" : "63",
+          "excluded" : false,
+          "jcr:title" : "Experience BL",
+          "targetName" : "Exp--1429555651435"
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1429555701728,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+          "jcr:lastModified" : 1429555701727,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      },
+      "controlexperience" :
+      {
+        "id" : "controlexperience",
+        "jcr:lastModified" : 1429555701730,
+        "jcr:lastModifiedBy" : "Gina Casagrande"
+      }
+    },
+    {
+      "startDate" : "",
+      "jcr:lastModified" : 1414081898439,
+      "status" : "INACTIVE",
+      "segment" : "",
+      "privileges" : "[read]",
+      "jcr:title" : "iPad visitors",
+      "endDate" : "",
+      "jcr:description" : "",
+      "uri" : "/target/adobe-tech-marketing/target/activities/ipad_visitors.at.json",
+      "reference" : "/activities/ipad_visitors",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "ipad_visitors",
+      "controlExperienceId" : 0,
+      "deactivatedDate" : "",
+      "priority" : 0,
+      "activatedDate" : "",
+      "activityType" : "Experience-Targeting",
+      "elm:version" : "15.02.3",
+      "metrics" :
+      [
+        {
+          "jcr:lastModified" : 1414081898409,
+          "jcr:title" : "conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1414081898390",
+          "type" : "conversion",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "pageView",
+          "activityType" : "Experience-Targeting",
+          "worth" : ""
+        }
+      ],
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1414081898419,
+          "ref:audiences" :
+          [
+            "/audiences/imported/31/397721"
+          ],
+          "jcr:title" : "Experience A",
+          "targetName" : "Exp-A-1414081898383",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "1",
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1414081898426,
+          "ref:audiences" :
+          [
+            "/audiences/imported/38/397718"
+          ],
+          "jcr:title" : "Experience B",
+          "targetName" : "Exp-B-1414081898385",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1414081898432,
+        "ref:audiences" :
+        [
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+          "jcr:lastModified" : 1414081898430,
+          "targets" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "legacy" : false
+        }
+      },
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "DRAFT",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "b79687cf-afbb-4cbf-8ef2-ff49c9267b0c",
+          "targetLastSynced" : 1414081898439,
+          "targetId" : 65987,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "experiences-0" :
+        {
+          "id" : "experiences-0",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081898439,
+          "targetId" : 141154,
+          "targetName" : "/ipad_visitors/experiences/0/1414081902817",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        },
+        "experiences-1" :
+        {
+          "id" : "experiences-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1414081898439,
+          "targetId" : 141155,
+          "targetName" : "/ipad_visitors/experiences/1/1414081903360",
+          "type" : "visual",
+          "targetSyncFailed" : false
+        }
+      }
+    },
+    {
+      "startDate" : "",
+      "reportSuite" : "ravenbetaadobe.comdemo",
+      "jcr:lastModified" : 1403013149014,
+      "status" : "DRAFT",
+      "segment" : "all",
+      "privileges" : "[read]",
+      "jcr:title" : "Email testing campaign - CC upgrade 6/17/14",
+      "endDate" : "",
+      "jcr:description" : "",
+      "uri" : "/target/adobe-tech-marketing/target/activities/email_testing_campaign-ccupgrade61714.at.json",
+      "reference" : "/activities/email_testing_campaign-ccupgrade61714",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "email_testing_campaign-ccupgrade61714",
+      "callToAction" : "",
+      "controlExperienceId" : 0,
+      "deactivatedDate" : "",
+      "metrics" :
+      [
+      ],
+      "priority" : 0,
+      "activatedDate" : "",
+      "activityType" : "A-B-analytics",
+      "elm:version" : "15.02.3",
+      "experiences" :
+      [
+        {
+          "isExperienceDefined" : true,
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1403013149001,
+          "jcr:title" : "Experience A",
+          "targetName" : "Exp-A-1403013148987",
+          "zones" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "trafficSplit" : 100,
+          "actions" :
+          [
+          ]
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1403013149007,
+        "ref:audiences" :
+        [
+          "/audiences/imported/35/397735"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://www.drsmooth.com/forrester/FW-cc-2col-onboarding-template-mobile.html",
+          "jcr:lastModified" : 1403013149005,
+          "targets" :
+          [
+          ],
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "legacy" : false
+        }
+      },
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "thirdPartyId" : "ac84c8c3-2f6a-4274-9822-6a589954cd96",
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        }
+      }
+    },
+    {
+      "startDate" : "",
+      "costGainOpportunity" : 0.0,
+      "jcr:lastModified" : 1402954547123,
+      "privileges" : "[read]",
+      "targetLastSynced" : 1381170394901,
+      "jcr:title" : "PSD - paid search reinforcement",
+      "endDate" : "",
+      "jcr:description" : "",
+      "targetSyncPending" : false,
+      "id" : "psd_-_paid_searchreinforcement",
+      "targetLastSyncedStatus" : "APPROVED",
+      "priority" : 2,
+      "activatedDate" : 1381170394901,
+      "elm:version" : "15.02.3",
+      "bestOpportunity" : 0.0,
+      "status" : "INACTIVE",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "uri" : "/target/adobe-tech-marketing/target/activities/psd_-_paid_searchreinforcement.at.json",
+      "reference" : "/activities/psd_-_paid_searchreinforcement",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "deactivatedDate" : 1402954547123,
+      "hasWinner" : false,
+      "activityType" : "A-B",
+      "targetSyncFailed" : false,
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "STOPPED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "6ad0314e-6706-4c2c-b808-a6a92b32bfd6",
+          "targetLastSynced" : 1402954547123,
+          "targetId" : 46746,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "experiences-3" :
+        {
+          "id" : "experiences-3",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1395613962592,
+          "targetId" : 106177,
+          "targetName" : "/psd_-_paid_searchreinforcement/experiences/3/1395613966634",
+          "targetSyncFailed" : false
+        },
+        "experiences-1" :
+        {
+          "id" : "experiences-1"
+        }
+      },
+      "metrics" :
+      [
+        {
+          "id" : "0",
+          "matcher" : "contains",
+          "jcr:lastModified" : 1391579821303,
+          "action" : "pageView",
+          "jcr:title" : "conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1380665207232",
+          "type" : "conversion",
+          "worth" : 500.0,
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "jcr:lastModified" : 1391579821306,
+        "ref:audiences" :
+        [
+          "/audiences/all_visitors"
+        ],
+        "jcr:lastModifiedBy" : "Gina Casagrande",
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html"
+        }
+      },
+      "experiences" :
+      [
+        {
+          "id" : "2",
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1391579821315,
+          "jcr:title" : "Experience A",
+          "trafficSplit" : 50,
+          "winner" : false,
+          "targetName" : "Exp-C-1391570833216",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "3",
+          "thumbnailSrc" : "/apps/mac/target/components/common/images/ExperienceDefault.svg",
+          "jcr:lastModified" : 1391579821323,
+          "jcr:title" : "Experience B",
+          "trafficSplit" : 50,
+          "winner" : false,
+          "targetName" : "Exp-D-1391570833218",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ]
+    },
+    {
+      "costGainOpportunity" : 0.0,
+      "jcr:lastModified" : 1402954533122,
+      "privileges" : "[read]",
+      "targetLastSynced" : 1381257134046,
+      "jcr:title" : "LP - email retargeting for Free trial conversions",
+      "jcr:description" : "Test LP from email visitors to convert trialers to customers",
+      "targetSyncPending" : false,
+      "id" : "lp_-_email_retargetingforfreetrialconversions",
+      "targetLastSyncedStatus" : "READY",
+      "priority" : 0,
+      "activatedDate" : 1391628635071,
+      "elm:version" : "15.02.3",
+      "bestOpportunity" : 0.0,
+      "status" : "INACTIVE",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "uri" : "/target/adobe-tech-marketing/target/activities/lp_-_email_retargetingforfreetrialconversions.at.json",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "reference" : "/activities/lp_-_email_retargetingforfreetrialconversions",
+      "deactivatedDate" : 1402954533122,
+      "hasWinner" : false,
+      "activityType" : "A-B",
+      "targetSyncFailed" : false,
+      "metrics" :
+      [
+        {
+          "id" : "0",
+          "matcher" : "exact",
+          "action" : "pageView",
+          "jcr:title" : "conversion",
+          "countingRule" : "alwaysIncrement",
+          "targetName" : "Metric-A-1381257134051",
+          "type" : "conversion"
+        }
+      ],
+      "experiences" :
+      [
+        {
+          "id" : "0",
+          "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/098/1381257098.png",
+          "jcr:title" : "Experience A",
+          "trafficSplit" : 50,
+          "winner" : false,
+          "targetName" : "Exp-A-1381257134050",
+          "zones" :
+          [
+          ]
+        },
+        {
+          "id" : "1",
+          "thumbnailSrc" : "/target/adobe-tech-marketing/target/tmp/thumbnails/114/1381257114.png",
+          "jcr:title" : "Experience B",
+          "trafficSplit" : 50,
+          "winner" : false,
+          "targetName" : "Exp-B-1381257134050"
+        }
+      ],
+      "targets" :
+      {
+        "id" : "targets",
+        "ref:audiences" :
+        [
+          "/audiences/imported/31/397731"
+        ],
+        "template" :
+        {
+          "id" : "template",
+          "activityUrl" : "http://vm89.adobedemo.com/content/adobe/en_us.html"
+        }
+      },
+      "sync" :
+      {
+        "id" : "sync",
+        "root" :
+        {
+          "id" : "root",
+          "targetLastSyncedStatus" : "STOPPED",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "thirdPartyId" : "897bf380-25d0-4eac-90dc-14d2332e001e",
+          "targetLastSynced" : 1402954533122,
+          "targetId" : 46992,
+          "targetSyncPending" : false,
+          "targetSyncFailed" : false
+        },
+        "experiences-1" :
+        {
+          "id" : "experiences-1",
+          "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+          "targetLastSynced" : 1402954533122,
+          "targetId" : 106289,
+          "targetName" : "/lp_-_email_retargetingforfreetrialconversions/experiences/1/1402954533928",
+          "targetSyncFailed" : false
+        }
+      }
+    }
+  ],
+  "firstPageUri" : "/target/adobe-tech-marketing/target/activities.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=10",
+  "numPages" : 2,
+  "elm:version" : "15.02.3"
+}

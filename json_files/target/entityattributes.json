@@ -1,0 +1,70 @@
+{
+  "total" : 11,
+  "pageSize" : 2000,
+  "privileges" : "[read]",
+  "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/entityAttributes.at.json",
+  "reference" : "/setup/recs/entityAttributes",
+  "id" : "entityAttributes",
+  "lastPageUri" : "/content/mac/adobe-tech-marketing/target/setup/recs/entityAttributes.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=2000",
+  "items" :
+  [
+    {
+      "id" : "message",
+      "jcr:title" : "message",
+      "isPredefined" : true
+    },
+    {
+      "id" : "id",
+      "jcr:title" : "id",
+      "isPredefined" : true
+    },
+    {
+      "id" : "category",
+      "jcr:title" : "category",
+      "isPredefined" : true
+    },
+    {
+      "id" : "environment",
+      "jcr:title" : "environment",
+      "isPredefined" : true
+    },
+    {
+      "id" : "pageurl",
+      "jcr:title" : "pageUrl",
+      "isPredefined" : true
+    },
+    {
+      "id" : "inventory",
+      "jcr:title" : "inventory",
+      "isPredefined" : true
+    },
+    {
+      "id" : "thumbnailurl",
+      "jcr:title" : "thumbnailUrl",
+      "isPredefined" : true
+    },
+    {
+      "id" : "name",
+      "jcr:title" : "name",
+      "isPredefined" : true
+    },
+    {
+      "id" : "value",
+      "jcr:title" : "value",
+      "isPredefined" : true
+    },
+    {
+      "id" : "brand",
+      "jcr:title" : "brand",
+      "isPredefined" : true
+    },
+    {
+      "id" : "margin",
+      "jcr:title" : "margin",
+      "isPredefined" : true
+    }
+  ],
+  "page" : 1,
+  "firstPageUri" : "/content/mac/adobe-tech-marketing/target/setup/recs/entityAttributes.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=2000",
+  "numPages" : 1
+}

@@ -1,0 +1,470 @@
+{
+  "pid" : 1166,
+  "sid" : 886038,
+  "name" : "30-34 Male Business Traveler Customers",
+  "description" : "30-34 year-old male business travelers with checking accounts",
+  "status" : "ACTIVE",
+  "createTime" : 1396301082000,
+  "updateTime" : 1396301105000,
+  "crUID" : 1758,
+  "upUID" : 1758,
+  "integrationCode" : "",
+  "segmentRule" : "(879131T)",
+  "segmentRuleVersion" : 0,
+  "folderId" : 17889,
+  "legacyId" : 96796,
+  "dataSourceId" : 390,
+  "metrics" :
+  {
+    "1422057600000" :
+    {
+      "instantUniques" : 361,
+      "totalUniques" : 26307
+    },
+    "1422144000000" :
+    {
+      "instantUniques" : 365,
+      "totalUniques" : 25243
+    },
+    "1422230400000" :
+    {
+      "instantUniques" : 1082,
+      "totalUniques" : 25283
+    },
+    "1422316800000" :
+    {
+      "instantUniques" : 997,
+      "totalUniques" : 25318
+    },
+    "1422403200000" :
+    {
+      "instantUniques" : 931,
+      "totalUniques" : 25348
+    },
+    "1422489600000" :
+    {
+      "instantUniques" : 1086,
+      "totalUniques" : 25467
+    },
+    "1422576000000" :
+    {
+      "instantUniques" : 1064,
+      "totalUniques" : 25581
+    },
+    "1422662400000" :
+    {
+      "instantUniques" : 424,
+      "totalUniques" : 25631
+    },
+    "1422748800000" :
+    {
+      "instantUniques" : 406,
+      "totalUniques" : 24714
+    },
+    "1422835200000" :
+    {
+      "instantUniques" : 1249,
+      "totalUniques" : 24801
+    },
+    "1422921600000" :
+    {
+      "instantUniques" : 1270,
+      "totalUniques" : 24880
+    },
+    "1423008000000" :
+    {
+      "instantUniques" : 1335,
+      "totalUniques" : 24971
+    },
+    "1423094400000" :
+    {
+      "instantUniques" : 1257,
+      "totalUniques" : 25052
+    },
+    "1423180800000" :
+    {
+      "instantUniques" : 1283,
+      "totalUniques" : 25139
+    },
+    "1423267200000" :
+    {
+      "instantUniques" : 499,
+      "totalUniques" : 25198
+    },
+    "1423353600000" :
+    {
+      "instantUniques" : 468,
+      "totalUniques" : 24172
+    },
+    "1423440000000" :
+    {
+      "instantUniques" : 1310,
+      "totalUniques" : 24303
+    },
+    "1423526400000" :
+    {
+      "instantUniques" : 1318,
+      "totalUniques" : 24429
+    },
+    "1423612800000" :
+    {
+      "instantUniques" : 1242,
+      "totalUniques" : 24546
+    },
+    "1423699200000" :
+    {
+      "instantUniques" : 1118,
+      "totalUniques" : 24599
+    },
+    "1423785600000" :
+    {
+      "instantUniques" : 1031,
+      "totalUniques" : 24658
+    },
+    "1423872000000" :
+    {
+      "instantUniques" : 420,
+      "totalUniques" : 24687
+    },
+    "1423958400000" :
+    {
+      "instantUniques" : 386,
+      "totalUniques" : 23625
+    },
+    "1424044800000" :
+    {
+      "instantUniques" : 943,
+      "totalUniques" : 23691
+    },
+    "1424131200000" :
+    {
+      "instantUniques" : 1240,
+      "totalUniques" : 23787
+    },
+    "1424217600000" :
+    {
+      "instantUniques" : 1186,
+      "totalUniques" : 23853
+    },
+    "1424304000000" :
+    {
+      "instantUniques" : 1141,
+      "totalUniques" : 23923
+    },
+    "1424390400000" :
+    {
+      "instantUniques" : 1057,
+      "totalUniques" : 23992
+    },
+    "1424476800000" :
+    {
+      "instantUniques" : 462,
+      "totalUniques" : 24044
+    },
+    "1424563200000" :
+    {
+      "instantUniques" : 422,
+      "totalUniques" : 23158
+    },
+    "1424649600000" :
+    {
+      "instantUniques" : 1180,
+      "totalUniques" : 23228
+    },
+    "1424736000000" :
+    {
+      "instantUniques" : 1135,
+      "totalUniques" : 23306
+    },
+    "1424822400000" :
+    {
+      "instantUniques" : 1051,
+      "totalUniques" : 23378
+    },
+    "1424908800000" :
+    {
+      "instantUniques" : 924,
+      "totalUniques" : 23512
+    },
+    "1424995200000" :
+    {
+      "instantUniques" : 1090,
+      "totalUniques" : 23813
+    },
+    "1425081600000" :
+    {
+      "instantUniques" : 247,
+      "totalUniques" : 23905
+    },
+    "1425168000000" :
+    {
+      "instantUniques" : 150,
+      "totalUniques" : 23095
+    },
+    "1425254400000" :
+    {
+      "instantUniques" : 764,
+      "totalUniques" : 23162
+    },
+    "1425340800000" :
+    {
+      "instantUniques" : 937,
+      "totalUniques" : 23218
+    },
+    "1425427200000" :
+    {
+      "instantUniques" : 1034,
+      "totalUniques" : 23276
+    },
+    "1425513600000" :
+    {
+      "instantUniques" : 960,
+      "totalUniques" : 23313
+    },
+    "1425600000000" :
+    {
+      "instantUniques" : 879,
+      "totalUniques" : 23336
+    },
+    "1425686400000" :
+    {
+      "instantUniques" : 300,
+      "totalUniques" : 23349
+    },
+    "1425772800000" :
+    {
+      "instantUniques" : 307,
+      "totalUniques" : 22556
+    },
+    "1425859200000" :
+    {
+      "instantUniques" : 893,
+      "totalUniques" : 22596
+    },
+    "1425945600000" :
+    {
+      "instantUniques" : 883,
+      "totalUniques" : 22619
+    },
+    "1426032000000" :
+    {
+      "instantUniques" : 896,
+      "totalUniques" : 22651
+    },
+    "1426118400000" :
+    {
+      "instantUniques" : 803,
+      "totalUniques" : 22683
+    },
+    "1426204800000" :
+    {
+      "instantUniques" : 852,
+      "totalUniques" : 22717
+    },
+    "1426291200000" :
+    {
+      "instantUniques" : 284,
+      "totalUniques" : 22738
+    },
+    "1426377600000" :
+    {
+      "instantUniques" : 250,
+      "totalUniques" : 22030
+    },
+    "1426464000000" :
+    {
+      "instantUniques" : 915,
+      "totalUniques" : 22067
+    },
+    "1426550400000" :
+    {
+      "instantUniques" : 940,
+      "totalUniques" : 22097
+    },
+    "1426636800000" :
+    {
+      "instantUniques" : 701,
+      "totalUniques" : 22133
+    },
+    "1426723200000" :
+    {
+      "instantUniques" : 851,
+      "totalUniques" : 22177
+    },
+    "1426809600000" :
+    {
+      "instantUniques" : 778,
+      "totalUniques" : 22217
+    },
+    "1426896000000" :
+    {
+      "instantUniques" : 264,
+      "totalUniques" : 22226
+    },
+    "1426982400000" :
+    {
+      "instantUniques" : 314,
+      "totalUniques" : 21485
+    },
+    "1427068800000" :
+    {
+      "instantUniques" : 953,
+      "totalUniques" : 21516
+    },
+    "1427155200000" :
+    {
+      "instantUniques" : 855,
+      "totalUniques" : 21555
+    },
+    "1427241600000" :
+    {
+      "instantUniques" : 816,
+      "totalUniques" : 21590
+    },
+    "1427328000000" :
+    {
+      "instantUniques" : 847,
+      "totalUniques" : 21620
+    },
+    "1427414400000" :
+    {
+      "instantUniques" : 776,
+      "totalUniques" : 21634
+    },
+    "1427500800000" :
+    {
+      "instantUniques" : 233,
+      "totalUniques" : 21644
+    },
+    "1427587200000" :
+    {
+      "instantUniques" : 227,
+      "totalUniques" : 20977
+    },
+    "1427673600000" :
+    {
+      "instantUniques" : 794,
+      "totalUniques" : 21006
+    },
+    "1427760000000" :
+    {
+      "instantUniques" : 883,
+      "totalUniques" : 21029
+    },
+    "1427846400000" :
+    {
+      "instantUniques" : 938,
+      "totalUniques" : 21055
+    },
+    "1427932800000" :
+    {
+      "instantUniques" : 987,
+      "totalUniques" : 21088
+    },
+    "1428019200000" :
+    {
+      "instantUniques" : 741,
+      "totalUniques" : 21106
+    },
+    "1428105600000" :
+    {
+      "instantUniques" : 309,
+      "totalUniques" : 21119
+    },
+    "1428192000000" :
+    {
+      "instantUniques" : 269,
+      "totalUniques" : 19933
+    },
+    "1428278400000" :
+    {
+      "instantUniques" : 1115,
+      "totalUniques" : 19963
+    },
+    "1428364800000" :
+    {
+      "instantUniques" : 994,
+      "totalUniques" : 19985
+    },
+    "1428451200000" :
+    {
+      "instantUniques" : 945,
+      "totalUniques" : 20009
+    },
+    "1428537600000" :
+    {
+      "instantUniques" : 919,
+      "totalUniques" : 20031
+    },
+    "1428624000000" :
+    {
+      "instantUniques" : 740,
+      "totalUniques" : 20044
+    },
+    "1428710400000" :
+    {
+      "instantUniques" : 237,
+      "totalUniques" : 20051
+    },
+    "1428796800000" :
+    {
+      "instantUniques" : 265,
+      "totalUniques" : 19328
+    },
+    "1428883200000" :
+    {
+      "instantUniques" : 806,
+      "totalUniques" : 19350
+    },
+    "1428969600000" :
+    {
+      "instantUniques" : 863,
+      "totalUniques" : 19381
+    },
+    "1429056000000" :
+    {
+      "instantUniques" : 814,
+      "totalUniques" : 19388
+    },
+    "1429142400000" :
+    {
+      "instantUniques" : 789,
+      "totalUniques" : 19417
+    },
+    "1429228800000" :
+    {
+      "instantUniques" : 630,
+      "totalUniques" : 19436
+    },
+    "1429315200000" :
+    {
+      "instantUniques" : 215,
+      "totalUniques" : 19448
+    },
+    "1429401600000" :
+    {
+      "instantUniques" : 234,
+      "totalUniques" : 18822
+    },
+    "1429488000000" :
+    {
+      "instantUniques" : 783,
+      "totalUniques" : 18847
+    },
+    "1429574400000" :
+    {
+      "instantUniques" : 866,
+      "totalUniques" : 18879
+    },
+    "1429660800000" :
+    {
+      "instantUniques" : 844,
+      "totalUniques" : 18901
+    },
+    "1429747200000" :
+    {
+      "instantUniques" : 870,
+      "totalUniques" : 18925
+    }
+  }
+}

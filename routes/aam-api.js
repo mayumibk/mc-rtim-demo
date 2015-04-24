@@ -20,6 +20,7 @@
 
 var express = require('express');
 var demo = require('../libs/demo-controller.js');
+var session = require('cookie-session');
 var router = express.Router();
 
 router.get('/reports/latest-date', function(req, res, next) {
@@ -79,6 +80,14 @@ router.post('/reports/segments-trend', function(req, res, next) {
     res.send(demo.readJSON('aam/segments-trend.json'));
 });
 
+router.get('/reports/segments-trend/*', function(req, res) {
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?'));
+    var segmentId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('aam/segments-trend-' + segmentId + '.json'));
+});
+
 
 router.get('/traits',function(req,res){
     var folderID = req.query.folderId;
@@ -100,14 +109,74 @@ router.get('/folders/traits', function(req,res){
     res.send(demo.readJSON('aam/aam-folder-traits.json'));
 });
 
-router.get('/folders/segments', function(req,res){
+router.get('/folders/segments/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.length - 1);
+    var folderId = url.substring(url.lastIndexOf('/') + 1);
+
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('aam/folder-segments.json'));
+    if(folderId == "segments") {
+        res.send(demo.readJSON('aam/folder-segments.json'));
+    } else {
+        res.send(demo.retrieveAAMSegmentFolder(folderId,demo.readJSON('aam/folder-segments.json')));
+    }
 });
 
 router.get('/datasources', function(req,res){
     res.set('Content-Type','application/json');
     res.send(demo.readJSON('aam/aam-datasources-traits.json'));
+});
+
+router.get('/algorithms', function(req,res){
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('aam/algorithms.json'));
+});
+
+router.get('/segments/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.length - 1);
+    var segmentId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+    res.send(demo.retrieveAAMSegment(segmentId, demo.readJSON('aam/all-segments.json')));
+});
+
+router.post('/models', function(req,res){
+    var newModel = demo.saveAAMModel(JSON.stringify(req.body));
+    req.session.models = demo.updateAAMModels(newModel, req.session.models);
+    res.set('Content-Type','application/json');
+    res.send(newModel);
+});
+
+router.get('/models/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?'));
+    var modelId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+    if(modelId == "") {
+        // check if this is latest stats request
+        if(url.indexOf("/runs/latest/stats") > 0) {
+            modelId = url.substr(url.indexOf("models/"),url.indexOf("/runs"));
+            return res.send(demo.readJSON('aam/latest-run-stats.json'));
+        }
+        if(req.session.models){
+            return res.send(req.session.models);
+        } else {
+            return res.send(demo.readJSON('aam/models.json'));
+        }
+    } else {
+        return res.send(demo.retreiveAAMModel(modelId,req.session.models));
+    }
+
+
+});
+
+router.get('/customer-trait-types', function(req,res){
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('/aam/customer-trait-types.json'));
+});
+
+router.get('/taxonomies/*', function(req,res){
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('/aam/taxonomies.json'));
 });
 
 

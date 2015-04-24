@@ -1,0 +1,24 @@
+{
+  "total" : 1,
+  "pageSize" : 2000,
+  "lastSynced" : 1429824799041,
+  "privileges" : "[read]",
+  "uri" : "/content/mac/adobe-tech-marketing/target/mboxes.at.json",
+  "reference" : "/mboxes",
+  "id" : "mboxes",
+  "lastPageUri" : "/content/mac/adobe-tech-marketing/target/mboxes.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=2000",
+  "page" : 1,
+  "items" :
+  [
+    {
+      "id" : "target-global-mbox0",
+      "status" : "ACTIVE",
+      "privileges" : "[read]",
+      "jcr:title" : "target-global-mbox",
+      "uri" : "/content/mac/adobe-tech-marketing/target/mboxes/target-global-mbox0.at.json",
+      "reference" : "/mboxes/target-global-mbox0"
+    }
+  ],
+  "firstPageUri" : "/content/mac/adobe-tech-marketing/target/mboxes.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=2000",
+  "numPages" : 1
+}

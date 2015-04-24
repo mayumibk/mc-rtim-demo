@@ -1,0 +1,34 @@
+{
+  "algoModelId" : 2999,
+  "pid" : 1577,
+  "name" : "test",
+  "description" : "test",
+  "algoTypeId" : 1,
+  "intervalSeconds" : 604800,
+  "lookBackPeriod" : 30,
+  "crUID" : 12307,
+  "upUID" : 12307,
+  "status" : "ACTIVE",
+  "lastRunStatus" : 1,
+  "createTime" : 1429887779000,
+  "algoModelVersion" : 0,
+  "dataSources" :
+  [
+    1949,
+    1950,
+    2056
+  ],
+  "sid" : 1831312,
+  "lastRunTimestamp" : 1428614957000,
+  "baselineTraitType" : "ON_BOARDED_TRAIT",
+  "lastSuccessfulRunTimestamp" : 1428614957000,
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "DELETE",
+    "CREATE",
+    "CREATE_ALGO_TRAITS"
+  ],
+  "updateTime" : 1429887779000
+}

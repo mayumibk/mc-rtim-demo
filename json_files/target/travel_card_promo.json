@@ -1,0 +1,224 @@
+{
+  "startDate" : "",
+  "experiences" :
+  [
+    {
+      "id" : "0",
+      "isExperienceDefined" : true,
+      "thumbnailSrc" : "/images/ExperienceDefault.svg",
+      "jcr:lastModified" : 1429809352582,
+      "ref:audiences" :
+      [
+        "/audiences/cc-real-time-expanded"
+      ],
+      "jcr:title" : "Experience A",
+      "targetName" : "Exp-A-1429733361981",
+      "zones" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "actions" :
+      [
+        {
+          "selector" : "#homepageHero > IMG:nth-of-type(1)",
+          "cssSelector" : "#homepageHero > IMG:nth-of-type(1)",
+          "asset" : "/res/wefinance/dam/cc-travel.png",
+          "jcr:lastModified" : 1429809352579,
+          "width" : 1170,
+          "attribute" : "src",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "height" : 322,
+          "value" : "/res/wefinance/dam/cc-travel.png",
+          "action" : "setAttribute"
+        }
+      ]
+    },
+    {
+      "id" : "1",
+      "isExperienceDefined" : true,
+      "thumbnailSrc" : "/images/ExperienceDefault.svg",
+      "jcr:lastModified" : 1429809352587,
+      "ref:audiences" :
+      [
+        "/audiences/repeat-cc-real-time"
+      ],
+      "jcr:title" : "Experience B",
+      "targetName" : "Exp-B-1429733361983",
+      "zones" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "actions" :
+      [
+        {
+          "selector" : "#homepageHero > IMG:nth-of-type(1)",
+          "cssSelector" : "#homepageHero > IMG:nth-of-type(1)",
+          "asset" : "/images/1170x400_Travel_5k_Campaign.png",
+          "jcr:lastModified" : 1429809352584,
+          "width" : 1170,
+          "attribute" : "src",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "height" : 322,
+          "value" : "/images/1170x400_Travel_5k_Campaign.png",
+          "action" : "setAttribute"
+        }
+      ]
+    },
+    {
+      "id" : "2",
+      "isExperienceDefined" : true,
+      "thumbnailSrc" : "/images/ExperienceDefault.svg",
+      "jcr:lastModified" : 1429809352591,
+      "ref:audiences" :
+      [
+        "/audiences/wetravel-cc-retargeting"
+      ],
+      "jcr:title" : "Experience C",
+      "targetName" : "Exp-C-1429733361984",
+      "zones" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "actions" :
+      [
+        {
+          "selector" : "#homepageHero > IMG:nth-of-type(1)",
+          "cssSelector" : "#homepageHero > IMG:nth-of-type(1)",
+          "asset" : "/images/1170x400_Travel_15k_Campaign.png",
+          "jcr:lastModified" : 1429809352589,
+          "width" : 1170,
+          "attribute" : "src",
+          "jcr:lastModifiedBy" : "Gina Casagrande",
+          "id" : "0",
+          "height" : 322,
+          "value" : "/images/1170x400_Travel_15k_Campaign.png",
+          "action" : "setAttribute"
+        }
+      ]
+    }
+  ],
+  "jcr:lastModified" : 1429809870664,
+  "elm:references" :
+  {
+    "/audiences/cc-real-time-expanded" :
+    {
+      "jcr:title" : "CC real-time expanded"
+    },
+    "/audiences/repeat-cc-real-time" :
+    {
+      "jcr:title" : "Repeat CC real-time"
+    },
+    "/audiences/wetravel-cc-retargeting" :
+    {
+      "jcr:title" : "we.Travel CC retargeting"
+    }
+  },
+  "segment" : "",
+  "jcr:title" : "DAT LP Travel card promo - CC upgrade with miles",
+  "privileges" : "[read]",
+  "endDate" : "",
+  "jcr:description" : "Display ad reinforcement. Target 5 & 15K mileage offers to levels of qualified audiences.",
+  "id" : "dat_lp_travel_cardpromo-ccupgradewithmiles",
+  "metrics" :
+  [
+    {
+      "metricLocalId" : 3,
+      "jcr:lastModified" : 1429809352570,
+      "jcr:title" : "Conversion",
+      "countingRule" : "alwaysIncrement",
+      "targetName" : "Metric-A-1429733361988",
+      "type" : "conversion",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "0",
+      "matcher" : "exact",
+      "action" : "elementClick",
+      "activityType" : "Experience-Targeting",
+      "worth" : 0.0,
+      "constraints" :
+      [
+        {
+          "id" : "0",
+          "jcr:lastModified" : 1429809352567,
+          "term" : "HTML > BODY > DIV.navbar:eq(0) > DIV.container:eq(0) > DIV.row:eq(0) > DIV.col-md-10:eq(0) > DIV.collapse:eq(0) > UL.nav:eq(0) > LI.dropdown:eq(5) > A:nth-of-type(1)",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ]
+    }
+  ],
+  "sync" :
+  {
+    "id" : "sync",
+    "root" :
+    {
+      "id" : "root",
+      "targetLastSyncedStatus" : "APPROVED",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "thirdPartyId" : "46f2574f-dc2e-4402-8db0-85a5fff63d3d",
+      "targetLastSynced" : 1429809870664,
+      "targetId" : 75373,
+      "targetSyncPending" : false,
+      "targetSyncFailed" : false
+    },
+    "experiences-0" :
+    {
+      "id" : "experiences-0",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "targetLastSynced" : 1429809352597,
+      "targetId" : 162955,
+      "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/0/v-1429733362011",
+      "type" : "visual",
+      "targetSyncFailed" : false
+    },
+    "experiences-1" :
+    {
+      "id" : "experiences-1",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "targetLastSynced" : 1429809352597,
+      "targetId" : 162956,
+      "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/1/v-1429733362016",
+      "type" : "visual",
+      "targetSyncFailed" : false
+    },
+    "experiences-2" :
+    {
+      "id" : "experiences-2",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "targetLastSynced" : 1429809352597,
+      "targetId" : 162957,
+      "targetName" : "/dat_lp_travel_cardpromo-ccupgradewithmiles/experiences/2/v-1429733362018",
+      "type" : "visual",
+      "targetSyncFailed" : false
+    }
+  },
+  "priority" : 0,
+  "activatedDate" : 1429737156294,
+  "targets" :
+  {
+    "id" : "targets",
+    "jcr:lastModified" : 1429809352575,
+    "ref:audiences" :
+    [
+    ],
+    "jcr:lastModifiedBy" : "Gina Casagrande",
+    "template" :
+    {
+      "id" : "template",
+      "activityUrl" : "/target/wefinance/en/personal.html",
+      "jcr:lastModified" : 1429809352574,
+      "targets" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "legacy" : false
+    }
+  },
+  "status" : "LIVE",
+  "uri" : "/content/mac/adobe-tech-marketing/target/activities/dat_lp_travel_cardpromo-ccupgradewithmiles.at.json",
+  "jcr:lastModifiedBy" : "Gina Casagrande",
+  "reference" : "/activities/dat_lp_travel_cardpromo-ccupgradewithmiles",
+  "controlExperienceId" : 0,
+  "deactivatedDate" : "",
+  "activityType" : "Experience-Targeting"
+}

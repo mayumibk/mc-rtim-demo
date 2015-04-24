@@ -1,0 +1,44 @@
+.datetimepicker{border:solid #000 1px;background-color:#FFF;display:none;position:absolute;cursor:default;z-index:100}
+.datetimepicker .dp-clear{overflow:auto;background-color:#e9e9e9}
+.datetimepicker .dp-clear a{cursor:pointer;height:40px;line-height:40px;padding:0 5px 0 5px;text-align:right;display:inline-block;float:right}
+.datetimepicker-notouch .dp-close a:hover{color:#c8bbff}
+.datetimepicker .dp-header{height:40px;line-height:40px;color:#000;margin-bottom:5px}
+.datetimepicker .dp-header .dp-leftnav,.datetimepicker .dp-header .dp-rightnav,.datetimepicker .dp-header .dp-caption{float:left;text-align:center;cursor:pointer;height:40px}
+.datetimepicker-notouch .dp-header .dp-caption:not(.disabled):hover{color:#c8bbff}
+.datetimepicker .dp-header .dp-rightnav{float:right;background:url(images/rightnav.png) no-repeat center center;width:40px}
+.datetimepicker .dp-header .dp-leftnav{width:40px;background:url(images/leftnav.png) no-repeat center center}
+.datetimepicker .view{display:none}
+.datetimepicker .view ul{display:block;list-style:none;margin:0;padding:0;overflow:hidden;box-sizing:border-box;-moz-box-sizing:border-box}
+.datetimepicker .view ul li{float:left;padding:0;text-align:center;border:0;box-sizing:border-box;-moz-box-sizing:border-box}
+.datetimepicker .view ul:not(.header) li:not(.disabled){cursor:pointer}
+.datetimepicker .view ul.header{color:#000;background-color:#FFF;border-bottom:#CCC 1px solid}
+.datetimepicker-notouch .view ul:not(.header) li:not(.disabled):hover{color:black;background-color:#e9e9e9;opacity:.5}
+.datetimepicker .view ul li.disabled{color:#CCC}
+.datetimepicker .view ul li.dp-selected{outline:0;background-color:#e9e9e9;color:#000;opacity:1.0}
+.datetimepicker .view ul li.dp-focus{border:1px dashed black}
+div#iEBox_container{font-family:Arial,sans-serif;font-size:12px;min-width:300px;background:#FFF;border:solid 2px #999;color:#000;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;display:none;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;position:absolute;z-index:99998;padding:0;margin:0;line-height:0}
+#iEBox_title{font-size:14px;font-weight:normal;text-align:center;line-height:1.75em;color:#555;background:#fff top repeat-x;cursor:default;padding:10px;margin:0;display:inline-block;vertical-align:middle}
+#iEBox_content{background:16px 16px no-repeat;padding:10px 10px;margin:0;min-width:300px}
+#iEBox_canvas{border:4px #aaa dashed;-ms-touch-action:pinch-zoom;touch-action:pinch-zoom}
+#iEBox_panel{text-align:center;margin:0;background-color:black;-moz-border-top-right-radius:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px;-moz-border-top-left-radius:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px;overflow:hidden;background:-webkit-gradient(linear,0% 0,0% 100%,from(#888),to(#000));background:-webkit-linear-gradient(top,#888,#000);background:-moz-linear-gradient(top,#888,#000);background:-ms-linear-gradient(top,#888,#000);background:-o-linear-gradient(top,#888,#000);-ms-touch-action:pinch-zoom;touch-action:pinch-zoom}
+#iEBox_prompt{margin:.5em 0}
+div.iEBox_button{background:no-repeat;width:40px;height:40px;background-size:40px 40px;display:inline-block;margin:10px}
+div#iEBox_Geo{background-image:url('images/iEBox_geo.png');width:40px;height:40px;background-size:40px 40px;display:none;vertical-align:middle}
+div#iEBox_Brush{background-image:url('images/iEBox_brush.png');width:40px;height:40px;background-size:40px 40px;vertical-align:middle}
+div#iEBox_incBrush{background-image:url('images/iEBox_geo.png');width:40px;height:40px;background-size:40px 40px;vertical-align:middle}
+div#iEBox_Ok{background-image:url('images/iEBox_ok.png');vertical-align:middle;float:right}
+div#iEBox_Clear{background-image:url('images/iEBox_clear.png');vertical-align:middle}
+div#iEBox_Cancel{background-image:url('images/iEBox_no.png');float:right}
+div#iEBox_moveframe{padding:0;margin:0;border:0 dotted rgba(0,0,0,0.5);-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;display:none;position:absolute}
+div.disable_button{filter:url("data:image/svg+xml;utf8,<svgxmlns=\'http://www.w3.org/2000/svg\'><filterid=\'grayscale\'><feColorMatrixtype=\'matrix\'values=\'0.33330.33330.3333000.33330.33330.3333000.33330.33330.33330000010\'/></filter></svg>#grayscale");filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%)}
+div.sc_popUpMenu{display:none;width:20px;height:20px;background:no-repeat;background-size:20px 20px;background-image:url('images/iEBox_no.png');z-index:9999;position:absolute;left:0;top:0}
+div#iEBox_brushList{position:absolute;z-index:99999;background-color:white;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;display:none}
+div#iEBox_brushList div:hover{background-color:gray}
+fieldset#iEBox_caption{border:4px dashed #aaa;border-bottom:0;border-left:0;border-right:0;margin-right:4px;margin-left:1px;margin-top:0;text-align:center;padding:0}
+fieldset#iEBox_caption>legend{width:auto}
+.emptyScribble{background:url(images/signature.png) no-repeat}
+div#iEBox_canvases{white-space:nowrap}
+div.listBoxWidget{overflow:auto}
+div.listBoxWidget>ol{list-style-type:none;padding:5px;margin:0;outline:0}
+ol>li.item-selectable{background-color:rgba(255,255,255,0);color:black;padding-left:5px;cursor:pointer}
+ol>li.item-selected{background:#99c1da;color:white;padding-left:5px;cursor:pointer}

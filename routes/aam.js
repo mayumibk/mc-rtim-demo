@@ -27,16 +27,22 @@ router.get('/Analytics/reports.ddx', function(req, res, next) {
 });
 
 router.get('/Traits/Traits.ddx',function(req,res){
-    res.render('aam-traits.ejs',{title: "Express"});
+    res.render('aam-traits',{title: "Express"});
 });
 
 router.get('/Segments/SegmentBuilder.ddx',function(req,res){
-    res.render('aam/segmentbuilder.ejs',{title: "Express"});
+    res.render('aam/segmentbuilder',{title: "Express"});
+});
+
+router.get('/Segments/Models.ddx', function(req,res){
+    res.render('aam/modelbuilder',{title:"Express"});
 });
 
 router.get('/common/scripts/adobe_am/reports/dashboard/view.html', function(req, res, next) {
     res.render('report-view',{title:"Express"});
 });
+
+
 
 router.post('/common/header.jsonp', function(req, res, next) {
     res.set('Content-Type','application/json');

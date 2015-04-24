@@ -1,0 +1,42 @@
+{
+  "total" : 2,
+  "page" : 0,
+  "pageSize" : 50,
+  "list" :
+  [
+    {
+      "algoModelId" : 2938,
+      "pid" : 1577,
+      "name" : "Demo model",
+      "description" : "Demo model",
+      "algoTypeId" : 1,
+      "intervalSeconds" : 604800,
+      "lookBackPeriod" : 60,
+      "crUID" : 4257,
+      "upUID" : 4257,
+      "status" : "ACTIVE",
+      "lastRunStatus" : 1,
+      "createTime" : 1428614971000,
+      "algoModelVersion" : 0,
+      "dataSources" :
+      [
+        1949,
+        1950,
+        2056
+      ],
+      "sid" : 1824476,
+      "lastRunTimestamp" : 1428614957000,
+      "baselineTraitType" : "SEGMENT",
+      "lastSuccessfulRunTimestamp" : 1428614957000,
+      "permissions" :
+      [
+        "READ",
+        "WRITE",
+        "DELETE",
+        "CREATE",
+        "CREATE_ALGO_TRAITS"
+      ],
+      "updateTime" : 1428614971000
+    }
+  ]
+}

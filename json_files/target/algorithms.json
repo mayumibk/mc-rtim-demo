@@ -1,0 +1,32 @@
+{
+  "total" : 2,
+  "pageSize" : 10,
+  "lastSynced" : 1429812284232,
+  "privileges" : "[approver, write, read]",
+  "uri" : "/content/mac/adobe-tech-marketing/target/setup/profiletargeted/algorithms.at.json",
+  "reference" : "/setup/profiletargeted/algorithms",
+  "id" : "algorithms",
+  "lastPageUri" : "/content/mac/adobe-tech-marketing/target/setup/profiletargeted/algorithms.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=10",
+  "page" : 1,
+  "items" :
+  [
+    {
+      "id" : "touch_clarity",
+      "algorithmId" : "touch_clarity",
+      "privileges" : "[approver, write, read]",
+      "jcr:title" : "Residual Variance",
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/profiletargeted/algorithms/touch_clarity.at.json",
+      "reference" : "/setup/profiletargeted/algorithms/touch_clarity"
+    },
+    {
+      "id" : "e_greedy_rf",
+      "algorithmId" : "e_greedy_rf",
+      "privileges" : "[approver, write, read]",
+      "jcr:title" : "Random Forest",
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/profiletargeted/algorithms/e_greedy_rf.at.json",
+      "reference" : "/setup/profiletargeted/algorithms/e_greedy_rf"
+    }
+  ],
+  "firstPageUri" : "/content/mac/adobe-tech-marketing/target/setup/profiletargeted/algorithms.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=10",
+  "numPages" : 1
+}

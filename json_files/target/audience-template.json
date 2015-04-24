@@ -1,0 +1,16 @@
+{
+  "jcr:lastModified" : 1418079786157,
+  "targetLastSyncedBy" : "admin",
+  "privileges" : "[read]",
+  "jcr:title" : "30-year mortgage",
+  "targetLastSynced" : 1417823765000,
+  "targetId" : 512910,
+  "targetSegmentName" : "30-year mortgage",
+  "uri" : "/content/mac/adobe-tech-marketing/target/audiences/imported/50/512910.at.json",
+  "deletedAtOrigin" : false,
+  "reference" : "/audiences/imported/50/512910",
+  "jcr:lastModifiedBy" : "gcasagra@adobe.com",
+  "id" : "imported/50/512910",
+  "source" : "Marketing Cloud",
+  "targetSyncFailed" : true
+}

@@ -1,0 +1,406 @@
+[
+  {
+    "AccuracyValue" : 0.0,
+    "ReachValue" : 297144952
+  },
+  {
+    "AccuracyValue" : 0.01,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.02,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.03,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.04,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.05,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.06,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.07,
+    "ReachValue" : 297144594
+  },
+  {
+    "AccuracyValue" : 0.08,
+    "ReachValue" : 297144505
+  },
+  {
+    "AccuracyValue" : 0.09,
+    "ReachValue" : 297144383
+  },
+  {
+    "AccuracyValue" : 0.1,
+    "ReachValue" : 297144359
+  },
+  {
+    "AccuracyValue" : 0.11,
+    "ReachValue" : 297144359
+  },
+  {
+    "AccuracyValue" : 0.12,
+    "ReachValue" : 297144123
+  },
+  {
+    "AccuracyValue" : 0.13,
+    "ReachValue" : 297144109
+  },
+  {
+    "AccuracyValue" : 0.14,
+    "ReachValue" : 297143987
+  },
+  {
+    "AccuracyValue" : 0.15,
+    "ReachValue" : 297143785
+  },
+  {
+    "AccuracyValue" : 0.16,
+    "ReachValue" : 297143785
+  },
+  {
+    "AccuracyValue" : 0.17,
+    "ReachValue" : 297143785
+  },
+  {
+    "AccuracyValue" : 0.18,
+    "ReachValue" : 297143785
+  },
+  {
+    "AccuracyValue" : 0.19,
+    "ReachValue" : 297143501
+  },
+  {
+    "AccuracyValue" : 0.2,
+    "ReachValue" : 297141206
+  },
+  {
+    "AccuracyValue" : 0.21,
+    "ReachValue" : 297140859
+  },
+  {
+    "AccuracyValue" : 0.22,
+    "ReachValue" : 297138948
+  },
+  {
+    "AccuracyValue" : 0.23,
+    "ReachValue" : 297137392
+  },
+  {
+    "AccuracyValue" : 0.24,
+    "ReachValue" : 297136845
+  },
+  {
+    "AccuracyValue" : 0.25,
+    "ReachValue" : 297135137
+  },
+  {
+    "AccuracyValue" : 0.26,
+    "ReachValue" : 297135089
+  },
+  {
+    "AccuracyValue" : 0.27,
+    "ReachValue" : 297133368
+  },
+  {
+    "AccuracyValue" : 0.28,
+    "ReachValue" : 297133364
+  },
+  {
+    "AccuracyValue" : 0.29,
+    "ReachValue" : 297133356
+  },
+  {
+    "AccuracyValue" : 0.3,
+    "ReachValue" : 297133337
+  },
+  {
+    "AccuracyValue" : 0.31,
+    "ReachValue" : 297133288
+  },
+  {
+    "AccuracyValue" : 0.32,
+    "ReachValue" : 297035038
+  },
+  {
+    "AccuracyValue" : 0.33,
+    "ReachValue" : 297004521
+  },
+  {
+    "AccuracyValue" : 0.34,
+    "ReachValue" : 297004269
+  },
+  {
+    "AccuracyValue" : 0.35,
+    "ReachValue" : 297002281
+  },
+  {
+    "AccuracyValue" : 0.36,
+    "ReachValue" : 296935738
+  },
+  {
+    "AccuracyValue" : 0.37,
+    "ReachValue" : 296926531
+  },
+  {
+    "AccuracyValue" : 0.38,
+    "ReachValue" : 296925708
+  },
+  {
+    "AccuracyValue" : 0.39,
+    "ReachValue" : 296925215
+  },
+  {
+    "AccuracyValue" : 0.4,
+    "ReachValue" : 296919139
+  },
+  {
+    "AccuracyValue" : 0.41,
+    "ReachValue" : 296777092
+  },
+  {
+    "AccuracyValue" : 0.42,
+    "ReachValue" : 296755230
+  },
+  {
+    "AccuracyValue" : 0.43,
+    "ReachValue" : 296725160
+  },
+  {
+    "AccuracyValue" : 0.44,
+    "ReachValue" : 296647491
+  },
+  {
+    "AccuracyValue" : 0.45,
+    "ReachValue" : 296619194
+  },
+  {
+    "AccuracyValue" : 0.46,
+    "ReachValue" : 296302384
+  },
+  {
+    "AccuracyValue" : 0.47,
+    "ReachValue" : 286984002
+  },
+  {
+    "AccuracyValue" : 0.48,
+    "ReachValue" : 285555957
+  },
+  {
+    "AccuracyValue" : 0.49,
+    "ReachValue" : 285357555
+  },
+  {
+    "AccuracyValue" : 0.5,
+    "ReachValue" : 285088369
+  },
+  {
+    "AccuracyValue" : 0.51,
+    "ReachValue" : 283567155
+  },
+  {
+    "AccuracyValue" : 0.52,
+    "ReachValue" : 283176005
+  },
+  {
+    "AccuracyValue" : 0.53,
+    "ReachValue" : 282903375
+  },
+  {
+    "AccuracyValue" : 0.54,
+    "ReachValue" : 282577161
+  },
+  {
+    "AccuracyValue" : 0.55,
+    "ReachValue" : 282495289
+  },
+  {
+    "AccuracyValue" : 0.56,
+    "ReachValue" : 282455661
+  },
+  {
+    "AccuracyValue" : 0.57,
+    "ReachValue" : 282424408
+  },
+  {
+    "AccuracyValue" : 0.58,
+    "ReachValue" : 282405123
+  },
+  {
+    "AccuracyValue" : 0.59,
+    "ReachValue" : 282390574
+  },
+  {
+    "AccuracyValue" : 0.6,
+    "ReachValue" : 282380714
+  },
+  {
+    "AccuracyValue" : 0.61,
+    "ReachValue" : 282374204
+  },
+  {
+    "AccuracyValue" : 0.62,
+    "ReachValue" : 282368754
+  },
+  {
+    "AccuracyValue" : 0.63,
+    "ReachValue" : 282361171
+  },
+  {
+    "AccuracyValue" : 0.64,
+    "ReachValue" : 282356751
+  },
+  {
+    "AccuracyValue" : 0.65,
+    "ReachValue" : 282355390
+  },
+  {
+    "AccuracyValue" : 0.66,
+    "ReachValue" : 282354752
+  },
+  {
+    "AccuracyValue" : 0.67,
+    "ReachValue" : 282354461
+  },
+  {
+    "AccuracyValue" : 0.68,
+    "ReachValue" : 282354309
+  },
+  {
+    "AccuracyValue" : 0.69,
+    "ReachValue" : 282354259
+  },
+  {
+    "AccuracyValue" : 0.7,
+    "ReachValue" : 14877628
+  },
+  {
+    "AccuracyValue" : 0.71,
+    "ReachValue" : 4794984
+  },
+  {
+    "AccuracyValue" : 0.72,
+    "ReachValue" : 3750099
+  },
+  {
+    "AccuracyValue" : 0.73,
+    "ReachValue" : 3683284
+  },
+  {
+    "AccuracyValue" : 0.74,
+    "ReachValue" : 1361834
+  },
+  {
+    "AccuracyValue" : 0.75,
+    "ReachValue" : 1270178
+  },
+  {
+    "AccuracyValue" : 0.76,
+    "ReachValue" : 1247297
+  },
+  {
+    "AccuracyValue" : 0.77,
+    "ReachValue" : 1230585
+  },
+  {
+    "AccuracyValue" : 0.78,
+    "ReachValue" : 752294
+  },
+  {
+    "AccuracyValue" : 0.79,
+    "ReachValue" : 578617
+  },
+  {
+    "AccuracyValue" : 0.8,
+    "ReachValue" : 540837
+  },
+  {
+    "AccuracyValue" : 0.81,
+    "ReachValue" : 408497
+  },
+  {
+    "AccuracyValue" : 0.82,
+    "ReachValue" : 404034
+  },
+  {
+    "AccuracyValue" : 0.83,
+    "ReachValue" : 403412
+  },
+  {
+    "AccuracyValue" : 0.84,
+    "ReachValue" : 403290
+  },
+  {
+    "AccuracyValue" : 0.85,
+    "ReachValue" : 400822
+  },
+  {
+    "AccuracyValue" : 0.86,
+    "ReachValue" : 391504
+  },
+  {
+    "AccuracyValue" : 0.87,
+    "ReachValue" : 387421
+  },
+  {
+    "AccuracyValue" : 0.88,
+    "ReachValue" : 374852
+  },
+  {
+    "AccuracyValue" : 0.89,
+    "ReachValue" : 369001
+  },
+  {
+    "AccuracyValue" : 0.9,
+    "ReachValue" : 366299
+  },
+  {
+    "AccuracyValue" : 0.91,
+    "ReachValue" : 365516
+  },
+  {
+    "AccuracyValue" : 0.92,
+    "ReachValue" : 365385
+  },
+  {
+    "AccuracyValue" : 0.93,
+    "ReachValue" : 365042
+  },
+  {
+    "AccuracyValue" : 0.94,
+    "ReachValue" : 13626
+  },
+  {
+    "AccuracyValue" : 0.95,
+    "ReachValue" : 9416
+  },
+  {
+    "AccuracyValue" : 0.96,
+    "ReachValue" : 9353
+  },
+  {
+    "AccuracyValue" : 0.97,
+    "ReachValue" : 9345
+  },
+  {
+    "AccuracyValue" : 0.98,
+    "ReachValue" : 8843
+  },
+  {
+    "AccuracyValue" : 0.99,
+    "ReachValue" : 381
+  },
+  {
+    "AccuracyValue" : 1.0,
+    "ReachValue" : 1
+  }
+]

@@ -1,0 +1,8 @@
+#CQ .cq-analytics-chkfieldset .x-fieldset-header .x-form-check-wrap{padding:0 0 0 20px;line-height:normal;height:13px}
+.ext-ie #CQ .cq-analytics-chkfieldset .x-fieldset-header .x-form-check-wrap{padding-left:2px}
+#CQ .cq-analytics-chkfieldset .x-fieldset-header .x-form-check-wrap-inner{padding:0}
+#CQ .cq-analytics-chkfieldset .x-fieldset-header .x-form-cb-label{font:11px tahoma,arial,helvetica,sans-serif;color:#15428b;background-color:#fff;margin-left:2px;position:relative;top:-1px}
+#CQ .x-hide-label .cq-analytics-chkfieldset label.x-form-item-label{display:block}
+#CQ .cq-analytics-chkfieldset .cq-selection label.x-form-item-label{display:none}
+#CQ .cq-analytics-chkfieldset .x-form-element{overflow-x:hidden!important;overflow-y:hidden!important}
+.cq-clear-for-ie7{clear:both;font-size:1px}

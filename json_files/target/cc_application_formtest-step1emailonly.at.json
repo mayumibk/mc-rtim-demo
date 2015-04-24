@@ -1,0 +1,113 @@
+{
+  "startDate" : "",
+  "experiences" :
+  [
+    {
+      "id" : "0",
+      "thumbnailSrc" : "/images/target/1429741660.png",
+      "jcr:lastModified" : 1429741716506,
+      "jcr:title" : "Experience A",
+      "trafficSplit" : 50,
+      "targetId" : 0,
+      "targetName" : "Exp-A-1429741716489",
+      "zones" :
+      [
+      ],
+      "actions" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande"
+    },
+    {
+      "isExperienceDefined" : true,
+      "thumbnailSrc" : "/images/target/1429741660.png",
+      "jcr:lastModified" : 1429741716508,
+      "jcr:title" : "Experience B",
+      "targetId" : 1,
+      "targetName" : "Exp-B-1429741716490",
+      "zones" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "1",
+      "trafficSplit" : 50,
+      "actions" :
+      [
+      ]
+    }
+  ],
+  "jcr:lastModified" : 1429805101061,
+  "elm:references" :
+  {
+    "/audiences/all_visitors" :
+    {
+      "jcr:title" : "All Visitors"
+    }
+  },
+  "segment" : "",
+  "jcr:title" : "CC Application Form Test - Step 1 (email only)",
+  "privileges" : "[approver, write, read]",
+  "endDate" : "",
+  "jcr:description" : "Test if a shortened version version of Step 1 drives more application completes in the funnel.",
+  "id" : "cc_application_formtest-step1emailonly",
+  "sync" :
+  {
+    "id" : "sync",
+    "root" :
+    {
+      "id" : "root",
+      "targetLastSyncedStatus" : "APPROVED",
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "thirdPartyId" : "c93a44b6-b814-432d-9ce1-5683986e395f",
+      "targetLastSynced" : 1429805101061,
+      "targetId" : 75382,
+      "targetSyncPending" : false,
+      "targetSyncFailed" : false
+    }
+  },
+  "metrics" :
+  [
+    {
+      "id" : "0",
+      "metricLocalId" : 3,
+      "reportSuite" : "adbsummit-prod",
+      "jcr:lastModified" : 1429741716503,
+      "jcr:title" : "Checkouts",
+      "analyticsMetricId" : "checkouts",
+      "analyticsMetricSource" : "real",
+      "type" : "analytics",
+      "activityType" : "A-B-analytics",
+      "jcr:lastModifiedBy" : "Gina Casagrande"
+    }
+  ],
+  "priority" : 0,
+  "activatedDate" : 1429805101061,
+  "targets" :
+  {
+    "id" : "targets",
+    "jcr:lastModified" : 1429741716512,
+    "ref:audiences" :
+    [
+      "/audiences/all_visitors"
+    ],
+    "jcr:lastModifiedBy" : "Gina Casagrande",
+    "template" :
+    {
+      "id" : "template",
+      "activityUrl" : "http://local-campaign.aemdemo.com/target/wefinance/en/apply-for-credit-cards.html",
+      "jcr:lastModified" : 1429741716511,
+      "targets" :
+      [
+      ],
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "legacy" : false
+    }
+  },
+  "reportSuite" : "adbsummit-prod",
+  "status" : "LIVE",
+  "uri" : "/content/mac/adobe-tech-marketing/target/activities/cc_application_formtest-step1emailonly.at.json",
+  "jcr:lastModifiedBy" : "Gina Casagrande",
+  "reference" : "/activities/cc_application_formtest-step1emailonly",
+  "controlExperienceId" : 0,
+  "activityType" : "A-B-analytics"
+}

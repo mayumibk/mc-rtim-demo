@@ -1,0 +1,72 @@
+[
+  {
+    "pixelType" : 1,
+    "pid" : 0,
+    "name" : "User Trait",
+    "description" : "User Trait",
+    "crUID" : 158,
+    "upUID" : 158,
+    "createTime" : 1299097492000,
+    "updateTime" : 1299097492000
+  },
+  {
+    "pixelType" : 2,
+    "pid" : 0,
+    "name" : "Site Visitor",
+    "description" : "Site Visitor",
+    "crUID" : 158,
+    "upUID" : 158,
+    "createTime" : 1299097493000,
+    "updateTime" : 1299097493000
+  },
+  {
+    "pixelType" : 3,
+    "pid" : 0,
+    "name" : "Page Visitor",
+    "description" : "Page Visitor",
+    "crUID" : 158,
+    "upUID" : 158,
+    "createTime" : 1299097494000,
+    "updateTime" : 1299097494000
+  },
+  {
+    "pixelType" : 4,
+    "pid" : 0,
+    "name" : "Delivery Event",
+    "description" : "Delivery Event",
+    "crUID" : 158,
+    "upUID" : 158,
+    "createTime" : 1299097496000,
+    "updateTime" : 1299097496000
+  },
+  {
+    "pixelType" : 38,
+    "pid" : 0,
+    "name" : "Conversion",
+    "description" : "Conversion",
+    "crUID" : 371,
+    "upUID" : 371,
+    "createTime" : 1357656660000,
+    "updateTime" : 1357656660000
+  },
+  {
+    "pixelType" : 40,
+    "pid" : 0,
+    "name" : "Click",
+    "description" : "Click",
+    "crUID" : 381,
+    "upUID" : 381,
+    "createTime" : 1405958602000,
+    "updateTime" : 1405958602000
+  },
+  {
+    "pixelType" : 41,
+    "pid" : 0,
+    "name" : "Click Tracking",
+    "description" : "Click Tracking",
+    "crUID" : 371,
+    "upUID" : 371,
+    "createTime" : 1409846869000,
+    "updateTime" : 1409846869000
+  }
+]

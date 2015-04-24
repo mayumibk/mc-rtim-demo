@@ -1,0 +1,42 @@
+{
+  "total" : 86,
+  "pageSize" : 100,
+  "privileges" : "[read]",
+  "uri" : "/content/mac/adobe-tech-marketing/target/audiences.at.json",
+  "reference" : "/audiences",
+  "id" : "audiences",
+  "lastPageUri" : "/content/mac/adobe-tech-marketing/target/audiences.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=100",
+  "page" : 1,
+  "items" :
+  [
+    {
+      "id" : "all_visitors",
+      "privileges" : "[read]",
+      "jcr:title" : "All Visitors",
+      "preDefinedTarget" : "return true;",
+      "elm:version" : "1.5.1",
+      "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
+      "reference" : "/audiences/all_visitors"
+    },
+    {
+    "id" : "cc-real-time-expanded",
+    "privileges" : "[read]",
+    "jcr:title" : "CC real-time expanded",
+    "preDefinedTarget" : "return true;",
+    "elm:version" : "1.5.1",
+    "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
+    "reference" : "/audiences/cc-real-time-expanded"
+    },{
+    "id" : "all_visitors",
+    "privileges" : "[read]",
+    "jcr:title" : "All Visitors",
+    "preDefinedTarget" : "return true;",
+    "elm:version" : "1.5.1",
+    "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
+    "reference" : "/audiences/all_visitors"
+    }
+  ],
+  "firstPageUri" : "/content/mac/adobe-tech-marketing/target/audiences.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=100",
+  "numPages" : 1,
+  "elm:version" : "1.5.1"
+}

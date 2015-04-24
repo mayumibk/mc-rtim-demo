@@ -37,6 +37,8 @@ var amo = require('./routes/amo');
 var amoContainer = require('./routes/amoContainer');
 var audiences = require('./routes/audiences');
 var audiencesapi = require('./routes/audiences-api.js');
+var target = require('./routes/target.js');
+var onsite = require('./routes/target-onsite.js');
 
 var app = express();
 
@@ -80,6 +82,8 @@ app.use('/display',amo);
 app.use('/CMDashboard',amoContainer);
 app.use('/audiences.html',audiences);
 app.use('/audiencelibrary',audiencesapi);
+app.use('/target',target);
+app.use('/onsite',onsite);
 
 
 // catch 404 and forward to error handler

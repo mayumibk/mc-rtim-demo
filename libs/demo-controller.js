@@ -228,6 +228,83 @@ var prependBlankSegment = function prependBlankSegment(segmentList) {
     return segmentList;
 }
 
+var updateTargetSegments = function updateTargetSegments(targetAudiences) {
+    var audiences = JSON.parse(targetAudiences);
+    for(var i = 0; i < config.audiences.length; i++) {
+        var segmentTemplate = JSON.parse(readJSON('target/audience-template.json'));
+        var modified = moment(config.audiences[i].dateModified,'MM/DD/YYYY h:mm a');
+        var reference = config.audiences[i].name.toLowerCase().replace(" ","_");
+        segmentTemplate["jcr:title"] = config.audiences[i].name;
+        segmentTemplate.targetSegmentName = config.audiences[i].name;
+        segmentTemplate.targetId = i;
+        segmentTemplate.id = "imported/50/" + i;
+        segmentTemplate["jcr:lastModified"] = modified.format('L');
+        segmentTemplate.targetLastSynced = modified.format('L');
+        segmentTemplate.reference = 'audiences/' + reference;
+        audiences.items.push(segmentTemplate);
+    }
+
+    return audiences;
+
+}
+
+var updateTargetActivityUrl = function updateTargetActivityUrl(activities){
+    json = JSON.parse(activities);
+    json.items[0].targets.template.activityUrl = config.target.activityUrl;
+    return json;
+}
+
+var retrieveAAMSegment = function retrieveAAMSegment(id, segments) {
+    var json = JSON.parse(segments);
+    for(var i = 0; i < json.list.length; i++) {
+        if(json.list[i].sid == id) {
+            return JSON.stringify(json.list[i]);
+        }
+    }
+}
+
+var retrieveAAMSegmentFolder = function retrieveAAMSegmentFolder(id, folders) {
+    var json = JSON.parse(folders);
+    for (var i = 0; i < json[0].subFolders.length; i++) {
+        if (json[0].subFolders[i].folderId == id) {
+            return JSON.stringify(json[0].subFolders[i]);
+        }
+    }
+}
+
+var saveAAMModel = function saveAAMModel(model){
+    var json = JSON.parse(model);
+    var modelTemplate = JSON.parse(readJSON('aam/model-template.json'));
+    modelTemplate.name = json.name;
+    modelTemplate.description = json.description;
+
+    return modelTemplate;
+
+}
+
+var updateAAMModels = function updateAAMModels(model, modelList) {
+
+    if(modelList) {
+        var json = JSON.parse(modelList);
+        json.list.push(model);
+    } else {
+        var json = JSON.parse(readJSON('aam/models.json'));
+        json.list.push(model);
+    }
+
+    return json;
+}
+
+var retreiveAAMModel = function retrieveAAMModel(id, modelList) {
+    if(!modelList)
+        modelList = JSON.parse(readJSON('aam/models.json'));
+    for(var i = 0; i < modelList.list.length; i++) {
+        if(modelList.list[i].algoModelId == id) {
+            return modelList.list[i];
+        }
+    }
+}
+
 var updateAudienceList = function updateAudienceList(segmentList){
     var newAudience = {
         "name": "",
@@ -404,6 +481,13 @@ module.exports.updatePredictiveData = updatePredictiveData;
 module.exports.updateQueueData = updateQueueData;
 module.exports.updatePasteBinData = updatePasteBinData;
 module.exports.updateSegmentSummaryData = updateSegmentSummaryData;
+module.exports.updateTargetSegments = updateTargetSegments;
+module.exports.updateTargetActivityUrl = updateTargetActivityUrl;
+module.exports.retrieveAAMSegment = retrieveAAMSegment;
+module.exports.retrieveAAMSegmentFolder = retrieveAAMSegmentFolder;
+module.exports.saveAAMModel = saveAAMModel;
+module.exports.updateAAMModels = updateAAMModels;
+module.exports.retreiveAAMModel = retreiveAAMModel;
 module.exports.prependBlankSegment = prependBlankSegment;
 module.exports.saveSegment = saveSegment;
 module.exports.updateAudienceList = updateAudienceList;
