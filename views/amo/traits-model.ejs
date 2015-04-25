@@ -4,13 +4,26 @@
 
 <html ng-app="portalApp">
 <head>
-    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
-
-    <title ng-bind="pageTitle">
+    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><title ng-bind="pageTitle">
         Adobe AudienceManager | Traits
     </title>
 
-    <meta name="_tk" content="kfaL3L5-pyzOnWsjWdlSmbQNuF-sTl-yoF_0hglNaps" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="_tk" content="14gFL4YrG07sgI44q5u1dw8ol7FdNypQGrg-8X40TZQ" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 
@@ -19,15 +32,33 @@
     <link type="text/css" rel="stylesheet" href="/css/aam/aui-min.css" />
     <link href="/css/aam/cui.min.css" rel="stylesheet" type="text/css" />
     <link href="/css/aam/cloudviz.min.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/aam/adobe_am.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/aam/adobe_am.css?v=3_1" rel="stylesheet" type="text/css"/>
     <link href="/css/aam/adobe_am_v2.css" rel="stylesheet" type="text/css"/>
 
-    <script type="text/javascript" src="/js/aam/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/js/aamjquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/portal/common/scripts/es5-shim.js"></script>
+    <script type="text/javascript" src="/portal/common/scripts/cloudviz/3.4.0/d3.js"></script>
+    <script type="text/javascript" src="/portal/common/scripts/cloudviz/3.4.0/dv.js"></script>
 
-    <script type="text/javascript" src="/js/aam/es5-shim.js"></script>
-    <script type="text/javascript" src="/js/aam/cloudviz/d3.js"></script>
-    <script type="text/javascript" src="/js/aam/cloudviz/dv.js"></script>
-    <link href="/css/aam/traits.css" rel="stylesheet" type="text/css"/>
+
+
+
+    <link href="/portal/common/style/traits.css?v=3_1" rel="stylesheet" type="text/css"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script>
         // Use traditional method to serialize arrays
@@ -67,7 +98,7 @@
 
                     case 401 :
 
-                        window.document.location.href = 'https://marketing.adobe.com';
+                        window.document.location.href = "/portal";
 
                         break;
                 }
@@ -101,24 +132,24 @@
     <script>
         ADOBE = {
             AM : {
-                pid : 1799
+                pid : 1166
             }
         };
     </script>
 
 
-    <script type="text/javascript" src="/js/aam/json2.js"> </script>
-    <script type="text/javascript" src="/js/aam/aui-min.js"></script>
-    <script type="text/javascript" src="/js/aam/handlebars.js"></script>
-    <script type="text/javascript" src="/js/aam/jquery-fingerpointer.js"></script>
-    <script type="text/javascript" src="/js/aam/moment.js"></script>
-    <script type="text/javascript" src="/js/aam/CUI.js"></script>
+    <script type="text/javascript" src="/portal/common/scripts/json2.js"> </script>
+    <script type="text/javascript" src="https://www.omniture-static.com/aui/1.0.2/js/aui-min.js"></script>
+    <script type="text/javascript" src="/portal/common/cui/1.6.1/js/libs/handlebars.js"></script>
+    <script type="text/javascript" src="/portal/common/cui/1.6.1/js/libs/jquery-fingerpointer.js"></script>
+    <script type="text/javascript" src="/portal/common/cui/1.6.1/js/libs/moment.js"></script>
+    <script type="text/javascript" src="/portal/common/cui/1.6.1/js/CUI.js"></script>
 
     <script>
-        var require = {baseUrl : '/portal/common/scripts', urlArgs : "v=" + '91' };
+        var require = {baseUrl : '/portal/common/scripts', urlArgs : "v=" + '94' };
     </script>
-    <script src="/js/aam/require-2.0.6.js"></script>
-    <script src="/js/aam/main-common.js"></script>
+    <script src="/portal/common/scripts/require/require-2.0.6.js"></script>
+    <script src="/portal/common/scripts/main-common.js"></script>
 
 
 
@@ -130,8 +161,6 @@
             var userRoles = [
 
                 "EDIT_DERIVED_SIGNALS"
-                ,
-                "DELETE_MODELS"
                 ,
                 "MAP_ALL_TRAITS_TO_MODELS"
                 ,
@@ -147,21 +176,17 @@
                 ,
                 "EDIT_SEGMENTS"
                 ,
-                "DELETE_DATASOURCES"
-                ,
                 "DELETE_ALL_SEGMENTS"
                 ,
                 "VIEW_SEGMENTS"
                 ,
                 "CREATE_ALL_ALGO_TRAITS"
                 ,
+                "ACCOUNT_VISITOR_ID_SERVICE"
+                ,
                 "EDIT_ALL_TRAITS"
                 ,
-                "EDIT_DATASOURCES"
-                ,
                 "VIEW_DESTINATIONS"
-                ,
-                "EDIT_MODELS"
                 ,
                 "PTRUSER"
                 ,
@@ -175,6 +200,8 @@
                 ,
                 "EDIT_TRAITS"
                 ,
+                "FEATURE_ROLE_BASED_ACCESS_CONTROLS"
+                ,
                 "EDIT_ALL_DESTINATIONS"
                 ,
                 "DELETE_ALL_TRAITS"
@@ -185,11 +212,11 @@
                 ,
                 "VIEW_ALL_DESTINATIONS"
                 ,
+                "VIEW_OUTBOUND_REPORTS"
+                ,
                 "CREATE_DERIVED_SIGNALS"
                 ,
                 "PTRREPORTS"
-                ,
-                "CREATE_DATASOURCES"
                 ,
                 "VIEW_DESTINATION_CONFIGS"
                 ,
@@ -207,9 +234,9 @@
                 ,
                 "CREATE_ALL_SEGMENTS"
                 ,
-                "CREATE_ALL_TRAITS"
+                "ACCOUNT_MMP"
                 ,
-                "VIEW_TAGS"
+                "CREATE_ALL_TRAITS"
                 ,
                 "DELETE_DERIVED_SIGNALS"
                 ,
@@ -220,12 +247,16 @@
                 "EDIT_DESTINATIONS"
                 ,
                 "CREATE_DESTINATIONS"
+                ,
+                "ACCOUNT_FULL_AAM"
+                ,
+                "FEATURE_REPORTING"
 
             ];
 
             // Set globals into the APP namespace
-            _globals.clone_standard = '/css/aam/images/Clone_Standard.png';
-            _globals.play_standard = '/css/aam/images/Play_Standard.png';
+            _globals.clone_standard = '/portal/images/icons/12x12/Clone_Standard.png';
+            _globals.play_standard = '/portal/images/icons/12x12/Play_Standard.png';
             _globals.trend_graph_api = '/portal/Analytics/TraitTrendReport.ddx';
             _globals.segment_graph_api = '/portal/Analytics/SegmentTrendReport.ddx';
             _globals.trait_list_page = '/portal/Segments/ListTraits.ddx';
@@ -234,13 +265,21 @@
             _globals.segment_create_page_with_traits = _globals.segment_view_page + "#new/traits/";
             _globals.model_page = '/portal/Segments/Models.ddx';
             _globals.model_create_page_with_trait = _globals.model_page + "#new/trait/";
-            _globals.pid = 1799;
+            _globals.onboarding_page = '/portal/Analytics/OnboardingStatus.ddx';
+            _globals.outbound_history_page = '/portal/Analytics/OutboundHistory.ddx';
+            _globals.reports_page = '/portal/Analytics/reports.ddx';
+            _globals.marketplace_page = '/portal/Analytics/index.ddx';
+            _globals.limits_page = '/portal/Account/Partners/Limits.ddx';
+            _globals.pid = 1166;
             _globals.permissions = {
                 enabled : !!userRoles.length,
                 permissions : userRoles
             };
 
             _globals.max_reach_audience_size = parseInt(25000000, 10);
+
+
+
 
 
             return _globals;
@@ -286,9 +325,38 @@
 </head>
 <body id="Traits" class="AlgoTrait manageView">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="cloud-header">
     <div class="crumbs">
-        <a id="marketing-cloud-link" href="https://marketing.adobe.com">
+        <a id="marketing-cloud-link" href="https://marketing-stage.adobe.com">
             <div class="logo"></div>
             Adobe Marketing Cloud
         </a>
@@ -303,20 +371,70 @@
         <span id="user-selector-button" data-toggle="user-selector-dropdown" class="userIcon"></span>
     </div>
 </div>
-<link href="/css/aam/header-1.1.9.min.css" rel="stylesheet" type="text/css"/>
-<script src="/js/aam/header-1.1.9.min.js"></script>
+<link href="/portal/common/scripts/suitesolutions/header/header-1.1.9.min.css" rel="stylesheet" type="text/css"/>
+<script src="/portal/common/scripts/suitesolutions/header/header-1.1.9.min.js"></script>
+
+<!-- // Load the user linking wizard.js script -->
+<!-- // DO NOT REMOVE the linking-wizard-iframe rule! -->
 
 <script>
-    new adobe.CloudHeader({
-        activeSolution : "Media Optimizer",
-        activeCapability : "AudienceManager",
+    var _cloudHeader = {
+        activeSolution : "Audience Manager",
         searchProduct : "audiencemanager",
         timeout : 5000,
-        server : "https://marketing.adobe.com",
+        server : "https://marketing-stage.adobe.com",
         lang : "en_US",
-        activeOrgId : "08D334B8528BFC930A490D44@AdobeOrg",
-        hasImsSession : true
-    });
+        hasImsSession : false,
+        solutionSpecificLogout : true,
+        preConfiguredData: {
+            helpText: "Help",
+            homeLink: "https://marketing-stage.adobe.com",
+            notificationCount: 0,
+            notifications: {
+                title: "Notifications",
+                viewAll: {
+                    url: "#",
+                    text: ""
+                },
+                newNotifications: [],
+                success: true
+            },
+            user: {
+                info: {
+                    displayName: "Marcel&nbsp;Boucher",
+                    title: "",
+                    avatar: ""
+                },
+                actions: [
+                    {
+                        id: "logout",
+                        primary: true,
+                        url: "/portal/j_spring_security_logout",
+                        text: "Sign Out"
+                    },
+                    {
+                        id: "settings",
+                        url: "/portal/Account/Partners/EditMyProfileDynamic.ddx",
+                        text: "Account Settings"
+                    }
+                ],
+                organizations: [
+                    {
+                        tenantId: "",
+                        active: true,
+                        name: "Adobe",
+                        avatar: ""
+                    }
+                ]
+            }
+        }
+    };
+
+    if (typeof window.startWizard === "function") {
+        _cloudHeader.imsLinkingToken = true;
+        _cloudHeader.linkWizardCallback = window.startWizard
+    }
+    new adobe.CloudHeader(_cloudHeader);
 </script>
 
 <div class="page" role="main">
@@ -324,18 +442,34 @@
         <div class="wrap">
             <div class="rail-view">
 
-                <script type="text/javascript" src="/js/aam/nav.js"> </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <script type="text/javascript" src="/portal/common/scripts/adobe_am/nav.js"> </script>
 
 
                 <script type="text/javascript">
                     var userRoles = [
 
                         "EDIT_DERIVED_SIGNALS"
-
-
-                        ,
-
-                        "DELETE_MODELS"
 
 
                         ,
@@ -375,11 +509,6 @@
 
                         ,
 
-                        "DELETE_DATASOURCES"
-
-
-                        ,
-
                         "DELETE_ALL_SEGMENTS"
 
 
@@ -395,22 +524,17 @@
 
                         ,
 
+                        "ACCOUNT_VISITOR_ID_SERVICE"
+
+
+                        ,
+
                         "EDIT_ALL_TRAITS"
 
 
                         ,
 
-                        "EDIT_DATASOURCES"
-
-
-                        ,
-
                         "VIEW_DESTINATIONS"
-
-
-                        ,
-
-                        "EDIT_MODELS"
 
 
                         ,
@@ -445,6 +569,11 @@
 
                         ,
 
+                        "FEATURE_ROLE_BASED_ACCESS_CONTROLS"
+
+
+                        ,
+
                         "EDIT_ALL_DESTINATIONS"
 
 
@@ -470,17 +599,17 @@
 
                         ,
 
+                        "VIEW_OUTBOUND_REPORTS"
+
+
+                        ,
+
                         "CREATE_DERIVED_SIGNALS"
 
 
                         ,
 
                         "PTRREPORTS"
-
-
-                        ,
-
-                        "CREATE_DATASOURCES"
 
 
                         ,
@@ -525,12 +654,12 @@
 
                         ,
 
-                        "CREATE_ALL_TRAITS"
+                        "ACCOUNT_MMP"
 
 
                         ,
 
-                        "VIEW_TAGS"
+                        "CREATE_ALL_TRAITS"
 
 
                         ,
@@ -556,6 +685,16 @@
                         ,
 
                         "CREATE_DESTINATIONS"
+
+
+                        ,
+
+                        "ACCOUNT_FULL_AAM"
+
+
+                        ,
+
+                        "FEATURE_REPORTING"
 
 
                     ];
@@ -589,7 +728,9 @@
 
                         <div class="sub_item" id="nav_custom_reports"><a href="/portal/Analytics/CustomReports.ddx" >Custom Reports</a><div class="triangle_right"></div></div>
 
+
                         <div class="sub_item" id="nav_outbound_history"><a href="/portal/Analytics/OutboundHistory.ddx#/outbound-history" >Outbound History</a><div class="triangle_right"></div></div>
+
                     </nav>
                 </section>
 
@@ -597,6 +738,8 @@
                 <section id="manageDataNav" class="links open foldable">
                     <a class="heading">Manage Data</a>
                     <nav class="fold">
+
+                        <div class="sub_item" id="nav_datasource"><a href="/portal/Segments/DatasourceManagement.ddx#datasources/list">Data Sources</a><div class="triangle_right"></div></div>
 
 
                         <div class="sub_item" id="nav_traits"><a href="/portal/Traits/Traits.ddx#show/list">Traits</a><div class="triangle_right"></div></div>
@@ -614,10 +757,9 @@
                         <div class="sub_item" id="nav_models"><a href="/portal/Segments/Models.ddx">Models</a><div class="triangle_right"></div></div>
 
 
-                        <div class="sub_item" id="nav_tim"><a href="/portal/tim/TimHome.ddx">Tags</a><div class="triangle_right"></div></div>
-
                     </nav>
                 </section>
+
                 <section id="tools" class="links open foldable">
                     <a class="heading">Tools</a>
 
@@ -651,9 +793,20 @@
         </div>
         <div id="scroll-content">
             <div id="mainContent">
+
+
+
+
+
+
+
+
+
+
+
+
                 <script>
                     window._globalDataSourcesForTraits = [{"pid":1284,"name":"Bizo","description":"Bizo","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":true,"permissions":["READ","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":22,"containerIds":[]},{"pid":1166,"name":"Omniture.com","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":true,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":386,"containerIds":[]},{"pid":1166,"name":"Adobe","description":"","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":390,"containerIds":[]},{"pid":1166,"name":"DFA","description":"DFA","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":true,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":454,"containerIds":[]},{"pid":1166,"name":"Adobe CRM","description":"Adobe Offline Data Source","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"","masterDataSourceIdProvider":true,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"CROSS_DEVICE","dataSourceId":813,"containerIds":[]},{"pid":1166,"name":"Media Optimizer - Search","description":"Search Campaigns from Media Optimizer","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":1271,"containerIds":[]},{"pid":1166,"name":"Digital Envoy","description":"","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":1492,"containerIds":[]},{"pid":1166,"name":"Audience Library","description":"Audience Library","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"Audience Library","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":1543,"containerIds":[]},{"pid":1166,"name":"Audience Library","description":"","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":2259,"containerIds":[]},{"pid":1166,"name":"BitLy Integration","description":"BitLy Integration","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":3094,"containerIds":[]},{"pid":1166,"name":"Adobe Corp","description":"For use with visitor ID service and CRS","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"AVID","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5524,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccmteamresellerqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccmteamresellerqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5526,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccmteamresellerprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccmteamresellerprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5527,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbacdcqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbacdcqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5528,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbacdcprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbacdcprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5529,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeexchange-qa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeexchange-qa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5530,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeexchange-prod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeexchange-prod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5531,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobenonacdcprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobenonacdcprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5532,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobenonacdcqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobenonacdcqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5533,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedexchange","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedexchange&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5534,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedexchangedev","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedexchangedev&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5535,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbvideoplatformbeta","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbvideoplatformbeta&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5536,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeconnectnaqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeconnectnaqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5537,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeconnectemeaqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeconnectemeaqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5538,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeconnectnaprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeconnectnaprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5539,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeconnectemeaprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeconnectemeaprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5540,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobedigitalriverprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobedigitalriverprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5541,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobedigitalriverqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobedigitalriverqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5542,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobelearnitqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobelearnitqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5543,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobelearnit","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobelearnit&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5544,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbstartgamemobileqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbstartgamemobileqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5545,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbstartgamemobileprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbstartgamemobileprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5546,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobenonacdcprodprofile","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobenonacdcprodprofile&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5547,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeairqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeairqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5548,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccmrebootqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccmrebootqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5549,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeinteractiveguideprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeinteractiveguideprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5550,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeinteractiveguideqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeinteractiveguideqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5551,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbsummit-prod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbsummit-prod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5552,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbsummit-qa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbsummit-qa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5553,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbtargetbeta","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbtargetbeta&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5554,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbjapansocial","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbjapansocial&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5555,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbnonacdcrefactorqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbnonacdcrefactorqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5556,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbreimaginetest","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbreimaginetest&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5557,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbdmmaturityassessment","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbdmmaturityassessment&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5558,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbdmmaturityassessmentqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbdmmaturityassessmentqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5559,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbims","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbims&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5560,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbimsqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbimsqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5561,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbsketchappprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbsketchappprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5562,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbsketchappqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbsketchappqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5563,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeioqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeioqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5564,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbsketchapppre","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbsketchapppre&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5565,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedgeextractprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedgeextractprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5566,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedgeextractqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedgeextractqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5567,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbstreamingphotoshopprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbstreamingphotoshopprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5568,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbstreamingphotoshopqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbstreamingphotoshopqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5569,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbbehanceqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbbehanceqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5570,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbbehanceprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbbehanceprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5571,"containerIds":[]},{"pid":1166,"name":"Report Suite - adblineprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adblineprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5572,"containerIds":[]},{"pid":1166,"name":"Report Suite - adblineqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adblineqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5573,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbplaypanelqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbplaypanelqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5574,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbplaypanelprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbplaypanelprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5575,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccmobileqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccmobileqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5576,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccmobileprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccmobileprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5577,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccentdashqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccentdashqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5578,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccentdashprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccentdashprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5579,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeinternaltraffic","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeinternaltraffic&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5580,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbhelloproduction","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbhelloproduction&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5581,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbhellodev","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbhellodev&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5582,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeforumsqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeforumsqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5583,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeforumsprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeforumsprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5584,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbglobalnavprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbglobalnavprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5585,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbglobalnavqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbglobalnavqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5586,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedgereflowqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedgereflowqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5587,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbedgereflowprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbedgereflowprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5588,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobecreativesdkprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobecreativesdkprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5589,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbpsmixprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbpsmixprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5590,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbdtmstatsqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbdtmstatsqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5591,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbdtmstatsprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbdtmstatsprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5592,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobedigitalriverdesign","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobedigitalriverdesign&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5593,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobereadermobilelinkqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobereadermobilelinkqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5594,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbccdesktopqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbccdesktopqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5595,"containerIds":[]},{"pid":1166,"name":"Report Suite - adblightroomdev","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adblightroomdev&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":5596,"containerIds":[]},{"pid":1166,"name":"Report Suite - adb.assets.adobe.com.qa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adb.assets.adobe.com.qa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":6209,"containerIds":[]},{"pid":1166,"name":"Report Suite - adb.assets.adobe.com.prod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adb.assets.adobe.com.prod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":6210,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbhellodevvista","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbhellodevvista&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":6574,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbhelloproductionvista","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbhelloproductionvista&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":6575,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbcadotcomdtm","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbcadotcomdtm&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":7142,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeelements-serviceqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeelements-serviceqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":10842,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeelements-serviceprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeelements-serviceprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":10843,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobecaptivateprime","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobecaptivateprime&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":10992,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadbpxpqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadbpxpqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":11880,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbpxpprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbpxpprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":11881,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbpxpdev","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbpxpdev&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":11882,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeprereleaseqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeprereleaseqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":11915,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobelastmileqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobelastmileqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":12007,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobecmoqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobecmoqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":12924,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobepdfprintengineqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobepdfprintengineqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":13380,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbfotoliaqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbfotoliaqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":13440,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbfotoliaprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbfotoliaprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":13595,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobepdfppeqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobepdfppeqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":14185,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbroadmaptoolqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbroadmaptoolqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":14262,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbroadmaptoolprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbroadmaptoolprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":14263,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbcmoipinclude","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbcmoipinclude&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":16821,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeprereleaseprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeprereleaseprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":17099,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbcgenprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbcgenprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":19390,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbcgenqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbcgenqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":19391,"containerIds":[]},{"pid":1166,"name":"CC MDP Data - MCID","description":"using only 12 attributes for now as a starting point (Okui: 4/7/15)","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"adobeid","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":20086,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbresellerconsoleqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbresellerconsoleqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":20087,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobestockqa","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobestockqa&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":20993,"containerIds":[]},{"pid":1166,"name":"Report Suite - adbadobeinddprod","description":"","status":"ACTIVE","inboundS2S":true,"outboundS2S":false,"useAudienceManagerVisitorID":true,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"{&quot;suite&quot;:&quot;adbadobeinddprod&quot;, &quot;datacenter&quot;:&quot;sjo&quot;}","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":2,"idType":"COOKIE","dataSourceId":21193,"containerIds":[]},{"pid":1166,"name":"CC MDP Data - evar12","description":"Revised CA subscription with evar12","status":"ACTIVE","inboundS2S":false,"outboundS2S":false,"useAudienceManagerVisitorID":false,"allowDataSharing":false,"permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"integrationCode":"member_guid","masterDataSourceIdProvider":false,"uniqueTraitIntegrationCodes":false,"uniqueSegmentIntegrationCodes":false,"marketingCloudVisitorIdVersion":0,"idType":"COOKIE","dataSourceId":21338,"containerIds":[]}];
-                    ;
                 </script>
 
 
@@ -673,10 +826,10 @@
                 <!--
             TODO: Remove the mediator dependency in bb_models_collections.js for folder tree
              -->
-                <script type="text/javascript" src="/js/aam/mediator.js"></script>
+                <script type="text/javascript" src="/portal/common/scripts/mediator/mediator.js"></script>
                 <script>
 
-                    require(['/js/aam/app-built'], function(__LOAD) {
+                    require(['adobe_am/trait_builder/app-built'], function(__LOAD) {
 
                         require(['adobe_am/trait_builder/app', 'jquery'], function(TraitApp, $) {
                             $(TraitApp.begin);
@@ -686,15 +839,31 @@
 
                 </script>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div id="footer" class="footer">
-                <div class="copyright">&copy; <span id="copyrightYear"></span> Adobe Systems Incorporated. All Rights <span id="reservedForIP" style="display: inline; text-align: left;">Reserved.</span> <span id="ipAddressHidden" style="visibility: hidden;">68.67.173.14</span></div>
+                <div class="copyright">&copy; <span id="copyrightYear"></span> Adobe Systems Incorporated. All Rights <span id="reservedForIP" style="display: inline; text-align: left;">Reserved.</span> <span id="ipAddressHidden" style="visibility: hidden;">68.67.173.11</span></div>
                 <div class="links">
                     <a target="_blank" href="https://marketing.adobe.com/resources/help/en_US/aam/index.com">Help</a>
                     <a target="_blank" href="http://www.adobe.com/misc/terms.html">Terms of Use</a>
                     <a target="_blank" href="http://www.adobe.com/privacy.html">Privacy Policy</a>
                     <span>Language: <a href="#">English</a></span>
                 </div>
-                <input type="hidden" name="_tk" id="_tk" value="kfaL3L5-pyzOnWsjWdlSmbQNuF-sTl-yoF_0hglNaps" />
+                <input type="hidden" name="_tk" id="_tk" value="14gFL4YrG07sgI44q5u1dw8ol7FdNypQGrg-8X40TZQ" />
             </div>
 
             <script type="text/javascript">
@@ -722,7 +891,41 @@
             </script>
 
 
-
+            <!-- SiteCatalyst code version: H.25.
+            Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+            <script language="JavaScript" type="text/javascript" src="/portal/common/scripts/staging_s_code.js"></script>
+            <script language="JavaScript" type="text/javascript"><!--
+                /* You may give each page an identifying name, server, and channel on
+                 the next lines. */
+                s.pageName=document.location.href;
+                s.server=""
+                s.channel=""
+                s.pageType=""
+                s.prop1="12617"
+                s.prop2="1166"
+                s.prop3=""
+                s.prop4=""
+                s.prop5=""
+                /* Conversion Variables */
+                s.campaign=""
+                s.state=""
+                s.zip=""
+                s.events=""
+                s.products=""
+                s.purchaseID=""
+                s.eVar1=""
+                s.eVar2=""
+                s.eVar3=""
+                s.eVar4=""
+                s.eVar5=""
+                /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+                var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+            <script language="JavaScript" type="text/javascript"><!--
+                if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+                //--></script><noscript><img src="https://demdex.122.2o7.net/b/ss/demdexstaging/1/H.25--NS/0"
+                                             height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.25. -->
 
         </div>
     </div>
@@ -763,7 +966,8 @@
 
         // Hiding/showing of main rail
         $('#nav_button').click(
-                function() {
+                function(e) {
+                    e.preventDefault();
                     if ($('.page').css('left') === '0px') {
                         $('.page').animate({ left: '-15rem' }, 300, function() { $(window).trigger('App:Nav:Closed'); });
                     } else {
@@ -856,5 +1060,5 @@
 
 
 
-<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" + "js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","73d698cd70","2307655","MwcGZhBWVkBZU0JYDgpNN0YQQkxAeVNCWA4KTTBAA15MQA==",0,225,new Date().getTime(),"","","","",""]);</script></body>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" + "js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","73d698cd70","2307655","MwcGZhBWVkBZU0JYDgpNN0YQQkxAeVNCWA4KTTBAA15MQA==",0,1019,new Date().getTime(),"","","","",""]);</script></body>
 </html>

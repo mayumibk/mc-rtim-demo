@@ -27,7 +27,10 @@ router.get('/Analytics/reports.ddx', function(req, res, next) {
 });
 
 router.get('/Traits/Traits.ddx',function(req,res){
-    res.render('aam-traits',{title: "Express"});
+    if(req.originalUrl.indexOf("show/list") > 0)
+        res.render('aam-traits',{title: "Express"});
+    if(req.originalUrl.indexOf("new/model") > 0)
+        res.render('aam/traits-model',{title:"Express"});
 });
 
 router.get('/Segments/SegmentBuilder.ddx',function(req,res){
