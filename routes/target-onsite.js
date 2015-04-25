@@ -27,7 +27,7 @@ router.get('/admin', function(req,res){
     if(redirectURL == "/target/wefinance/en/personal.html") {
         var imageUrl = '/res/wefinance/files/1429625765040.png';
         if(req.query.recipeName.indexOf('Exp-B') == 0 )
-            imageUrl = '/res/wefinance/dam/1170X400_Travel_5k_Campaign.png';
+            imageUrl = '/res/wefinance/dam/1170x400_Travel_5k_Campaign.png';
         if(req.query.recipeName.indexOf('Exp-C') == 0 )
             imageUrl = '/res/wefinance/dam/1170x400_Travel_15k_Campaign.png';
 
