@@ -380,16 +380,35 @@ var saveAAMMapping = function saveAAMMapping(mapping) {
     return mappingTemplate;
 }
 
-var updateAAMMapping = function updateAAMMapping(mapping, destinations) {
+var updateAAMMapping = function updateAAMMapping(mapping,id, destinations) {
     var json;
+    var found = false;
+    var destination;
+
     if(destinations) {
-        json = destinations;
+        for (var i = 0; i < destinations.length; i++) {
+            if (destinations[i].destinationId == id) {
+                destination = destinations[i];
+                found = true;
+            }
+        }
     } else {
-        json = JSON.parse(readJSON('aam/mapping-template.json'));
+        destinations = JSON.parse(readJSON('aam/mappings.json'));
     }
 
-    json.mappings.unshift(mapping);
-    return json;
+    if(!found) {
+        if (id == "24652")
+            destination = JSON.parse(readJSON('aam/amo-destination-template.json'));
+
+        if (id == "24653")
+            destination = JSON.parse(readJSON('aam/target-destination-template.json'));
+    }
+
+    destination.mappings.unshift(mapping);
+    if(!found)
+        destinations.unshift(destination);
+
+    return destinations;
 }
 
 

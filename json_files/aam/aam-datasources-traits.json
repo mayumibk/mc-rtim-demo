@@ -27,37 +27,7 @@
   },
   {
     "pid" : 1166,
-    "name" : "Omniture.com",
-    "description" : "",
-    "status" : "ACTIVE",
-    "inboundS2S" : true,
-    "outboundS2S" : true,
-    "useAudienceManagerVisitorID" : false,
-    "allowDataSharing" : false,
-    "permissions" :
-    [
-      "READ",
-      "WRITE",
-      "CREATE",
-      "DELETE",
-      "MAP_TO_SEGMENTS",
-      "MAP_TO_MODELS",
-      "CREATE_ALGO_TRAITS"
-    ],
-    "integrationCode" : "",
-    "masterDataSourceIdProvider" : false,
-    "uniqueTraitIntegrationCodes" : false,
-    "uniqueSegmentIntegrationCodes" : false,
-    "marketingCloudVisitorIdVersion" : 0,
-    "idType" : "COOKIE",
-    "dataSourceId" : 386,
-    "containerIds" :
-    [
-    ]
-  },
-  {
-    "pid" : 1166,
-    "name" : "Adobe",
+    "name" : "we.Finance",
     "description" : "",
     "status" : "ACTIVE",
     "inboundS2S" : false,
@@ -115,8 +85,8 @@
   },
   {
     "pid" : 1166,
-    "name" : "Adobe CRM",
-    "description" : "Adobe Offline Data Source",
+    "name" : "we.Finance CRM",
+    "description" : "we.Finance Offline Data Source",
     "status" : "ACTIVE",
     "inboundS2S" : true,
     "outboundS2S" : false,

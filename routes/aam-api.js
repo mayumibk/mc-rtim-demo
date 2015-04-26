@@ -197,11 +197,11 @@ router.get('/destinations/*', function(req,res){
 
 router.post('/destinations/*/mappings/', function(req,res){
     var newMapping = demo.saveAAMMapping(JSON.stringify(req.body));
-    req.session.mappings = demo.updateAAMMapping(newMapping,req.session.mappings);
+    var id = req.url.split("/")[2];
+    req.session.mappings = demo.updateAAMMapping(newMapping,id,req.session.mappings);
 
     res.set('Content-Type','application/json');
-    //res.send(demo.readJSON('aam/destination-mapping-24652.json'));
-    res.send(demo.readJSON('aam/test.json'));
+    res.send(newMapping);
 });
 
 router.get('/folders/traits/*', function(req,res){
