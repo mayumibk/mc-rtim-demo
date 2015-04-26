@@ -15,6 +15,8 @@
       "jcr:title" : "All Visitors",
       "preDefinedTarget" : "return true;",
       "elm:version" : "1.5.1",
+      "source" : "Marketing Cloud",
+      "jcr:lastModifiedBy" : "timlott@adobe.com",
       "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
       "reference" : "/audiences/all_visitors"
     },
@@ -24,16 +26,25 @@
     "jcr:title" : "CC real-time expanded",
     "preDefinedTarget" : "return true;",
     "elm:version" : "1.5.1",
+      "source" : "Marketing Cloud",
+      "jcr:lastModifiedBy" : "timlott@adobe.com",
     "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
     "reference" : "/audiences/cc-real-time-expanded"
-    },{
-    "id" : "all_visitors",
-    "privileges" : "[read]",
-    "jcr:title" : "All Visitors",
-    "preDefinedTarget" : "return true;",
-    "elm:version" : "1.5.1",
-    "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
-    "reference" : "/audiences/all_visitors"
+    }, {
+      "jcr:lastModified" : 1418079786157,
+      "targetLastSyncedBy" : "timlott@adobe.com",
+      "privileges" : "[read]",
+      "jcr:title" : "Form Incompletes",
+      "targetLastSynced" : 1417823765000,
+      "targetId" : 512910,
+      "targetSegmentName" : "30-year mortgage",
+      "uri" : "/content/mac/adobe-tech-marketing/target/audiences/imported/50/512910.at.json",
+      "deletedAtOrigin" : false,
+      "reference" : "/audiences/form_incompletes",
+      "jcr:lastModifiedBy" : "timlott@adobe.com",
+      "id" : "imported/50/512910",
+      "source" : "Marketing Cloud",
+      "targetSyncFailed" : true
     }
   ],
   "firstPageUri" : "/content/mac/adobe-tech-marketing/target/audiences.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=100",
