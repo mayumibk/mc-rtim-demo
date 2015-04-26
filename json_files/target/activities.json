@@ -101,7 +101,7 @@
         "template" :
         {
           "id" : "template",
-          "activityUrl" : "http://localhost:4502/target/wefinance/en/personal.html",
+          "activityUrl" : "http://local-campaign.aemdemo.com/target/wefinance/en/personal.html",
           "jcr:lastModified" : 1429809352574,
           "targets" :
           [
@@ -243,7 +243,7 @@
         "template" :
         {
           "id" : "template",
-          "activityUrl" : "http://localhost:4502/content/wefinance/en/personal.html",
+          "activityUrl" : "http://local-campaign.aemdemo.com/content/wefinance/en/personal.html",
           "jcr:lastModified" : 1429741716511,
           "targets" :
           [
