@@ -71,7 +71,7 @@ router.get('/adobe-tech-marketing/target/setup/recs/algorithms.at.json', functio
 });
 
 router.get('/mixContentCheck.html',function(req,res) {
-    res.render('target/mixContentCheck.html')
+    res.render('target/mixContentCheck')
 });
 
 
