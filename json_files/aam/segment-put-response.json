@@ -1,0 +1,26 @@
+{
+  "pid" : 1577,
+  "sid" : 1848860,
+  "name" : "test",
+  "description" : "test",
+  "status" : "ACTIVE",
+  "createTime" : 1429945958000,
+  "updateTime" : 1429945991000,
+  "crUID" : 12307,
+  "upUID" : 12307,
+  "integrationCode" : "",
+  "segmentRule" : "(1831312T)",
+  "segmentRuleVersion" : 0,
+  "folderId" : 20576,
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "CREATE",
+    "DELETE",
+    "MAP_TO_DESTINATIONS",
+    "MAP_TO_MODELS"
+  ],
+  "legacyId" : 294603,
+  "dataSourceId" : 1948
+}

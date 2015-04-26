@@ -1,0 +1,26 @@
+{
+  "pid" : 1577,
+  "sid" : 1786352,
+  "name" : "41-50 High Income",
+  "description" : "",
+  "status" : "ACTIVE",
+  "createTime" : 1429026021000,
+  "updateTime" : 1429942957000,
+  "crUID" : 8531,
+  "upUID" : 12307,
+  "integrationCode" : "",
+  "segmentRule" : "(993868T OR 993876T)",
+  "segmentRuleVersion" : 0,
+  "folderId" : 34470,
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "CREATE",
+    "DELETE",
+    "MAP_TO_DESTINATIONS",
+    "MAP_TO_MODELS"
+  ],
+  "legacyId" : 292663,
+  "dataSourceId" : 1948
+}

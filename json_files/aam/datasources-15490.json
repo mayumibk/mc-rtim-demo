@@ -1,0 +1,20 @@
+{
+  "pid" : 1577,
+  "name" : "Audience Library",
+  "description" : "",
+  "status" : "ACTIVE",
+  "inboundS2S" : false,
+  "outboundS2S" : false,
+  "useAudienceManagerVisitorID" : false,
+  "allowDataSharing" : false,
+  "integrationCode" : "AudienceLibrary",
+  "masterDataSourceIdProvider" : false,
+  "uniqueTraitIntegrationCodes" : false,
+  "uniqueSegmentIntegrationCodes" : false,
+  "marketingCloudVisitorIdVersion" : 2,
+  "idType" : "COOKIE",
+  "dataSourceId" : 15490,
+  "containerIds" :
+  [
+  ]
+}

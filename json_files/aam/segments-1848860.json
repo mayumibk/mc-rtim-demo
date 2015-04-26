@@ -1,0 +1,87 @@
+{
+  "pid" : 1577,
+  "sid" : 1848859,
+  "name" : "CC Qualified Customers",
+  "description" : "Visitors who visited the credit card page in the last 90 days.",
+  "status" : "ACTIVE",
+  "createTime" : 1429937093000,
+  "updateTime" : 1429937795000,
+  "crUID" : 12307,
+  "upUID" : 12307,
+  "integrationCode" : "",
+  "segmentRule" : "(1831312T)",
+  "segmentRuleVersion" : 0,
+  "folderId" : 20576,
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "CREATE",
+    "DELETE",
+    "MAP_TO_DESTINATIONS",
+    "MAP_TO_MODELS"
+  ],
+  "legacyId" : 294602,
+  "dataSourceId" : 15490,
+  "instantUniques7Day" : 0,
+  "totalUniques60Day" : 0,
+  "instantUniques60Day" : 0,
+  "totalUniques14Day" : 0,
+  "totalUniques30Day" : 0,
+  "totalUniques7Day" : 0,
+  "instantUniques30Day" : 0,
+  "instantUniques14Day" : 0,
+  "traits" :
+  [
+    {
+      "createTime" : 1429040296000,
+      "updateTime" : 1429040296000,
+      "sid" : 1831312,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$1,000,000+",
+      "description" : "",
+      "status" : "ACTIVE",
+      "pid" : 1577,
+      "dataSourceId" : 20882,
+      "folderId" : 87682,
+      "uniques30Day" : 0,
+      "count60Day" : 0,
+      "count30Day" : 0,
+      "count14Day" : 0,
+      "uniques14Day" : 0,
+      "count7Day" : 0,
+      "uniques60Day" : 0,
+      "uniques7Day" : 0
+    }
+  ],
+  "mappableTraits" :
+  [
+    {
+      "createTime" : 1429040296000,
+      "updateTime" : 1429040296000,
+      "sid" : 1831312,
+      "traitType" : "ON_BOARDED_TRAIT",
+      "name" : "$1,000,000+",
+      "description" : "",
+      "status" : "ACTIVE",
+      "pid" : 1577,
+      "dataSourceId" : 20882,
+      "folderId" : 87682,
+      "uniques30Day" : 0,
+      "count60Day" : 0,
+      "count30Day" : 0,
+      "count14Day" : 0,
+      "uniques14Day" : 0,
+      "count7Day" : 0,
+      "uniques60Day" : 0,
+      "uniques7Day" : 0
+    }
+  ],
+  "codeViewOnly" : false,
+  "expressionTree" :
+  {
+    "sid" : 1831312,
+    "expressionName" : "sid",
+    "volatileExpression" : false
+  }
+}

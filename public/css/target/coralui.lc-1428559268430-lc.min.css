@@ -828,7 +828,7 @@ form.aligned .pathbrowser.field{float:left}
 .wizard>nav>ol>li.active{color:#fff}
 .wizard>nav>ol>li.active:after{background:#4c91d0}
 .wizard>nav>ol>li.stepped{color:#fff;border-color:#4f7292}
-.wizard>nav>ol>li.stepped:before{content:" ";background:url('coralui/res/components/wizard/check.png') 0 bottom no-repeat}
+.wizard>nav>ol>li.stepped:before{content:" ";background:url('/css/target/images/check.png') 0 bottom no-repeat}
 .wizard>nav>ol>li.stepped:after{background:#4c91d0}
 .wizard>nav>ol>li .lead-fill{position:absolute;left:0;bottom:-0.1875rem;width:2.5rem;height:.1875rem;background-color:#4f7292}
 .wizard>nav>ol>li.wizard-hidden-step{display:none}
@@ -1147,7 +1147,7 @@ form.vertical input[type=text].field,form.vertical input[type=password].field,fo
 75%{background-position:85.71429% 0}
 87.5%{background-position:100% 0}
 }
-.wait{display:inline-block;width:1rem;height:1rem;background:url(coralui/res/components/wait/wait_16.gif) no-repeat 0 0;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%;-webkit-background-size:auto 100% auto 100%;-moz-background-size:auto 100% auto 100%;background-size:auto 100% auto 100%;-webkit-animation:wait 1.6s step-end infinite;animation:wait 1.6s step-end infinite}
+.wait{display:inline-block;width:1rem;height:1rem;background:url(/css/target/images/wait_16.gif) no-repeat 0 0;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%;-webkit-background-size:auto 100% auto 100%;-moz-background-size:auto 100% auto 100%;background-size:auto 100% auto 100%;-webkit-animation:wait 1.6s step-end infinite;animation:wait 1.6s step-end infinite}
 .wait.large{width:2rem;height:2rem;background-image:url(coralui/res/components/wait/wait_32.gif);-webkit-animation:wait-large 1.6s step-end infinite;animation:wait-large 1.6s step-end infinite}
 .wait.center{position:absolute!important;top:50%!important;left:50%!important;margin-top:-0.5rem!important;margin-left:-0.5rem!important}
 .wait.large.center{margin-top:-1rem!important;margin-left:-1rem!important}

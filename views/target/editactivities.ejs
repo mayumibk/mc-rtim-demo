@@ -241,10 +241,7 @@
 
                 <li><a href="#new/A-B">{{getActivityDisplayType "A-B"}}</a></li>
                 <li><a href="#new/A-B-analytics">{{getActivityDisplayType "A-B-analytics"}}</a></li>
-
-                <li><a href="#new/A-B-analytics">{{getActivityDisplayType "A-B-analytics"}}</a></li>
-
-                <li><a href="#new/A-B">{{getActivityDisplayType "A-B"}}</a></li>
+                
 
                 {{#if oneToOneEnabled}}
                 <li><a class="create-one-to-one cursor-pointer">{{getActivityDisplayType "1-1"}}</a></li>
@@ -409,7 +406,7 @@
 
     <div class="right lh-2-375 padding-r-1">
         {{#in status "INACTIVE" "DRAFT"}}
-        <button class="primary headerBtn activateButton activity-action-button" {{#equals status "DRAFT"}}disabled="disabled"{{else}}{{#unless isUserApprover}}disabled="disabled"{{/unless}}{{/equals}} data-action-id="activate">
+        <button class="primary headerBtn activateButton activity-action-button" {{#equals status "DRAFT"}}disabled="disabled"{{else}}{{#unless isUserApprover}}disabled="enabled"{{/unless}}{{/equals}} data-action-id="activate">
         <i class="icon-play-circle btnIcon small"></i>{{i18n "Activate"}}
         </button>
         {{/in}}
@@ -5587,7 +5584,7 @@
     </div>
 
     {{#notEquals isProxyEnabled true}}
-    <iframe src="http://cdn.tt.omtrdc.net/cdn/mixContentCheck.html" class="hidden" width="0" height="0"></iframe>
+    <iframe src="/target/mixContentCheck.html" class="hidden" width="0" height="0"></iframe>
     {{/notEquals}}
     <iframe id="cdq-frame" class="fulldimensions-iframe hidden"></iframe></script>
 <script type="text/template" class="template" id="ELM.Activities.Templates.RecommendationEditor.SelectPageTypeDialogContent"><p>{{i18n "View popular recommendations criteria by page type."}}</p>
@@ -6286,7 +6283,7 @@
             </li>
             {{/notEquals}}
             <li>
-                <a class="large icon-copy copy-algorithm" data-algorithm-id="{{id}}" title="{{i18n "Copy"}}"></a>
+                <a class="large icon-copy r" data-algorithm-id="{{id}}" title="{{i18n "Copy"}}"></a>
             </li>
             {{#notEquals isPredefined true}}
             <li>
@@ -6889,7 +6886,7 @@
 
 <script type="text/javascript"> $(function() { init(); }); </script>
 
-
+<link rel="stylesheet" href="/css/adobe-fonts.css" type="text/css">
 
 </body>
 </html>

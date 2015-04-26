@@ -46,7 +46,7 @@ router.get('/entityAttributes.at.json', function(req,res){
 
 router.get('/adobe-tech-marketing/target/activities.at.json', function(req,res){
     res.set('Content-Type','application/json');
-    res.send(demo.updateTargetActivityUrl(demo.readJSON('target/activities.json')));
+    res.send(demo.updateTargetActivities(req.session, demo.readJSON('target/activities.json')));
 });
 
 router.get('/adobe-tech-marketing/target/mboxes.at.json', function(req,res){
@@ -61,7 +61,17 @@ router.get('/adobe-tech-marketing/target/setup/profiletargeted/algorithms.at.jso
 
 router.get('/adobe-tech-marketing/target/setup/recs/algorithms.at.json', function(req,res){
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('target/recs_algorithms.json'));
+    if(req.query['filterQuery.algorithm'].indexOf('LEAD_GEN_B2B_FINANCIAL') > 0) {
+        res.send(demo.readJSON('target/leadgenrecs.json'));
+    } else {
+        res.send(demo.readJSON('target/recs_algorithms.json'));
+    }
+
+
+});
+
+router.get('/mixContentCheck.html',function(req,res) {
+    res.render('target/mixContentCheck.html')
 });
 
 
@@ -83,8 +93,14 @@ router.get('/adobe-tech-marketing/target/audiences.at.json', function(req,res){
 });
 
 router.get('/default/header.jsonp', function(req,res){
+    var id = req.query.callback;
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('target/header.json'));
+    res.send('/**/' + id + '(' + demo.readJSON('target/header.json') + ');');
+});
+
+router.get('/default/header/user.jsonp',function(req,res){
+    var id = req.query.callback;
+    res.send('/**/' + id + '(' + demo.readJSON('target/token.json') + ');');
 });
 
 router.get('/dict.en.json', function(req,res){
@@ -101,6 +117,21 @@ router.get('/querybuilder.json', function(req,res){
         filename = "dam.json";
     }
     res.send(demo.readJSON('target/' + filename));
+});
+
+router.all('/thumbnails/*', function(req,res){
+    res.redirect('/images/target/site.png');
+});
+
+router.post('/adobe-tech-marketing/target/activities.at.json', function(req,res){
+    req.session.apActivity  = demo.saveTargetActivity(req.body);
+    res.set('Content-Type','application/json');
+    res.send(req.session.apActivity);
+});
+
+router.get('/adobe-tech-marketing/target/activities/*', function(req,res){
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('target/ap-activity-template.json'));
 });
 
 module.exports = router;

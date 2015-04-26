@@ -1,0 +1,148 @@
+{
+  "optimizingMetric" : "CONVERSION_RATE",
+  "controlexperience" :
+  {
+    "id" : "controlexperience",
+    "visitorPercentage" : 10,
+    "jcr:lastModified" : 1430052687674,
+    "type" : "random",
+    "jcr:lastModifiedBy" : "Gina Casagrande"
+  },
+  "startDate" : "",
+  "thumbnailSrc" : "",
+  "jcr:lastModified" : 1430052687678,
+  "privileges" : "[approver, write, read]",
+  "jcr:title" : "Untitled Activity 26 Apr. 2015 08:51:31-04:00",
+  "endDate" : "",
+  "jcr:description" : "",
+  "algorithmIds" :
+  [
+    "e_greedy_rf"
+  ],
+  "id" : "untitled_activity26apr2015085131-0400",
+  "locations" :
+  [
+    {
+      "selector" : "#MCBoxShot > A:nth-of-type(1) > IMG.cq-dd-image:eq(0)",
+      "cssSelector" : "#MCBoxShot > A:nth-of-type(1) > IMG:nth-of-type(1)",
+      "jcr:lastModified" : 1430052687667,
+      "status" : "READY",
+      "width" : 940,
+      "jcr:title" : "Location 1",
+      "type" : "image",
+      "idTag" : "90edca62-a0c8-41d0-b98b-f698118e230c",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "0",
+      "height" : 400,
+      "offers" :
+      [
+        {
+          "id" : "0",
+          "isDefault" : true,
+          "jcr:lastModified" : 1430052687662,
+          "status" : "READY",
+          "ref:offer" : "/http://vm189.adobedemo.com/content/adobe/en_us/_jcr_content/par/home_promo/default/image.img.jpg/1373981688502.jpg?vz_t=i",
+          "jcr:title" : "[Default Image]",
+          "included" : true,
+          "idTag" : "29e3a80e-b1e3-4422-bf12-0e074a885de3",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "1",
+          "jcr:lastModified" : 1430052687663,
+          "status" : "READY",
+          "ref:offer" : "/content/dam/mac/adobe-tech-marketing/cc-travel.png",
+          "jcr:title" : "cc-travel.png",
+          "isAnonymous" : false,
+          "idTag" : "6a13994f-5e90-49d8-9790-79b63ddb473d",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        },
+        {
+          "id" : "2",
+          "jcr:lastModified" : 1430052687665,
+          "status" : "READY",
+          "ref:offer" : "/content/dam/mac/adobe-tech-marketing/1140x400_Banner_Ad_Travel.png",
+          "jcr:title" : "1140x400_Banner_Ad_Travel.png",
+          "isAnonymous" : false,
+          "idTag" : "54f92c55-8c5a-45b3-9187-cf35b156ebd6",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ]
+    }
+  ],
+  "metrics" :
+  [
+    {
+      "metricLocalId" : 3,
+      "jcr:lastModified" : 1430052687672,
+      "jcr:title" : "sample",
+      "countingRule" : "alwaysIncrement",
+      "targetName" : "Metric-A-1430052687642",
+      "type" : "conversion",
+      "jcr:lastModifiedBy" : "Gina Casagrande",
+      "id" : "0",
+      "matcher" : "exact",
+      "specialmbox" : true,
+      "action" : "mboxView",
+      "activityType" : "1-1",
+      "worth" : "",
+      "constraints" :
+      [
+        {
+          "id" : "0",
+          "matcher" : "exact",
+          "jcr:lastModified" : 1430052687670,
+          "term" : "** display mboxes **",
+          "ref:targetingAudience" : "",
+          "jcr:lastModifiedBy" : "Gina Casagrande"
+        }
+      ]
+    }
+  ],
+  "sync" :
+  {
+    "id" : "sync",
+    "root" :
+    {
+      "id" : "root",
+      "thirdPartyId" : "378f7191-633c-44db-b883-709ac74aa854",
+      "targetSyncPending" : true,
+      "targetSyncFailed" : false
+    }
+  },
+  "priority" : 0,
+  "activatedDate" : "",
+  "targets" :
+  {
+    "id" : "targets",
+    "jcr:lastModified" : 1430052687660,
+    "ref:audiences" :
+    [
+      "/audiences/all_visitors"
+    ],
+    "jcr:lastModifiedBy" : "Gina Casagrande",
+    "template" :
+    {
+      "id" : "template",
+      "activityUrl" : "http://vm189.adobedemo.com/content/adobe/en_us.html",
+      "jcr:lastModified" : 1430052687659,
+      "jcr:lastModifiedBy" : "Gina Casagrande"
+    }
+  },
+  "status" : "INACTIVE",
+  "exclusions" :
+  [
+  ],
+  "uri" : "/target/activities/untitled_activity26apr2015085131-0400.at.json",
+  "jcr:lastModifiedBy" : "Gina Casagrande",
+  "reference" : "/activities/untitled_activity26apr2015085131-0400",
+  "callToAction" : "",
+  "deactivatedDate" : "",
+  "ref:reportAudiences" :
+  [
+  ],
+  "activityType" : "1-1",
+  "reportinggroups" :
+  [
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "traitType" : "SEGMENT",
+  "traitValue" : 0,
+  "elementName" : "test",
+  "elementDescription" : "test",
+  "elementStatus" : "ACTIVE",
+  "createTime" : 1429939723000,
+  "updateTime" : 1429939723000,
+  "crUID" : 12307,
+  "upUID" : 12307,
+  "sid" : 1848859,
+  "startDate" : "2015-04-25",
+  "endDate" : "2015-04-30",
+  "priority" : null,
+  "permissions" : null,
+  "traitAlias" : "444",
+  "destinationMappingId" : 762003,
+  "destinationId" : 24652
+}

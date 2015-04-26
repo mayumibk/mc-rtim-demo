@@ -1,8 +1,8 @@
 {
   "pid" : 1166,
   "sid" : 886038,
-  "name" : "30-34 Male Business Traveler Customers",
-  "description" : "30-34 year-old male business travelers with checking accounts",
+  "name" : "CC Qualified Customers",
+  "description" : "Visitors who visited the credit card page in the last 90 days.",
   "status" : "ACTIVE",
   "createTime" : 1396301082000,
   "updateTime" : 1396301105000,

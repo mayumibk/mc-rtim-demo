@@ -1,0 +1,19 @@
+{
+  "pid" : 1166,
+  "name" : "Adobe",
+  "description" : "",
+  "status" : "ACTIVE",
+  "inboundS2S" : false,
+  "outboundS2S" : false,
+  "useAudienceManagerVisitorID" : true,
+  "allowDataSharing" : false,
+  "masterDataSourceIdProvider" : false,
+  "uniqueTraitIntegrationCodes" : false,
+  "uniqueSegmentIntegrationCodes" : false,
+  "marketingCloudVisitorIdVersion" : 0,
+  "idType" : "COOKIE",
+  "dataSourceId" : 390,
+  "containerIds" :
+  [
+  ]
+}

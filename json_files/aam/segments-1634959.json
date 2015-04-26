@@ -1,0 +1,19 @@
+[
+  {
+    "pid" : 1166,
+    "sid" : 1006194,
+    "name" : "Entities with $1-$500M in revenue (Demandbase)",
+    "description" : "Entities with $1-$500M in revenue based on Demandbase data",
+    "status" : "ACTIVE",
+    "createTime" : 1403708583000,
+    "updateTime" : 1403714482000,
+    "crUID" : 1919,
+    "upUID" : 1919,
+    "integrationCode" : "",
+    "segmentRule" : "(1006021T)",
+    "segmentRuleVersion" : 0,
+    "folderId" : 17685,
+    "legacyId" : 111379,
+    "dataSourceId" : 390
+  }
+]

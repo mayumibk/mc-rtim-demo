@@ -1,0 +1,24 @@
+{
+  "createTime" : 1423748627000,
+  "updateTime" : 1423748627000,
+  "sid" : 1634959,
+  "traitType" : "ALGO_TRAIT",
+  "name" : "",
+  "description" : "",
+  "status" : "ACTIVE",
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "CREATE",
+    "DELETE",
+    "MAP_TO_SEGMENTS",
+    "MAP_TO_MODELS",
+    "CREATE_ALGO_TRAITS"
+  ],
+  "pid" : 1288,
+  "algoModelId" : 1594,
+  "integrationCode" : "",
+  "dataSourceId" : 288,
+  "folderId" : 81240
+}

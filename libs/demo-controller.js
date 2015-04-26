@@ -246,11 +246,24 @@ var updateTargetSegments = function updateTargetSegments(targetAudiences) {
 
     return audiences;
 
+};
+
+var saveTargetActivity = function saveTargetActivity(activity){
+    //activity = JSON.parse(activity);
+    var activityTemplate = JSON.parse(readJSON('target/ap-activity-template.json'));
+    activityTemplate['jcr:title'] = activity['jcr:title'];
+    activityTemplate['jcr:description'] = activity['jcr:description'];
+    activityTemplate['jcr:lastModified'] = moment.utc();
+
+    return activityTemplate;
 }
 
-var updateTargetActivityUrl = function updateTargetActivityUrl(activities){
+var updateTargetActivities = function updateTargetActivities(session,activities){
     json = JSON.parse(activities);
     json.items[0].targets.template.activityUrl = config.target.activityUrl;
+    if(session.apActivity) {
+        json.items.unshift(session.apActivity);
+    }
     return json;
 }
 
@@ -282,17 +295,66 @@ var saveAAMModel = function saveAAMModel(model){
 
 }
 
+
 var updateAAMModels = function updateAAMModels(model, modelList) {
 
     if(modelList) {
         var json = JSON.parse(modelList);
-        json.list.push(model);
+        json.list.unshift(model);
     } else {
         var json = JSON.parse(readJSON('aam/models.json'));
-        json.list.push(model);
+        json.list.unshift(model);
     }
 
     return json;
+}
+
+var saveAAMTrait = function saveAAMTrait(trait) {
+    var now = moment();
+    trait = JSON.parse(trait);
+    var traitTemplate = JSON.parse(readJSON('aam/trait-template.json'));
+    traitTemplate.createTime = now.format('L');
+    traitTemplate.updateTime = now.format('L');
+    traitTemplate.name = trait.name;
+    traitTemplate.description = trait.description;
+
+    return traitTemplate;
+
+}
+
+var saveAAMSegment = function saveAAMSegment(segment) {
+    var now = moment();
+    segment = JSON.parse(segment);
+    var segmentTemplate = JSON.parse(readJSON('aam/segment-template.json'));
+    segmentTemplate.name = segment.name;
+    segmentTemplate.description = segment.description;
+
+    return segmentTemplate;
+}
+
+var updateAAMSegment = function updateAAMSegment(segment,segmentList) {
+    var json;
+    if(segmentList) {
+        json = JSON.parse(segmentList);
+    } else {
+        json = JSON.parse(readJSON('aam/all-segments.json'));
+    }
+
+    json.list.unshift(segment);
+    return json;
+}
+
+var updateAAMTraits = function updateAAMTraits(trait, traitList) {
+    var json;
+    if(traitList) {
+        json = JSON.parse(traitList);
+    } else {
+        json = JSON.parse(readJSON('aam/traits.json'));
+    }
+
+    json.list.unshift(trait);
+    return json;
+
 }
 
 var retreiveAAMModel = function retrieveAAMModel(id, modelList) {
@@ -304,6 +366,34 @@ var retreiveAAMModel = function retrieveAAMModel(id, modelList) {
         }
     }
 }
+
+var saveAAMMapping = function saveAAMMapping(mapping) {
+    mapping = JSON.parse(mapping);
+    var startDate = moment(mapping.startDate,'ddd, DD MMM YYYY HH:mm:ss zz');
+    var endDate = moment(mapping.endDate, 'ddd, DD MMM YYYY HH:mm:ss zz');
+    var mappingTemplate = JSON.parse(readJSON('aam/new-mapping-template.json'));
+    mappingTemplate.sid = mapping.sid;
+    mappingTemplate.startDate = startDate.format('YYYY-MM-DD');
+    mappingTemplate.endDate = endDate.format('YYYY-MM-DD');
+    mappingTemplate.traitAlias = mapping.traitAlias;
+
+    return mappingTemplate;
+}
+
+var updateAAMMapping = function updateAAMMapping(mapping, destinations) {
+    var json;
+    if(destinations) {
+        json = destinations;
+    } else {
+        json = JSON.parse(readJSON('aam/mapping-template.json'));
+    }
+
+    json.mappings.unshift(mapping);
+    return json;
+}
+
+
+
 
 var updateAudienceList = function updateAudienceList(segmentList){
     var newAudience = {
@@ -482,11 +572,18 @@ module.exports.updateQueueData = updateQueueData;
 module.exports.updatePasteBinData = updatePasteBinData;
 module.exports.updateSegmentSummaryData = updateSegmentSummaryData;
 module.exports.updateTargetSegments = updateTargetSegments;
-module.exports.updateTargetActivityUrl = updateTargetActivityUrl;
+module.exports.updateTargetActivities = updateTargetActivities;
+module.exports.saveTargetActivity = saveTargetActivity;
 module.exports.retrieveAAMSegment = retrieveAAMSegment;
 module.exports.retrieveAAMSegmentFolder = retrieveAAMSegmentFolder;
 module.exports.saveAAMModel = saveAAMModel;
+module.exports.updateAAMSegment = updateAAMSegment;
+module.exports.saveAAMSegment = saveAAMSegment;
 module.exports.updateAAMModels = updateAAMModels;
+module.exports.updateAAMTraits = updateAAMTraits;
+module.exports.saveAAMMapping = saveAAMMapping;
+module.exports.updateAAMMapping = updateAAMMapping;
+module.exports.saveAAMTrait = saveAAMTrait;
 module.exports.retreiveAAMModel = retreiveAAMModel;
 module.exports.prependBlankSegment = prependBlankSegment;
 module.exports.saveSegment = saveSegment;

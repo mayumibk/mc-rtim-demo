@@ -9098,7 +9098,7 @@ $(function() {
      dateFormat: 'mm/dd/yy',
      minDate: 0,
      showOn: 'both',
-     buttonImage: '/portal/images/adobe_ui/icons/calendar.png',
+     buttonImage: '/css/aam/images/calendar.png',
      buttonImageOnly: true
     });
     var $sd = $('#addDestinationForm table.addDestination input[name=startDate]');
@@ -9338,7 +9338,7 @@ $(function() {
       dateFormat: 'mm/dd/yy',
       minDate: 0,
       showOn: 'both',
-      buttonImage: '/portal/images/adobe_ui/icons/calendar.png',
+      buttonImage: '/css/aam/images/calendar.png',
       buttonImageOnly: true
      });
      var sd = /_startDate/;

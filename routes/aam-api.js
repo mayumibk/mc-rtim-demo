@@ -56,6 +56,20 @@ router.post('/reports/traits-trend', function(req, res, next) {
     res.send(demo.readJSON('aam/traits-trend.json'));
 });
 
+
+router.get('/reports/traits-trend/*',function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?'));
+    var traitId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+
+    if(traitId == "") {
+        return res.send(demo.readJSON('aam/traits-trend.json'));
+    } else {
+        return res.send(demo.readJSON('aam/traits-trend-' + traitId +'.json'));
+    }
+});
+
 router.get('/reports/most-changed-segments', function(req, res, next) {
     res.set('Content-Type','application/json');
     res.send(demo.readJSON('aam/mostchangedsegments.json'));
@@ -85,28 +99,123 @@ router.get('/reports/segments-trend/*', function(req, res) {
     var segmentId = url.substring(url.lastIndexOf('/') + 1);
 
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('aam/segments-trend-' + segmentId + '.json'));
+    //res.send(demo.readJSON('aam/segments-trend-' + segmentId + '.json'));
+    res.send(demo.readJSON('aam/segments-trend.json'));
 });
 
 
-router.get('/traits',function(req,res){
+router.get('/traits/*',function(req,res){
     var folderID = req.query.folderId;
-    var jsonFile = "aam/traits.json";
+
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?') - 1);
+    var traitId = url.substring(url.lastIndexOf('/') + 1);
+
+
+    res.set('Content-Type','application/json');
+
     if(!folderID == undefined){
-        jsonFile = "aam/traits-folder-" + folderID + ".json";
+        return res.send(demo.readJSON("aam/traits-folder-" + folderID + ".json"));
     }
-    res.set('Content-Type','application/json');
-    res.send(demo.readJSON(jsonFile));
+
+    if(traitId != "traits") {
+        return res.send(demo.readJSON('aam/trait-template.json'));
+    }
+
+    if(traitId == '1634959') {
+        return res.send(demo.readJSON('aam/traits-' + traitId + '.json'));
+    }
+
+
+    if(req.session.traits){
+        return res.send(req.session.traits);
+    } else {
+        return res.send(demo.readJSON('aam/traits.json'));
+    }
+
+
 });
 
-router.get('/segments', function(req,res){
+router.post('/traits', function(req,res){
+    var newTrait = demo.saveAAMTrait(JSON.stringify(req.body));
+    req.session.traits = demo.updateAAMTraits(newTrait,demo.readJSON('aam/traits.json'));
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('aam/all-segments.json'));
+    res.send(newTrait);
 });
 
-router.get('/folders/traits', function(req,res){
+router.post('/segments', function(req,res){
+    var newSegment = demo.saveAAMSegment(JSON.stringify(req.body));
+    req.session.segments = demo.updateAAMSegment(newSegment,demo.readJSON('aam/all-segments.json'));
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('aam/aam-folder-traits.json'));
+    res.send(newSegment);
+});
+
+router.put('/segments/*', function(req,res){
+    res.set('Content-Type','application/json');
+    res.send(demo.readJSON('aam/segment-put-response.json'));
+});
+
+router.get('/segments/*', function(req,res){
+    var id = req.query.containsTrait;
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('/'));
+    var traitId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+    if(id) {
+        return res.send(demo.readJSON('aam/segments-' + id + '.json'));
+    } else if(traitId != "segment" && traitId != "segments" && traitId != "") {
+        return res.send(demo.readJSON('aam/segments-1848860.json'));
+    } else {
+        if(req.session.segments){
+            return res.send(req.session.segments);
+        } else {
+            return res.send(demo.readJSON('aam/all-segments.json'));
+        }
+
+    }
+
+});
+
+router.get('/destinations/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?'));
+    var destinationId = url.substring(url.lastIndexOf('/') + 1);
+
+
+
+    res.set('Content-Type','application/json');
+    if(req.query.sortBy == "name") {
+        return res.send(demo.readJSON('aam/destinations.json'));
+    } else if(destinationId) {
+        return res.send(demo.readJSON('aam/destination-' + destinationId + '.json'));
+    } else if(req.query.containsSegment.length > 0) {
+
+        return res.send(req.session.mappings);
+    } else {
+        return res.send("[]");
+    }
+
+});
+
+router.post('/destinations/*/mappings/', function(req,res){
+    var newMapping = demo.saveAAMMapping(JSON.stringify(req.body));
+    req.session.mappings = demo.updateAAMMapping(newMapping,req.session.mappings);
+
+    res.set('Content-Type','application/json');
+    //res.send(demo.readJSON('aam/destination-mapping-24652.json'));
+    res.send(demo.readJSON('aam/test.json'));
+});
+
+router.get('/folders/traits/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?') - 1);
+    var traitId = url.substring(url.lastIndexOf('/') + 1);
+
+    res.set('Content-Type','application/json');
+
+    if(!traitId == "traits"){
+        return res.send(demo.readJSON('aam/folder-traits-' + traitId + '.json'));
+    } else {
+        return res.send(demo.readJSON('aam/aam-folder-traits.json'));
+    }
+
 });
 
 router.get('/folders/segments/*', function(req,res){
@@ -114,16 +223,23 @@ router.get('/folders/segments/*', function(req,res){
     var folderId = url.substring(url.lastIndexOf('/') + 1);
 
     res.set('Content-Type','application/json');
-    if(folderId == "segments") {
+    if(folderId.indexOf('?') == 0) {
         res.send(demo.readJSON('aam/folder-segments.json'));
     } else {
-        res.send(demo.retrieveAAMSegmentFolder(folderId,demo.readJSON('aam/folder-segments.json')));
+        res.send(demo.retrieveAAMSegmentFolder("25320",demo.readJSON('aam/folder-segments.json')));
     }
 });
 
-router.get('/datasources', function(req,res){
+router.get('/datasources/*', function(req,res){
+    var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?') - 1);
+    var traitId = url.substring(url.lastIndexOf('/') + 1);
     res.set('Content-Type','application/json');
-    res.send(demo.readJSON('aam/aam-datasources-traits.json'));
+    if(traitId != "datasources"){
+        return res.send(demo.readJSON('aam/datasources-' + traitId + '.json'));
+    } else {
+        return res.send(demo.readJSON('aam/aam-datasources-traits.json'));
+    }
+
 });
 
 router.get('/algorithms', function(req,res){
@@ -146,6 +262,8 @@ router.post('/models', function(req,res){
     res.send(newModel);
 });
 
+
+
 router.get('/models/*', function(req,res){
     var url = req.originalUrl.substring(0,req.originalUrl.lastIndexOf('?'));
     var modelId = url.substring(url.lastIndexOf('/') + 1);
@@ -163,7 +281,12 @@ router.get('/models/*', function(req,res){
             return res.send(demo.readJSON('aam/models.json'));
         }
     } else {
-        return res.send(demo.retreiveAAMModel(modelId,req.session.models));
+        if(modelId == '1594') {
+            return res.send(demo.readJSON('aam/models-1594.json'));
+        } else {
+            return res.send(demo.retreiveAAMModel(modelId,req.session.models));
+        }
+
     }
 
 

@@ -1545,7 +1545,6 @@ TNT.createGlobalMbox = function () {
 };
 
 
- document.write('<script src="' + document.location.protocol
- + '//cdn.tt.omtrdc.net/cdn/target.js"></script>');
+ document.write('<script src="/js/target/target.js"></script>');
 var mboxFactoryAdmin = new mboxFactory("mbox5.tt.omtrdc.net","omniture","admin"); mboxCreateAdmin = function(qb ) { var mb = mboxFactoryAdmin.create(qb, mboxShiftArray(arguments)); if (mb) { mb.load(); } return mb; };
  TNT.createGlobalMbox();

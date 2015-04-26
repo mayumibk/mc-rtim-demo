@@ -1,0 +1,34 @@
+{
+  "createTime" : 1429040296000,
+  "updateTime" : 1429040296000,
+  "sid" : 1831312,
+  "traitType" : "ON_BOARDED_TRAIT",
+  "name" : "$1,000,000+",
+  "description" : "",
+  "permissions" :
+  [
+    "READ",
+    "WRITE",
+    "CREATE",
+    "DELETE",
+    "MAP_TO_SEGMENTS",
+    "MAP_TO_MODELS",
+    "CREATE_ALGO_TRAITS"
+  ],
+  "pid" : 1577,
+  "crUID" : 8531,
+  "upUID" : 8531,
+  "ttl" : 0,
+  "traitRule" : "Z69 == &quot;N&quot;",
+  "traitRuleVersion" : 0,
+  "uniques7Day" : 0,
+  "uniques14Day" : 0,
+  "uniques30Day" : 0,
+  "uniques60Day" : 0,
+  "count7Day" : 0,
+  "count14Day" : 0,
+  "count30Day" : 0,
+  "count60Day" : 0,
+  "dataSourceId" : 20882,
+  "folderId" : 87682
+}

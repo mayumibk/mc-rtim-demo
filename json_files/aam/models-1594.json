@@ -1,0 +1,31 @@
+{
+  "algoModelId" : 1594,
+  "pid" : 1166,
+  "name" : "CCT subscribers (enrollees) look-alike",
+  "description" : "Look alike model based on CCT subscribers (enrollees)",
+  "algoTypeId" : 1,
+  "intervalSeconds" : 604800,
+  "lookBackPeriod" : 30,
+  "crUID" : 1919,
+  "upUID" : 1919,
+  "status" : "ACTIVE",
+  "lastRunStatus" : 1,
+  "createTime" : 1401202930000,
+  "algoModelVersion" : 0,
+  "dataSources" :
+  [
+    22,
+    390
+  ],
+  "sid" : 972644,
+  "lastRunTimestamp" : 1429553429000,
+  "baselineTraitType" : "ON_BOARDED_TRAIT",
+  "lastSuccessfulRunTimestamp" : 1429553429000,
+  "permissions" :
+  [
+    "READ",
+    "CREATE",
+    "CREATE_ALGO_TRAITS"
+  ],
+  "updateTime" : 1401203014000
+}

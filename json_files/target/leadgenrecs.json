@@ -1,0 +1,197 @@
+{
+  "total" : 5,
+  "pageSize" : 10,
+  "privileges" : "[approver, write, read]",
+  "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms.at.json",
+  "reference" : "/setup/recs/algorithms",
+  "id" : "algorithms",
+  "lastPageUri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=10",
+  "items" :
+  [
+    {
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "privileges" : "[approver, read]",
+      "isReuseable" : true,
+      "jcr:title" : "Based on Most Recent Conversion...",
+      "targetLastSynced" : 1429295802157,
+      "targetId" : 1348,
+      "targetName" : "Based on Most Recent Conversion...-1429295804606",
+      "jcr:description" : "Based on the last conversion, recommend other items that frequently result in a conversion",
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms/based_on_most_recent_conversion.at.json",
+      "isPredefined" : true,
+      "reference" : "/setup/recs/algorithms/based_on_most_recent_conversion",
+      "id" : "based_on_most_recent_conversion",
+      "industryType" : "LEAD_GEN_B2B_FINANCIAL",
+      "pageTypes" :
+      [
+        "homePage"
+      ],
+      "targetSyncFailed" : false,
+      "recAlgoSessionId" : "",
+      "configuration" :
+      {
+        "id" : "configuration",
+        "type" : "viewedBought-CF",
+        "key" : "lastPurchasedItem"
+      },
+      "details" :
+      {
+        "id" : "details",
+        "inclusionrules" :
+        [
+        ],
+        "daysCount" : "oneMonth",
+        "partialTemplateAllowed" : false,
+        "backupDisabled" : false
+      }
+    },
+    {
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "privileges" : "[approver, read]",
+      "isReuseable" : true,
+      "jcr:title" : "Most Viewed Items Across the Site",
+      "targetLastSynced" : 1429295802157,
+      "targetId" : 1349,
+      "targetName" : "Most Viewed Items Across the Site-1429295806266",
+      "jcr:description" : "Recommend the most viewed items across the site",
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms/most_viewed_items_across_the_site.at.json",
+      "isPredefined" : true,
+      "reference" : "/setup/recs/algorithms/most_viewed_items_across_the_site",
+      "id" : "most_viewed_items_across_the_site",
+      "industryType" : "LEAD_GEN_B2B_FINANCIAL",
+      "pageTypes" :
+      [
+        "homePage",
+        "searchResults",
+        "signup",
+        "other"
+      ],
+      "targetSyncFailed" : false,
+      "recAlgoSessionId" : "",
+      "configuration" :
+      {
+        "id" : "configuration",
+        "type" : "topViewed",
+        "key" : ""
+      },
+      "details" :
+      {
+        "id" : "details",
+        "inclusionrules" :
+        [
+        ],
+        "daysCount" : "oneMonth",
+        "partialTemplateAllowed" : false,
+        "backupDisabled" : false
+      }
+    },
+    {
+      "privileges" : "[approver, read]",
+      "jcr:title" : "Recently Viewed Items",
+      "isReuseable" : true,
+      "jcr:description" : "Show the individual visitor's most recently viewed items from current and past sessions. Most recently viewed items appear first.",
+      "isPredefined" : true,
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms/recently_viewed_items.at.json",
+      "reference" : "/setup/recs/algorithms/recently_viewed_items",
+      "id" : "recently_viewed_items",
+      "industryType" : "LEAD_GEN_B2B_FINANCIAL",
+      "pageTypes" :
+      [
+        "prodSolutionService",
+        "homePage",
+        "searchResults",
+        "other"
+      ],
+      "recAlgoSessionId" : "",
+      "configuration" :
+      {
+        "id" : "configuration",
+        "type" : "recentlyViewed",
+        "key" : ""
+      },
+      "details" :
+      {
+        "id" : "details",
+        "partialTemplateAllowed" : false,
+        "backupDisabled" : false
+      }
+    },
+    {
+      "privileges" : "[approver, read]",
+      "jcr:title" : "Top-Converting Items Across the Site",
+      "isReuseable" : true,
+      "jcr:description" : "Recommend the highest converting items across the site",
+      "isPredefined" : true,
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms/top_converting_items_across_the_site.at.json",
+      "reference" : "/setup/recs/algorithms/top_converting_items_across_the_site",
+      "id" : "top_converting_items_across_the_site",
+      "industryType" : "LEAD_GEN_B2B_FINANCIAL",
+      "pageTypes" :
+      [
+        "homePage",
+        "searchResults",
+        "thankYou",
+        "signup",
+        "other"
+      ],
+      "recAlgoSessionId" : "",
+      "configuration" :
+      {
+        "id" : "configuration",
+        "type" : "topSellers",
+        "key" : ""
+      },
+      "details" :
+      {
+        "id" : "details",
+        "inclusionrules" :
+        [
+        ],
+        "daysCount" : "oneMonth",
+        "partialTemplateAllowed" : false,
+        "backupDisabled" : false
+      }
+    },
+    {
+      "targetLastSyncedBy" : "ta95orf5a-qib9tyadhryxs6orqijcbs8sgeou9o8ay",
+      "privileges" : "[approver, read]",
+      "isReuseable" : true,
+      "jcr:title" : "Top-Converting Items from a Visitor's Favorite Category",
+      "targetLastSynced" : 1429740306767,
+      "targetId" : 1360,
+      "targetName" : "Top-Converting Items from a Visitor's Favorite Category-1429740309167",
+      "jcr:description" : "Recommend the highest converting items within a visitor's favorite category",
+      "uri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms/top_converting_items_from_a_visitors_favorite_category.at.json",
+      "isPredefined" : true,
+      "reference" : "/setup/recs/algorithms/top_converting_items_from_a_visitors_favorite_category",
+      "id" : "top_converting_items_from_a_visitors_favorite_category",
+      "industryType" : "LEAD_GEN_B2B_FINANCIAL",
+      "pageTypes" :
+      [
+        "homePage",
+        "thankYou"
+      ],
+      "targetSyncFailed" : false,
+      "recAlgoSessionId" : "",
+      "configuration" :
+      {
+        "id" : "configuration",
+        "type" : "categoryBought",
+        "key" : "favoriteCategory"
+      },
+      "details" :
+      {
+        "id" : "details",
+        "inclusionrules" :
+        [
+        ],
+        "daysCount" : "oneMonth",
+        "partialTemplateAllowed" : false,
+        "backupDisabled" : false
+      }
+    }
+  ],
+  "page" : 1,
+  "firstPageUri" : "/content/mac/adobe-tech-marketing/target/setup/recs/algorithms.at.json?sortBy=jcr%3AlastModified&sortOrder=DESCENDING?page=1&pageSize=10",
+  "numPages" : 1
+}

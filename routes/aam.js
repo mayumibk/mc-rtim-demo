@@ -26,10 +26,10 @@ router.get('/Analytics/reports.ddx', function(req, res, next) {
     res.render('aam_dasboard',{title:"Express"});
 });
 
-router.get('/Traits/Traits.ddx',function(req,res){
-    if(req.originalUrl.indexOf("show/list") > 0)
-        res.render('aam-traits',{title: "Express"});
-    if(req.originalUrl.indexOf("new/model") > 0)
+router.get('/Traits/*',function(req,res){
+    //if(req.originalUrl.indexOf("show/list") > 0)
+    //    res.render('aam-traits',{title: "Express"});
+    //if(req.originalUrl.indexOf("new/model") > 0)
         res.render('aam/traits-model',{title:"Express"});
 });
 

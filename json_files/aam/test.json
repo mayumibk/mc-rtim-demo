@@ -1,0 +1,64 @@
+[
+
+  {
+    "pid" : 1577,
+    "name" : "Adobe Media Optimizer",
+    "status" : "ACTIVE",
+    "createTime" : 1428676450000,
+    "updateTime" : 1428676450000,
+    "crUID" : 11531,
+    "upUID" : 11531,
+    "devicePlatform" : "ALL",
+    "mappingAutoFiller" : "NONE",
+    "batchConfiguration" :
+    {
+      "fullSyncType" : "CUSTOMER",
+      "fullSyncTimePeriod" : "TWENTYFOUR_HOURS",
+      "fullSyncSchedule" : "NEVER",
+      "incrementalSyncTimePeriod" : "NEVER",
+      "syncAllFirstParty" : false,
+      "outboundDataType" : "SEGMENT",
+      "formatId" : 1,
+      "serverId" : 28
+    },
+    "samplingRatioDenominator" : 1,
+    "mappings" :
+    [
+    ],
+    "destinationId" : 24652,
+    "dataSourceId" : 1248,
+    "destinationType" : "S2S",
+    "masterDataSourceId" : 0
+  },
+
+  {
+    "pid" : 1577,
+    "name" : "Adobe Target",
+    "status" : "ACTIVE",
+    "createTime" : 1428676450000,
+    "updateTime" : 1428676450000,
+    "crUID" : 11531,
+    "upUID" : 11531,
+    "devicePlatform" : "ALL",
+    "mappingAutoFiller" : "NONE",
+    "batchConfiguration" :
+    {
+      "fullSyncType" : "CUSTOMER",
+      "fullSyncTimePeriod" : "TWENTYFOUR_HOURS",
+      "fullSyncSchedule" : "NEVER",
+      "incrementalSyncTimePeriod" : "NEVER",
+      "syncAllFirstParty" : false,
+      "outboundDataType" : "SEGMENT",
+      "formatId" : 1,
+      "serverId" : 28
+    },
+    "samplingRatioDenominator" : 1,
+    "mappings" :
+    [
+    ],
+    "destinationId" : 24652,
+    "dataSourceId" : 1248,
+    "destinationType" : "S2S",
+    "masterDataSourceId" : 0
+  }
+]
