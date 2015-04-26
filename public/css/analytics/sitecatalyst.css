@@ -1,0 +1,416 @@
+#main_container { padding:0px; margin:0px; }
+
+/* Report toolbar */
+#toolbar_container { margin:0 0 9px 0; }
+.report_tools { display:block; border:1px solid #BEBEBE; background-color: #e6e6e6;}
+.report_tools li { display:inline-block; *display:inline; *zoom:1; vertical-align:top; border-right:1px solid #bebebe; }
+.report_tools a { display: inline-block; zoom:1; text-decoration:none; padding:4px 9px 2px 9px; height:16px; line-height:16px; outline:none; color:#293431; border-right:1px solid #fafafa; }
+.report_tools .tool-active a, .report_tools .tool-working a, .report_tools .tool_menu_open > a { margin:-1px 0; }
+.report_tools .tool-active a, .tool-working a, .ButtonMenu-focus, .tool_menu_open > a {
+	border-top:1px solid #adadad; border-bottom:1px solid #a9a9a9;
+	background:#bbb url(https://www.omniture-static.com/images/v15icons/toolbar-bg.png) repeat-x 0 bottom; border-right:1px solid #b0b0b0; }
+.report_tools img, .report_tools i { display:inline-block; vertical-align:top; margin:-1px 3px 0 0; }
+.tool-working a { color:#888; }
+.tool-working a i { background:transparent url(https://www.omniture-static.com/images/v15icons/loading-inline.gif) no-repeat 0 0; }
+.report_tools .disabled { opacity:.4; filter:alpha(opacity=40); }
+.report_tools .disabled a { cursor:default; }
+.tool_menu { *position:relative; *z-index:3; -moz-user-select:-moz-none; -webkit-user-select:none; user-select:none; }
+.tool_menu a { padding-right:20px; position:relative; }
+.ButtonMenu .show-menu i, .ButtonMenu .hide-menu i,
+.tool_menu .tool_menu_arrow { position:absolute; right:7px; top:0; width:10px; height:100%; margin:0; background:transparent url(/p/static/1.0/images/icon_dn_arrow17x15.gif) no-repeat scroll 0 4px; }
+.tool_menu ul { display:none; background-color: #fff; margin-top:1px; *left:0; *top:100%; }
+.no-box-shadow .tool_menu ul { border:1px solid #bbb; margin:0 0 0 -1px; }
+.tool_menu ul a { display:block; border:none; background:none; line-height:16px; padding:5px 9px 3px 18px; text-indent:-9px; }
+#paper_tool.tool_menu ul a { text-indent:-25px; }
+.tool_menu ul a:hover { background:#418fd4; color:#fff; }
+.tool_menu ul li { display:block; border:none; }
+.tool_menu ul li.divider { background:#bebebe; height:1px; line-height:1px; overflow:hidden; }
+.tool_menu ul li.divider a { display:none; }
+.tool_menu ul.show { display:block; *min-width:150px; }
+.tool_menu i { display:inline-block; width:16px; height:16px; vertical-align:top; margin:0 0 0 10px; }
+.tool_menu i.checked { background:transparent url(/p/static/1.0/images/v15icons/check.png) no-repeat scroll 0 0; }
+.tool-btn { display:inline-block; background:#d9d9d9 url(https://www.omniture-static.com/images/v15icons/toolbar-bg.png) repeat-x 0 0; outline:none; color:#293431; cursor:pointer; border:1px solid #bebebe; padding:0; }
+.tool-btn.disabled { opacity:.4; filter:alpha(opacity=40); }
+.tool-btn.disabled span { cursor:default; }
+a.tool-btn:hover {text-decoration:none; } 
+.tool-btn span { display:block; border-right:1px solid #fafafa; padding:4px 9px 2px 9px; height:16px; line-height:16px; }
+.tool-btn.disabled span { border-color:#dcdcdc; }
+.tool-btn img, .tool-btn i { display:inline-block; vertical-align:top; margin:-1px 3px 0 0; }
+
+.report_tools #more_tool .NavigationMenu a {
+	text-indent: 0;
+	padding-left: 0;
+}
+.report_tools #more_tool [class*=icon-] {
+	margin-right: 6px;
+}
+
+/* toolbar icons */
+/*.report_tools   	i { width:16px; height:16px; }
+.report_tools   	i:after { font-family: 'AdobeIcons'; font-style: normal; }
+#download_tool  	i:after { content: "\f167"; }
+#email_tool     	i:after { content: "\f171"; }
+#bookmark_tool  	i:after { content: "\f127"; }
+#dashboard_tool 	i:after { content: "\f157"; }
+#share_tool     	i:after { content: "\f22b"; }
+#print_tool     	i:after { content: "\f206"; }
+#extract_tool   	i:after { content: "\f158"; }
+#alert_tool     	i:after { content: "\f10d"; }
+#link_tool      	i:after { content: "\f1dd"; }
+#window_tool    	i:after { content: "\f1f3"; }
+#discover_tool  	i:after { content: "\f1d6"; }
+#custom_report_tool i:after { content: "\f21b"; }
+#layout_tool 		i:after { content: "\f16c"; }
+#copy_tool			i:after { content: "\f152"; }
+#copy_graph_tool 	i:after { content: "\f152"; }
+#refresh_tool 		i:after { content: "\f217"; }
+*/
+/* ButtonMenu (usually in the toolbar) */
+.ButtonMenu { position: relative; }
+.ButtonMenu .selected { cursor: pointer; padding: 2px 20px 2px 27px; display: inline-block; position: relative; }
+.ButtonMenu-disabled .selected { cursor: default; opacity: .4; filter: alpha(opacity=40); }
+.ButtonMenu .buttons { position: absolute; right: -1px; _right: -2px; top: 100%; border: 1px solid #bbb; background: #fff; min-width: 100%; _width: 100%; z-index: 2;
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+.ButtonMenu .buttons span { position: relative; display: block; white-space: nowrap; cursor: pointer; padding: 2px 20px 2px 27px; height: 20px; line-height: 20px; }
+.ButtonMenu .buttons span:hover { background: #eee; }
+.ButtonMenu .show-menu, .ButtonMenu .hide-menu { position: absolute; right: 0; top: 0; width: 19px; height: 24px; }
+.ButtonMenu .show-menu:hover, .ButtonMenu-focus .hide-menu { background: #eee; }
+.ButtonMenu-disabled div.show-menu { background: none; cursor: default; opacity: .4; filter: alpha(opacity=40); }
+.ButtonMenu .hide-menu { z-index: 1; }
+.ButtonMenu .icon { position: absolute; left: 7px; top: 5px; width: 16px; height: 16px; background: transparent url(https://sc.omniture.com/p/suite/1.3/js/PublishingWizard/images/cell-sprite.png) no-repeat scroll -192px -42px; }
+.ButtonMenu .landscape-3x2 .icon { background-position: -192px -22px; }
+.ButtonMenu .portrait-2x3 .icon { background-position: -192px -2px; }
+
+/* Title and config pane */
+#legacy_label { margin:0 5px; color:#888; font-weight:bold; font-size:11px; display:inline-block; vertical-align:2px; }
+#title_container .CalendarWidgetActivator { float: right; margin-right: 15px; }
+
+.settings_area { margin:1px 0; }
+.settings_area a { text-decoration:none; outline:none; }
+.settings_area a:hover { text-decoration:underline; }
+.settings_area .toggle-btn:hover { text-decoration:none; }
+.settings_area .CustomSelect input { background-position:right 0; height:14px; line-height:14px; width:70px; }
+.settings_left, .settings_right { padding:5px 10px; background:#f4f4f4; border:1px solid #d9d9d9; }
+.settings_left { border-right:none; }
+
+/* Current Data */
+.currentdata-latency-icon {
+	background-color: white;
+	border: 1px solid #2e75b4;
+	border-radius: 6px;
+	margin: 2px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	overflow-x: visible;
+	behavior: url(/sc15/js/PIE.htc.php);
+}
+.currentdata-latency-icon .clock-hand {
+	position: absolute;
+	background-color: #999;
+	width: 1px;
+	top: 6px;
+	left: 5px;
+	transform-origin: 50% 0%;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+}
+.currentdata-latency-icon .hour-hand {
+	height: 2px;
+	transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+}
+.lte8 .currentdata-latency-icon .hour-hand {
+	height: 3px;
+	margin-left: -1px;
+
+   /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=-0.8660254037844386, M21=0.8660254037844386, M22=0.5, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=0.5,
+            M12=-0.8660254037844386,
+            M21=0.8660254037844386,
+            M22=0.5,
+            SizingMethod='auto expand');
+}
+.currentdata-latency-icon .minute-hand {
+	height: 4px;
+	margin-top: -4px;
+}
+.currentdata-latency-popup {
+	position: absolute;
+	top: 18px;
+	left: 0;
+	padding-top: 0px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1;
+
+	transition: visibility 0s linear .3s, opacity .3s;
+	-webkit-transition: visibility 0s linear .3s, opacity .3s;
+	-moz-transition: visibility 0s linear .3s, opacity .3s;
+	-ms-transition: visibility 0s linear .3s, opacity .3s;
+	transition-delay: .1s;
+	-webkit-transition-delay: .1s;
+	-moz-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+}
+.currentdata-latency-popup-main {
+	background-color: #cfdbe9;
+	border: 1px solid #8ca4c4;
+	border-radius: 4px;
+	padding: 6px 10px;
+	position: relative;
+}
+
+.currentdata-latency-popup-main:before,
+.currentdata-latency-popup-main:after {
+    content: "\0020";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    margin-left: -6px;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 6px solid transparent;
+    border-top: 0;
+    border-bottom-color: #cfdbe9;
+}
+.currentdata-latency-popup-main:before {
+    top: -6px;
+    z-index: 2;
+    border-bottom-color: #8ca4c4;
+}
+
+.currentdata-latency-popup table {
+	margin-bottom: 3px;
+}
+.currentdata-latency-popup td, .currentdata-latency-popup th {
+	white-space: nowrap;
+	border-bottom: 1px solid #8ca4c4;
+	padding: 3px 0;
+}
+.currentdata-latency-popup th {
+	padding-right: 8px;
+}
+.currentdata-latency-popup-learn-more {
+	white-space: nowrap;
+}
+.currentdata-latency-popup-learn-more .question-icon {
+	font-weight: bold;
+	color: white;
+	background-color: #2161a7;
+	width: 13px;
+	height: 13px;
+	border-radius: 6px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2px;
+	cursor: default;
+	line-height: 13px;
+}
+.currentdata-latency-icon:hover .currentdata-latency-popup {
+	visibility: visible;
+	opacity: 1;
+	transition-delay: .1s;
+	-webkit-transition-delay: .1s;
+	-moz-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+}
+/* Graph configuration */
+#configure_graph_menu { position:absolute; left:0; top:10px; width:860px; }
+#configure_graph_menu div { position:absolute; right:0; top:0; border:1px solid #bebebe; }
+#configure_graph_menu_btn { display:block; border-right:1px solid #fafafa; text-decoration:none; padding:4px 20px 2px 5px; height:16px; line-height:16px; outline:none; color:#293431;
+	background:#fff url(https://www.omniture-static.com/images/v15icons/toolbar-bg.png) repeat-x scroll 0 0; }
+.tool_menu_open #configure_graph_menu_btn { background-position:0 bottom; border-color:#dcdcdc; }
+#configure_graph_menu ul { left:auto; min-width:110px; }
+#collapse_chart { margin:2px 0; cursor:pointer; }
+#chart_container_overlay { margin:10px 0 0 0; }
+
+#configure_graph_menu ul i { margin:1px 6px 0 0; }
+#configure_graph_menu ul.show { right:0; top:24px; }
+#configure_graph_menu .disabled { display:none; }
+#configure_graph_menu .selected b { border:1px solid #c2cd9b; padding:1px 2px; margin:-3px 3px -1px -3px; background-color:#f4f6ec; display:inline-block; vertical-align:top;
+	-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; }
+#configure_graph_menu .selected .graph_icon { margin:0; display:block; }
+.tool_menu i.graph_icon { background-image:url(/p/static/1.0/images/v15icons/graph-sprite.png); }
+#gt_over_time .graph_icon         { background-position:0 0; }
+#gt_bar .graph_icon               { background-position:-64px 0; }
+#gt_stacked_bar .graph_icon       { background-position:-64px -32px; }
+#gt_horiz_bar .graph_icon         { background-position:-96px 0; }
+#gt_stacked_horiz_bar .graph_icon { background-position:-96px -32px; }
+#gt_fill .graph_icon              { background-position:-32px 0; }
+#gt_stacked_fill .graph_icon      { background-position:-32px -32px; }
+#gt_pie .graph_icon               { background-position:0 -32px; }
+#gt_scatter .graph_icon           { background-position:-160px -32px; }
+#gt_bubble .graph_icon            { background-position:-128px -32px; }
+#gt_smoothline .graph_icon        { background-position:-160px 0; }
+#gt_videotrended .graph_icon      { background-position:-128px 0; }
+
+#graph_display_items { background-color: #e6e6e6; }
+#graph_display_items select { margin:2px 6px; }
+#graph_display_items label  { padding:2px 9px 2px 0; height:20px line-height:20px; display:inline-block; text-transform:none; font-weight:normal; text-indent:0; }
+
+
+/* filter and add metrics */
+#report_table_controls { height:24px; background:#f4f4f4; position:relative; padding:9px; border:1px solid #d9d9d9; }
+#search_filter_control { position:absolute; left:9px; top:9px; }
+#search_filter_control * { vertical-align:top; }
+#search_filter_control .search_input { width:185px; height:16px; border:1px solid #bebebe; }
+#search_filter_control_go_btn { margin:0 6px; }
+#search_filter_control_advanced_link { display:inline-block; padding:5px 0 3px 0; height:16px; line-height:16px; font-weight:bold; }
+
+#metric_selector_container { float:right; display:block;  }
+#metric_selector_container img { margin-top:0; }
+#default_metric_tool { float:right; }
+#default_metric_tool .tool-btn { height:22px; border-left:none; margin:0; }
+#default_metric_tool .NavigationMenu { right:9px; *right:0; *left:auto; min-width:119px; }
+
+
+#item_breakdown_menu_container { display: none; }
+#item_breakdown_menu { z-index: 99999; } /* this needs to be on top of EVERYTHING */
+
+#item_name_menu { display: none;z-index: 77; }
+
+#report_notes { margin-top:9px; background:#f4f4f4; border:1px solid #d9d9d9; }
+#notes_controls { width:100%; }
+#note_text { white-space:pre; }
+#view_note_control { cursor:pointer; }
+.note_icon { padding-right:9px; }
+
+#notes_settings  { margin-left: 5px; margin-top: 10px; float: left; }
+#notes_area { background-image:url(https://sc.omniture.com/sc15/reports/images/configure_report_gradient.png); background-position:bottom; background-repeat:repeat-x; padding:0px 10px 0px 10px; }
+#note_view { margin-left: 1px; _margin-left: 7px; }
+#note_edit_container { margin-left: 5px; _margin-left: 10px; }
+.notes_open {margin-left: 5px; padding-left: 16px; margin-right: 7px; padding-bottom: 3px; background: url(https://sc.omniture.com/p/ap/1.2/images/double_chevron_green_up.gif) no-repeat 0px 1px; }
+.notes_closed {margin-left: 5px; padding-left: 16px; margin-right: 7px; padding-bottom: 3px; background: url(https://sc.omniture.com/p/ap/1.2/images/double_chevron_green_down.gif) no-repeat 0px 1px; }
+#show_cal_events { display:inline-block; cursor:pointer; outline:none; margin:9px 0 0 0; }
+
+#cal_events_container { min-height:48px; }
+
+.add_note  {padding-left: 16px; padding-bottom: 3px;} 
+.collapse_note  {padding-left: 16px; margin-right: 7px; padding-bottom: 3px; background: url(https://sc.omniture.com/p/ap/1.2/images/remove-icon.gif) no-repeat 0px 1px; } 
+
+#related_items { background-image:url(https://sc.omniture.com/sc15/reports/images/configure_report_gradient.png); background-position:bottom; background-repeat:repeat-x; padding:5px 10px 5px 20px;}
+
+.arrow_link, .arrow_link_expanded  { padding-left: 20px; 
+                                     margin-right: 7px; 
+                                     padding-bottom: 3px;
+                                     background: url(https://sc.omniture.com/p/ap/1.2/images/double_chevron_green_down.gif) no-repeat 0px 1px;
+                                     min-width:65px;
+                                     min-height:30px;}
+.arrow_link_expanded               { background-image: url(https://sc.omniture.com/p/ap/1.2/images/double_chevron_green_up.gif); }
+
+#notice_area { display:none; width:100%; background-color:#fae4b2; }
+#message_area { display:none; margin:0 0 10px 0; }
+#message_area .coral-Alert:first-child { margin-top: 0; }
+#message_area .common { padding:3px 3px 3px 25px; line-height:16px; margin-bottom:3px; border:1px solid #fff; }
+#message_area .message_notice  { background:#fae4b2 url(https://www.omniture-static.com/images/v15icons/message-notice.png)  no-repeat 3px 3px; border-color:#f9b36b; }
+#message_area .message_alert   { background:#fae4b2 url(https://www.omniture-static.com/images/v15icons/message-notice.png)  no-repeat 3px 3px; border-color:#f9b36b; }
+#message_area .message_success { background:#dbe7bf url(https://www.omniture-static.com/images/v15icons/message-success.png) no-repeat 3px 3px; border-color:#c6d997; }
+#message_area .message_failure { background:#f7dbda url(https://www.omniture-static.com/images/v15icons/message-failure.png) no-repeat 3px 3px; border-color:#f0bebd; }
+#message_area a.alert_close_icon { float:right; width:12px; height:12px; margin:2px; background:transparent url(https://www.omniture-static.com/images/v15icons/close.png) no-repeat scroll 0 0; cursor:pointer; opacity:.4; filter:alpha(opacity=40); }
+#message_area a.alert_close_icon:hover { opacity:1; filter:none; }
+
+#chart_area { min-height:289px; }
+#summary_table { min-height:0px; padding-bottom:3px; }
+#data_table > table, #cal_events_container > table { border-left:1px solid #d9d9d9; border-right:1px solid #d9d9d9; }
+#data_table > table > tbody > tr.hover_highlight:hover { background-color: #f4f4f4; }
+#data_table > table > tbody > tr.selected { background-color: #edf2e2; }
+#data_table.freeze_highlight > table > tbody > tr.hover_highlight:hover { background-color: #fff; }
+#data_table.freeze_highlight > table > tbody > tr.selected:hover { background-color: #edf2e2; }
+
+/* pagination */
+#data_table_pagination { display:none; padding:9px; position:relative; line-height:16px; background:#f4f4f4; border:1px solid #d9d9d9; border-top:none; }
+#data_table_pagination_manual { display: inline-block; margin:1px 0 0 20px; }
+#data_table_row_count { position:absolute; right:9px; top:9px; }
+#data_table_pagination_list { display:inline; }
+#data_table_pagination_list li { display:inline; padding:0 3px; }
+#pagination_textbox { width: 30px; margin: 0 4px; }
+#data_table_pagination_show { margin-top:2px; margin-right:2px;}
+#pagination_row_count { display: inline-block; *display: inline; *zoom: 1; height: 15px; vertical-align: -5px; }
+#pagination_row_count_arrow { background-position:0px -2px;}
+#pagination_row_count_input { padding-top: 0px; line-height: 15px; }
+.pagination_page_selected { font-weight:bold; cursor:default; }
+.pagination_page_available { font-weight:normal; color:#447099; cursor:pointer; }
+#data_table_pagination_list .pagination_page_available:hover { text-decoration:underline; }
+
+#shared_toolbar_panel { display:none; }
+#shared_toolbar_panel, .toolbar-panel { background:#f4f4f4; border:1px solid #D9D9D9; padding:9px; margin: 0; }
+
+#edit_note_icon { padding-top:2px; cursor:pointer; }
+#delete_note_icon { padding-top:2px; cursor:pointer;}
+
+/* taking too long bubble help */
+div#email_report_notice { top:13px; left:262px; }
+#timeout { font-size:20px; height:400px; padding-top:70px; width:100%; text-align:center; }
+#timeout a { cursor:pointer; }
+#timeout a:hover { text-decoration:underline; }
+
+/* no data */
+.no_data_generic, .no_data_generic a { font-size:20px; height:400px; padding-top:70px; width:100%; text-align:center; color:#adadad; }
+
+/* dashboard */
+#dashboard_table { margin-top:11px; }
+.reportlet td.data_table_vertical_spacer { height:20px; }
+
+/* data extract bookmark */
+#data_extract_report_container h2 { margin:0 0 10px 0; }
+#data_extract_report_container em { font-style:italic; }
+#data_extract_report_container h4 { padding:5px 0 3px; text-decoration:underline; }
+#data_extract_report_container th { font-weight:bold; padding-right:10px; }
+#data_extract_report_container table { margin:10px; }
+.data_extract_form { padding:10px; }
+
+/* toggle-btns */
+.toggle-btn { display:inline-block; height:14px; line-height:14px; padding:1px 5px; text-decoration:none; color:#000;
+	border:1px solid #aaa; border-left-color:#eee; background:#fff url(https://www.omniture-static.com/images/toolbar-bg.png) repeat-x 0 bottom; }
+.toggle-btn-selected, .toggle-btn:active { background:#f2f2f2; cursor:default; }
+.toggle-btn-first { -webkit-border-radius:4px 0 0 4px; -moz-border-radius:4px 0 0 4px; border-radius:4px 0 0 4px; border-left-color:#aaa; }
+.toggle-btn-last  { -webkit-border-radius:0 4px 4px 0; -moz-border-radius:0 4px 4px 0; border-radius:0 4px 4px 0; }
+
+/* video */
+#video_overview_container { padding-bottom:100px; }
+.vid_overview_sparkline_name { padding-top:15px; padding-left:10px; padding-right:10px; font-weight:normal; font-size:12px; }
+.vid_overview_sparkline_number { padding-left:10px; font-weight:bold; font-size:24px;}
+.vid_overview_sparkline_container { padding-left:10px;}
+.vid_overview_averages_title { padding-top:15px; padding-left:10px; padding-right:10px; font-size:12px; vertical-align:top; }
+.vid_overview_averages_number { padding-left:10px; font-weight:bold; padding-right:15px; font-size:24px; }
+.vid_overview_performer_container { padding-top:15px; }
+.vid_overview_item { padding-top:15px; }
+.vid_overview_section_title { font-size:12px;padding-left:5px;}
+.vid_overview_chart_container { padding-top:10px; padding-bottom:10px; }
+
+/* SearchCenter Upsell */
+#scm_upsell_container {
+	padding: 8px;
+	position: relative;
+	width: 540px;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+	margin-top: -150px;
+	margin-left: -270px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+}
+#scm_upsell_footer {
+	margin-top: 5px;
+	text-align: right;
+}
+
+/* Beta labels for new video reports */
+.video-beta a:after {
+    content: url(https://www.omniture-static.com/images/beta_tag_small.png);
+    margin-left: 5px;
+}

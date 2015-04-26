@@ -277,6 +277,6 @@
   ],
   "target":
   {
-    "activityUrl": "http://local-campaign.aemdemo.com/target/wefinance/en/personal.html"
+    "activityUrl": "http://localhost:4502/target/wefinance/en/personal.html"
   }
 }

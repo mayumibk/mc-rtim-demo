@@ -1,0 +1,218 @@
+/*
+	This is here so to account for a bug with coralui-1.10.0 where it get's a wrong width and
+	height for the popups and then does not display them in a good position the first time.
+*/
+.upsell-popup {
+	min-width: 870px;
+	max-width: 900px;
+	min-height: 490px;
+	max-height: 520px;
+}
+
+.drawer .help-link {
+	color: white;
+	margin-left: 0.6rem;
+	margin-right: 10px;
+}
+
+div.rail > .wrap nav.feature > a {
+	text-rendering: geometricPrecision;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "adobe-clean", "Helvetica Neue", "Myriad Pro";
+	color: #e6e6e6;
+	box-sizing: border-box;
+	height: 2.875rem;
+	line-height: 2.875rem;
+	background-color: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+
+#main-rail.rail>.wrap .rail-view.active {
+	top: 0px;
+}
+
+.grid [class^="card-"],
+.grid [class*=" card-"] {
+	width: 					283px;
+	height: 				350px;
+	margin-left:			12.5px;
+	margin-right: 			12.5px;
+	margin-bottom: 			20px;
+}
+
+.grid [class^="card-"] h4,
+.grid [class*=" card-"] h4 {
+	position: 				absolute;
+	left: 					5px;
+	bottom: 				30px;
+	color: 					#787878;
+	font-size: 				14px;
+}
+
+.landing_mbox_text {
+	font-size: 				14px;
+	padding-left:			15px;
+	padding-top: 			15px;
+	padding-right:			15px;
+}
+.landing_mbox_text.links {
+	display: none;
+}
+.landing_mbox_name {
+	position: absolute;
+	font-family: "adobe-clean", Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 24px;
+	line-height: 25px;
+	bottom: 10px;
+	left: 8px;
+	right: 10px;
+	text-align: center;
+}
+
+a.landing_link {
+	width: 					283px;
+	height: 				350px;
+}
+div.landing_platform {
+	position:				absolute;
+	right: 					15px;
+	bottom: 				10px;
+}
+.grid [class^=card-]> .launch_or_download_link,
+.grid [class^=card-]> .launch_container{
+	font-weight: lighter;
+	-webkit-box-shadow: 	none;
+	-moz-box-shadow: 		none;
+	box-shadow: 			none;
+	font-size: 				13px;
+}
+.grid [class^=card-]> .launch_or_download_link:hover {
+	text-decoration: 		underline;
+}
+.grid [class^=card-]> .launch_or_download_link:active {
+	text-decoration: 		underline;
+}
+
+.single-link-container {
+	position: 				absolute;
+	left: 					-10px;
+	bottom: 				9px;
+	padding-left: 			25px;
+}
+
+.stacked_links {
+	width: 100%;
+	display: block;
+}
+
+.grid [class^=card-] .image, .grid [class*=" card-"] .image {
+	position: relative;
+}
+
+.launch_link, .download_link, .overview_link{
+	position: 				absolute;
+	left: 					15px;
+	bottom: 				29px;
+	padding-left: 			25px;
+}
+
+.launch_link:before{
+	font-family: AdobeIcons;
+	font-size: 16px;
+	content: "\f1d6";
+	color: #999999;
+	position: absolute;
+	left: 0px;
+}
+
+.download_link:before{
+	font-family: AdobeIcons;
+	font-size: 16px;
+	content: "\f167";
+	color: #999999;
+	position: absolute;
+	left: 0px;
+}
+
+.overview_link:before{
+	font-family: AdobeIcons;
+	font-size: 16px;
+	content: "\f271";
+	color: #999999;
+	position: absolute;
+	left: 0px;
+}
+
+.landing_report_title {
+	position: 				absolute;
+	left: 					5px;
+	bottom: 				30px;
+}
+.welcome-title {
+	margin:0px;
+	margin-top: 12px;
+	margin-left: 10px;
+	font-size:22px;
+}
+
+.single-link-container > a {
+	font-weight: lighter;
+	vertical-align: top;
+	color: #4191d2;
+}
+.single-link-container > a > i {
+	color: #999999;
+	margin-right: 5px;
+}
+.launch_container {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 10px;
+}
+.launch_container > span {
+	margin-left: 9px;
+	margin-right: 9px;
+	color: #999999;
+}
+.upsell-image-container {
+	float: left;
+	padding: 40px;
+}
+.upsell-description-container {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 68px;
+	background-color: #f3f3f3;
+	border-left: solid 1px #d2d2d2;
+	width: 250px;
+	height: 100%;
+	min-height: 354px;
+}
+.modal .upsell-body {
+	background-color: #fafafa;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	min-height: 1px;
+	border: .0625rem solid #3c3c3c;
+	border-top: 0;
+	border-bottom: 0;
+	font-size: 14px;
+}
+.upsell-button {
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
+	width: 210px;
+}
+.upsell-body ul {
+	padding-left: 15px;
+}

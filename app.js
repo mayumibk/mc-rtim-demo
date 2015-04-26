@@ -39,6 +39,8 @@ var audiences = require('./routes/audiences');
 var audiencesapi = require('./routes/audiences-api.js');
 var target = require('./routes/target.js');
 var onsite = require('./routes/target-onsite.js');
+var mac = require('./routes/mac.js');
+var analytics = require('./routes/analytics.js');
 
 var app = express();
 
@@ -84,6 +86,8 @@ app.use('/audiences.html',audiences);
 app.use('/audiencelibrary',audiencesapi);
 app.use('/target',target);
 app.use('/onsite',onsite);
+app.use('/mac',mac);
+app.use('/analytics',analytics);
 
 
 // catch 404 and forward to error handler

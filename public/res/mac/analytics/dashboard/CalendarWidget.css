@@ -1,0 +1,610 @@
+.CurrentDataCalendarWidgetActivator {
+	text-align: right;
+	font-size: 10pt;
+	font-weight: bold;
+	position:absolute;
+	top:3px;
+	right:18px;
+}
+
+.CalendarWidgetActivator {
+	text-align: right;
+	height: 16px;
+	line-height: 19px;
+	width: auto;
+	cursor: pointer;
+	float:right;
+	font-size:.8125rem;
+	padding-left:5px;
+}
+
+#calendar-widget-content {
+	float:right;
+	padding:10px 10px 6px 6px;
+}
+
+#calendar-widget-content .coral-Icon {
+	float:left;
+}
+
+.CalendarWidgetActivator:hover {
+	color:#3287d2;
+}
+
+body.popup .CalendarWidgetActivator {
+	position: relative;
+	float: right;
+	margin-right: 1px;
+}
+
+.CalendarWidgetFader {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: black;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	zoom: 1;
+	width: 100%;
+	height: 100%;
+	z-index: 65535;
+}
+
+* html .CalendarWidgetFader {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.CalendarWidgetFader * {
+	position: absolute;
+	opacity: 0;
+	background: transparent;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.CalendarWidget {
+	position:absolute; right:9px; top:9px; width:580px; height:284px;
+	background:#fff url(background.png) repeat-x left bottom; z-index:65536;
+	-webkit-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4); -moz-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4); box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4);
+	-webkit-user-select:none; -moz-user-select:-moz-none; user-select:none;
+}
+
+.no-box-shadow .CalendarWidget { border:1px solid #bbb; }
+
+* html .CalendarWidget {
+	position: absolute;
+}
+
+.CalendarWidget-compare {
+	/* height: 456px; */
+	height: 486px;
+}
+
+.CalendarWidget .tabs {
+	position: absolute;
+	top: 4px;
+	left: 8px;
+	width: 564px;
+	height: 23px;
+	background: transparent url('tabs.png') repeat-x scroll 0 22px;
+}
+
+.CalendarWidget .tabs span {
+	display: block;
+	float: left;
+	width: auto;
+	height: 23px;
+	padding: 0 0 0 4px;
+	cursor: pointer;
+}
+
+.CalendarWidget .tabs span span {
+	padding: 0 4px 0 0;
+}
+
+.CalendarWidget .tabs span span span {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	color: #6487C3;
+	text-decoration: underline;
+	padding: 0 1px;
+}
+
+.CalendarWidget .tabs .selected {
+	cursor: default;
+	background: transparent url('tabs.png') no-repeat scroll left -1px;
+}
+
+.CalendarWidget .tabs .selected span {
+	cursor: default;
+	background: transparent url('tabs.png') no-repeat scroll right -24px;
+}
+
+.CalendarWidget .tabs .selected span span {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	background: transparent url('tabs.png') repeat-x scroll 0 -47px;
+}
+
+.CalendarWidget .dateTitle {
+	position: absolute;
+	top: 5px;
+	right: 9px;
+	height: 16px;
+	line-height: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	/*font-size: 14px;*/
+	font-size: 10pt;
+	text-align: right;
+	padding-right: 4px;
+	cursor: pointer;
+}
+
+.CalendarWidget .dateTitle:before {
+	content: "\f138";
+	font-family: AdobeIcons;
+	font-size: 15px;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+}
+
+.no-box-shadow .CalendarWidget .dateTitle { right:8px; top:4px; }
+
+.CalendarWidgetActivator .select,
+.CalendarWidget .dateTitle .select {
+	margin-left:.1rem;
+}
+
+.CalendarWidgetActivator .compare,
+.CalendarWidget .dateTitle .compare {
+	color: #c0751c;
+	display: none;
+}
+
+.CalendarWidget .yearMonthToggler {
+	position: absolute;
+	top: 26px;
+	right: 8px;
+	border: 1px solid #cecece;
+	border-width: 0px 0px 1px 1px;
+	background-color: white;
+	padding: 0px 0px 2px 6px;
+}
+
+.CalendarWidget .yearMonthToggler .months,
+.CalendarWidget .yearMonthToggler .years {
+	color: #6487C3;
+	cursor: pointer;
+}
+
+.CalendarWidget .yearMonthToggler .selected {
+	font-weight: bold;
+	color: black;
+	cursor: default;
+}
+
+.CalendarWidgetActivator .separator,
+.CalendarWidget .dateTitle .separator {
+	color: #555;
+	display: none;
+}
+
+.CalendarWidgetActivator-compare .compare,
+.CalendarWidgetActivator-compare .separator,
+.CalendarWidget-compare .dateTitle .compare,
+.CalendarWidget-compare .dateTitle .separator {
+	display: inline;
+}
+
+* html .CalendarWidget .dateTitle .separator,
+* html .CalendarWidgetActivator .separator {
+	padding-left: 4px;
+}
+
+*:first-child+html .CalendarWidget .dateTitle .separator,
+*:first-child+html .CalendarWidgetActivator .separator {
+	padding-left: 4px;
+}
+
+.CalendarWidget .MonthBlock {
+	position: absolute;
+	top: 28px;
+	left: 8px;
+	width: 562px;
+	height: 195px;
+	border: 1px solid #ddd;
+	border-top: none;
+	background-color: white;
+}
+
+.CalendarWidget .MonthBlock.compare {
+	top: 230px;
+	display: none;
+}
+
+.CalendarWidget-compare .MonthBlock.compare {
+	display: block;
+}
+
+.CalendarWidget .MonthBlock h1 {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 4px;
+	padding: 0px;
+	color: #325c00;
+	text-indent: -999in;
+	overflow: hidden;
+}
+
+.CalendarWidget-compare .MonthBlock h1 {
+	text-indent: 0;
+}
+
+.CalendarWidget .MonthBlock.compare h1 {
+	color: #c0751c;
+}
+
+.CalendarWidget .MonthBlock .yearSelector {
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 100%;
+	height: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+}
+
+.CalendarWidget .MonthBlock .yearSelector  span {
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.CalendarWidget .MonthBlock .monthSelector {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 100%;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button,
+.CalendarWidget .MonthBlock .monthSelector button {
+	width: 17px;
+	height: 13px;
+	margin: 1px 4px;
+	padding: 0px;
+	border: none;
+	border-width: 0px;
+	cursor: pointer;
+	background-image: url('cal_sprite.png');
+	vertical-align: top;
+	background-color: white;
+}
+
+.CalendarWidget .MonthBlock .monthSelector button.prev {
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+.CalendarWidget .MonthBlock .monthSelector button.next {
+	position: absolute;
+	top: 0px;
+	right: 4px;
+}
+
+/* button states */
+.CalendarWidget .MonthBlock .yearSelector button.prev,
+.CalendarWidget .MonthBlock .monthSelector button.prev {
+	background-position: 0px 0px;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button.next,
+.CalendarWidget .MonthBlock .monthSelector button.next {
+	background-position: 17px 0px;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button.prev:hover,
+.CalendarWidget .MonthBlock .monthSelector button.prev:hover {
+	background-position: 0px -13px;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button.next:hover,
+.CalendarWidget .MonthBlock .monthSelector button.next:hover {
+	background-position: 17px -13px;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button.prev:active,
+.CalendarWidget .MonthBlock .monthSelector button.prev:active {
+	background-position: 0px -26px;
+}
+
+.CalendarWidget .MonthBlock .yearSelector button.next:active,
+.CalendarWidget .MonthBlock .monthSelector button.next:active {
+	background-position: 17px -26px;
+}
+
+.CalendarWidget .MonthBlock .Month {
+	float: left;
+	width: 33%;
+	height: 120px;
+	margin-top: 10px;
+}
+
+.CalendarWidget .MonthBlock .dateModeYear {
+	margin-top: 30px;
+}
+
+.CalendarWidget .MonthBlock .Month * {
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+
+
+.CalendarWidget .MonthBlock .Month table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px auto;
+}
+
+.CalendarWidget .MonthBlock .Month caption {
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+}
+
+.CalendarWidget .MonthBlock .Month tbody th {
+	font-size: 0px;
+	color: white;
+	width: 14px;
+	background-image: url('cal_sprite.png');
+	background-position: 17px -48px;
+	cursor: pointer;
+}
+
+.CalendarWidget .MonthBlock .Month td {
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	padding: 0px 3px;
+}
+
+.CalendarWidget .MonthBlock .Month tbody td {
+	border-top: 1px solid #ddd;
+	line-height: 15px;
+	cursor: pointer;
+}
+
+.CalendarWidget .MonthBlock .dateModeYear tbody td {
+	width: 35px;
+}
+
+.CalendarWidget .MonthBlock .Month .today {
+	border: 1px solid black;
+}
+
+* html .CalendarWidget .MonthBlock .Month .today {
+	position: relative;
+	padding-left: 3px;
+}
+
+*:first-child+html .CalendarWidget .MonthBlock .Month .today {
+	position: relative;
+	padding-left: 3px;
+}
+
+.CalendarWidget .MonthBlock .Month .previousMonth,
+.CalendarWidget .MonthBlock .Month .previousMonth-selected,
+.CalendarWidget .MonthBlock .Month .nextMonth,
+.CalendarWidget .MonthBlock .Month .nextMonth-selected {
+	color: #888;
+}
+
+.CalendarWidget .MonthBlock .Month .selected {
+	background-color: #4987ac;
+	color: white;
+}
+
+.CalendarWidget .MonthBlock .Month .previousMonth-selected,
+.CalendarWidget .MonthBlock .Month .nextMonth-selected {
+	background-color: #C6D2E2;
+	color: #888;
+}
+
+.CalendarWidget .MonthBlock.compare .Month .selected {
+	background-color: #c0751c;
+}
+
+.CalendarWidget .MonthBlock.compare .Month .previousMonth-selected,
+.CalendarWidget .MonthBlock.compare .Month .nextMonth-selected {
+	background-color: #f2e0cc;
+	color: #888;
+}
+
+.CalendarWidget .MonthBlock .Month .start,
+.CalendarWidget .MonthBlock .Month .end {
+	background-image: url('caps.png');
+	cursor: col-resize;
+}
+
+.CalendarWidget .MonthBlock .Month .end {
+	background-position: right top;
+}
+
+/* MonthBlock date range form */
+.CalendarWidget .MonthBlock .dateRangeForm {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm * {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm .rangeInfo {
+	color: #777;
+	font-size: 10px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #eee;
+	vertical-align: middle;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset.selected {
+	border-color: white;
+	background-color: white;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset.rangeInputBoxes {
+	width: 382px;
+	border-width: 1px 1px 0px 0px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset.quickDateRanges {
+	width: 178px;
+	left: 383px;
+	border-width: 1px 0px 0px 1px;
+}
+
+* html .CalendarWidget .MonthBlock .dateRangeForm fieldset span {
+	position: relative; top: -2px;
+}
+
+* html .CalendarWidget .GranularityArea label {
+	position: relative; top: -2px;
+}
+
+*:first-child+html .CalendarWidget .MonthBlock .dateRangeForm fieldset span {
+	position: relative; top: -2px;
+}
+
+*:first-child+html .CalendarWidget .GranularityArea label {
+	position: relative; top: -2px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset input {
+	margin: 4px;
+	border: 1px solid #6487C3;
+	width: 120px;
+	outline: none;
+	padding: 1px 3px;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset input:focus {
+	background-color: #efe;
+}
+
+.CalendarWidget .MonthBlock.compare .dateRangeForm fieldset input:focus {
+	background-color: #fed;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset input.invalid,
+.CalendarWidget .MonthBlock .dateRangeForm fieldset input.invalid:focus {
+	border-color: #f00;
+	border-style: dashed;
+	background-color: #fcc;
+}
+
+.CalendarWidget .MonthBlock.compare .dateRangeForm fieldset input {
+	border: 1px solid #c0751c;
+}
+
+.CalendarWidget .MonthBlock .dateRangeForm fieldset select {
+	margin: 4px 0px 0px 15px;
+	width: 150px;
+}
+
+.CalendarWidget .GranularityArea {
+	position: absolute;
+	bottom: 21px;
+	left: 10px;
+	height: 30px;
+}
+
+.CalendarWidget .actionsForm {
+	position: absolute;
+	left: 8px;
+	width: 564px;
+	bottom: 5px;
+}
+
+.CalendarWidget .actionsForm input {
+	margin: 0px 5px 0px 0px;
+	padding: 0px 10px;
+	border: 1px solid #9B9B94;
+	font-size: 8pt;
+	color: #293431;
+	background: #ccc url('btns.png') repeat-x scroll 0 0;
+}
+
+.CalendarWidget .actionsForm input:hover {
+	background-position: 0 -16px;
+}
+
+.CalendarWidget .actionsForm input:active {
+	background-position: 0 -32px;
+}
+
+.CalendarWidget .actionsForm input.disabled {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-ms-filter: "alpha(opacity=40)";
+}
+
+.CalendarWidget .actionsForm .tip {
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+	color: #777;
+}
+
+/* Debug */
+.CalendarWidget .debug {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	right: 0px;
+	margin-top: 8px;
+	background-color: #fdd;
+	border: 1px solid #f55;
+}
+
+.CalendarWidget .debug * {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.CalendarWidget .debug fieldset {
+	margin: 8px;
+	border: none;
+	border-top: 1px solid #f55;
+}
+
+.CalendarWidget .debug fieldset legend {
+	color: #d33;
+	font-weight: bold;
+}

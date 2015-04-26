@@ -48,7 +48,7 @@ router.get('/componentmanager', function(req,res,next){
 });
 
 
-router.all('/index.html', function(req, res){
+router.all('*/index.html', function(req, res){
     var a = req.query.a;
     var jsonResponse="";
 
@@ -76,6 +76,8 @@ router.all('/index.html', function(req, res){
 
         if(a == "ReportSuite.List")
             jsonResponse = demo.updateReportSuiteList(demo.readJSON("ReportSuiteList.json"));
+        if(a == "Dashboard.Localized")
+            jsonResponse = demo.readJSON('dashboard-localized.json');
 
         if(a == "Bookmark.GetFolders")
             jsonResponse = demo.readJSON("BookmarkFolders.json");

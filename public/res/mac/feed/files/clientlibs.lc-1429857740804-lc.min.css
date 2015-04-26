@@ -1,0 +1,14 @@
+.wizard .team{margin-top:1em}
+.wizard .team>label:first-child{border-bottom:1px solid #d2d2d2}
+.wizard .team .team-table{border-collapse:collapse;width:100%;font-size:90%;table-layout:fixed}
+.wizard .team .team-table tr{border-bottom:1px solid #d2d2d2}
+.wizard .team .team-table tr:last-child{border-bottom:0}
+.wizard .team .team-table td{padding:.5em;height:32px}
+.wizard .team .team-table .avatar,.wizard .team .team-table .remove{width:42px}
+.wizard .team .team-table .remove button{display:block;width:100%;height:100%}
+.wizard .team .team-table .role{width:26%}
+.wizard .team .team-table .message{display:none}
+.wizard .team .team-member-form{margin-top:1em}
+.wizard .team .team-member-form table{width:100%;border-collapse:collapse;border:0}
+.wizard .team .team-member-form table td:nth-child(1){width:66.666%}
+.wizard .team .team-member-form table td:nth-child(1) .autocomplete,.wizard .team .team-member-form table td:nth-child(1) input{width:100%}
