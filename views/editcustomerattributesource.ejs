@@ -25,36 +25,6 @@
     <script type="text/javascript" src="/js/mac.crs.datasourcepage.lc-1424416731228-lc.min.js"></script>
 
 
-    <script>
-        (function ($) {
-            function ssoKeepAlive() {
-                $.ajax({
-                    url:"https://adobeid-na1.services.adobe.com/ims/check/v1/token?client_id=MarketingCloud11&scope=openid%2cavatar%2caudiencemanager_api%2cread_organizations%2cupdate_profile.first_name%2cupdate_profile.last_name%2cupdate_profile.phoneNumber%2cupdate_profile.job_function%2cadditional_info.job_function%2csession%2cadditional_info.projectedProductContext%2cupdate_profile.preferred_languages&_=1425052891446&callback=?",
-                    dataType:"jsonp",
-                    success:function (data) {
-                        window.console && console.log(new Date(), data);
-                        if (data.error) {
-                            // check failed -> redirect to logout
-                            //top.location.href = "/libs/cq/core/content/login.logout.html"
-                        } else {
-                            refreshSession(data.session, data.access_token);
-                        }
-                    }
-                });
-            }
-            function refreshSession(session, accessToken) {
-                $.ajax({
-                    url:session + "?bearer_token=" + accessToken + "&callback=?",
-                    dataType:"jsonp"
-                });
-            }
-            $(window).on("load", function () {
-                setTimeout(ssoKeepAlive, 0);
-                setInterval(ssoKeepAlive, 10 * 60 * 1000);
-            });
-        })(jQuery);
-    </script>
-
 </head>
 <body class="coral--light"><div class="mboxDefault" id="mbox-target-global-mbox-1425052891648-821675" style="visibility: visible; display: block;"></div>
 <div id="page-info" data-attribute-limit="" data-locale="en_US" folder-name="">
@@ -96,8 +66,8 @@
                                 <label>Name &amp; Description</label>
                                 <div class="border-container">
                                     <div class="border-content">
-                                        <input type="text" name="title" class="datasource-title coral-Textfield" value="Chelsea FC CRM" placeholder="Name">
-                                        <textarea name="description" class="top-margin datasource-des coral-Textfield coral-Textfield--multiline" placeholder="Description (Optional)">Fan preferences, loyalty detail and purchase history for Chelsea fans.</textarea>
+                                        <input type="text" name="title" class="datasource-title coral-Textfield" value="we.Finance CRM" placeholder="Name">
+                                        <textarea name="description" class="top-margin datasource-des coral-Textfield coral-Textfield--multiline" placeholder="Description (Optional)">Customer preferences, loyalty detail and transaction history for we.Finance customers.</textarea>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +77,7 @@
                                     <div class="border-content">
                                         <div>To track data, enter a unique ID that will be used in your Customer Attribute Source Code. ID should be unique, all lowercase with no spaces. Click <a class="coral-Link" href="http://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_implement.html" target="_blank">here</a> for instructions.</div>
                                         <div class="ic-input-region">
-                                            <input type="text" name="integrationCode" class="datasource-ic coral-Textfield" value="ALLChelseaFCLoyal">
+                                            <input type="text" name="integrationCode" class="datasource-ic coral-Textfield" value="weFinance">
                                             <span class="coral-Icon coral-Icon--infoCircle" data-target="#aliasPopover" data-toggle="popover"></span>
                                         </div>
                                     </div>

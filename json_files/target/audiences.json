@@ -15,8 +15,8 @@
       "jcr:title" : "All Visitors",
       "preDefinedTarget" : "return true;",
       "elm:version" : "1.5.1",
-      "source" : "Marketing Cloud",
-      "jcr:lastModifiedBy" : "timlott@adobe.com",
+      "source" : "Target",
+      "jcr:lastModifiedBy" : "admin",
       "uri" : "/content/mac/adobe-tech-marketing/target/audiences/all_visitors.at.json",
       "reference" : "/audiences/all_visitors"
     },
