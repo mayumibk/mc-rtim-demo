@@ -23,7 +23,7 @@ var router = express.Router();
 var demo = require('../libs/demo-controller.js');
 
 router.get('/feed.html', function(req,res){
-    res.render('board',{title:"Express"});
+    res.render('board',{config:demo.config});
 });
 
 router.get('/target.html', function (req,res){

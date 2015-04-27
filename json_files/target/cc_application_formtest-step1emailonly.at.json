@@ -94,7 +94,7 @@
     "template" :
     {
       "id" : "template",
-      "activityUrl" : "http://local-campaign.aemdemo.com/target/wefinance/en/apply-for-credit-cards.html",
+      "activityUrl" : "http://localhost:1092/target/wefinance/en/apply-for-credit-cards.html",
       "jcr:lastModified" : 1429741716511,
       "targets" :
       [

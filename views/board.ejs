@@ -15,7 +15,7 @@
 
     <link rel="apple-touch-icon" sizes="144x144" href="https://adobe-fsi-demo.marketing.adobe.com/etc/designs/mac/touchicon.png">
 
-    <script src="/res/mac/feed/files/jwv7ouu.js" type="text/javascript" async=""></script><script src="/res/mac/feed/files/jwv7ouu.js" type="text/javascript" async=""></script><script>if(!window.console){var f=function(){};console={log:f,trace:f,debug:f,info:f,warn:f,error:f};}</script>
+    <script>if(!window.console){var f=function(){};console={log:f,trace:f,debug:f,info:f,warn:f,error:f};}</script>
     <script src="/res/mac/feed/files/login.config.js"></script><link rel="stylesheet" href="/res/mac/feed/files/mac-all.lc-1429857740804-lc.min.css" type="text/css">
     <script type="text/javascript" src="/res/mac/feed/files/mac-all.lc-1429857740804-lc.min.js"></script>
 
@@ -26,7 +26,7 @@
             channel: 'home',
             type: 'mac\x2Fcomponents\x2Ffeedpage',
             tenant: 'adobe\x2Dfsi\x2Ddemo',
-            userid: 'laurar\x40adobe.com',
+            userid: '<%= config.loginName %>\x40adobe.com',
             isAdmin: false,
             level1: 'Feed',
             pagename: 'Feed'
@@ -39,7 +39,7 @@
     <div class="endor-Panel-header endor-BreadcrumbBar is-closed" data-close-on-click="true">
         <nav class="endor-Crumbs">
             <a class="endor-Crumbs-item" href="https://adobe-fsi-demo.marketing.adobe.com/"><i class="endor-Crumbs-brandicon icon-marketingcloud medium"></i> Adobe Marketing Cloud</a>
-            <a class="endor-Crumbs-item endor-Crumbs-item--ellipsis" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#"></a>
+
         </nav>
     </div>
 
@@ -84,9 +84,9 @@
                             <a class="coral-ColumnView-item" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/datasources.html">Customer Attributes</a>
 
 
-                            <span class="group marketing-app-group coral-ColumnView-item">MARKETING APPS</span><a class="launchSolution coral-ColumnView-item" data-solution-location="/mac/analytics.html" data-solution="ANALYTICS" data-company-name="Adobe FSI Demo" data-product-name="Analytics" data-product-id="SITE_CATALYST" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="/mac/analytics.html">Analytics
+                            <span class="group marketing-app-group coral-ColumnView-item">MARKETING APPS</span><a class="launchSolution coral-ColumnView-item" data-solution-location="/mac/analytics.html" data-solution="ANALYTICS" data-company-name="<%= config.name %>" data-product-name="Analytics" data-product-id="SITE_CATALYST" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="/mac/analytics.html">Analytics
                             </a><a class="launchSolution coral-ColumnView-item" data-solution-location="https://mobilemarketing.adobe.com" data-solution="ANALYTICS" data-product-name="Analytics" data-product-id="SITE_CATALYST" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#">Mobile Services</a><a class="launchSolution coral-ColumnView-item" data-solution-location="/mac/target.html" data-solution="TARGET" data-company-name="" data-product-name="Target - Classic Workflow" data-product-id="TEST_AND_TARGET" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="/mac/target.html">Target
-                            </a><a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="Adobe FSI Demo" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#">Social
+                            </a><a class="launchSolution coral-ColumnView-item" data-solution-location="https://social.omniture.com/?ims=1" data-solution="SOCIAL" data-company-name="<%= config.name %>" data-product-name="Social" data-product-id="SITE_CATALYST" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#">Social
                             </a><a class="launchSolution coral-ColumnView-item" data-solution-location="/mediaoptimizer" data-solution="MEDIA_OPTIMIZER" data-company-name="" data-product-name="AudienceManager" data-product-id="AUDIENCE_MANAGER" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#">Media Optimizer
                             </a><a class="launchSolution coral-ColumnView-item" data-solution-location="/portal/Analytics/reports.ddx" data-solution="MEDIA_OPTIMIZER" data-company-name="" data-product-name="AudienceManager" data-product-id="AUDIENCE_MANAGER" data-ims-org-id="823A76DA521D0B720A490D4D@AdobeOrg" data-always-show="false" href="/portal/Analytics/reports.ddx">Audience Manager
                             </a>
@@ -132,9 +132,9 @@
                         <a class="endor-BlackBar-item endor-Badge foundation-setter notifications-link" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#notifications_popover" data-href="#notifications_popover">8</a>
                         <a class="endor-BlackBar-item endor-UserProfile user user-link" href="https://adobe-fsi-demo.marketing.adobe.com/content/mac/adobe-fsi-demo/home/users/0945/1pftwkaorfyp-ve-vv6pzkm98nd5w8zbippmugurlnu/feed.html#user_popover">
 
-                            <div class="endor-UserProfile-tenant">Adobe FSI Demo</div>
+                            <div class="endor-UserProfile-tenant"><%= config.name %></div>
 
-                            <div class="endor-UserProfile-avatar" id="user-profile-avatar"><img src="/res/mac/feed/files/094534B85272BFF10A490D44@AdobeID" alt="avatar"></div>
+                            <div class="endor-UserProfile-avatar" id="user-profile-avatar"><img src="<%= config.avatar %>" alt="avatar"></div>
                         </a>
                     </div>
 
