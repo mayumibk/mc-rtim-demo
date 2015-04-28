@@ -1815,6 +1815,28 @@
       "selected": false
     },
     {
+      "elementId": 959,
+      "name": "Social",
+      "icon": "",
+      "isMenuHome": false,
+      "homeMenuLabel": "",
+      "homeMenuIcon": "",
+      "children": [
+        {
+          "elementId": 335,
+          "name": "Next Page Flow",
+          "icon": "",
+          "hierarchy": [
+            "Paths",
+            "Pages"
+          ],
+          "url": "\/sc15\/reports\/index.html?a=Report.Standard&r=Report.NextPageFlow&ssSession=374ff594d064103105f677693f2ee009&jpj=83707608330312",
+          "selected": false
+        }
+      ],
+      "selected": false
+    },
+    {
       "elementId": 935,
       "name": "Paths",
       "icon": "",

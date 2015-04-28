@@ -26,7 +26,7 @@ _satellite.pushAsyncScript(function(event, target, $variables){
 
       if(concept && coachConcept){
 
-        var docUrl = "https://marketing.adobe.com/resources/help/";
+        var docUrl = "http://marketlng.adobe.com/resources/help/";
         docUrl += locale + "/ch/" + solution + "/" + concept + "/" + coachConcept + ".json";
 
         var localUrl = "/content/mac/default/coachmarks/" + concept + "/" + coachConcept + ".json";

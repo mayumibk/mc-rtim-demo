@@ -94,7 +94,7 @@ app.use('/analytics',analytics);
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
-  next(err);
+  next('/mac/feed.html');
 });
 
 // error handlers
